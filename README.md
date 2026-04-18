@@ -1,13 +1,6 @@
 # Sports Analytics Data Science Portfolio
 
 **20 end-to-end models** across Marketing DS, Growth DS, and Product DS.  
-Built to demonstrate the analytical depth expected at tech companies — applied to sports because it makes compelling LinkedIn content.
-
----
-
-## Who This Is For
-
-This portfolio targets roles like **Marketing Data Scientist**, **Growth Data Scientist**, and **Product Data Scientist** at consumer tech companies. Each model maps to a core competency interviewers test for.
 
 ---
 
