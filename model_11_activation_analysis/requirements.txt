@@ -1,0 +1,15 @@
+# Model 11 — Rookie Activation Analysis
+# Python 3.11+
+# Install with: pip install -r requirements.txt
+
+sportsipy
+xgboost
+shap
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+jupyter
+ipykernel

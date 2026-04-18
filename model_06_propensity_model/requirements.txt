@@ -1,0 +1,14 @@
+# Model 06 — Title Propensity Model
+# Python 3.11+
+# Install with: pip install -r requirements.txt
+
+lightgbm
+scikit-learn
+requests
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+jupyter
+ipykernel

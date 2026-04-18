@@ -1,0 +1,14 @@
+# Model 20 — Network Effects Modeling
+# Python 3.11+
+# Install with: pip install -r requirements.txt
+
+statsbombpy
+networkx
+nba_api
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+jupyter
+ipykernel

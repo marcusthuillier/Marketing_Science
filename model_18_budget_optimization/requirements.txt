@@ -1,0 +1,15 @@
+# Model 18 — Transfer Budget Allocation & Optimization
+# Python 3.11+
+# Install with: pip install -r requirements.txt
+
+soccerdata
+scipy
+PuLP
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+jupyter
+ipykernel

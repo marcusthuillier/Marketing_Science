@@ -1,0 +1,15 @@
+# Model 08 — EPL Standings Forecasting
+# Python 3.11+
+# Install with: pip install -r requirements.txt
+
+requests
+statsmodels
+prophet
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+jupyter
+ipykernel

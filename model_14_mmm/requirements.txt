@@ -1,0 +1,15 @@
+# Model 14 — Marketing Mix Modeling (MMM)
+# Python 3.11+
+# Install with: pip install -r requirements.txt
+
+pymc-marketing
+requests
+geopy
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+jupyter
+ipykernel

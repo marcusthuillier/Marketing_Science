@@ -1,0 +1,16 @@
+# Model 10 — Transfer Sentiment Analysis
+# Python 3.11+
+# Install with: pip install -r requirements.txt
+
+praw
+vaderSentiment
+transformers
+bertopic
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+jupyter
+ipykernel
