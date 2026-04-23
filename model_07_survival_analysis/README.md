@@ -85,7 +85,3 @@ jupyter notebook model_07_survival_analysis.ipynb
 | Forest plot of hazard ratios | Communicating regression results visually |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

@@ -75,7 +75,6 @@ In marketing DS, customer segmentation groups users by behavior rather than demo
 | ... | | | |
 
 **Most surprising finding:**  
-_Which player ended up in an unexpected cluster? Fill this in — it's your LinkedIn hook._
 
 ---
 
@@ -114,7 +113,3 @@ jupyter notebook model_01_segmentation.ipynb
 | Identified representative examples | Persona creation |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

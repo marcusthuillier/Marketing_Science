@@ -85,7 +85,3 @@ jupyter notebook model_15_causal_inference.ipynb
 | Meta-analysis across 10 interventions | Aggregating causal evidence |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

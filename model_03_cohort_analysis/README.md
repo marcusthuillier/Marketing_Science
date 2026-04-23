@@ -85,7 +85,3 @@ jupyter notebook model_03_cohort_analysis.ipynb
 | ANOVA on cohort value differences | Statistical significance testing |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

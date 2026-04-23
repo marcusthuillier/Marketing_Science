@@ -85,7 +85,3 @@ jupyter notebook model_12_engagement_model.ipynb
 | Segmentation: does the model differ by club size? | Segment-level model interpretation |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

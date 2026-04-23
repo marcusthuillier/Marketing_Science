@@ -85,7 +85,3 @@ jupyter notebook model_09_recommender.ipynb
 | Cross-league and cross-era comparison | Feature normalization for domain shift |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

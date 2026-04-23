@@ -85,7 +85,3 @@ jupyter notebook model_17_uplift_model.ipynb
 | Persuadables / Sure Things / Lost Causes segmentation | Uplift-based targeting strategy |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

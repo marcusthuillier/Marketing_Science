@@ -85,7 +85,3 @@ jupyter notebook model_18_budget_optimization.ipynb
 | Scenario analysis: £50M / £100M / £200M budgets | Sensitivity / scenario analysis |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

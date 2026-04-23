@@ -85,7 +85,3 @@ jupyter notebook model_02_funnel_analysis.ipynb
 | Aggregated multiple public data sources as proxies | Proxy metric design / measurement |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

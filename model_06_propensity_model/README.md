@@ -85,7 +85,3 @@ jupyter notebook model_06_propensity_model.ipynb
 | Compared model vs betting market probabilities | Ground truth benchmarking |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

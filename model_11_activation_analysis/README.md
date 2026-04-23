@@ -85,7 +85,3 @@ jupyter notebook model_11_activation_analysis.ipynb
 | Threshold analysis: where does the aha moment kick in? | Threshold / activation modeling |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

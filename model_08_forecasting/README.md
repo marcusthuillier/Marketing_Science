@@ -85,7 +85,3 @@ jupyter notebook model_08_forecasting.ipynb
 | RMSE + position accuracy comparison table | Forecast evaluation metrics |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

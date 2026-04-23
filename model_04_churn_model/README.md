@@ -85,7 +85,3 @@ jupyter notebook model_04_churn_model.ipynb
 | Rolling 2-year averages as features | Feature engineering for trend signals |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

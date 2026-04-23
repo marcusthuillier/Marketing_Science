@@ -64,13 +64,12 @@ conda activate ds_portfolio
 ```
 MarSci/
 ├── README.md                          ← You are here
-├── ds_portfolio_plan.md               ← Full 20-model planning document
 └── model_01_segmentation/
     ├── README.md
     ├── environment.yml
     ├── requirements.txt
     ├── model_01_segmentation.ipynb
-    ├── linkedin_post.md
+
     └── outputs/
         ├── clustered_players.csv
         ├── umap_plot.html

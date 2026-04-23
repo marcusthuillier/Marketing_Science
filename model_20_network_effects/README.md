@@ -86,7 +86,3 @@ jupyter notebook model_20_network_effects.ipynb
 | Network effect score: combined centrality + teammate lift | Network multiplier metric design |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

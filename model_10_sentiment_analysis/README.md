@@ -85,7 +85,3 @@ jupyter notebook model_10_sentiment_analysis.ipynb
 | Correlation of sentiment with match outcomes | Cross-domain signal correlation |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

@@ -85,7 +85,3 @@ jupyter notebook model_19_search_ranking.ipynb
 | Kendall's tau rank correlation vs expert consensus | Rank correlation analysis |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.

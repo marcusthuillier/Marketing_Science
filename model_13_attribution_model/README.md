@@ -85,7 +85,3 @@ jupyter notebook model_13_attribution_model.ipynb
 | Found most undervalued players by last-touch vs Shapley gap | Attribution audit / bias detection |
 
 ---
-
-## LinkedIn Post
-
-See [linkedin_post.md](linkedin_post.md) for a ready-to-publish draft.
