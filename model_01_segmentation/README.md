@@ -2,7 +2,7 @@
 
 **Discipline:** Marketing DS  
 **Method:** K-Means Clustering + UMAP Dimensionality Reduction  
-**Data:** NBA Advanced Stats via `nba_api` (2022–23, 2023–24, 2024–25)
+**Data:** NBA Advanced Stats via `nba_api` — three eras: Early 2000s (2003–06), Mid 2010s (2013–16), Modern (2023–26)
 
 ---
 
@@ -40,8 +40,8 @@ In marketing DS, customer segmentation groups users by behavior rather than demo
 | `USG_PCT` | How often this player is involved in possessions |
 | `AST_PCT` | Playmaking — pass creation |
 | `REB_PCT` | Rebounding presence (both ends) |
-| `STL_PCT` | Perimeter defense activity |
-| `BLK_PCT` | Rim protection |
+| `OREB_PCT` | Offensive rebounding |
+| `DREB_PCT` | Defensive rebounding |
 | `TS_PCT` | Scoring efficiency (accounts for FTs and 3s) |
 | `E_TOV_PCT` | Ball security |
 | `PACE` | Team context proxy |
@@ -61,20 +61,27 @@ In marketing DS, customer segmentation groups users by behavior rather than demo
 
 ## Results
 
-<!-- Fill in after running the notebook -->
+**Model:** Era comparison across three 3-season windows. K selected by silhouette score for each era independently.
 
-**K selected:** _
+| Era | Players | K |
+|-----|---------|---|
+| Early 2000s (2003–06) | 423 | 4 |
+| Mid 2010s (2013–16) | 450 | 4 |
+| Modern (2023–26) | 494 | 5 |
 
-**Archetypes discovered:**
+**Archetypes by era:**
 
-| Cluster | Label | Defining Stats | Example Players |
-|---------|-------|---------------|----------------|
-| 0 | ___ | ___ | ___ |
-| 1 | ___ | ___ | ___ |
-| 2 | ___ | ___ | ___ |
-| ... | | | |
+| Archetype | Early 2000s | Mid 2010s | Modern |
+|-----------|:-----------:|:---------:|:------:|
+| 3-and-D / Role Player | 104 | 179 | 165 |
+| Ball-Dominant Playmaker | 122 | 104 | 70 |
+| Scoring Big / Power Forward | 96 | 87 | — |
+| Glass Anchor / Traditional Center | 101 | 80 | 54 |
+| Pass-First Guard | — | — | 104 |
+| Rim Protector / Defensive Big | — | — | 101 |
 
 **Most surprising finding:**  
+K=5 is required for the modern era — the model independently carved out a Pass-First Guard cluster (high AST, lower USG) that didn't exist in either prior era. Chris Paul and Russell Westbrook land there. The math is picking up the decline arc without being told to look for it.
 
 ---
 
