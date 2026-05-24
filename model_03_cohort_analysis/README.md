@@ -1,7 +1,8 @@
 # Model 03 — NBA Draft Cohort Analysis
 
-**Discipline:** Growth DS
-**Method:** Cohort retention analysis + heatmap (SaaS retention grid format) + ANOVA
+**Discipline:** Growth DS  
+**Method:** Cohort retention analysis + heatmap (SaaS retention grid format) + ANOVA + survival curves  
+**Data:** NBA stats via `nba_api` — draft classes 1990–2018, seasons 1990–91 through 2022–23
 
 ---
 
@@ -13,36 +14,25 @@
 
 ## Business Parallel
 
-Each model maps directly to a core technique used in tech company data science roles. The sports domain makes the work memorable and shareable — the methods are identical to what you'd use on user or customer data.
+Cohort retention tables are a growth DS staple. Every SaaS company builds them: group users by signup month, track what % are still active at month 1, 3, 6, 12. The grid tells you whether your product retains users and which acquisition cohorts perform best.
+
+This model applies identical logic to NBA draft classes. Each draft year is a cohort. Each career year is a time period. The cell value is % of the original cohort still playing meaningful minutes. The format is indistinguishable from a SaaS retention table — only the labels change.
 
 ---
 
-## Method Summary
+## Method
 
-Cohort retention analysis + heatmap (SaaS retention grid format) + ANOVA
+| Step | Technique | Why |
+|------|-----------|-----|
+| Data collection | `DraftHistory` + `leaguedashplayerstats` via nba_api | Draft year as cohort ID; season stats for activity tracking |
+| Cohort construction | Group by draft year, track career year 1–15 | Direct analog to user cohort + time since signup |
+| Survival matrix | % still active (≥20 GP) per (draft_year, career_year) | SaaS retention table format |
+| Value matrix | Avg performance score per (draft_year, career_year) | Quality of active players, not just count |
+| LTV | Total career contribution per cohort ÷ class size | Equivalent to customer LTV across acquisition cohorts |
+| Statistical testing | ANOVA + Kruskal-Wallis on cohort LTVs | Are quality differences real or random variation? |
+| Draft position survival | Survival curves by pick tier | Which "acquisition channel" retains best long-term? |
 
----
-
-## Step-by-Step Plan
-
-### 1. Data Collection
-Pull all NBA draft picks 1990-2018 via sportsipy. Season-by-season Win Shares per player. Define career year as years since draft, capped at 15.
-
-### 2. Cohort Construction
-Group by draft year. Calculate: total players, survival rates at Year 3/5/8/10, average and median Win Shares per career year.
-
-### 3. Retention Heatmap
-Matrix: rows = draft years, columns = career years. Values = avg Win Shares. Exact format of a growth cohort retention table.
-
-### 4. Analysis
-Identify best/worst draft classes. Calculate LTV equivalent. Analyze by draft position (lottery vs second round).
-
-### 5. Statistical Testing
-ANOVA across cohort LTVs. Trend analysis: are recent drafts better than historical?
-
-### 6. Visualization
-Seaborn cohort heatmap, line chart of avg career Win Shares by draft year, bar chart of top 10 draft classes by total value.
-
+**Performance score:** `PTS + 1.2×REB + 1.5×AST + STL + 1.5×BLK − TOV` per game (composite value metric from basic stats, available for all seasons)
 
 ---
 
@@ -50,19 +40,26 @@ Seaborn cohort heatmap, line chart of avg career Win Shares by draft year, bar c
 
 | File | Description |
 |------|-------------|
-| `outputs/cohort_matrix.csv` | — |
-| `outputs/cohort_heatmap.png` | — |
-| `outputs/draft_class_ltv.csv` | — |
+| `outputs/cohort_matrix.csv` | Survival % matrix: rows = draft years, cols = career years |
+| `outputs/cohort_heatmap.png` | Main visual — retention grid identical to SaaS cohort table |
+| `outputs/value_heatmap.png` | Same grid but average performance score per cell |
+| `outputs/draft_class_ltv.csv` | Per-class LTV metrics: total perf, per-player LTV, trend |
+| `outputs/draft_class_ltv.png` | LTV bar chart + time trend scatter |
+| `outputs/survival_by_draft_position.png` | Survival curves by draft tier (Top 5 / Lottery / Late 1st / 2nd Round) |
 
 ---
 
 ## Results
 
-<!-- Fill in after running the notebook -->
+**Key finding:** 2003 is the best class in the 23-class window by every metric — retention (43% at year 10), LTV per player (177, vs 19-class avg of 130), and normalized LTV per player-year (27.1). ANOVA confirms class quality differences are statistically real (F=5.47, p<0.001).
 
-**Key finding:** _
+**Draft position survival (year 10):** Top 5 = 55.7%, Lottery = 41.5%, Late 1st = 32.9%, 2nd Round = 19.9%. Top-5 picks survive at 2.8x the rate of second-rounders.
 
-**Surprising result:** _
+**Average cohort survival:** Year 5 = 49%, Year 10 = 30%. Half the class is gone by year 5.
+
+**Worst class:** 2000 (LTV/player = 96, vs avg 130). Topped by Kenyon Martin; produced virtually no long-term contributors.
+
+**Surprising result:** No significant linear trend in draft quality across 1996-2014. The draft isn't getting better or worse — it's just noisy.
 
 ---
 
@@ -73,15 +70,18 @@ conda activate ds_portfolio
 jupyter notebook model_03_cohort_analysis.ipynb
 ```
 
+First run pulls data from nba_api and caches to `outputs/raw_season_stats.csv`. Subsequent runs load from cache instantly.
+
 ---
 
 ## Skill Mapping (for interviews)
 
 | What you built | What interviewers call it |
-|---------------|--------------------------|
-| Grouped players by draft year, tracked value over career years | Cohort retention analysis |
-| Built cohort heatmap identical to SaaS retention grids | Growth analytics / retention reporting |
-| LTV equivalent: total career Win Shares per cohort | LTV framing applied to non-standard domain |
-| ANOVA on cohort value differences | Statistical significance testing |
+|----------------|--------------------------|
+| Grouped players by draft year, tracked activity per career year | Cohort retention analysis |
+| Built survival/value grid identical to SaaS retention table | Growth analytics / cohort reporting |
+| Total career contribution per class ÷ class size | LTV per acquisition cohort |
+| ANOVA on cohort quality differences | Statistical significance testing |
+| Survival curves by draft position tier | Acquisition channel retention comparison |
 
 ---

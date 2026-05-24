@@ -1,48 +1,31 @@
 # Model 02 — Fan Funnel Analysis
 
-**Discipline:** Growth DS
-**Method:** Stage-to-stage funnel conversion rates + Sankey diagram + Chi-square testing
+**Discipline:** Growth DS  
+**Method:** Stage-to-stage funnel conversion rates + Sankey diagram + Pearson correlation + Chi-square testing  
+**Data:** Instagram followers (official club profiles) · PL official attendance 2023-24 · UK Companies House annual reports
 
 ---
 
 ## The Question
 
-> Where do sports fans drop off on their journey from casual viewer to committed season ticket holder — and what is the biggest leak in the funnel?
+> Where do Premier League fans drop off on their journey from digital follower to committed season ticket holder — and which clubs convert global audiences into local commitment most efficiently?
 
 ---
 
 ## Business Parallel
 
-Each model maps directly to a core technique used in tech company data science roles. The sports domain makes the work memorable and shareable — the methods are identical to what you'd use on user or customer data.
+In product DS, funnel analysis tracks users dropping off between acquisition → activation → retention. The same logic applies to sports fans: each stage (Instagram follower → season ticket holder → matchday appearance) has a conversion rate. The technique is identical to what you'd use on SaaS or e-commerce data — the domain makes it memorable.
 
 ---
 
-## Method Summary
+## Method
 
-Stage-to-stage funnel conversion rates + Sankey diagram + Chi-square testing
-
----
-
-## Step-by-Step Plan
-
-### 1. Data Collection
-Pull Google Trends (pytrends) for 5-10 teams as awareness proxy. Pull Reddit subscriber counts via PRAW. Collect public attendance figures and season ticket estimates.
-
-### 2. Funnel Construction
-Map stages: Awareness (search volume) → Interest (Reddit followers) → Attendance (games/year) → Loyalty (season ticket holder). Estimate population at each stage per team.
-
-### 3. Conversion Rate Analysis
-Calculate stage-to-stage conversion %. Compare across teams. Find the biggest drop-off stage.
-
-### 4. Statistical Testing
-Chi-square test: are conversion differences between teams significant? Pearson correlation: does league position predict funnel efficiency?
-
-### 5. Visualization
-Sankey diagram (Plotly), conversion rate bar chart by team, scatter of league position vs funnel efficiency.
-
-### 6. Outputs
-Save funnel_data.csv, sankey_diagram.html, conversion_analysis.png
-
+| Step | Technique | Why |
+|------|-----------|-----|
+| Data collection | Three published sources only | No proxies — Instagram exact, PL attendance official, STH from annual reports |
+| Funnel construction | Stage-to-stage conversion rates | Standard funnel metric: what % move to the next stage |
+| Statistical testing | Chi-square (proportion differences) + Pearson r (scale vs conversion) | Two questions: do clubs differ? does brand size predict conversion? |
+| Visualization | Sankey diagram + horizontal bar charts + scatter | Stakeholder-readable funnel + club-level comparison |
 
 ---
 
@@ -50,19 +33,19 @@ Save funnel_data.csv, sankey_diagram.html, conversion_analysis.png
 
 | File | Description |
 |------|-------------|
-| `outputs/funnel_data.csv` | — |
-| `outputs/sankey_diagram.html` | — |
-| `outputs/conversion_analysis.png` | — |
+| `outputs/funnel_data.csv` | Per-club funnel metrics: Instagram, STH, attendance, conversion rates |
+| `outputs/sankey_diagram.html` | Interactive Plotly Sankey: Instagram → STH → matchday split (aggregate) |
+| `outputs/conversion_analysis.png` | Instagram→STH conversion + STH% of crowd per club |
+| `outputs/brand_vs_commitment.png` | Scatter: Instagram size vs conversion + STH attendance share by club |
+| `outputs/awareness_vs_sth_conversion.png` | Supporting conversion chart |
 
 ---
 
 ## Results
 
-<!-- Fill in after running the notebook -->
+**Key finding:** Instagram → STH conversion is strongly negatively correlated with follower count (Pearson r = -0.631, p = 0.003). Smaller clubs convert a meaningfully higher share of their digital audience into committed, paying locals. Non-Big-Six clubs average 1.18% conversion vs 0.13% for the Big Six — a 9.2x gap. Chi-square confirms STH proportions differ significantly across clubs (p < 0.0001).
 
-**Key finding:** _
-
-**Surprising result:** _
+**Surprising result:** Chelsea has the highest STH share of matchday crowd at 93.2% — nearly their entire home crowd holds a season ticket. Stamford Bridge is full of committed holders, not casual visitors. At the other end, Spurs (44.3%) and West Ham (41.7%) fill over half their stadium with non-STH fans each week, suggesting either a less captive local market or more flexible inventory management. Sheffield United's 2.857% Instagram→STH conversion rate dwarfs Liverpool's 0.070% — a 41x difference that reflects supply constraint, not weak demand. Arsenal and Newcastle both have documented waitlists in the tens of thousands.
 
 ---
 

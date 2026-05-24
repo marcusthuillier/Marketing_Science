@@ -71,7 +71,7 @@ def smart_label(norm_row, raw_row):
     if is_big and oreb > 0.55:
         return "Glass Anchor / Traditional Center"
     if is_big:
-        return "Rim Protector / Defensive Big"
+        return "Versatile Big / Modern Forward"
     if is_playmaker and is_scorer:
         return "Ball-Dominant Playmaker"
     if is_playmaker:
