@@ -1,10 +1,8 @@
-# Model 05 — Player LTV + CAC Modeling
+# Model 05 — MLB Player LTV:CAC Analysis
 # Python 3.11+
 # Install with: pip install -r requirements.txt
 
-sportsipy
-xgboost
-scikit-learn
+pybaseball
 pandas
 numpy
 matplotlib

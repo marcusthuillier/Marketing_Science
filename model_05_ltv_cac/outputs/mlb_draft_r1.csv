@@ -1,0 +1,1156 @@
+OvPck,Tm,Signed,Bonus,Name,Pos,WAR,G,AB,HR,BA,OPS,G.1,W,L,ERA,WHIP,SV,Type,Drafted Out of,draft_year
+1,Braves,Y,"$275,000",Chipper Jones ,SS,85.3,2499.0,8984.0,468.0,0.303,0.93,,,,,,,HS,"The Bolles School (Jacksonville, FL)",1990
+2,Tigers,Y,"$500,000",Tony Clark ,OF,12.3,1559.0,4532.0,251.0,0.262,0.824,,,,,,,HS,"Christian HS (El Cajon, CA)",1990
+3,Phillies,Y,"$225,000",Mike Lieberthal ,C,15.3,1212.0,4218.0,150.0,0.274,0.783,,,,,,,HS,"Westlake HS (Westlake Village, CA)",1990
+4,White Sox,Y,"$350,000",Alex Fernandez ,RHP,28.5,64.0,126.0,3.0,0.175,0.537,263.0,107.0,87.0,3.74,1.28,0.0,4Yr,"Miami Dade College, Kendall Campus (Miami, FL)",1990
+5,Pirates,Y,"$232,000",Kurt Miller ,RHP,-2.6,44.0,14.0,0.0,0.286,0.571,44.0,2.0,7.0,7.48,1.91,0.0,HS,"West HS (Bakersfield, CA)",1990
+6,Mariners,Y,"$220,000",Marc Newfield ,1B,-1.6,355.0,957.0,22.0,0.249,0.678,,,,,,,HS,"Marina HS (Huntington Beach, CA)",1990
+7,Reds,Y,"$220,000",Dan Wilson ,C,12.9,1299.0,4186.0,88.0,0.262,0.691,,,,,,,4Yr,"University of Minnesota (Minneapolis, MN)",1990
+8,Indians,Y,"$300,000",Tim Costo ,SS,-0.7,43.0,134.0,3.0,0.224,0.61,,,,,,,4Yr,"University of Iowa (Iowa City, IA)",1990
+9,Dodgers,Y,"$215,000",Ron Walden ,LHP,,,,,,,,,,,,,HS,"Blanchard HS (Blanchard, OK)",1990
+10,Yankees,Y,"$250,000",Carl Everett ,OF,20.4,1405.0,4809.0,202.0,0.271,0.802,,,,,,,HS,"Hillsborough HS (Tampa, FL)",1990
+11,Expos,Y,"$175,000",Shane Andrews ,3B,2.0,569.0,1704.0,86.0,0.22,0.719,,,,,,,HS,"Carlsbad HS (Carlsbad, NM)",1990
+12,Twins,Y,"$252,500",Todd Ritchie ,RHP,6.1,99.0,187.0,0.0,0.176,0.409,184.0,43.0,54.0,4.71,1.43,0.0,HS,"Duncanville HS (Duncanville, TX)",1990
+13,Cardinals,Y,"$240,000",Donovan Osborne ,LHP,5.4,156.0,259.0,1.0,0.162,0.422,163.0,49.0,46.0,4.03,1.31,0.0,4Yr,"University of Nevada, Las Vegas (Paradise, NV)",1990
+14,Athletics via Brewers,Y,"$500,000",*Todd Van Poppel ,RHP,-0.3,182.0,57.0,0.0,0.158,0.362,359.0,40.0,52.0,5.58,1.55,4.0,HS,"James W. Martin HS (Arlington, TX)",1990
+15,Giants via Astros,Y,"$250,000",*Adam Hyzdu ,OF,-0.2,221.0,358.0,19.0,0.229,0.749,,,,,,,HS,"Archbishop Moeller HS (Cincinnati, OH)",1990
+16,Rangers,Y,"$220,000",Dan Smith ,LHP,-0.1,1.0,0.0,0.0,,,17.0,1.0,5.0,4.66,1.93,0.0,4Yr,"Creighton University (Omaha, NE)",1990
+17,Mets,Y,"$192,500",Jeromy Burnitz ,OF,19.9,1694.0,5710.0,315.0,0.253,0.826,,,,,,,4Yr,"Oklahoma State University (Stillwater, OK)",1990
+18,Cardinals via Red Sox,Y,"$195,000",*Aaron Holbert ,SS,-0.4,23.0,30.0,0.0,0.2,0.565,,,,,,,HS,"Jordan HS (Long Beach, CA)",1990
+19,Giants via Padres,Y,"$175,000",*Eric Christopherson ,C,,,,,,,,,,,,,4Yr,"San Diego State University (San Diego, CA)",1990
+20,Orioles,Y,"$225,000",Mike Mussina ,RHP,82.8,22.0,52.0,0.0,0.173,0.381,537.0,270.0,153.0,3.68,1.19,0.0,4Yr,"Stanford University (Palo Alto, CA)",1990
+21,Astros via Giants,Y,"$250,000",*Tom Nevers ,SS,,,,,,,,,,,,,HS,"Edina HS (Edina, MN)",1990
+22,Blue Jays,Y,"$180,000",Steve Karsay ,RHP,11.2,58.0,4.0,0.0,0.0,0.0,357.0,32.0,39.0,4.01,1.38,41.0,HS,"Christ the King HS (Queens, NY)",1990
+23,Cubs,Y,"$180,000",Lance Dickson ,LHP,-0.4,3.0,3.0,0.0,0.0,0.0,3.0,0.0,3.0,7.24,1.76,0.0,4Yr,"University of Arizona (Tucson, AZ)",1990
+24,Expos via Angels,Y,"$175,000",*Rondell White ,OF,28.2,1474.0,5357.0,198.0,0.284,0.799,,,,,,,HS,"Jones County HS (Gray, GA)",1990
+25,Padres via Royals,Y,"$175,000",*Robbie Beckett ,LHP,-0.3,7.0,0.0,0.0,,,7.0,0.0,0.0,11.57,2.43,0.0,HS,"A. N. McCallum HS (Austin, TX)",1990
+26,Athletics,Y,"$175,000",Don Peters ,RHP,,,,,,,,,,,,,4Yr,"University of St. Francis (Joliet, IL)",1990
+27,Pirates,Y,,*Mike Zimmerman ,RHP,,,,,,,,,,,,,4Yr,"University of South Alabama (Mobile, AL)",1990
+28,Expos,Y,,*Gabe White ,LHP,6.2,422.0,38.0,1.0,0.105,0.312,472.0,34.0,26.0,4.51,1.22,17.0,HS,"Sebring HS (Sebring, FL)",1990
+29,Twins,Y,,*Midre Cummings ,OF,0.9,460.0,1113.0,22.0,0.257,0.703,,,,,,,HS,"Miami Edison HS (Miami, FL)",1990
+30,Cardinals,Y,,*Paul Ellis ,C,,,,,,,,,,,,,4Yr,"University of California, Los Angeles (Los Angeles, CA)",1990
+31,Astros,Y,,*Brian Williams ,RHP,-4.1,200.0,85.0,0.0,0.176,0.398,256.0,26.0,38.0,5.37,1.66,6.0,4Yr,"University of South Carolina (Columbia, SC)",1990
+32,Padres,Y,,*Scott Sanders ,RHP,4.6,186.0,129.0,0.0,0.194,0.464,235.0,34.0,45.0,4.86,1.39,5.0,4Yr,"Nicholls State University (Thibodaux, LA)",1990
+33,Giants,Y,,*Marcus Jensen ,C,-0.8,145.0,343.0,6.0,0.184,0.575,,,,,,,HS,"Skyline HS (Oakland, CA)",1990
+34,Athletics,Y,,*Dave Zancanaro ,LHP,,,,,,,,,,,,,4Yr,"University of California, Los Angeles (Los Angeles, CA)",1990
+35,Expos,Y,,*Stan Spencer ,RHP,-0.6,23.0,31.0,0.0,0.161,0.413,23.0,3.0,9.0,5.54,1.37,0.0,4Yr,"Stanford University (Palo Alto, CA)",1990
+36,Athletics,Y,,*Kirk Dressendorfer ,RHP,-0.8,0.0,0.0,0.0,,,7.0,3.0,3.0,5.45,1.56,0.0,4Yr,"University of Texas at Austin (Austin, TX)",1990
+37,Expos,Y,,*Ben Van Ryn ,LHP,-0.2,15.0,1.0,0.0,0.0,0.0,26.0,0.0,2.0,5.74,2.04,0.0,HS,"East Noble HS (Kendaliville, IN)",1990
+38,Mariners,Y,,*Tony Manahan ,SS,,,,,,,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",1990
+39,Indians,Y,,*Sam Hence ,OF,,,,,,,,,,,,,HS,"Stone HS (Wiggins, MS)",1990
+40,Expos,Y,,*Stan Robertson ,OF,,,,,,,,,,,,,HS,"Plainview HS (Plainview, TX)",1990
+1,Yankees,Y,"$1,550,000",Brien Taylor ,LHP,,,,,,,,,,,,,HS,"East Carteret HS (Beaufort, NC)",1991
+2,Braves,Y,"$575,000",Mike Kelly ,OF,0.3,327.0,684.0,22.0,0.241,0.721,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",1991
+3,Twins,Y,"$395,000",Dave McCarty ,1B,-2.1,630.0,1493.0,36.0,0.242,0.676,3.0,0.0,0.0,2.45,0.82,0.0,4Yr,"Stanford University (Palo Alto, CA)",1991
+4,Cardinals,Y,"$385,000",Dmitri Young ,3B,12.2,1364.0,4762.0,171.0,0.292,0.826,,,,,,,HS,"Rio Mesa HS (Oxnard, CA)",1991
+5,Brewers,N,,Ken Henderson ,RHP,,,,,,,,,,,,,HS,"Ringgold HS (Ringgold, GA)",1991
+6,Astros,N,,John Burke ,RHP,-0.5,28.0,21.0,0.0,0.19,0.381,28.0,4.0,6.0,6.75,1.83,0.0,4Yr,"University of Florida (Gainesville, FL)",1991
+7,Royals,Y,"$345,000",Joe Vitiello ,OF,-0.6,282.0,693.0,26.0,0.248,0.749,,,,,,,4Yr,"University of Alabama (Tuscaloosa, AL)",1991
+8,Padres,Y,"$385,000",Joey Hamilton ,RHP,14.3,192.0,339.0,4.0,0.127,0.337,242.0,74.0,73.0,4.44,1.42,1.0,4Yr,"Georgia Southern University (Statesboro, GA)",1991
+9,Orioles,Y,"$350,000",Mark Smith ,OF,-0.1,414.0,959.0,32.0,0.243,0.719,,,,,,,4Yr,"University of Southern California (Los Angeles, CA)",1991
+10,Phillies,Y,"$325,000",Tyler Green ,RHP,-0.5,68.0,113.0,1.0,0.195,0.506,70.0,18.0,25.0,5.16,1.53,0.0,4Yr,"Wichita State University (Wichita, KS)",1991
+11,Mariners,Y,"$332,500",Shawn Estes ,LHP,10.4,296.0,498.0,4.0,0.159,0.408,283.0,101.0,93.0,4.71,1.53,0.0,HS,"Douglas HS (Minden, NV)",1991
+12,Cubs,Y,"$325,000",Doug Glanville ,OF,10.9,1115.0,3964.0,59.0,0.277,0.695,,,,,,,4Yr,"University of Pennsylvania (Philadelphia, PA)",1991
+13,Indians,Y,"$257,000",Manny Ramirez ,3B,69.3,2302.0,8244.0,555.0,0.312,0.996,,,,,,,HS,"George Washington HS (New York, NY)",1991
+14,Expos,Y,"$290,000",Cliff Floyd ,1B,25.9,1621.0,5319.0,233.0,0.278,0.84,,,,,,,HS,"Thornwood HS (South Holland, IL)",1991
+15,Brewers via Tigers,Y,"$280,000",*Ty Hill ,LHP,,,,,,,,,,,,,HS,"Yucaipa HS (Yucaipa, CA)",1991
+16,Blue Jays via Giants,Y,"$725,000",*Shawn Green ,OF,34.7,1951.0,7082.0,328.0,0.283,0.85,,,,,,,HS,"Tustin HS (Tustin, CA)",1991
+17,Angels,Y,"$250,000",Eduardo Pérez ,1B,0.9,754.0,1800.0,79.0,0.247,0.757,,,,,,,4Yr,"Florida State University (Tallahassee, FL)",1991
+18,Mets via Dodgers,Y,"$245,000",*Al Shirley ,OF,,,,,,,,,,,,,HS,"George Washington HS (Danville, VA)",1991
+19,Rangers,Y,"$310,000",Benji Gil ,SS,2.8,604.0,1610.0,32.0,0.237,0.641,,,,,,,HS,"Castle Park HS (Chula Vista, CA)",1991
+20,Reds,Y,"$200,000",Pokey Reese ,SS,6.3,856.0,2833.0,44.0,0.248,0.659,,,,,,,HS,"Lower Richland HS (Hopkins, SC)",1991
+21,Cardinals via Blue Jays,Y,"$225,000",*Allen Watson ,LHP,2.7,105.0,175.0,0.0,0.257,0.636,206.0,51.0,55.0,5.03,1.49,1.0,4Yr,"New York Institute of Technology (Old Westbury, NY)",1991
+22,Cardinals via Mets,Y,"$200,000",*Brian Barber ,RHP,-0.6,12.0,8.0,0.0,0.125,0.347,26.0,5.0,8.0,6.77,1.68,1.0,HS,"Dr. Phillips HS (Orlando, FL)",1991
+23,Red Sox,Y,"$210,000",Aaron Sele ,RHP,20.1,72.0,58.0,0.0,0.155,0.386,404.0,148.0,112.0,4.61,1.49,0.0,4Yr,"Washington State University (Pullman, WA)",1991
+24,Pirates,Y,"$220,000",Jon Farrell ,C,,,,,,,,,,,,,JC,"Florida State College at Jacksonville (Jacksonville, FL)",1991
+25,White Sox,Y,"$185,000",Scott Ruffcorn ,RHP,-2.5,17.0,6.0,0.0,0.0,0.143,30.0,0.0,8.0,8.57,2.22,0.0,4Yr,"Baylor University (Waco, TX)",1991
+26,Athletics,Y,"$205,000",Brent Gates ,SS,5.5,685.0,2329.0,25.0,0.264,0.685,,,,,,,4Yr,"University of Minnesota (Minneapolis, MN)",1991
+27,Twins,Y,,*Scott Stahoviak ,3B,1.0,344.0,1019.0,27.0,0.256,0.745,,,,,,,4Yr,"Creighton University (Omaha, NE)",1991
+28,Cardinals,Y,,*Tom McKinnon ,RHP,,,,,,,,,,,,,HS,"Jordan HS (Long Beach, CA)",1991
+29,Astros,Y,,*Shawn Livesey ,SS,,,,,,,,,,,,,HS,"Simeon HS (Chicago, IL)",1991
+30,Royals,Y,,*Jason Pruitt ,RHP,,,,,,,,,,,,,HS,"Rockingham County HS (Reidsville, NC)",1991
+31,Padres,Y,,*Pepper Anthony ,RHP,,,,,,,,,,,,,HS,"Tavares HS (Tavares, FL)",1991
+32,Tigers,Y,,*Justin Thompson ,LHP,12.8,5.0,14.0,0.0,0.071,0.143,103.0,36.0,43.0,4.02,1.34,0.0,HS,"Klein Oak HS (Spring, TX)",1991
+33,Giants,Y,,*Steve Whitaker ,LHP,,,,,,,,,,,,,4Yr,"California State University, Long Beach (Long Beach, CA)",1991
+34,Angels,Y,,*Jorge Fábregas ,3B,-2.2,646.0,1827.0,23.0,0.241,0.599,,,,,,,4Yr,"University of Miami (Coral Gables, FL)",1991
+35,Blue Jays,Y,,*Jeff Ware ,RHP,-0.7,0.0,0.0,0.0,,,18.0,3.0,6.0,7.47,1.95,0.0,4Yr,"Old Dominion University (Norfolk, VA)",1991
+36,Mets,Y,,*Bobby Jones ,RHP,7.5,235.0,442.0,1.0,0.133,0.322,245.0,89.0,83.0,4.36,1.35,0.0,4Yr,"California State University, Fresno (Fresno, CA)",1991
+37,Red Sox,Y,,*J.J. Johnson ,OF,,,,,,,,,,,,,HS,"Pine Plains HS (Pine Plains, NY)",1991
+38,Athletics,Y,,*Mike Rossiter ,RHP,,,,,,,,,,,,,HS,"John Burroughs HS (Burbank, CA)",1991
+39,Cardinals,Y,,*Dan Cholowsky ,3B,,,,,,,,,,,,,4Yr,"University of California, Berkeley (Berkeley, CA)",1991
+40,Astros,Y,,*Jimmy Gonzalez ,C,,,,,,,,,,,,,HS,"East Hartford HS (East Hartford, CT)",1991
+41,Tigers,Y,,*Trever Miller ,LHP,4.7,408.0,6.0,0.0,0.167,0.5,694.0,18.0,17.0,4.18,1.45,11.0,HS,"Trinity HS (Louisville, KY)",1991
+42,Blue Jays,N,,*Dante Powell ,SS,-0.2,70.0,74.0,2.0,0.27,0.755,,,,,,,HS,"Millikan HS (Long Beach, CA)",1991
+43,Red Sox,Y,,*Scott Hatteberg ,C,10.0,1314.0,4226.0,106.0,0.273,0.772,,,,,,,4Yr,"Washington State University (Pullman, WA)",1991
+44,Astros,Y,,*Mike Groppuso ,3B,,,,,,,,,,,,,4Yr,"Seton Hall University (South Orange, NJ)",1991
+1,Astros,Y,"$700,000",Phil Nevin ,3B,15.9,1217.0,4188.0,208.0,0.27,0.814,,,,,,,4Yr,"California State University, Fullerton (Fullerton, CA)",1992
+2,Indians,Y,"$650,000",Paul Shuey ,RHP,6.8,110.0,7.0,0.0,0.143,0.286,476.0,45.0,28.0,3.87,1.41,23.0,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",1992
+3,Expos,Y,"$550,000",B.J. Wallace ,LHP,,,,,,,,,,,,,4Yr,"Mississippi State University (Mississippi State, MS)",1992
+4,Orioles,Y,"$975,000",Jeffrey Hammonds ,OF,8.6,957.0,3032.0,110.0,0.272,0.787,,,,,,,4Yr,"Stanford University (Palo Alto, CA)",1992
+5,Reds,Y,"$400,000",Chad Mottola ,OF,-0.9,59.0,125.0,4.0,0.2,0.607,,,,,,,4Yr,"University of Central Florida (Orlando, FL)",1992
+6,Yankees,Y,"$700,000",Derek Jeter ,SS,71.3,2747.0,11195.0,260.0,0.31,0.817,,,,,,,HS,"Central HS (Kalamazoo, MI)",1992
+7,Giants,Y,"$825,000",Calvin Murray ,OF,2.1,288.0,633.0,8.0,0.231,0.648,,,,,,,4Yr,"University of Texas at Austin (Austin, TX)",1992
+8,Angels,Y,"$90,000",Pete Janicki ,RHP,,,,,,,,,,,,,4Yr,"University of California, Los Angeles (Los Angeles, CA)",1992
+9,Mets,Y,"$500,000",Preston Wilson ,SS,6.4,1108.0,4003.0,189.0,0.264,0.797,,,,,,,HS,"Bamberg Ehrhardt HS (Bamberg, SC)",1992
+10,Royals,Y,"$450,000",Michael Tucker ,SS,8.1,1417.0,4083.0,125.0,0.256,0.763,,,,,,,4Yr,"Longwood University (Farmville, VA)",1992
+11,Cubs,Y,"$550,000",Derek Wallace ,RHP,0.1,19.0,0.0,0.0,,,27.0,2.0,4.0,3.82,1.67,3.0,4Yr,"Pepperdine University (Malibu, CA)",1992
+12,Brewers,Y,"$525,000",Ken Felder ,OF,,,,,,,,,,,,,4Yr,"Florida State University (Tallahassee, FL)",1992
+13,Phillies,Y,"$475,000",Chad McConnell ,OF,,,,,,,,,,,,,4Yr,"Creighton University (Omaha, NE)",1992
+14,Mariners,Y,"$550,000",Ron Villone ,LHP,3.6,392.0,170.0,1.0,0.129,0.316,717.0,61.0,65.0,4.73,1.5,8.0,4Yr,"University of Massachusetts Amherst (Amherst, MA)",1992
+15,Cardinals,Y,"$300,000",Sean Lowe ,RHP,1.7,74.0,22.0,0.0,0.136,0.273,248.0,23.0,15.0,4.95,1.54,3.0,4Yr,"Arizona State University (Tempe, AZ)",1992
+16,Tigers,Y,"$470,000",Rick Greene ,RHP,-0.1,1.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,4.76,1.41,0.0,4Yr,"Louisiana State University (Baton Rouge, LA)",1992
+17,Royals via Padres,Y,"$410,000",*Jim Pittsley ,RHP,-1.1,17.0,5.0,0.0,0.2,0.733,81.0,7.0,12.0,6.02,1.71,0.0,HS,"DuBois Area HS (DuBois, PA)",1992
+18,Mets via Red Sox,Y,"$365,000",*Chris Roberts ,LHP,,,,,,,,,,,,,4Yr,"Florida State University (Tallahassee, FL)",1992
+19,Blue Jays via Dodgers,Y,"$450,000",*Shannon Stewart ,OF,24.9,1386.0,5574.0,115.0,0.297,0.79,,,,,,,HS,"Miami Southridge HS (Miami, FL)",1992
+20,Athletics,Y,,Benji Grigsby ,RHP,,,,,,,,,,,,,4Yr,"San Diego State University (San Diego, CA)",1992
+21,Braves,Y,"$380,000",Jamie Arnold ,RHP,-1.4,47.0,19.0,0.0,0.158,0.411,50.0,2.0,7.0,5.73,1.63,2.0,HS,"Osceola HS (Kissimmee, FL)",1992
+22,Rangers,Y,"$397,000",Rick Helling ,RHP,20.2,116.0,104.0,0.0,0.058,0.2,301.0,93.0,81.0,4.68,1.38,0.0,4Yr,"Stanford University (Palo Alto, CA)",1992
+23,Pirates,Y,"$336,000",Jason Kendall ,C,41.7,2085.0,7627.0,75.0,0.288,0.744,,,,,,,HS,"Torrance HS (Torrance, CA)",1992
+24,White Sox,Y,"$354,000",Eddie Pearson ,1B,,,,,,,,,,,,,JC,"Bishop State Community College (Mobile, AL)",1992
+25,Blue Jays,Y,"$450,000",Todd Steverson ,OF,-0.3,31.0,43.0,2.0,0.256,0.729,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",1992
+26,Twins,Y,"$350,000",Dan Serafini ,LHP,-0.8,73.0,43.0,0.0,0.07,0.2,104.0,15.0,16.0,6.04,1.72,1.0,HS,"Junipero Serra HS (San Mateo, CA)",1992
+27,Rockies,Y,"$336,000",John Burke ,RHP,-0.5,28.0,21.0,0.0,0.19,0.381,28.0,4.0,6.0,6.75,1.83,0.0,4Yr,"University of Florida (Gainesville, FL)",1992
+28,Marlins,Y,"$575,000",Charles Johnson ,C,22.6,1188.0,3836.0,167.0,0.245,0.762,,,,,,,4Yr,"University of Miami (Coral Gables, FL)",1992
+29,Angels,Y,,*Jeff Schmidt ,RHP,-0.2,0.0,0.0,0.0,,,9.0,2.0,0.0,7.88,2.63,0.0,4Yr,"University of Minnesota (Minneapolis, MN)",1992
+30,Mets,N,,*Jon Ward ,RHP,,,,,,,,,,,,,HS,"Huntington Beach HS (Huntington Beach, CA)",1992
+31,Royals,Y,,*Sherard Clinkscales ,RHP,,,,,,,,,,,,,4Yr,"Purdue University (West Lafayette, IN)",1992
+32,Dodgers,Y,,*Ryan Luzinski ,C,,,,,,,,,,,,,HS,"Holy Cross HS (Delran, NJ)",1992
+33,Pirates,Y,,*Shon Walker ,OF,,,,,,,,,,,,,HS,"Harrison County HS (Cynthiana, KY)",1992
+34,Blue Jays,Y,,*Brandon Cromer ,SS,,,,,,,,,,,,,HS,"Lexington HS (Lexington, SC)",1992
+35,Royals,Y,,*Johnny Damon ,OF,56.3,2490.0,9736.0,235.0,0.284,0.785,,,,,,,HS,"Dr. Phillips HS (Orlando, FL)",1992
+36,Dodgers,Y,,*Mike Moore ,OF,,,,,,,,,,,,,4Yr,"University of California, Los Angeles (Los Angeles, CA)",1992
+37,Astros,Y,,*Kendall Rhine ,RHP,,,,,,,,,,,,,4Yr,"University of Georgia (Athens, GA)",1992
+38,Brewers,Y,,*Gabby Martinez ,SS,,,,,,,,,,,,,HS,"Luchetti HS (Santurce, Puerto Rico)",1992
+1,Mariners,Y,"$1,000,000",Alex Rodriguez ,SS,117.4,2784.0,10566.0,696.0,0.295,0.93,,,,,,,HS,"Westminster Christian School (Miami, FL)",1993
+2,Dodgers,Y,"$1,300,000",Darren Dreifort ,RHP,7.8,265.0,239.0,6.0,0.184,0.515,274.0,48.0,60.0,4.36,1.39,11.0,4Yr,"Wichita State University (Wichita, KS)",1993
+3,Angels,Y,"$680,000",Brian Anderson ,LHP,10.0,171.0,255.0,1.0,0.137,0.354,291.0,82.0,83.0,4.74,1.34,1.0,4Yr,"Wright State University (Dayton, OH)",1993
+4,Phillies,Y,"$750,000",Wayne Gomes ,RHP,0.1,289.0,6.0,0.0,0.167,0.542,321.0,30.0,23.0,4.6,1.53,29.0,4Yr,"Old Dominion University (Norfolk, VA)",1993
+5,Royals,Y,"$695,000",Jeff Granger ,LHP,-0.9,9.0,0.0,0.0,,,27.0,0.0,1.0,9.09,2.31,0.0,4Yr,"Texas A&M University (College Station, TX)",1993
+6,Giants,Y,"$750,000",Steve Soderstrom ,RHP,-0.2,3.0,5.0,0.0,0.0,0.0,3.0,2.0,0.0,5.27,1.61,0.0,4Yr,"California State University, Fresno (Fresno, CA)",1993
+7,Red Sox,Y,"$890,000",Trot Nixon ,OF,21.2,1092.0,3627.0,137.0,0.274,0.828,,,,,,,HS,"New Hanover HS (Wilmington, NC)",1993
+8,Mets,Y,"$900,000",Kirk Presley ,RHP,,,,,,,,,,,,,HS,"Tupelo HS (Tupelo, MS)",1993
+9,Tigers,Y,"$800,000",Matt Brunson ,SS,,,,,,,,,,,,,HS,"Cherry Creek HS (Greenwood Village, CO)",1993
+10,Cubs,Y,"$650,000",Brooks Kieschnick ,OF,1.4,257.0,306.0,16.0,0.248,0.76,74.0,2.0,2.0,4.59,1.42,0.0,4Yr,"University of Texas at Austin (Austin, TX)",1993
+11,Indians,Y,"$600,000",Daron Kirkreit ,RHP,,,,,,,,,,,,,4Yr,"University of California, Riverside (Riverside, CA)",1993
+12,Astros,Y,"$550,000",Billy Wagner ,LHP,27.7,810.0,20.0,0.0,0.1,0.243,853.0,47.0,40.0,2.31,1.0,422.0,4Yr,"Ferrum College (Ferrum, VA)",1993
+13,Yankees,Y,"$620,000",Matt Drews ,RHP,,,,,,,,,,,,,HS,"Sarasota HS (Sarasota, FL)",1993
+14,Padres,Y,"$600,000",Derrek Lee ,1B,34.6,1942.0,6962.0,331.0,0.281,0.859,,,,,,,HS,"El Camino Fundamental HS (Sacramento, CA)",1993
+15,Blue Jays via Rangers,Y,"$580,000",*Chris Carpenter ,RHP,34.2,196.0,439.0,2.0,0.118,0.296,350.0,144.0,94.0,3.76,1.28,0.0,HS,"Trinity HS (Manchester, NH)",1993
+16,Cardinals,Y,"$500,000",Alan Benes ,RHP,1.3,107.0,139.0,0.0,0.158,0.377,115.0,29.0,28.0,4.59,1.44,1.0,4Yr,"Creighton University (Omaha, NE)",1993
+17,White Sox,Y,"$450,000",Scott Christman ,LHP,,,,,,,,,,,,,4Yr,"Oregon State University (Corvallis, OR)",1993
+18,Expos,Y,"$425,000",Chris Schwab ,OF,,,,,,,,,,,,,HS,"Cretin HS (St. Paul, MN)",1993
+19,Orioles,Y,"$492,000",Jay Powell ,RHP,2.8,379.0,12.0,0.0,0.167,0.333,512.0,36.0,23.0,4.17,1.5,22.0,4Yr,"Mississippi State University (Mississippi State, MS)",1993
+20,Twins via Reds,Y,"$450,000",*Torii Hunter ,OF,50.6,2372.0,8857.0,353.0,0.277,0.793,,,,,,,HS,"Pine Bluff HS (Pine Bluff, AR)",1993
+21,Twins,N,,Jason Varitek ,C,24.2,1546.0,5099.0,193.0,0.256,0.776,,,,,,,4Yr,"Georgia Institute of Technology (Atlanta, GA)",1993
+22,Pirates,Y,"$420,000",Charles Peterson ,OF,,,,,,,,,,,,,HS,"Laurens District 55 HS (Laurens, SC)",1993
+23,Brewers,Y,"$525,000",Jeff D'Amico ,RHP,5.6,90.0,148.0,2.0,0.101,0.342,139.0,45.0,52.0,4.61,1.34,0.0,HS,"Northeast HS (St. Petersburg, FL)",1993
+24,Cubs via Braves,Y,"$355,000",*Jon Ratliff ,RHP,0.0,0.0,0.0,0.0,,,1.0,0.0,0.0,0.0,0.0,0.0,4Yr,"Le Moyne College (Syracuse, NY)",1993
+25,Athletics,Y,"$365,000",John Wasdin ,RHP,3.4,62.0,19.0,0.0,0.158,0.411,328.0,39.0,39.0,5.28,1.42,7.0,4Yr,"Florida State University (Tallahassee, FL)",1993
+26,Brewers via Blue Jays,Y,"$400,000",*Kelly Wunsch ,LHP,3.1,57.0,1.0,0.0,0.0,0.0,257.0,11.0,6.0,3.76,1.32,1.0,4Yr,"Texas A&M University (College Station, TX)",1993
+27,Marlins,Y,"$410,000",Marc Valdes ,RHP,-1.1,139.0,43.0,0.0,0.093,0.245,144.0,12.0,15.0,4.95,1.59,4.0,4Yr,"University of Florida (Gainesville, FL)",1993
+28,Rockies,Y,"$395,000",Jamey Wright ,RHP,9.2,384.0,443.0,1.0,0.144,0.357,719.0,97.0,130.0,4.81,1.54,2.0,HS,"Westmoore HS (Oklahoma City, OK)",1993
+29,Cubs,Y,,*Kevin Orie ,SS,3.2,316.0,1015.0,22.0,0.249,0.709,,,,,,,4Yr,"Indiana University Bloomington (Bloomington, IN)",1993
+30,Rangers,Y,,*Mike Bell ,3B,0.2,19.0,27.0,2.0,0.222,0.767,,,,,,,HS,"Archbishop Moeller HS (Cincinnati, OH)",1993
+31,Expos,Y,,*Josue Estrada ,OF,,,,,,,,,,,,,HS,"Medardo Carazo HS (Trujillo Alto, Puerto Rico)",1993
+32,Reds,Y,,*Pat Watkins ,OF,-0.6,116.0,195.0,2.0,0.236,0.6,,,,,,,4Yr,"East Carolina University (Greenville, NC)",1993
+33,Twins,Y,,*Marc Barcelo ,RHP,,,,,,,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",1993
+34,Pirates,Y,,*Jermaine Allensworth ,OF,-0.1,342.0,1031.0,15.0,0.26,0.705,,,,,,,4Yr,"Purdue University (West Lafayette, IN)",1993
+35,Brewers,Y,,*Todd Dunn ,OF,0.0,50.0,128.0,3.0,0.234,0.598,,,,,,,4Yr,"University of North Florida (Jacksonville, FL)",1993
+36,Athletics,Y,,*Willie Adams ,RHP,0.9,0.0,0.0,0.0,,,25.0,6.0,9.0,5.81,1.51,0.0,4Yr,"Stanford University (Palo Alto, CA)",1993
+37,Blue Jays,Y,,*Matt Farner ,OF,,,,,,,,,,,,,HS,"East Pennsboro HS (Enola, PA)",1993
+38,Twins,Y,,*Kelcey Mucker ,OF,,,,,,,,,,,,,HS,"Lawrenceburg HS (Lawrenceburg, IN)",1993
+39,Brewers,Y,,*Joe Wagner ,RHP,,,,,,,,,,,,,4Yr,"University of Central Florida (Orlando, FL)",1993
+40,Blue Jays,Y,,*Mark Lukasiewicz ,LHP,-0.2,1.0,0.0,0.0,,,41.0,2.0,2.0,5.2,1.54,0.0,JC,"Eastern Florida State College (Cocoa, FL)",1993
+41,Blue Jays,Y,,*Jeremy Lee ,RHP,,,,,,,,,,,,,HS,"Galesburg HS (Galesburg, IL)",1993
+42,Pirates,Y,,*Charles Rice ,1B,,,,,,,,,,,,,HS,"A. H. Parker HS (Birmingham, AL)",1993
+1,Mets,Y,"$1,550,000",Paul Wilson ,RHP,2.0,97.0,184.0,1.0,0.103,0.271,170.0,40.0,58.0,4.86,1.45,0.0,4Yr,"Florida State University (Tallahassee, FL)",1994
+2,Athletics,Y,"$1,200,000",Ben Grieve ,OF,8.4,976.0,3215.0,118.0,0.269,0.809,,,,,,,HS,"James W. Martin HS (Arlington, TX)",1994
+3,Padres,Y,"$960,000",Dustin Hermanson ,RHP,11.3,274.0,322.0,2.0,0.093,0.278,357.0,73.0,78.0,4.21,1.36,56.0,4Yr,"Kent State University (Kent, OH)",1994
+4,Brewers,Y,"$895,000",Antone Williamson ,3B,-0.8,24.0,54.0,0.0,0.204,0.513,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",1994
+5,Marlins,Y,"$1,600,000",Josh Booty ,SS,0.0,13.0,26.0,0.0,0.269,0.674,,,,,,,HS,"Evangel Christian Academy (Shreveport, LA)",1994
+6,Angels,Y,"$700,000",McKay Christensen ,OF,-0.3,99.0,128.0,2.0,0.25,0.644,,,,,,,HS,"Clovis West HS (Fresno, CA)",1994
+7,Rockies,Y,"$905,000",Doug Million ,LHP,,,,,,,,,,,,,HS,"Sarasota HS (Sarasota, FL)",1994
+8,Twins,Y,"$815,000",Todd Walker ,2B,10.5,1288.0,4554.0,107.0,0.289,0.783,,,,,,,4Yr,"Louisiana State University (Baton Rouge, LA)",1994
+9,Reds,Y,"$675,000",C.J. Nitkowski ,LHP,-1.0,95.0,15.0,0.0,0.133,0.267,336.0,18.0,32.0,5.37,1.63,3.0,4Yr,"St. John's University (Queens, NY)",1994
+10,Indians,Y,"$1,150,000",Jaret Wright ,RHP,4.4,90.0,78.0,1.0,0.141,0.376,226.0,68.0,60.0,5.09,1.56,2.0,HS,"Katella HS (Anaheim, CA)",1994
+11,Pirates,Y,"$820,000",Mark Farris ,SS,,,,,,,,,,,,,HS,"Angleton HS (Angleton, TX)",1994
+12,Red Sox,Y,"$895,000",Nomar Garciaparra ,SS,44.3,1434.0,5586.0,229.0,0.313,0.882,,,,,,,4Yr,"Georgia Institute of Technology (Atlanta, GA)",1994
+13,Dodgers,Y,"$830,000",Paul Konerko ,C,28.1,2349.0,8393.0,439.0,0.279,0.841,,,,,,,HS,"Chaparral HS (Scottsdale, AZ)",1994
+14,Mariners,Y,"$650,000",Jason Varitek ,C,24.2,1546.0,5099.0,193.0,0.256,0.776,,,,,,,4Yr,"Georgia Institute of Technology (Atlanta, GA)",1994
+15,Cubs,Y,"$712,500",Jay Peterson ,RHP,,,,,,,,,,,,,HS,"East HS (Denver, CO)",1994
+16,Royals,Y,"$1,000,000",Matt Smith ,LHP,,,,,,,,,,,,,HS,"Grants Pass HS (Grants Pass, OR)",1994
+17,Astros,Y,"$450,000",Ramón Castro ,C,3.0,567.0,1426.0,67.0,0.237,0.734,,,,,,,HS,"Lino Padron Rivera (Vega Baja, Puerto Rico)",1994
+18,Tigers,Y,"$825,000",Cade Gaspar ,RHP,,,,,,,,,,,,,4Yr,"Pepperdine University (Malibu, CA)",1994
+19,Cardinals,Y,"$525,000",Bret Wagner ,LHP,,,,,,,,,,,,,4Yr,"Wake Forest University (Winston-Salem, NC)",1994
+20,Mets via Orioles,Y,"$500,000",*Terrence Long ,1B,5.2,890.0,3068.0,69.0,0.269,0.722,,,,,,,HS,"Stanhope Elmore HS (Millbrook, AL)",1994
+21,Expos,Y,"$635,000",Hiram Bocachica ,SS,0.1,272.0,535.0,15.0,0.215,0.628,,,,,,,HS,"Rexville HS (Bayamon, Puerto Rico)",1994
+22,Giants via Rangers,Y,"$507,500",*Dante Powell ,OF,-0.2,70.0,74.0,2.0,0.27,0.755,,,,,,,4Yr,"California State University, Fullerton (Fullerton, CA)",1994
+23,Phillies,Y,"$590,000",Carlton Loewer ,RHP,-1.7,45.0,62.0,0.0,0.129,0.323,48.0,10.0,18.0,6.12,1.59,0.0,4Yr,"Mississippi State University (Mississippi State, MS)",1994
+24,Yankees,Y,"$500,000",Brian Buchanan ,1B,0.4,346.0,767.0,32.0,0.258,0.767,,,,,,,4Yr,"University of Virginia (Charlottesville, VA)",1994
+25,Astros via Giants,Y,"$750,000",*Scott Elarton ,RHP,2.6,146.0,166.0,0.0,0.139,0.344,232.0,56.0,61.0,5.29,1.43,3.0,HS,"Lamar HS (Lamar, CO)",1994
+26,White Sox,Y,"$520,000",Mark Johnson ,C,1.9,332.0,934.0,16.0,0.218,0.632,,,,,,,HS,"Warner Robins HS (Warner Robins, GA)",1994
+27,Braves,Y,"$500,000",Jacob Shumate ,RHP,,,,,,,,,,,,,HS,"Hartsville HS (Hartsville, SC)",1994
+28,Blue Jays,Y,"$470,000",Kevin Witt ,SS,-1.6,146.0,399.0,15.0,0.233,0.643,,,,,,,HS,"Bishop Kenny HS (Jacksonville, FL)",1994
+29,Mets,Y,,*Jay Payton ,OF,15.4,1259.0,4154.0,119.0,0.279,0.748,,,,,,,4Yr,"Georgia Institute of Technology (Atlanta, GA)",1994
+30,Astros,Y,,*Russ Johnson ,SS,2.6,364.0,836.0,14.0,0.264,0.722,,,,,,,4Yr,"Louisiana State University (Baton Rouge, LA)",1994
+31,Expos,Y,,*Mike Thurman ,RHP,0.2,91.0,131.0,0.0,0.031,0.117,105.0,26.0,36.0,5.05,1.47,0.0,4Yr,"Oregon State University (Corvallis, OR)",1994
+32,Giants,Y,,*Jacob Cruz ,OF,0.3,409.0,729.0,19.0,0.241,0.708,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",1994
+33,White Sox,Y,,*Chris Clemons ,RHP,-0.3,0.0,0.0,0.0,,,5.0,0.0,2.0,8.53,2.37,0.0,4Yr,"Texas A&M University (College Station, TX)",1994
+34,Twins,Y,,*Travis Miller ,LHP,1.3,19.0,0.0,0.0,,,203.0,7.0,18.0,5.05,1.66,1.0,4Yr,"Kent State University (Kent, OH)",1994
+1,Angels,Y,"$1,575,000",Darin Erstad ,OF,32.3,1654.0,6024.0,124.0,0.282,0.743,,,,,,,4Yr,"University of Nebraska-Lincoln (Lincoln, NE)",1995
+2,Padres,Y,"$1,300,000",Ben Davis ,C,2.9,486.0,1512.0,38.0,0.237,0.672,,,,,,,HS,"Malvern Preparatory School (Malvern, PA)",1995
+3,Mariners,Y,"$1,285,000",José Cruz ,OF,19.5,1388.0,4724.0,204.0,0.247,0.783,,,,,,,4Yr,"Rice University (Houston, TX)",1995
+4,Cubs,Y,"$1,265,000",Kerry Wood ,RHP,27.6,341.0,346.0,7.0,0.171,0.444,446.0,86.0,75.0,3.67,1.27,63.0,HS,"Grand Prairie HS (Grand Prairie, TX)",1995
+5,Athletics,Y,"$1,200,000",Ariel Prieto ,RHP,3.2,1.0,2.0,0.0,0.0,0.0,70.0,15.0,24.0,4.85,1.65,0.0,,,1995
+6,Marlins,Y,"$1,337,000",Jaime Jones ,OF,,,,,,,,,,,,,HS,"Rancho Bernardo HS (San Diego, CA)",1995
+7,Rangers,Y,"$1,100,000",Jonathan Johnson ,RHP,-1.0,19.0,4.0,0.0,0.0,0.0,42.0,2.0,4.0,6.63,1.93,0.0,4Yr,"Florida State University (Tallahassee, FL)",1995
+8,Rockies,Y,"$892,500",Todd Helton ,1B,61.8,2247.0,7962.0,369.0,0.316,0.953,,,,,,,4Yr,"University of Tennessee (Knoxville, TN)",1995
+9,Brewers,Y,"$911,000",Geoff Jenkins ,OF,21.9,1349.0,4700.0,221.0,0.275,0.834,,,,,,,4Yr,"University of Southern California (Los Angeles, CA)",1995
+10,Pirates,Y,"$1,150,000",Chad Hermansen ,SS,-3.6,189.0,492.0,13.0,0.195,0.584,,,,,,,HS,"Green Valley HS (Henderson, NV)",1995
+11,Tigers,Y,"$970,000",Mike Drumright ,RHP,,,,,,,,,,,,,4Yr,"Wichita State University (Wichita, KS)",1995
+12,Cardinals,Y,"$850,000",Matt Morris ,RHP,20.4,298.0,543.0,2.0,0.169,0.422,307.0,121.0,92.0,3.98,1.32,4.0,4Yr,"Seton Hall University (South Orange, NJ)",1995
+13,Twins,Y,"$830,000",Mark Redman ,LHP,9.4,85.0,154.0,0.0,0.052,0.139,219.0,68.0,85.0,4.85,1.43,0.0,4Yr,"University of Oklahoma (Norman, OK)",1995
+14,Phillies,Y,"$970,000",Reggie Taylor ,OF,-0.6,260.0,507.0,14.0,0.231,0.654,,,,,,,HS,"Newberry HS (Newberry, SC)",1995
+15,Red Sox,Y,"$986,000",Andy Yount ,RHP,,,,,,,,,,,,,HS,"Kingwood HS (Kingwood, TX)",1995
+16,Giants,Y,"$900,000",Joe Fontenot ,RHP,-0.8,6.0,10.0,0.0,0.0,0.0,8.0,0.0,7.0,6.33,1.78,0.0,HS,"Acadiana HS (Lafayette, LA)",1995
+17,Blue Jays,Y,"$895,000",Roy Halladay ,RHP,64.2,115.0,275.0,0.0,0.124,0.267,416.0,203.0,105.0,3.38,1.18,1.0,HS,"Arvada West HS (Arvada, CO)",1995
+18,Mets,Y,"$850,000",Ryan Jaroncyk ,SS,,,,,,,,,,,,,HS,"Orange Glen HS (Escondido, CA)",1995
+19,Royals,Y,"$650,000",Juan LeBron ,OF,,,,,,,,,,,,,HS,"Carmen Bozello Huyke HS (Arroyo, Puerto Rico)",1995
+20,Dodgers,Y,"$825,000",David Yocum ,LHP,,,,,,,,,,,,,4Yr,"Florida State University (Tallahassee, FL)",1995
+21,Orioles,Y,"$650,000",Al Shepherd ,RHP,,,,,,,,,,,,,4Yr,"University of Nebraska-Lincoln (Lincoln, NE)",1995
+22,Astros,Y,"$500,000",Tony McKnight ,RHP,0.8,21.0,37.0,0.0,0.0,0.051,21.0,7.0,7.0,4.63,1.45,0.0,HS,"Arkansas HS (Texarkana, AR)",1995
+23,Indians,Y,"$620,000",David Miller ,1B,,,,,,,,,,,,,4Yr,"Clemson University (Clemson, SC)",1995
+24,Red Sox via Reds,Y,"$575,000",*Corey Jenkins ,OF,,,,,,,,,,,,,HS,"Dreher HS (Columbia, SC)",1995
+25,White Sox,Y,"$550,000",Jeff Liefer ,3B,-2.9,288.0,779.0,31.0,0.23,0.679,,,,,,,4Yr,"California State University, Long Beach (Long Beach, CA)",1995
+26,Braves,N,,Chad Hutchinson ,RHP,-0.5,3.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,24.75,3.75,0.0,HS,"Torrey Pines HS (San Diego, CA)",1995
+27,Yankees,Y,"$650,000",Shea Morenz ,OF,,,,,,,,,,,,,4Yr,"University of Texas at Austin (Austin, TX)",1995
+28,Expos,Y,"$500,000",Michael Barrett ,SS,2.7,1054.0,3512.0,98.0,0.263,0.742,,,,,,,HS,"Pace Academy (Atlanta, GA)",1995
+29,Cardinals,Y,,*Chris Haas ,3B,,,,,,,,,,,,,HS,"St. Mary's HS (Paducah, KY)",1995
+30,Phillies,Y,,*Dave Coggin ,RHP,0.2,57.0,48.0,0.0,0.042,0.161,60.0,10.0,12.0,4.52,1.51,0.0,HS,"Upland HS (Upland, CA)",1995
+1,Pirates,Y,"$2,000,000",Kris Benson ,RHP,12.9,165.0,321.0,1.0,0.131,0.337,206.0,70.0,75.0,4.42,1.39,0.0,4Yr,"Clemson University (Clemson, SC)",1996
+2,Twins,N,,Travis Lee ,1B,7.3,1099.0,3740.0,115.0,0.256,0.745,,,,,,,4Yr,"San Diego State University (San Diego, CA)",1996
+3,Cardinals,Y,"$1,675,000",Braden Looper ,RHP,8.2,646.0,186.0,0.0,0.215,0.517,670.0,72.0,65.0,4.15,1.37,103.0,4Yr,"Wichita State University (Wichita, KS)",1996
+4,Blue Jays,Y,"$1,450,000",Billy Koch ,RHP,5.4,41.0,2.0,0.0,0.0,0.0,379.0,29.0,25.0,3.89,1.4,163.0,4Yr,"Clemson University (Clemson, SC)",1996
+5,Expos,N,,John Patterson ,RHP,5.0,84.0,133.0,0.0,0.105,0.253,88.0,18.0,25.0,4.32,1.35,1.0,HS,"West Orange-Stark HS (Orange, TX)",1996
+6,Tigers,Y,"$1,415,000",Seth Greisinger ,RHP,0.0,2.0,6.0,0.0,0.167,0.333,42.0,10.0,16.0,5.51,1.52,0.0,4Yr,"University of Virginia (Charlottesville, VA)",1996
+7,Giants,N,,Matt White ,RHP,,,,,,,,,,,,,HS,"Waynesboro Area HS (Waynesboro, PA)",1996
+8,Brewers,Y,"$1,060,000",Chad Green ,OF,,,,,,,,,,,,,4Yr,"University of Kentucky (Lexington, KY)",1996
+9,Marlins,Y,"$1,125,000",Mark Kotsay ,OF,21.4,1914.0,6464.0,127.0,0.276,0.737,,,,,,,4Yr,"California State University, Fullerton (Fullerton, CA)",1996
+10,Athletics,Y,"$1,140,000",Eric Chavez ,3B,38.3,1615.0,5518.0,260.0,0.268,0.818,,,,,,,HS,"Mount Carmel HS (San Diego, CA)",1996
+11,Phillies,Y,"$1,100,000",Adam Eaton ,RHP,4.6,208.0,341.0,3.0,0.194,0.543,209.0,71.0,68.0,4.94,1.44,0.0,HS,"Snohomish HS (Snohomish, WA)",1996
+12,White Sox,N,,Bobby Seay ,LHP,3.0,27.0,1.0,0.0,0.0,0.0,261.0,11.0,6.0,4.16,1.37,1.0,HS,"Sarasota HS (Sarasota, FL)",1996
+13,Mets,Y,"$975,000",Rob Stratton ,OF,,,,,,,,,,,,,HS,"San Marcos HS (San Marcos, CA)",1996
+14,Royals,Y,"$1,000,000",Dee Brown ,OF,-2.9,271.0,814.0,14.0,0.233,0.613,,,,,,,HS,"Marlboro Central HS (Marlboro, NY)",1996
+15,Padres,Y,"$1,000,000",Matt Halloran ,SS,,,,,,,,,,,,,HS,"Chancellor HS (Fredericksburg, VA)",1996
+16,Blue Jays via Orioles,Y,"$907,500",*Joe Lawrence ,SS,-1.0,55.0,150.0,2.0,0.18,0.508,,,,,,,HS,"Alfred M. Barbe HS (Lake Charles, LA)",1996
+17,Cubs,Y,"$900,000",Todd Noel ,RHP,,,,,,,,,,,,,HS,"North Vermilion HS (Maurice, LA)",1996
+18,Rangers,Y,"$75,000",R.A. Dickey ,RHP,23.6,137.0,267.0,0.0,0.169,0.364,400.0,120.0,118.0,4.04,1.3,2.0,4Yr,"University of Tennessee (Knoxville, TN)",1996
+19,Astros,Y,"$775,000",Mark Johnson ,RHP,-0.5,0.0,0.0,0.0,,,9.0,0.0,1.0,7.5,1.71,0.0,4Yr,"University of Hawaii at Manoa (Honolulu, HI)",1996
+20,Yankees via Angels,Y,"$775,000",*Eric Milton ,LHP,16.5,113.0,205.0,2.0,0.176,0.455,271.0,89.0,85.0,4.99,1.34,0.0,4Yr,"University of Maryland (College Park, MD)",1996
+21,Rockies,Y,"$750,000",Jake Westbrook ,RHP,13.1,107.0,169.0,1.0,0.13,0.382,315.0,105.0,103.0,4.32,1.41,0.0,HS,"Madison County HS (Danielsville, GA)",1996
+22,Mariners,Y,"$820,000",Gil Meche ,RHP,16.8,11.0,23.0,0.0,0.13,0.261,258.0,84.0,83.0,4.49,1.42,0.0,HS,"Acadiana HS (Lafayette, LA)",1996
+23,Dodgers,Y,"$695,000",Damian Rolls ,3B,-0.3,266.0,819.0,9.0,0.248,0.628,,,,,,,HS,"Schlagel HS (Kansas City, KS)",1996
+24,Rangers via Yankees,Y,"$834,000",*Sam Marsonek ,RHP,0.1,0.0,0.0,0.0,,,1.0,0.0,0.0,0.0,1.5,0.0,HS,"Jesuit HS (Tampa, FL)",1996
+25,Reds,Y,"$672,000",Johnny Oliver ,OF,,,,,,,,,,,,,HS,"Lake-Lehman HS (Lehman, PA)",1996
+26,Red Sox,Y,"$665,000",Josh Garrett ,RHP,,,,,,,,,,,,,HS,"South Spencer HS (Rockport, IN)",1996
+27,Braves,Y,"$650,000",A.J. Zapp ,1B,,,,,,,,,,,,,HS,"Center Grove HS (Greenwood, IN)",1996
+28,Indians,Y,"$400,000",Danny Peoples ,1B,,,,,,,,,,,,,4Yr,"University of Texas at Austin (Austin, TX)",1996
+29,Rays,Y,"$650,000",Paul Wilder ,OF,,,,,,,,,,,,,HS,"Cary HS (Cary, NC)",1996
+30,D'backs,Y,"$1,046,000",Nick Bierbrodt ,LHP,-1.1,8.0,8.0,0.0,0.5,1.225,38.0,6.0,9.0,6.66,1.82,0.0,HS,"Millikan HS (Long Beach, CA)",1996
+31,Blue Jays,Y,,*Pete Tucci ,1B,,,,,,,,,,,,,4Yr,"Providence College (Providence, RI)",1996
+32,Rangers,Y,,*Corey Lee ,LHP,-0.3,0.0,0.0,0.0,,,1.0,0.0,1.0,27.0,3.0,0.0,4Yr,"North Carolina State University (Raleigh, NC)",1996
+33,Reds,N,,*Matt McClendon ,RHP,,,,,,,,,,,,,HS,"Dr. Phillips HS (Orlando, FL)",1996
+34,Red Sox,Y,,*Chris Reitsma ,RHP,0.6,303.0,87.0,0.0,0.103,0.258,338.0,32.0,46.0,4.7,1.41,37.0,HS,"Calgary Christian HS (Calgary, AB)",1996
+35,Braves,Y,,*Jason Marquis ,RHP,6.8,422.0,663.0,5.0,0.196,0.491,377.0,124.0,118.0,4.61,1.45,1.0,HS,"Tottenville HS (Staten Island, NY)",1996
+1,Tigers,Y,"$2,505,000",Matt Anderson ,RHP,-0.6,22.0,0.0,0.0,,,257.0,15.0,7.0,5.19,1.58,26.0,4Yr,"Rice University (Houston, TX)",1997
+2,Phillies,N,,J.D. Drew ,OF,44.9,1566.0,5173.0,242.0,0.278,0.873,,,,,,,4Yr,"Florida State University (Tallahassee, FL)",1997
+3,Angels,Y,"$2,000,000",Troy Glaus ,3B,38.1,1537.0,5410.0,320.0,0.254,0.847,,,,,,,4Yr,"University of California, Los Angeles (Los Angeles, CA)",1997
+4,Giants,Y,"$1,875,000",Jason Grilli ,RHP,4.6,302.0,15.0,1.0,0.2,0.6,595.0,34.0,47.0,4.22,1.37,79.0,4Yr,"Seton Hall University (South Orange, NJ)",1997
+5,Blue Jays,Y,"$1,600,000",Vernon Wells ,OF,28.6,1731.0,6642.0,270.0,0.27,0.778,,,,,,,HS,"James Bowie HS (Arlington, TX)",1997
+6,Mets,Y,"$1,700,000",Geoff Goetz ,LHP,,,,,,,,,,,,,HS,"Jesuit HS (Tampa, FL)",1997
+7,Royals,Y,"$1,450,000",Dan Reichert ,RHP,-0.1,11.0,9.0,0.0,0.111,0.222,124.0,21.0,25.0,5.55,1.68,2.0,4Yr,"University of the Pacific (Stockton, CA)",1997
+8,Pirates,Y,"$1,675,000",J.J. Davis ,1B,-1.3,67.0,106.0,1.0,0.179,0.465,,,,,,,HS,"Baldwin Park HS (Baldwin Park, CA)",1997
+9,Twins,Y,"$1,850,000",Michael Cuddyer ,SS,17.9,1536.0,5488.0,197.0,0.277,0.805,1.0,0.0,0.0,0.0,3.0,0.0,HS,"Great Bridge HS (Chesapeake, VA)",1997
+10,Cubs,Y,"$1,325,000",Jon Garland ,RHP,22.5,102.0,175.0,1.0,0.137,0.353,365.0,136.0,125.0,4.37,1.39,1.0,HS,"John F. Kennedy HS (Granada Hills, CA)",1997
+11,Athletics,Y,"$1,204,000",Chris Enochs ,RHP,,,,,,,,,,,,,4Yr,"West Virginia University (Morgantown, WV)",1997
+12,Marlins,Y,"$1,050,000",Aaron Akin ,RHP,,,,,,,,,,,,,JC,"Cowley Community College (Arkansas City, KS)",1997
+13,Brewers,Y,"$1,400,000",Kyle Peterson ,RHP,0.3,20.0,27.0,0.0,0.148,0.364,20.0,5.0,9.0,4.71,1.47,0.0,4Yr,"Stanford University (Palo Alto, CA)",1997
+14,Reds,Y,"$1,220,000",Brandon Larson ,SS,-0.9,109.0,291.0,8.0,0.179,0.57,,,,,,,4Yr,"Louisiana State University (Baton Rouge, LA)",1997
+15,White Sox,Y,"$1,056,000",Jason Dellaero ,SS,-0.9,11.0,33.0,0.0,0.091,0.205,,,,,,,4Yr,"University of South Florida (Tampa, FL)",1997
+16,Astros,Y,"$1,000,000",Lance Berkman ,1B,51.9,1879.0,6491.0,366.0,0.293,0.943,,,,,,,4Yr,"Rice University (Houston, TX)",1997
+17,Red Sox,Y,"$975,000",John Curtice ,LHP,,,,,,,,,,,,,HS,"Great Bridge HS (Chesapeake, VA)",1997
+18,Rockies,Y,"$875,000",Mark Mangum ,RHP,,,,,,,,,,,,,HS,"Kingwood HS (Kingwood, TX)",1997
+19,Mariners,Y,"$2,175,000",Ryan Anderson ,LHP,,,,,,,,,,,,,HS,"Divine Child HS (Dearborn, MI)",1997
+20,Cardinals,Y,"$650,000",Adam Kennedy ,SS,20.9,1691.0,5473.0,80.0,0.272,0.711,,,,,,,4Yr,"California State University, Northridge (Los Angeles, CA)",1997
+21,Athletics via Orioles,Y,"$860,000",*Eric DuBose ,LHP,1.0,1.0,2.0,0.0,0.0,0.0,52.0,9.0,15.0,5.21,1.45,0.0,4Yr,"Mississippi State University (Mississippi State, MS)",1997
+22,Orioles,Y,"$885,000",Jayson Werth ,C,29.2,1583.0,5484.0,229.0,0.267,0.816,,,,,,,HS,"Glenwood HS (Chatham, IL)",1997
+23,Expos,Y,,Donnie Bridges ,RHP,,,,,,,,,,,,,HS,"Oak Grove HS (Hattiesburg, MS)",1997
+24,Yankees via Rangers,N,,*Tyrell Godwin ,OF,-0.1,3.0,3.0,0.0,0.0,0.0,,,,,,,HS,"East Bladen HS (Elizabethtown, NC)",1997
+25,Dodgers,Y,"$825,000",Glenn Davis ,1B,,,,,,,,,,,,,4Yr,"Vanderbilt University (Nashville, TN)",1997
+26,Orioles via Yankees,Y,"$1,900,000",*Darnell McDonald ,OF,0.9,331.0,764.0,20.0,0.25,0.711,2.0,0.0,1.0,22.5,3.5,0.0,HS,"Cherry Creek HS (Greenwood Village, CO)",1997
+27,Padres,Y,"$830,000",Kevin Nicholson ,SS,0.1,37.0,97.0,1.0,0.216,0.585,,,,,,,4Yr,"Stetson University (DeLand, FL)",1997
+28,Indians,Y,"$1,600,000",Tim Drew ,RHP,-2.3,25.0,7.0,0.0,0.0,0.125,35.0,2.0,4.0,7.02,1.8,2.0,HS,"Lowndes HS (Valdosta, GA)",1997
+29,Braves,Y,"$825,000",Troy Cameron ,SS,,,,,,,,,,,,,HS,"St. Thomas Aquinas HS (Fort Lauderdale, FL)",1997
+30,D'backs,Y,"$825,000",Jack Cust ,1B,9.4,670.0,2107.0,105.0,0.242,0.813,,,,,,,HS,"Immaculata HS (Somerville, NJ)",1997
+31,Rays,Y,"$700,000",Jason Standridge ,RHP,-0.7,55.0,0.0,0.0,,,80.0,3.0,9.0,5.8,1.77,0.0,HS,"Hewitt-Trussville HS (Trussville, AL)",1997
+32,Athletics,Y,,*Nathan Haynes ,OF,-0.7,60.0,89.0,0.0,0.247,0.564,,,,,,,HS,"Pinole Valley HS (Pinole, CA)",1997
+33,White Sox,Y,,*Kyle Kane ,RHP,,,,,,,,,,,,,JC,"Saddleback College (Mission Viejo, CA)",1997
+34,White Sox,Y,,*Brett Caradonna ,OF,,,,,,,,,,,,,HS,"El Capitan HS (Lakeside, CA)",1997
+35,Red Sox,Y,,*Mark Fischer ,OF,,,,,,,,,,,,,4Yr,"Georgia Institute of Technology (Atlanta, GA)",1997
+36,Orioles,Y,,*Ntema Ndungidi ,OF,,,,,,,,,,,,,HS,"Polyvalente Edouard Montpetit (Montreal, QC)",1997
+37,Expos,Y,,*Chris Stowe ,RHP,,,,,,,,,,,,,HS,"Chancellor HS (Fredericksburg, VA)",1997
+38,Expos,Y,,*Scott Hodges ,SS,,,,,,,,,,,,,HS,"Henry Clay HS (Lexington, KY)",1997
+39,Rangers,Y,,*Jason Romano ,3B,-1.4,129.0,191.0,2.0,0.204,0.535,,,,,,,HS,"Hillsborough HS (Tampa, FL)",1997
+40,Yankees,Y,,*Ryan Bradley ,RHP,-0.1,0.0,0.0,0.0,,,5.0,2.0,1.0,5.68,1.66,0.0,4Yr,"Arizona State University (Tempe, AZ)",1997
+41,Indians,Y,,*Jason Fitzgerald ,OF,,,,,,,,,,,,,4Yr,"Tulane University (New Orleans, LA)",1997
+42,Athletics,Y,,*Denny Wagner ,RHP,,,,,,,,,,,,,4Yr,"Virginia Polytechnic Institute and State University (Blacksburg, VA)",1997
+43,White Sox,Y,,*Aaron Myette ,RHP,-2.6,6.0,0.0,0.0,,,47.0,6.0,12.0,8.16,1.89,0.0,JC,"Central Arizona College (Coolidge, AZ)",1997
+44,Expos,Y,,*Bryan Hebson ,RHP,-0.1,2.0,0.0,0.0,,,2.0,0.0,0.0,13.5,2.5,0.0,4Yr,"Auburn University (Auburn, AL)",1997
+45,Expos,Y,,*Tom Pittman ,1B,,,,,,,,,,,,,HS,"East St. John HS (Reserve, LA)",1997
+46,White Sox,Y,,*Jim Parque ,LHP,2.5,6.0,10.0,0.0,0.2,0.4,103.0,31.0,34.0,5.42,1.64,0.0,4Yr,"University of California, Los Angeles (Los Angeles, CA)",1997
+47,Expos,Y,,*T.J. Tucker ,RHP,0.6,160.0,36.0,0.0,0.278,0.583,171.0,13.0,9.0,4.57,1.47,4.0,HS,"River Ridge HS (New Port Richey, FL)",1997
+48,Expos,Y,,*Shane Arthurs ,RHP,,,,,,,,,,,,,HS,"Westmoore HS (Oklahoma City, OK)",1997
+49,Giants,Y,,*Dan McKinley ,OF,,,,,,,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",1997
+50,Twins,Y,,*Matt LeCroy ,C,0.4,476.0,1388.0,60.0,0.26,0.766,,,,,,,4Yr,"Clemson University (Clemson, SC)",1997
+51,White Sox,Y,,*Rocky Biddle ,RHP,-3.2,122.0,13.0,0.0,0.0,0.0,198.0,20.0,30.0,5.47,1.53,46.0,4Yr,"California State University, Long Beach (Long Beach, CA)",1997
+52,Expos,Y,,*Tootie Myers ,OF,,,,,,,,,,,,,HS,"Petal HS (Petal, MS)",1997
+1,Phillies,Y,"$3,150,000",Pat Burrell ,3B,18.9,1640.0,5503.0,292.0,0.253,0.834,,,,,,,4Yr,"University of Miami (Coral Gables, FL)",1998
+2,Athletics,Y,"$3,200,000",Mark Mulder ,LHP,20.0,63.0,111.0,1.0,0.162,0.435,205.0,103.0,60.0,4.18,1.34,0.0,4Yr,"Michigan State University (East Lansing, MI)",1998
+3,Cubs,Y,"$3,700,000",Corey Patterson ,OF,9.7,1230.0,4171.0,118.0,0.252,0.691,,,,,,,HS,"Harrison HS (Kennesaw, GA)",1998
+4,Royals,Y,"$2,700,000",Jeff Austin ,RHP,-0.7,11.0,8.0,0.0,0.125,0.25,38.0,2.0,3.0,6.75,1.68,0.0,4Yr,"Stanford University (Palo Alto, CA)",1998
+5,Cardinals,Y,"$3,000,000",J.D. Drew ,OF,44.9,1566.0,5173.0,242.0,0.278,0.873,,,,,,,,,1998
+6,Twins,Y,"$2,000,000",Ryan Mills ,LHP,,,,,,,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",1998
+7,Reds,Y,"$1,950,000",Austin Kearns ,OF,13.0,1125.0,3606.0,121.0,0.253,0.764,,,,,,,HS,"Lafayette HS (Lexington, KY)",1998
+8,Blue Jays,Y,"$2,000,000",Felipe López ,SS,7.5,1185.0,4337.0,90.0,0.264,0.724,1.0,0.0,0.0,0.0,2.0,0.0,HS,"Lake Brantley HS (Altamonte Springs, FL)",1998
+9,Padres,Y,"$2,000,000",Sean Burroughs ,3B,5.5,528.0,1664.0,12.0,0.278,0.69,1.0,0.0,0.0,27.0,4.0,0.0,HS,"Woodrow Wilson HS (Long Beach, CA)",1998
+10,Rangers,Y,"$2,100,000",Carlos Peña ,1B,25.5,1493.0,4949.0,286.0,0.232,0.808,,,,,,,4Yr,"Northeastern University (Boston, MA)",1998
+11,Expos,Y,"$1,850,000",Josh McKinley ,SS,,,,,,,,,,,,,HS,"Malvern Preparatory School (Malvern, PA)",1998
+12,Red Sox,Y,"$1,250,000",Adam Everett ,SS,12.6,880.0,2758.0,40.0,0.242,0.64,,,,,,,4Yr,"University of South Carolina (Columbia, SC)",1998
+13,Brewers,Y,"$1,725,000",J.M. Gold ,RHP,,,,,,,,,,,,,HS,"Toms River North HS (Toms River, NJ)",1998
+14,Tigers,Y,"$1,675,000",Jeff Weaver ,RHP,15.2,169.0,208.0,0.0,0.207,0.478,355.0,104.0,119.0,4.71,1.37,2.0,4Yr,"California State University, Fresno (Fresno, CA)",1998
+15,Pirates,Y,"$1,750,000",Clint Johnston ,LHP,,,,,,,,,,,,,4Yr,"Vanderbilt University (Nashville, TN)",1998
+16,White Sox,Y,"$1,000,000",Kip Wells ,RHP,8.0,222.0,331.0,4.0,0.19,0.468,296.0,69.0,103.0,4.71,1.51,2.0,4Yr,"Baylor University (Waco, TX)",1998
+17,Astros via Rockies,Y,"$1,495,000",*Brad Lidge ,RHP,7.9,578.0,7.0,0.0,0.286,0.714,603.0,26.0,32.0,3.54,1.29,225.0,4Yr,"University of Notre Dame (South Bend, IN)",1998
+18,Angels,Y,"$1,075,000",Seth Etherton ,RHP,-0.7,8.0,9.0,0.0,0.111,0.311,23.0,9.0,7.0,6.3,1.56,0.0,4Yr,"University of Southern California (Los Angeles, CA)",1998
+19,Giants via Astros,Y,"$975,000",*Tony Torcato ,3B,-0.1,43.0,47.0,0.0,0.298,0.687,,,,,,,HS,"Woodland HS (Woodland, CA)",1998
+20,Indians,Y,"$1,300,000",CC Sabathia ,LHP,62.3,48.0,121.0,3.0,0.207,0.525,561.0,251.0,161.0,3.74,1.26,0.0,HS,"Vallejo HS (Vallejo, CA)",1998
+21,Mets,Y,"$1,070,000",Jason Tyner ,OF,2.4,440.0,1358.0,1.0,0.275,0.637,,,,,,,4Yr,"Texas A&M University (College Station, TX)",1998
+22,Mariners,Y,"$925,000",Matt Thornton ,LHP,13.5,133.0,1.0,0.0,0.0,0.0,748.0,36.0,46.0,3.41,1.28,23.0,4Yr,"Grand Valley State University (Allendale, MI)",1998
+23,Dodgers,Y,"$995,000",Bubba Crosby ,OF,-1.6,205.0,250.0,4.0,0.216,0.555,,,,,,,4Yr,"Rice University (Houston, TX)",1998
+24,Yankees,Y,"$1,050,000",Andy Brown ,OF,,,,,,,,,,,,,HS,"Richmond HS (Richmond, IN)",1998
+25,Giants,Y,"$750,000",Nate Bump ,RHP,-0.7,110.0,10.0,0.0,0.1,0.2,113.0,6.0,7.0,4.68,1.53,1.0,4Yr,"Pennsylvania State University (State College, PA)",1998
+26,Orioles,Y,"$950,000",Rick Elder ,OF,,,,,,,,,,,,,HS,"Sprayberry HS (Marietta, GA)",1998
+27,Marlins,Y,"$1,500,000",Chip Ambres ,OF,0.0,80.0,189.0,4.0,0.233,0.665,,,,,,,HS,"West Brook HS (Beaumont, TX)",1998
+28,Rockies via Braves,Y,"$1,012,500",*Matt Roney ,RHP,-0.1,4.0,2.0,0.0,0.5,1.0,48.0,1.0,10.0,5.42,1.49,0.0,HS,"Edmond North HS (Edmond, OK)",1998
+29,Giants via Devil Rays,Y,"$937,500",*Arturo McDowell ,OF,,,,,,,,,,,,,HS,"Forest Hill HS (Jackson, MS)",1998
+30,Royals via Diamondbacks,Y,"$975,000",*Matt Burch ,RHP,,,,,,,,,,,,,4Yr,"Virginia Commonwealth University (Richmond, VA)",1998
+31,Royals,Y,"$1,162,500",*Chris George ,LHP,-0.5,2.0,3.0,0.0,0.333,0.833,47.0,14.0,20.0,6.48,1.66,0.0,HS,"Klein HS (Klein, TX)",1998
+32,Cardinals,N,,*Ben Diggins ,1B,-0.7,5.0,7.0,0.0,0.143,0.286,5.0,0.0,4.0,8.63,1.92,0.0,HS,"Bradshaw Mountain HS (Prescott Valley, AZ)",1998
+33,Expos,Y,"$1,000,000",*Brad Wilkerson ,OF,11.0,972.0,3187.0,122.0,0.247,0.79,,,,,,,4Yr,"University of Florida (Gainesville, FL)",1998
+34,Tigers,Y,"$865,000",*Nate Cornejo ,RHP,0.0,2.0,4.0,0.0,0.0,0.0,56.0,12.0,29.0,5.41,1.66,0.0,HS,"Wellington HS (Wellington, KS)",1998
+35,White Sox,Y,"$575,000",*Aaron Rowand ,OF,20.9,1358.0,4374.0,136.0,0.273,0.765,,,,,,,4Yr,"California State University, Fullerton (Fullerton, CA)",1998
+36,Rockies,Y,"$1,400,000",*Choo Freeman ,OF,-1.8,151.0,285.0,3.0,0.225,0.63,,,,,,,HS,"Dallas Christian HS (Mesquite, TX)",1998
+37,Astros,Y,"$595,000",*Mike Nannini ,RHP,,,,,,,,,,,,,HS,"Green Valley HS (Henderson, NV)",1998
+38,Giants,Y,"$587,000",*Chris Jones ,LHP,,,,,,,,,,,,,HS,"South Mecklenburg HS (Charlotte, NC)",1998
+39,Orioles,Y,"$650,000",*Mamon Tucker ,OF,,,,,,,,,,,,,HS,"Stephen F. Austin HS (Austin, TX)",1998
+40,Rockies,Y,"$537,000",*Jeff Winchester ,C,,,,,,,,,,,,,HS,"Archbishop Rummel HS (Metairie, LA)",1998
+41,Giants,Y,"$650,000",*Jeff Urban ,LHP,,,,,,,,,,,,,4Yr,"Ball State University (Muncie, IN)",1998
+42,Phillies,Y,"$615,000",*Eric Valent ,OF,-0.9,205.0,406.0,13.0,0.234,0.696,,,,,,,4Yr,"University of California, Los Angeles (Los Angeles, CA)",1998
+43,Yankees,N,,*Mark Prior ,RHP,16.6,102.0,204.0,1.0,0.201,0.496,106.0,42.0,29.0,3.51,1.23,0.0,HS,"University HS (San Diego, CA)",1998
+1,Devil Rays,Y,"$3,960,000",Josh Hamilton ,OF,28.1,1027.0,3909.0,200.0,0.29,0.865,,,,,,,HS,"Athens Drive HS (Raleigh, NC)",1999
+2,Marlins,Y,"$3,625,000",Josh Beckett ,RHP,35.7,153.0,289.0,3.0,0.142,0.39,335.0,138.0,106.0,3.88,1.23,0.0,HS,"Spring HS (Spring, TX)",1999
+3,Tigers,Y,"$3,500,000",Eric Munson ,C,-1.4,361.0,1056.0,49.0,0.214,0.683,,,,,,,4Yr,"University of Southern California (Los Angeles, CA)",1999
+4,Diamondbacks,Y,"$2,000,000",Corey Myers ,SS,,,,,,,,,,,,,HS,"Desert Vista HS (Phoenix, AZ)",1999
+5,Twins,Y,"$2,750,000",B.J. Garbe ,OF,,,,,,,,,,,,,HS,"Moses Lake HS (Moses Lake, WA)",1999
+6,Expos,Y,"$1,700,000",Josh Girdley ,LHP,,,,,,,,,,,,,HS,"Jasper HS (Jasper, TX)",1999
+7,Royals,Y,"$2,100,000",Kyle Snyder ,RHP,0.4,4.0,2.0,0.0,0.0,0.0,93.0,8.0,17.0,5.57,1.55,0.0,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",1999
+8,Pirates,Y,"$2,250,000",Bobby Bradley ,RHP,,,,,,,,,,,,,HS,"Wellington HS (Wellington, FL)",1999
+9,Athletics,Y,"$1,590,000",Barry Zito ,LHP,31.9,213.0,344.0,0.0,0.102,0.248,433.0,165.0,143.0,4.04,1.34,0.0,4Yr,"University of Southern California (Los Angeles, CA)",1999
+10,Brewers,Y,"$2,450,000",Ben Sheets ,RHP,23.2,222.0,449.0,0.0,0.076,0.196,250.0,94.0,96.0,3.78,1.22,0.0,4Yr,"University of Louisiana at Monroe (Monroe, LA)",1999
+11,Mariners,Y,"$2,100,000",Ryan Christianson ,C,,,,,,,,,,,,,HS,"Arlington HS (Riverside, CA)",1999
+12,Phillies,Y,"$2,050,000",Brett Myers ,RHP,14.6,329.0,471.0,0.0,0.134,0.334,381.0,97.0,96.0,4.25,1.33,40.0,HS,"Englewood HS (Jacksonville, FL)",1999
+13,Orioles,Y,"$1,700,000",Mike Paradis ,RHP,,,,,,,,,,,,,4Yr,"Clemson University (Clemson, SC)",1999
+14,Reds,Y,"$1,750,000",Ty Howington ,LHP,,,,,,,,,,,,,HS,"Hudson's Bay HS (Vancouver, WA)",1999
+15,White Sox,Y,"$1,750,000",Jason Stumm ,RHP,,,,,,,,,,,,,HS,"Centralia HS (Centralia, WA)",1999
+16,Rockies,Y,"$1,675,000",Jason Jennings ,RHP,11.2,177.0,329.0,2.0,0.207,0.519,225.0,62.0,74.0,4.95,1.56,1.0,4Yr,"Baylor University (Waco, TX)",1999
+17,Red Sox via Angels,Y,"$1,725,000",*Rick Asadoorian ,OF,,,,,,,,,,,,,HS,"Northbridge HS (Whitinsville, MA)",1999
+18,Orioles via Cardinals,Y,"$1,795,000",*Rich Stahl ,LHP,,,,,,,,,,,,,HS,"Newton HS (Covington, GA)",1999
+19,Blue Jays,Y,"$845,000",Alex Ríos ,3B,27.4,1691.0,6419.0,169.0,0.277,0.755,,,,,,,HS,"San Pedro Martin HS (Guaynabo, Puerto Rico)",1999
+20,Padres via Dodgers,Y,"$1,415,000",*Vince Faison ,OF,,,,,,,,,,,,,HS,"Toombs County HS (Lyons, GA)",1999
+21,Orioles via Rangers,Y,"$1,200,000",*Larry Bigbie ,OF,2.5,392.0,1227.0,31.0,0.267,0.726,,,,,,,4Yr,"Ball State University (Muncie, IN)",1999
+22,White Sox via Mets,Y,"$1,275,000",*Matt Ginter ,RHP,0.0,15.0,14.0,0.0,0.214,0.598,96.0,5.0,7.0,5.43,1.48,1.0,4Yr,"Mississippi State University (Mississippi State, MS)",1999
+23,Orioles via Indians,Y,"$1,150,000",*Keith Reed ,OF,-0.1,6.0,5.0,0.0,0.2,0.533,,,,,,,4Yr,"Providence College (Providence, RI)",1999
+24,Giants,Y,"$1,300,000",Kurt Ainsworth ,RHP,-0.3,20.0,28.0,0.0,0.071,0.179,29.0,6.0,8.0,5.19,1.56,0.0,4Yr,"Louisiana State University (Baton Rouge, LA)",1999
+25,Royals via Red Sox,Y,"$1,150,000",*Mike MacDougal ,RHP,3.8,149.0,0.0,0.0,,,407.0,18.0,23.0,4.0,1.55,71.0,4Yr,"Wake Forest University (Winston-Salem, NC)",1999
+26,Cubs,Y,"$1,062,000",Ben Christensen ,RHP,,,,,,,,,,,,,4Yr,"Wichita State University (Wichita, KS)",1999
+27,Yankees,Y,"$1,075,000",Dave Walling ,RHP,,,,,,,,,,,,,4Yr,"University of Arkansas (Fayetteville, AR)",1999
+28,Padres,Y,"$1,100,000",Gerik Baxter ,RHP,,,,,,,,,,,,,HS,"Edmonds-Woodway HS (Edmonds, WA)",1999
+29,Padres via Astros,Y,"$1,050,000",*Omar Ortiz ,RHP,,,,,,,,,,,,,4Yr,"University of Texas Pan American (Edinburg, TX)",1999
+30,Cardinals via Braves,Y,"$1,200,000",*Chance Caple ,RHP,,,,,,,,,,,,,4Yr,"Texas A&M University (College Station, TX)",1999
+31,Diamondbacks,Y,"$1,300,000",*Casey Daigle ,RHP,-1.2,32.0,18.0,0.0,0.111,0.333,33.0,3.0,4.0,7.16,1.97,0.0,HS,"Sulphur HS (Sulphur, LA)",1999
+32,Royals,Y,"$1,025,000",*Jay Gehrke ,RHP,,,,,,,,,,,,,4Yr,"Pepperdine University (Malibu, CA)",1999
+33,Mariners,Y,"$987,000",*Jeff Heaverlo ,RHP,,,,,,,,,,,,,4Yr,"University of Washington (Seattle, WA)",1999
+34,Orioles,Y,"$950,000",*Josh Cenate ,LHP,,,,,,,,,,,,,HS,"Jefferson HS (Shenandoah Junction, WV)",1999
+35,White Sox,Y,"$1,000,000",*Brian West ,RHP,,,,,,,,,,,,,HS,"West Monroe HS (West Monroe, LA)",1999
+36,Cardinals,Y,"$1,410,000",*Nick Stocks ,RHP,,,,,,,,,,,,,4Yr,"Florida State University (Tallahassee, FL)",1999
+37,Dodgers,Y,"$660,000",*Jason Repko ,SS,1.2,360.0,700.0,16.0,0.224,0.64,,,,,,,HS,"Hanford HS (Richland, WA)",1999
+38,Rangers,Y,"$862,500",*Colby Lewis ,RHP,9.0,15.0,27.0,0.0,0.259,0.556,233.0,77.0,72.0,4.7,1.34,0.0,JC,"Bakersfield College (Bakersfield, CA)",1999
+39,Giants,Y,"$832,500",*Jerome Williams ,RHP,3.5,122.0,167.0,0.0,0.108,0.255,236.0,52.0,66.0,4.59,1.39,2.0,HS,"Waipahu HS (Waipahu, HI)",1999
+40,Red Sox,Y,"$832,500",*Brad Baker ,RHP,,,,,,,,,,,,,HS,"Pioneer Valley Regional School (Northfield, MA)",1999
+41,Padres,Y,"$750,000",*Casey Burns ,RHP,,,,,,,,,,,,,4Yr,"University of Richmond (Richmond, VA)",1999
+42,Astros,Y,"$725,000",*Mike Rosamond ,OF,,,,,,,,,,,,,4Yr,"University of Mississippi (Oxford, MS)",1999
+43,Royals,Y,"$725,000",*Jimmy Gobble ,LHP,1.5,13.0,2.0,0.0,0.0,0.0,247.0,22.0,23.0,5.29,1.49,4.0,HS,"John S. Battle HS (Bristol, VA)",1999
+44,Orioles,Y,"$737,500",*Scott Rice ,LHP,-0.1,98.0,0.0,0.0,,,105.0,5.0,7.0,4.18,1.48,0.0,HS,"Royal HS (Simi Valley, CA)",1999
+45,White Sox,Y,"$730,000",*Rob Purvis ,RHP,,,,,,,,,,,,,4Yr,"Bradley University (Peoria, IL)",1999
+46,Cardinals,Y,"$900,000",*Chris Duncan ,1B,2.8,389.0,1147.0,55.0,0.257,0.805,,,,,,,HS,"Canyon del Oro HS (Tucson, AZ)",1999
+47,Rangers,Y,"$600,000",*David Mead ,RHP,,,,,,,,,,,,,HS,"Soddy-Daisy HS (Soddy-Daisy, TN)",1999
+48,Red Sox,Y,"$660,000",*Casey Fossum ,LHP,-1.0,46.0,46.0,0.0,0.087,0.193,237.0,40.0,53.0,5.45,1.52,2.0,4Yr,"Texas A&M University (College Station, TX)",1999
+49,Padres,Y,"$650,000",*Mike Bynum ,LHP,-1.5,29.0,18.0,0.0,0.167,0.333,29.0,2.0,5.0,7.73,1.73,0.0,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",1999
+50,Orioles,Y,"$650,000",*Brian Roberts ,SS,29.5,1418.0,5531.0,97.0,0.276,0.756,,,,,,,4Yr,"University of South Carolina (Columbia, SC)",1999
+51,Padres,Y,"$650,000",*Nick Trzesniak ,C,,,,,,,,,,,,,HS,"Victor J. Andrew HS (Tinley Park, IL)",1999
+1,Marlins,Y,"$3,000,000",Adrián González ,1B,43.6,1929.0,7139.0,317.0,0.287,0.843,,,,,,,HS,"Eastlake HS (Chula Vista, CA)",2000
+2,Twins,Y,"$2,500,000",Adam Johnson ,RHP,-1.1,1.0,2.0,0.0,0.0,0.0,9.0,1.0,3.0,10.25,2.05,0.0,4Yr,"California State University, Fullerton (Fullerton, CA)",2000
+3,Cubs,Y,"$2,750,000",Luis Montañez ,SS,-1.3,129.0,305.0,5.0,0.223,0.586,,,,,,,HS,"Coral Park HS (Miami, FL)",2000
+4,Royals,Y,"$2,500,000",Mike Stodolka ,LHP,,,,,,,,,,,,,HS,"Centennial HS (Corona, CA)",2000
+5,Expos,Y,"$2,950,000",Justin Wayne ,RHP,-1.5,26.0,12.0,0.0,0.0,0.0,26.0,5.0,8.0,6.13,1.65,0.0,4Yr,"Stanford University (Palo Alto, CA)",2000
+6,Devil Rays,Y,"$2,250,000",Rocco Baldelli ,OF,10.2,519.0,1910.0,60.0,0.278,0.766,,,,,,,HS,"Bishop Hendricken HS (Warwick, RI)",2000
+7,Rockies,N,,Matt Harrington ,RHP,,,,,,,,,,,,,HS,"Palmdale HS (Palmdale, CA)",2000
+8,Tigers,Y,"$2,150,000",Matt Wheatland ,RHP,,,,,,,,,,,,,HS,"Rancho Bernardo HS (San Diego, CA)",2000
+9,Padres,Y,"$2,200,000",Mark Phillips ,LHP,,,,,,,,,,,,,HS,"Hanover HS (Hanover, PA)",2000
+10,Angels,Y,"$2,080,000",Joe Torres ,LHP,,,,,,,,,,,,,HS,"Gateway HS (Kissimmee, FL)",2000
+11,Brewers,Y,"$1,950,000",Dave Krynzel ,OF,0.2,21.0,48.0,0.0,0.188,0.486,,,,,,,HS,"Green Valley HS (Henderson, NV)",2000
+12,White Sox,Y,"$5,300,000",Joe Borchard ,OF,-1.5,301.0,716.0,26.0,0.205,0.636,,,,,,,4Yr,"Stanford University (Palo Alto, CA)",2000
+13,Cardinals,Y,"$1,750,000",Shaun Boyd ,OF,,,,,,,,,,,,,HS,"Vista HS (Vista, CA)",2000
+14,Orioles,Y,"$2,250,000",Beau Hale ,RHP,,,,,,,,,,,,,4Yr,"University of Texas at Austin (Austin, TX)",2000
+15,Phillies,Y,"$1,780,000",Chase Utley ,2B,64.6,1937.0,6857.0,259.0,0.275,0.823,,,,,,,4Yr,"University of California, Los Angeles (Los Angeles, CA)",2000
+16,Mets via Mariners,Y,"$400,000",*Billy Traber ,LHP,-0.7,41.0,21.0,0.0,0.048,0.139,96.0,12.0,14.0,5.65,1.59,0.0,4Yr,"Loyola Marymount University (Los Angeles, CA)",2000
+17,Dodgers,Y,"$2,200,000",Ben Diggins ,RHP,-0.7,5.0,7.0,0.0,0.143,0.286,5.0,0.0,4.0,8.63,1.92,0.0,4Yr,"University of Arizona (Tucson, AZ)",2000
+18,Blue Jays,Y,"$950,000",Miguel Negron ,OF,,,,,,,,,,,,,HS,"Manuela Toro HS (Caguas, Puerto Rico)",2000
+19,Pirates,Y,"$1,650,000",Sean Burnett ,LHP,5.9,351.0,29.0,0.0,0.069,0.285,380.0,15.0,23.0,3.52,1.34,10.0,HS,"Wellington HS (Wellington, FL)",2000
+20,Angels via Athletics,Y,"$1,800,000",*Chris Bootcheck ,RHP,-1.6,15.0,2.0,0.0,0.0,0.0,91.0,3.0,7.0,6.55,1.66,1.0,4Yr,"Auburn University (Auburn, AL)",2000
+21,Giants,Y,"$1,245,000",Boof Bonser ,RHP,-0.5,6.0,6.0,0.0,0.0,0.0,111.0,19.0,25.0,5.18,1.46,0.0,HS,"Gibbs HS (St. Petersburg, FL)",2000
+22,Red Sox,Y,"$1,275,000",Phil Dumatrait ,LHP,-1.8,44.0,27.0,0.0,0.037,0.074,87.0,4.0,13.0,6.2,1.78,1.0,JC,"Bakersfield College (Bakersfield, CA)",2000
+23,Reds,Y,,David Espinosa ,SS,,,,,,,,,,,,,HS,"Gulliver Preparatory School (Pinecrest, FL)",2000
+24,Cardinals via Rangers,Y,"$1,375,000",*Blake Williams ,RHP,,,,,,,,,,,,,4Yr,"Texas State University (San Marcos, TX)",2000
+25,Rangers via Mets,Y,"$1,475,000",*Scott Heard ,C,,,,,,,,,,,,,HS,"Rancho Bernardo HS (San Diego, CA)",2000
+26,Indians,Y,"$1,375,000",Corey Smith ,SS,,,,,,,,,,,,,HS,"Piscataway HS (Piscataway, NJ)",2000
+27,Astros,Y,"$1,250,000",Rob Stiehl ,RHP,,,,,,,,,,,,,JC,"El Camino College (Torrance, CA)",2000
+28,Yankees,Y,"$1,425,000",Dave Parrish ,C,,,,,,,,,,,,,4Yr,"University of Michigan (Ann Arbor, MI)",2000
+29,Braves via Diamondbacks,Y,"$1,250,000",*Adam Wainwright ,RHP,45.3,426.0,744.0,10.0,0.192,0.51,478.0,200.0,128.0,3.53,1.24,3.0,HS,"Glynn Academy HS (Brunswick, GA)",2000
+30,Braves,Y,"$1,225,000",Scott Thorman ,3B,-1.0,175.0,415.0,16.0,0.222,0.667,,,,,,,HS,"Preston HS (Cambridge, ON)",2000
+31,Twins,N,,*Aaron Heilman ,RHP,1.6,456.0,47.0,0.0,0.021,0.083,477.0,35.0,46.0,4.4,1.36,16.0,4Yr,"University of Notre Dame (South Bend, IN)",2000
+32,Orioles,Y,"$1,050,000",*Tripper Johnson ,RHP,,,,,,,,,,,,,HS,"Newport HS (Bellevue, WA)",2000
+33,Blue Jays,Y,"$950,000",*Dustin McGowan ,RHP,1.6,135.0,27.0,0.0,0.074,0.148,290.0,35.0,34.0,4.5,1.38,2.0,HS,"Long County HS (Ludowici, GA)",2000
+34,Reds,Y,"$900,000",*Dustin Moseley ,RHP,0.7,24.0,30.0,0.0,0.133,0.295,101.0,15.0,21.0,4.67,1.43,0.0,HS,"Arkansas HS (Texarkana, AR)",2000
+35,Rangers,N,,*Tyrell Godwin ,OF,-0.1,3.0,3.0,0.0,0.0,0.0,,,,,,,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",2000
+36,Mets,Y,"$895,000",*Bobby Keppel ,RHP,0.2,7.0,2.0,0.0,0.0,0.333,49.0,1.0,5.0,5.36,1.66,0.0,HS,"De Smet Jesuit HS (Creve Coeur, MO)",2000
+37,Indians,Y,"$850,000",*Derek Thompson ,LHP,0.2,4.0,4.0,0.0,0.0,0.0,4.0,0.0,0.0,3.5,1.44,0.0,HS,"Land O'Lakes HS (Land O'Lakes, FL)",2000
+38,Braves,Y,"$790,000",*Kelly Johnson ,SS,16.4,1399.0,4543.0,155.0,0.251,0.751,,,,,,,HS,"Westwood HS (Austin, TX)",2000
+39,Rangers,Y,"$625,000",*Chad Hawkins ,RHP,,,,,,,,,,,,,4Yr,"Baylor University (Waco, TX)",2000
+40,Braves,Y,"$850,000",*Aaron Herr ,SS,,,,,,,,,,,,,HS,"Hempfield HS (Landisville, PA)",2000
+1,Twins,Y,"$5,150,000",Joe Mauer ,C,55.6,1858.0,6930.0,143.0,0.306,0.827,,,,,,,HS,"Cretin HS (St. Paul, MN)",2001
+2,Cubs,Y,"$4,000,000",Mark Prior ,RHP,16.6,102.0,204.0,1.0,0.201,0.496,106.0,42.0,29.0,3.51,1.23,0.0,4Yr,"University of Southern California (Los Angeles, CA)",2001
+3,Devil Rays,Y,"$4,200,000",Dewon Brazelton ,RHP,-3.1,11.0,6.0,0.0,0.167,0.5,63.0,8.0,25.0,6.38,1.68,0.0,4Yr,"Middle Tennessee State University (Murfreesboro, TN)",2001
+4,Phillies,Y,"$4,200,000",Gavin Floyd ,RHP,15.7,44.0,75.0,0.0,0.067,0.158,243.0,74.0,76.0,4.37,1.32,0.0,HS,"Mount St. Joseph HS (Baltimore, MD)",2001
+5,Rangers,Y,"$4,500,000",Mark Teixeira ,3B,50.5,1862.0,6936.0,409.0,0.268,0.869,,,,,,,4Yr,"Georgia Institute of Technology (Atlanta, GA)",2001
+6,Expos,Y,"$2,650,000",Josh Karp ,RHP,,,,,,,,,,,,,4Yr,"University of California, Los Angeles (Los Angeles, CA)",2001
+7,Orioles,Y,"$2,175,000",Chris Smith ,LHP,,,,,,,,,,,,,4Yr,"Cumberland University (Lebanon, TN)",2001
+8,Pirates,Y,"$2,400,000",John Van Benschoten ,RHP,-3.5,25.0,21.0,1.0,0.095,0.494,26.0,2.0,13.0,9.2,2.14,0.0,4Yr,"Kent State University (Kent, OH)",2001
+9,Royals,Y,"$2,400,000",Colt Griffin ,RHP,,,,,,,,,,,,,HS,"Marshall HS (Marshall, TX)",2001
+10,Astros,Y,"$2,125,000",Chris Burke ,2B,-1.2,477.0,1267.0,23.0,0.239,0.674,,,,,,,4Yr,"University of Tennessee (Knoxville, TN)",2001
+11,Tigers,Y,"$1,800,000",Kenny Baugh ,RHP,,,,,,,,,,,,,4Yr,"Rice University (Houston, TX)",2001
+12,Brewers,Y,"$2,075,000",Mike Jones ,RHP,,,,,,,,,,,,,HS,"Thunderbird HS (Phoenix, AZ)",2001
+13,Angels,Y,"$2,075,000",Casey Kotchman ,1B,7.5,939.0,3071.0,71.0,0.26,0.711,,,,,,,HS,"Seminole HS (Seminole, FL)",2001
+14,Padres,Y,"$1,875,000",Jake Gautreau ,3B,,,,,,,,,,,,,4Yr,"Tulane University (New Orleans, LA)",2001
+15,Blue Jays,Y,"$1,865,000",Gabe Gross ,OF,4.6,657.0,1461.0,40.0,0.239,0.716,,,,,,,4Yr,"Auburn University (Auburn, AL)",2001
+16,White Sox via Marlins,Y,"$1,500,000",*Kris Honel ,RHP,,,,,,,,,,,,,HS,"Providence Catholic HS (New Lenox, IL)",2001
+17,Indians via Red Sox,Y,"$1,860,000",*Dan Denham ,RHP,,,,,,,,,,,,,HS,"Deer Valley HS (Antioch, CA)",2001
+18,Mets via Rockies,Y,"$1,508,750",*Aaron Heilman ,RHP,1.6,456.0,47.0,0.0,0.021,0.083,477.0,35.0,46.0,4.4,1.36,16.0,4Yr,"University of Notre Dame (South Bend, IN)",2001
+19,Orioles via Yankees,Y,"$1,300,000",*Mike Fontenot ,2B,4.3,582.0,1413.0,27.0,0.265,0.734,,,,,,,4Yr,"Louisiana State University (Baton Rouge, LA)",2001
+20,Reds,N,,Jeremy Sowers ,LHP,1.6,4.0,4.0,0.0,0.25,0.75,72.0,18.0,30.0,5.18,1.44,0.0,HS,"Ballard HS (Louisville, KY)",2001
+21,Giants via Indians,Y,"$1,380,000",*Brad Hennessey ,RHP,2.6,149.0,88.0,2.0,0.227,0.563,148.0,17.0,23.0,4.69,1.49,20.0,4Yr,"Youngstown State University (Youngstown, OH)",2001
+22,Diamondbacks,Y,"$937,000",Jason Bulger ,RHP,0.7,18.0,0.0,0.0,,,125.0,7.0,2.0,4.33,1.41,1.0,4Yr,"Valdosta State University (Valdosta, GA)",2001
+23,Yankees via Mariners,Y,"$1,200,000",*John-Ford Griffin ,OF,0.2,13.0,23.0,2.0,0.304,1.066,,,,,,,4Yr,"Florida State University (Tallahassee, FL)",2001
+24,Braves via Dodgers,Y,"$1,340,000",*Macay McBride ,LHP,-0.2,104.0,0.0,0.0,,,132.0,6.0,2.0,4.35,1.63,2.0,HS,"Screven County HS (Sylvania, GA)",2001
+25,Athletics,Y,"$1,350,000",Bobby Crosby ,SS,5.4,747.0,2559.0,62.0,0.236,0.677,,,,,,,4Yr,"California State University, Long Beach (Long Beach, CA)",2001
+26,Athletics via Mets,Y,"$1,350,000",*Jeremy Bonderman ,RHP,4.9,15.0,30.0,0.0,0.033,0.067,225.0,69.0,81.0,4.91,1.41,0.0,HS,"Pasco HS (Pasco, WA)",2001
+27,Indians via White Sox,N,,*Alan Horne ,RHP,,,,,,,,,,,,,HS,"Marianna HS (Marianna, FL)",2001
+28,Cardinals,Y,"$900,000",Justin Pope ,RHP,,,,,,,,,,,,,4Yr,"University of Central Florida (Orlando, FL)",2001
+29,Braves,Y,"$1,250,000",Josh Burrus ,SS,,,,,,,,,,,,,HS,"Wheeler HS (Marietta, GA)",2001
+30,Giants,Y,"$1,175,000",Noah Lowry ,LHP,10.0,110.0,197.0,2.0,0.178,0.464,106.0,40.0,31.0,4.03,1.38,0.0,4Yr,"Pepperdine University (Malibu, CA)",2001
+31,Orioles,Y,"$1,150,000",*Bryan Bass ,SS,,,,,,,,,,,,,HS,"Seminole HS (Seminole, FL)",2001
+32,Tigers,Y,"$1,100,000",*Michael Woods ,2B,,,,,,,,,,,,,4Yr,"Southern University and A&M College (Baton Rouge, LA)",2001
+33,Angels,Y,"$850,000",*Jeff Mathis ,C,0.3,948.0,2718.0,53.0,0.194,0.551,5.0,0.0,1.0,9.0,1.8,0.0,HS,"Marianna HS (Marianna, FL)",2001
+34,Yankees,Y,"$1,000,000",*Bronson Sardinha ,SS,0.0,10.0,9.0,0.0,0.333,0.75,,,,,,,HS,"Kamehameha HS (Honolulu, HI)",2001
+35,Indians,Y,"$975,000",*J.D. Martin ,RHP,0.7,24.0,37.0,0.0,0.162,0.373,24.0,6.0,9.0,4.32,1.41,0.0,HS,"Sherman E. Burroughs HS (Ridgecrest, CA)",2001
+36,Mariners,Y,"$2,000,000",*Michael Garciaparra ,SS,,,,,,,,,,,,,HS,"Don Bosco Technical Institute (Rosemead, CA)",2001
+37,Athletics,Y,"$600,000",*John Rheinecker ,LHP,-0.3,1.0,0.0,0.0,,,44.0,8.0,9.0,5.65,1.75,0.0,4Yr,"Missouri State University (Springfield, MO)",2001
+38,Mets,Y,"$960,000",*David Wright ,3B,49.1,1585.0,5998.0,242.0,0.296,0.867,,,,,,,HS,"Hickory HS (Chesapeake, VA)",2001
+39,White Sox,Y,"$872,500",*Wyatt Allen ,RHP,,,,,,,,,,,,,4Yr,"University of Tennessee (Knoxville, TN)",2001
+40,Braves,Y,"$850,000",*Richard Lewis ,2B,,,,,,,,,,,,,4Yr,"Georgia Institute of Technology (Atlanta, GA)",2001
+41,Giants,Y,"$750,000",*Todd Linden ,OF,-1.8,270.0,502.0,8.0,0.231,0.638,,,,,,,4Yr,"Louisiana State University (Baton Rouge, LA)",2001
+42,Yankees,Y,"$600,000",*Jon Skaggs ,RHP,,,,,,,,,,,,,4Yr,"Rice University (Houston, TX)",2001
+43,Indians,Y,"$870,000",*Mike Conroy ,OF,,,,,,,,,,,,,HS,"Boston College HS (Boston, MA)",2001
+44,Rockies,Y,"$925,000",*Jayson Nix ,SS,1.6,466.0,1305.0,38.0,0.212,0.627,,,,,,,HS,"Midland HS (Midland, TX)",2001
+1,Pirates,Y,"$4,000,000",Bryan Bullington ,RHP,-0.2,6.0,3.0,0.0,0.333,0.667,26.0,1.0,9.0,5.62,1.58,0.0,4Yr,"Ball State University (Muncie, IN)",2002
+2,Devil Rays,Y,"$4,600,000",B.J. Upton ,SS,16.5,1469.0,5175.0,164.0,0.243,0.723,,,,,,,HS,"Greenbrier Christian Academy (Chesapeake, VA)",2002
+3,Reds,Y,"$2,500,000",Chris Gruler ,RHP,,,,,,,,,,,,,HS,"Liberty HS (Brentwood, CA)",2002
+4,Orioles,Y,"$3,200,000",Adam Loewen ,LHP,-0.3,40.0,37.0,1.0,0.189,0.583,63.0,10.0,8.0,5.85,1.68,0.0,HS,"Fraser Valley Christian HS (Surrey, BC)",2002
+5,Expos,Y,"$2,500,000",Clint Everts ,RHP,,,,,,,,,,,,,HS,"Cypress Falls HS (Houston, TX)",2002
+6,Royals,Y,"$2,475,000",Zack Greinke ,RHP,77.4,260.0,521.0,9.0,0.225,0.598,586.0,225.0,156.0,3.49,1.17,1.0,HS,"Apopka HS (Apopka, FL)",2002
+7,Brewers,Y,"$2,400,000",Prince Fielder ,1B,23.6,1611.0,5821.0,319.0,0.283,0.887,,,,,,,HS,"Eau Gallie HS (Melbourne, FL)",2002
+8,Tigers,Y,"$2,300,000",Scott Moore ,SS,-0.8,152.0,385.0,16.0,0.242,0.712,,,,,,,HS,"Cypress HS (Cypress, CA)",2002
+9,Rockies,Y,"$1,850,000",Jeff Francis ,LHP,9.6,191.0,303.0,0.0,0.116,0.322,254.0,72.0,82.0,4.97,1.44,1.0,4Yr,"University of British Columbia (Vancouver, BC)",2002
+10,Rangers,Y,"$1,875,000",Drew Meyer ,SS,-0.3,5.0,14.0,0.0,0.214,0.429,,,,,,,4Yr,"University of South Carolina (Columbia, SC)",2002
+11,Marlins,Y,"$2,012,500",Jeremy Hermida ,OF,2.7,632.0,2012.0,65.0,0.257,0.749,,,,,,,HS,"Wheeler HS (Marietta, GA)",2002
+12,Angels,Y,"$1,825,000",Joe Saunders ,LHP,8.4,68.0,128.0,0.0,0.133,0.311,235.0,89.0,86.0,4.37,1.42,0.0,4Yr,"Virginia Polytechnic Institute and State University (Blacksburg, VA)",2002
+13,Padres,Y,"$1,500,000",Khalil Greene ,SS,8.5,736.0,2567.0,90.0,0.245,0.723,,,,,,,4Yr,"Clemson University (Clemson, SC)",2002
+14,Blue Jays,Y,"$1,785,000",Russ Adams ,SS,0.0,286.0,884.0,17.0,0.247,0.685,,,,,,,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",2002
+15,Mets,Y,"$2,150,000",Scott Kazmir ,LHP,22.3,45.0,72.0,0.0,0.111,0.234,303.0,108.0,97.0,4.02,1.35,0.0,HS,"Cypress Falls HS (Houston, TX)",2002
+16,Athletics via Red Sox,Y,"$1,780,000",*Nick Swisher ,1B,21.5,1527.0,5369.0,245.0,0.249,0.799,1.0,0.0,0.0,0.0,2.0,0.0,4Yr,"The Ohio State University (Columbus, OH)",2002
+17,Phillies,Y,"$2,000,000",Cole Hamels ,LHP,59.0,331.0,688.0,2.0,0.169,0.401,423.0,163.0,122.0,3.43,1.18,0.0,HS,"Rancho Bernardo HS (San Diego, CA)",2002
+18,White Sox,Y,"$1,600,000",Royce Ring ,LHP,-0.9,87.0,0.0,0.0,,,99.0,3.0,3.0,5.29,1.57,0.0,4Yr,"San Diego State University (San Diego, CA)",2002
+19,Dodgers,Y,"$1,500,000",James Loney ,1B,11.4,1443.0,5023.0,108.0,0.284,0.746,,,,,,,HS,"Lawrence E. Elkins HS (Missouri City, TX)",2002
+20,Twins,Y,"$1,700,000",Denard Span ,OF,28.0,1359.0,5326.0,71.0,0.281,0.745,,,,,,,HS,"Tampa Catholic HS (Tampa, FL)",2002
+21,Cubs,Y,"$2,500,000",Bobby Brownlie ,RHP,,,,,,,,,,,,,4Yr,"Rutgers, the State University of New Jersey (New Brunswick, NJ)",2002
+22,Indians,Y,"$3,000,000",Jeremy Guthrie ,RHP,18.5,42.0,60.0,0.0,0.1,0.262,306.0,91.0,109.0,4.42,1.34,0.0,4Yr,"Stanford University (Palo Alto, CA)",2002
+23,Braves,Y,"$2,200,000",Jeff Francoeur ,OF,6.7,1480.0,5260.0,160.0,0.261,0.719,1.0,0.0,0.0,9.0,2.0,0.0,HS,"Parkview HS (Lilburn, GA)",2002
+24,Athletics via Yankees,Y,"$1,400,000",*Joe Blanton ,RHP,11.8,262.0,216.0,0.0,0.106,0.263,427.0,101.0,97.0,4.38,1.34,2.0,4Yr,"University of Kentucky (Lexington, KY)",2002
+25,Giants,Y,"$1,375,000",Matt Cain ,RHP,29.0,332.0,611.0,7.0,0.121,0.331,342.0,104.0,118.0,3.68,1.23,0.0,HS,"Houston HS (Germantown, TN)",2002
+26,Athletics,Y,"$1,375,000",John McCurdy ,SS,,,,,,,,,,,,,4Yr,"University of Maryland (College Park, MD)",2002
+27,Diamondbacks,Y,"$1,400,000",Sergio Santos ,SS,2.0,27.0,1.0,0.0,0.0,0.0,194.0,7.0,12.0,3.98,1.33,39.0,HS,"Mater Dei HS (Santa Ana, CA)",2002
+28,Mariners,N,,John Mayberry ,OF,1.5,574.0,1386.0,56.0,0.235,0.72,,,,,,,HS,"Rockhurst HS (Kansas City, MO)",2002
+29,Astros,Y,"$1,125,000",Derick Grigsby ,RHP,,,,,,,,,,,,,JC,"Northeast Texas Community College (Mount Pleasant, TX)",2002
+30,Athletics via Cardinals,Y,"$1,200,000",*Ben Fritz ,RHP,,,,,,,,,,,,,4Yr,"California State University, Fresno (Fresno, CA)",2002
+31,Dodgers,Y,"$1,200,000",*Greg Miller ,LHP,,,,,,,,,,,,,HS,"Esperanza HS (Anaheim, CA)",2002
+32,Cubs,Y,"$1,150,000",*Luke Hagerty ,LHP,,,,,,,,,,,,,4Yr,"Ball State University (Muncie, IN)",2002
+33,Indians,Y,"$1,125,000",*Matt Whitney ,3B,,,,,,,,,,,,,HS,"Palm Beach Gardens HS (Palm Beach Gardens, FL)",2002
+34,Braves,Y,"$1,000,000",*Dan Meyer ,LHP,-0.9,82.0,2.0,0.0,0.0,0.0,103.0,3.0,9.0,5.46,1.55,2.0,4Yr,"James Madison University (Harrisonburg, VA)",2002
+35,Athletics,Y,"$350,000",*Jeremy Brown ,C,0.1,5.0,10.0,0.0,0.3,0.864,,,,,,,4Yr,"University of Alabama (Tuscaloosa, AL)",2002
+36,Cubs,Y,"$1,050,000",*Chadd Blasko ,RHP,,,,,,,,,,,,,4Yr,"Purdue University (West Lafayette, IN)",2002
+37,Athletics,Y,"$750,000",*Steve Obenchain ,RHP,,,,,,,,,,,,,4Yr,"University of Evansville (Evansville, IN)",2002
+38,Cubs,Y,"$875,000",*Matt Clanton ,RHP,,,,,,,,,,,,,JC,"Orange Coast College (Costa Mesa, CA)",2002
+39,Athletics,Y,"$725,000",*Mark Teahen ,3B,2.6,831.0,2873.0,67.0,0.264,0.736,,,,,,,4Yr,"Saint Mary's College of California (Moraga, CA)",2002
+40,Reds,Y,"$200,000",*Mark Schramek ,3B,,,,,,,,,,,,,4Yr,"University of Texas at San Antonio (San Antonio, TX)",2002
+41,Indians,Y,"$915,000",*Micah Schilling ,2B,,,,,,,,,,,,,HS,"Silliman Institute (Clinton, LA)",2002
+1,Devil Rays,Y,"$3,700,000",Delmon Young ,OF,3.2,1118.0,4108.0,109.0,0.283,0.737,,,,,,,HS,"Adolfo Camarillo HS (Camarillo, CA)",2003
+2,Brewers,Y,"$3,600,000",Rickie Weeks ,2B,11.6,1324.0,4417.0,161.0,0.246,0.764,,,,,,,4Yr,"Southern University and A&M College (Baton Rouge, LA)",2003
+3,Tigers,Y,"$3,350,000",Kyle Sleeth ,RHP,,,,,,,,,,,,,4Yr,"Wake Forest University (Winston-Salem, NC)",2003
+4,Padres,Y,"$750,000",Tim Stauffer ,RHP,3.8,183.0,140.0,0.0,0.15,0.35,201.0,33.0,34.0,3.97,1.33,0.0,4Yr,"University of Richmond (Richmond, VA)",2003
+5,Royals,Y,"$2,100,000",Chris Lubanski ,OF,,,,,,,,,,,,,HS,"Kennedy-Kenrick Catholic HS (Norristown, PA)",2003
+6,Cubs,Y,"$2,400,000",Ryan Harvey ,OF,,,,,,,,,,,,,HS,"Dunedin HS (Dunedin, FL)",2003
+7,Orioles,Y,"$1,850,000",Nick Markakis ,OF,33.7,2154.0,8302.0,189.0,0.288,0.781,,,,,,,JC,"Young Harris College (Young Harris, GA)",2003
+8,Pirates,Y,"$2,200,000",Paul Maholm ,LHP,11.9,259.0,478.0,2.0,0.109,0.281,273.0,77.0,100.0,4.3,1.4,0.0,4Yr,"Mississippi State University (Mississippi State, MS)",2003
+9,Rangers,Y,"$2,100,000",John Danks ,LHP,20.2,11.0,24.0,0.0,0.083,0.203,247.0,79.0,104.0,4.38,1.35,0.0,HS,"Round Rock HS (Round Rock, TX)",2003
+10,Rockies,Y,"$1,950,000",Ian Stewart ,3B,3.3,511.0,1489.0,61.0,0.229,0.73,,,,,,,HS,"La Quinta HS (Westminster, CA)",2003
+11,Indians,Y,"$2,010,000",Michael Aubrey ,1B,0.2,46.0,135.0,6.0,0.259,0.755,,,,,,,4Yr,"Tulane University (New Orleans, LA)",2003
+12,Mets,Y,"$2,075,000",Lastings Milledge ,OF,0.5,433.0,1500.0,33.0,0.269,0.723,,,,,,,HS,"Lakewood Ranch HS (Bradenton, FL)",2003
+13,Blue Jays,Y,"$1,675,000",Aaron Hill ,SS,24.4,1559.0,5646.0,162.0,0.266,0.74,,,,,,,4Yr,"Louisiana State University (Baton Rouge, LA)",2003
+14,Reds,Y,"$1,400,000",Ryan Wagner ,RHP,-0.3,146.0,4.0,0.0,0.25,0.5,148.0,11.0,9.0,4.79,1.59,0.0,4Yr,"University of Houston (Houston, TX)",2003
+15,White Sox,Y,"$1,600,000",Brian Anderson ,OF,-0.2,355.0,799.0,22.0,0.227,0.66,,,,,,,4Yr,"University of Arizona (Tucson, AZ)",2003
+16,Marlins,Y,"$1,850,000",Jeff Allison ,RHP,,,,,,,,,,,,,HS,"Peabody Veterans Memorial HS (Peabody, MA)",2003
+17,Red Sox,Y,"$1,525,000",David Murphy ,OF,9.9,1110.0,3467.0,104.0,0.274,0.765,2.0,0.0,0.0,0.0,3.0,0.0,4Yr,"Baylor University (Waco, TX)",2003
+18,Indians via Phillies,Y,"$1,525,000",*Brad Snyder ,OF,-0.1,30.0,66.0,2.0,0.167,0.513,,,,,,,4Yr,"Ball State University (Muncie, IN)",2003
+19,Diamondbacks via Mariners,Y,"$1,500,000",*Conor Jackson ,1B,2.2,658.0,2184.0,52.0,0.271,0.757,,,,,,,4Yr,"University of California, Berkeley (Berkeley, CA)",2003
+20,Expos,Y,"$1,350,000",Chad Cordero ,RHP,7.3,295.0,5.0,0.0,0.0,0.0,314.0,20.0,15.0,2.89,1.21,128.0,4Yr,"California State University, Fullerton (Fullerton, CA)",2003
+21,Twins,Y,"$1,450,000",Matt Moses ,3B,,,,,,,,,,,,,HS,"Mills E. Godwin HS (Richmond, VA)",2003
+22,Giants via Astros,Y,"$1,425,000",*David Aardsma ,RHP,1.8,139.0,4.0,0.0,0.0,0.0,331.0,16.0,18.0,4.27,1.42,69.0,4Yr,"Rice University (Houston, TX)",2003
+23,Angels,Y,"$1,300,000",Brandon Wood ,SS,-3.8,272.0,700.0,18.0,0.186,0.513,,,,,,,HS,"Horizon HS (Scottsdale, AZ)",2003
+24,Dodgers,Y,"$1,375,000",Chad Billingsley ,RHP,17.3,215.0,355.0,3.0,0.138,0.369,226.0,83.0,64.0,3.72,1.37,0.0,HS,"Defiance HS (Defiance, OH)",2003
+25,Athletics,Y,"$1,360,000",Brad Sullivan ,RHP,,,,,,,,,,,,,4Yr,"University of Houston (Houston, TX)",2003
+26,Athletics via Giants,Y,"$1,325,000",*Brian Snyder ,3B,,,,,,,,,,,,,4Yr,"Stetson University (DeLand, FL)",2003
+27,Yankees,Y,"$1,250,000",Eric Duncan ,3B,,,,,,,,,,,,,HS,"Seton Hall Preparatory School (West Orange, NJ)",2003
+28,Cardinals,Y,"$975,000",Daric Barton ,C,8.9,551.0,1744.0,30.0,0.247,0.721,,,,,,,HS,"Marina HS (Huntington Beach, CA)",2003
+29,Diamondbacks,Y,"$1,100,000",Carlos Quentin ,OF,10.5,834.0,2790.0,154.0,0.252,0.831,,,,,,,4Yr,"Stanford University (Palo Alto, CA)",2003
+30,Royals via Braves,Y,"$900,000",*Mitch Maier ,C,1.5,359.0,977.0,10.0,0.248,0.671,2.0,0.0,0.0,0.0,1.0,0.0,4Yr,"University of Toledo (Toledo, OH)",2003
+31,Indians,Y,"$1,025,000",*Adam Miller ,RHP,,,,,,,,,,,,,HS,"McKinney HS (McKinney, TX)",2003
+32,Red Sox,Y,"$1,010,000",*Matt Murton ,OF,3.3,346.0,952.0,29.0,0.286,0.788,,,,,,,4Yr,"Georgia Institute of Technology (Atlanta, GA)",2003
+33,Athletics,Y,"$992,500",*Omar Quintanilla ,SS,-0.9,402.0,1035.0,8.0,0.22,0.582,,,,,,,4Yr,"University of Texas at Austin (Austin, TX)",2003
+34,Giants,Y,"$975,000",*Craig Whitaker ,RHP,,,,,,,,,,,,,HS,"Lufkin HS (Lufkin, TX)",2003
+35,Braves,Y,"$950,000",*Luis Atilano ,RHP,-0.9,13.0,25.0,0.0,0.04,0.08,16.0,6.0,7.0,5.15,1.49,0.0,HS,"Gabriela Mistral HS (San Juan, Puerto Rico)",2003
+36,Braves,Y,"$950,000",*Jarrod Saltalamacchia ,C,5.9,895.0,2852.0,110.0,0.232,0.715,,,,,,,HS,"Royal Palm Beach Community HS (Royal Palm Beach, FL)",2003
+37,Mariners,Y,"$925,000",*Adam Jones ,SS,32.5,1823.0,7009.0,282.0,0.277,0.771,,,,,,,HS,"Samuel F. B. Morse HS (San Diego, CA)",2003
+1,Padres,Y,"$3,150,000",Matt Bush ,SS,1.8,8.0,0.0,0.0,,,217.0,12.0,11.0,3.75,1.2,15.0,HS,"Mission Bay HS (San Diego, CA)",2004
+2,Tigers,Y,"$3,120,000",Justin Verlander ,RHP,81.7,24.0,50.0,0.0,0.1,0.2,556.0,266.0,159.0,3.33,1.14,0.0,4Yr,"Old Dominion University (Norfolk, VA)",2004
+3,Mets,Y,"$3,000,000",Philip Humber ,RHP,0.9,9.0,11.0,0.0,0.091,0.182,97.0,16.0,23.0,5.31,1.42,0.0,4Yr,"Rice University (Houston, TX)",2004
+4,Devil Rays,Y,"$3,200,000",Jeff Niemann ,RHP,4.3,9.0,13.0,0.0,0.077,0.154,97.0,40.0,26.0,4.08,1.29,0.0,4Yr,"Rice University (Houston, TX)",2004
+5,Brewers,Y,"$2,200,000",Mark Rogers ,RHP,1.1,12.0,16.0,0.0,0.25,0.625,11.0,3.0,1.0,3.49,1.12,0.0,HS,"Mount Ararat School (Topsham, ME)",2004
+6,Indians,Y,"$2,475,000",Jeremy Sowers ,LHP,1.6,4.0,4.0,0.0,0.25,0.75,72.0,18.0,30.0,5.18,1.44,0.0,4Yr,"Vanderbilt University (Nashville, TN)",2004
+7,Reds,Y,"$2,300,000",Homer Bailey ,RHP,6.2,208.0,373.0,0.0,0.164,0.375,245.0,81.0,86.0,4.56,1.37,0.0,HS,"La Grange HS (La Grange, TX)",2004
+8,Orioles,N,,Wade Townsend ,RHP,,,,,,,,,,,,,4Yr,"Rice University (Houston, TX)",2004
+9,Rockies,Y,"$2,150,000",Chris Nelson ,SS,-2.6,282.0,834.0,16.0,0.265,0.699,,,,,,,HS,"Redan HS (Stone Mountain, GA)",2004
+10,Rangers,Y,"$2,025,000",Thomas Diamond ,RHP,-0.5,16.0,7.0,0.0,0.0,0.125,16.0,1.0,3.0,6.83,1.76,0.0,4Yr,"University of New Orleans (New Orleans, LA)",2004
+11,Pirates,Y,"$1,950,000",Neil Walker ,C,20.0,1306.0,4583.0,149.0,0.267,0.764,1.0,0.0,0.0,0.0,1.5,0.0,HS,"Pine-Richland HS (Gibsonia, PA)",2004
+12,Angels,Y,"$4,000,000",Jered Weaver ,RHP,34.6,28.0,55.0,0.0,0.073,0.178,331.0,150.0,98.0,3.63,1.19,0.0,4Yr,"California State University, Long Beach (Long Beach, CA)",2004
+13,Expos,Y,"$1,750,000",Bill Bray ,LHP,2.3,243.0,1.0,0.0,0.0,0.0,258.0,13.0,12.0,3.74,1.38,3.0,4Yr,"College of William and Mary (Williamsburg, VA)",2004
+14,Royals,Y,"$1,450,000",Billy Butler ,3B,11.8,1414.0,5105.0,147.0,0.29,0.795,,,,,,,HS,"Wolfson HS (Jacksonville, FL)",2004
+15,Diamondbacks,Y,"$4,000,000",Stephen Drew ,SS,15.8,1268.0,4403.0,123.0,0.252,0.741,,,,,,,4Yr,"Florida State University (Tallahassee, FL)",2004
+16,Blue Jays,Y,"$1,600,000",David Purcey ,LHP,0.1,7.0,1.0,0.0,0.0,0.0,111.0,7.0,13.0,4.98,1.54,1.0,4Yr,"University of Oklahoma (Norman, OK)",2004
+17,Dodgers,Y,"$1,575,000",Scott Elbert ,LHP,1.5,120.0,6.0,0.0,0.167,0.5,127.0,4.0,3.0,3.54,1.33,2.0,HS,"Seneca HS (Seneca, MO)",2004
+18,White Sox,Y,"$1,550,000",Josh Fields ,3B,-1.1,217.0,713.0,34.0,0.234,0.724,,,,,,,4Yr,"Oklahoma State University (Stillwater, OK)",2004
+19,Cardinals,Y,"$1,525,000",Chris Lambert ,RHP,-0.8,0.0,0.0,0.0,,,14.0,1.0,3.0,7.36,1.97,0.0,4Yr,"Boston College (Chestnut Hill, MA)",2004
+20,Twins,Y,"$1,500,000",Trevor Plouffe ,SS,7.4,830.0,2933.0,106.0,0.242,0.714,,,,,,,HS,"Crespi Carmelite HS (Encino, CA)",2004
+21,Phillies,Y,"$1,475,000",Greg Golson ,OF,-0.6,40.0,41.0,0.0,0.195,0.458,,,,,,,HS,"John B. Connally HS (Austin, TX)",2004
+22,Twins via Mariners,Y,"$1,425,000",*Glen Perkins ,LHP,8.9,24.0,4.0,0.0,0.0,0.0,409.0,35.0,25.0,3.88,1.29,120.0,4Yr,"University of Minnesota (Minneapolis, MN)",2004
+23,Yankees via Astros,Y,"$1,400,000",*Phil Hughes ,RHP,11.0,32.0,18.0,0.0,0.0,0.0,290.0,88.0,79.0,4.52,1.31,3.0,HS,"Foothill HS (Santa Ana, CA)",2004
+24,Athletics via Red Sox,Y,"$1,000,000",*Landon Powell ,C,0.2,123.0,363.0,10.0,0.207,0.612,,,,,,,4Yr,"University of South Carolina (Columbia, SC)",2004
+25,Twins via Cubs,Y,"$1,000,000",*Kyle Waldrop ,RHP,0.5,0.0,0.0,0.0,,,24.0,1.0,1.0,3.62,1.52,0.0,HS,"Farragut HS (Knoxville, TN)",2004
+26,Athletics,Y,"$1,325,000",Richie Robnett ,OF,,,,,,,,,,,,,4Yr,"California State University, Fresno (Fresno, CA)",2004
+27,Marlins,Y,"$1,300,000",Taylor Tankersley ,LHP,0.6,160.0,2.0,0.0,0.0,0.0,168.0,8.0,3.0,4.58,1.52,4.0,4Yr,"University of Alabama (Tuscaloosa, AL)",2004
+28,Dodgers via Yankees,Y,"$1,200,000",*Blake DeWitt ,2B,1.9,426.0,1119.0,21.0,0.257,0.705,,,,,,,HS,"Sikeston HS (Sikeston, MO)",2004
+29,Royals via Giants,Y,"$1,100,000",*Matt Campbell ,lHP,,,,,,,,,,,,,4Yr,"University of South Carolina (Columbia, SC)",2004
+30,Rangers via Braves,Y,"$1,050,000",*Eric Hurley ,RHP,0.1,1.0,2.0,0.0,0.5,1.0,5.0,1.0,2.0,5.47,1.42,0.0,HS,"Wolfson HS (Jacksonville, FL)",2004
+31,Royals,Y,"$1,000,000",*J.P. Howell ,LHP,7.8,273.0,13.0,0.0,0.154,0.308,547.0,36.0,30.0,3.83,1.34,22.0,4Yr,"University of Texas at Austin (Austin, TX)",2004
+32,Blue Jays,Y,"$1,017,500",*Zach Jackson ,LHP,-0.8,8.0,9.0,0.0,0.111,0.222,22.0,4.0,5.0,5.81,1.57,0.0,4Yr,"Texas A&M University (College Station, TX)",2004
+33,Dodgers,Y,"$1,000,000",*Justin Orenduff ,RHP,,,,,,,,,,,,,4Yr,"Virginia Commonwealth University (Richmond, VA)",2004
+34,White Sox,Y,"$975,000",*Tyler Lumsden ,LHP,,,,,,,,,,,,,4Yr,"Clemson University (Clemson, SC)",2004
+35,Twins,Y,"$950,000",*Matt Fox ,RHP,0.0,0.0,0.0,0.0,,,4.0,0.0,0.0,4.91,1.36,0.0,4Yr,"University of Central Florida (Orlando, FL)",2004
+36,Athletics,Y,"$950,000",*Danny Putnam ,OF,-0.2,11.0,28.0,1.0,0.214,0.612,,,,,,,4Yr,"Stanford University (Palo Alto, CA)",2004
+37,Yankees,Y,"$925,000",*Jon Poterson ,C,,,,,,,,,,,,,HS,"Chandler HS (Chandler, AZ)",2004
+38,White Sox,Y,"$850,000",*Gio Gonzalez ,lHP,28.3,221.0,410.0,3.0,0.09,0.247,344.0,131.0,101.0,3.7,1.32,0.0,HS,"Monsignor Edward Pace HS (Miami Gardens, FL)",2004
+39,Twins,Y,"$875,000",*Jay Rainville ,RHP,,,,,,,,,,,,,HS,"Bishop Hendricken HS (Warwick, RI)",2004
+40,Athletics,Y,"$800,000",*Huston Street ,RHP,14.5,304.0,2.0,0.0,0.0,0.0,668.0,42.0,34.0,2.95,1.07,324.0,4Yr,"University of Texas at Austin (Austin, TX)",2004
+41,Yankees,Y,"$790,000",*Jeff Marquez ,RHP,0.0,1.0,0.0,0.0,,,4.0,0.0,0.0,5.4,1.4,0.0,JC,"Sacramento City College (Sacramento, CA)",2004
+1,Diamondbacks,Y,"$6,100,000",Justin Upton ,SS,32.2,1845.0,6721.0,325.0,0.261,0.812,,,,,,,HS,"Great Bridge HS (Chesapeake, VA)",2005
+2,Royals,Y,"$4,000,000",Alex Gordon ,3B,34.8,1753.0,6391.0,190.0,0.257,0.748,2.0,0.0,0.0,19.29,4.29,0.0,4Yr,"University of Nebraska-Lincoln (Lincoln, NE)",2005
+3,Mariners,Y,"$3,400,000",Jeff Clement ,C,-1.2,152.0,385.0,14.0,0.218,0.648,,,,,,,4Yr,"University of Southern California (Los Angeles, CA)",2005
+4,Nationals,Y,"$2,975,000",Ryan Zimmerman ,3B,40.1,1799.0,6654.0,284.0,0.277,0.816,,,,,,,4Yr,"University of Virginia (Charlottesville, VA)",2005
+5,Brewers,Y,"$2,450,000",Ryan Braun ,3B,47.2,1766.0,6622.0,352.0,0.296,0.891,,,,,,,4Yr,"University of Miami (Coral Gables, FL)",2005
+6,Blue Jays,Y,"$2,400,000",Ricky Romero ,LHP,9.9,8.0,21.0,0.0,0.095,0.19,129.0,51.0,45.0,4.16,1.4,0.0,4Yr,"California State University, Fullerton (Fullerton, CA)",2005
+7,Rockies,Y,"$2,300,000",Troy Tulowitzki ,SS,44.8,1291.0,4804.0,225.0,0.29,0.856,,,,,,,4Yr,"California State University, Long Beach (Long Beach, CA)",2005
+8,Devil Rays,Y,"$1,500,000",Wade Townsend ,RHP,,,,,,,,,,,,,4Yr,"Rice University (Houston, TX)",2005
+9,Mets,Y,"$3,550,000",Mike Pelfrey ,RHP,5.7,148.0,268.0,0.0,0.104,0.275,275.0,68.0,103.0,4.68,1.51,1.0,4Yr,"Wichita State University (Wichita, KS)",2005
+10,Tigers,Y,"$2,650,000",Cameron Maybin ,OF,13.4,1162.0,3824.0,72.0,0.254,0.697,,,,,,,HS,"T. C. Roberson HS (Asheville, NC)",2005
+11,Pirates,Y,"$1,900,000",Andrew McCutchen ,OF,49.1,2296.0,8415.0,333.0,0.271,0.82,,,,,,,HS,"Fort Meade HS (Fort Meade, FL)",2005
+12,Reds,Y,"$1,800,000",Jay Bruce ,OF,19.7,1650.0,5964.0,319.0,0.244,0.781,,,,,,,HS,"West Brook HS (Beaumont, TX)",2005
+13,Orioles,Y,"$1,700,000",Brandon Snyder ,C,0.0,122.0,200.0,9.0,0.24,0.731,,,,,,,HS,"Westfield HS (Chantilly, VA)",2005
+14,Indians,Y,"$1,695,000",Trevor Crowe ,OF,0.2,265.0,818.0,4.0,0.24,0.615,,,,,,,4Yr,"University of Arizona (Tucson, AZ)",2005
+15,White Sox,Y,"$1,570,000",Lance Broadway ,RHP,0.3,8.0,0.0,0.0,,,27.0,2.0,2.0,5.24,1.6,0.0,4Yr,"Texas Christian University (Fort Worth, TX)",2005
+16,Marlins,Y,"$1,600,000",Chris Volstad ,RHP,2.0,130.0,201.0,0.0,0.139,0.317,170.0,37.0,58.0,5.0,1.45,0.0,HS,"Palm Beach Gardens HS (Palm Beach Gardens, FL)",2005
+17,Yankees via Phillies,Y,"$1,575,000",*C.J. Henry ,SS,,,,,,,,,,,,,HS,"Putnam City HS (Oklahoma City, OK)",2005
+18,Padres,Y,"$1,550,000",Cesar Carrillo ,RHP,-0.7,3.0,3.0,0.0,0.0,0.0,3.0,1.0,2.0,13.06,2.71,0.0,4Yr,"University of Miami (Coral Gables, FL)",2005
+19,Rangers,Y,"$1,525,000",John Mayberry ,OF,1.5,574.0,1386.0,56.0,0.235,0.72,,,,,,,4Yr,"Stanford University (Palo Alto, CA)",2005
+20,Cubs,Y,"$1,750,000",Mark Pawelek ,LHP,,,,,,,,,,,,,HS,"Springville HS (Springville, UT)",2005
+21,Athletics,Y,"$1,475,000",Cliff Pennington ,SS,9.9,971.0,2799.0,36.0,0.242,0.648,1.0,0.0,0.0,9.0,3.0,0.0,4Yr,"Texas A&M University (College Station, TX)",2005
+22,Marlins via Giants,Y,"$1,225,000",*Aaron Thompson ,LHP,-0.1,10.0,0.0,0.0,,,52.0,1.0,3.0,4.94,1.52,0.0,HS,"Second Baptist School (Houston, TX)",2005
+23,Red Sox via Angels,Y,"$1,400,000",*Jacoby Ellsbury ,OF,31.0,1235.0,4846.0,104.0,0.284,0.76,,,,,,,4Yr,"Oregon State University (Corvallis, OR)",2005
+24,Astros,Y,"$1,375,000",Brian Bogusevic ,LHP,2.1,321.0,748.0,19.0,0.238,0.684,1.0,0.0,0.0,18.0,3.0,0.0,4Yr,"Tulane University (New Orleans, LA)",2005
+25,Twins,Y,"$1,350,000",Matt Garza ,RHP,12.5,152.0,274.0,0.0,0.08,0.201,290.0,93.0,106.0,4.09,1.32,1.0,4Yr,"California State University, Fresno (Fresno, CA)",2005
+26,Red Sox via Dodgers,Y,"$1,325,000",*Craig Hansen ,RHP,-1.9,27.0,0.0,0.0,,,95.0,4.0,9.0,6.34,1.72,3.0,4Yr,"St. John's University (Queens, NY)",2005
+27,Braves,Y,"$1,300,000",Joey Devine ,RHP,2.0,30.0,1.0,0.0,0.0,0.0,93.0,8.0,3.0,2.75,1.25,1.0,4Yr,"North Carolina State University (Raleigh, NC)",2005
+28,Cardinals via Red Sox,Y,"$1,000,000",*Colby Rasmus ,OF,20.4,1092.0,3704.0,166.0,0.241,0.745,,,,,,,HS,"Russell County HS (Seale, AL)",2005
+29,Marlins via Yankees,Y,"$1,000,000",*Jacob Marceaux ,RHP,,,,,,,,,,,,,4Yr,"McNeese State University (Lake Charles, LA)",2005
+30,Cardinals,Y,"$1,100,000",Tyler Greene ,SS,-0.4,288.0,675.0,17.0,0.224,0.645,,,,,,,4Yr,"Georgia Institute of Technology (Atlanta, GA)",2005
+31,Diamondbacks,Y,"$1,025,000",*Matt Torra ,RHP,,,,,,,,,,,,,4Yr,"University of Massachusetts Amherst (Amherst, MA)",2005
+32,Rockies,Y,"$1,025,000",*Chaz Roe ,RHP,1.2,62.0,1.0,0.0,0.0,0.0,245.0,11.0,8.0,3.89,1.34,3.0,HS,"Lafayette HS (Lexington, KY)",2005
+33,Indians,Y,"$1,000,000",*Johnny Drennen ,OF,,,,,,,,,,,,,HS,"Rancho Bernardo HS (San Diego, CA)",2005
+34,Marlins,Y,"$975,000",*Ryan Tucker ,RHP,-1.3,11.0,7.0,0.0,0.0,0.0,18.0,2.0,3.0,8.14,1.88,0.0,HS,"Temple City HS (Temple City, CA)",2005
+35,Padres,Y,"$950,000",*Cesár Ramos ,LHP,1.4,43.0,6.0,0.0,0.0,0.0,267.0,10.0,15.0,4.02,1.4,2.0,4Yr,"California State University, Long Beach (Long Beach, CA)",2005
+36,Athletics,Y,"$950,000",*Travis Buck ,OF,2.8,253.0,810.0,20.0,0.243,0.715,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",2005
+37,Angels,Y,"$925,000",*Trevor Bell ,RHP,-1.2,8.0,1.0,0.0,0.0,0.0,54.0,4.0,8.0,5.57,1.76,0.0,HS,"Crescenta Valley HS (La Crescenta, CA)",2005
+38,Astros,Y,"$900,000",*Eli Iorg ,OF,,,,,,,,,,,,,4Yr,"University of Tennessee (Knoxville, TN)",2005
+39,Twins,Y,"$900,000",*Hank Sanchez ,1B,,,,,,,,,,,,,HS,"Mission Bay HS (San Diego, CA)",2005
+40,Dodgers,N,,*Luke Hochevar ,RHP,3.7,18.0,16.0,0.0,0.063,0.125,279.0,46.0,65.0,4.98,1.34,3.0,4Yr,"University of Tennessee (Knoxville, TN)",2005
+41,Braves,Y,"$825,000",*Beau Jones ,LHP,,,,,,,,,,,,,HS,"Destrehan HS (Destrehan, LA)",2005
+42,Red Sox,Y,"$800,000",*Clay Buchholz ,RHP,16.8,29.0,46.0,0.0,0.087,0.234,236.0,90.0,69.0,3.98,1.3,0.0,JC,"Angelina College (Lufkin, TX)",2005
+43,Cardinals,Y,"$800,000",*Mark McCormick ,RHP,,,,,,,,,,,,,4Yr,"Baylor University (Waco, TX)",2005
+44,Marlins,Y,"$775,000",*Sean West ,LHP,-0.1,21.0,34.0,0.0,0.059,0.147,22.0,8.0,8.0,5.03,1.58,0.0,HS,"Captain Shreve HS (Shreveport, LA)",2005
+45,Red Sox,Y,"$762,000",*Jed Lowrie ,2B,15.4,1307.0,4615.0,121.0,0.257,0.736,,,,,,,4Yr,"Stanford University (Palo Alto, CA)",2005
+46,Cardinals,Y,"$675,000",*Tyler Herron ,RHP,,,,,,,,,,,,,HS,"Wellington HS (Wellington, FL)",2005
+47,Red Sox,Y,"$730,000",*Michael Bowden ,RHP,0.8,64.0,2.0,0.0,0.0,0.0,103.0,3.0,5.0,4.51,1.4,0.0,HS,"Waubonsie Valley HS (Aurora, IL)",2005
+48,Orioles,Y,"$650,000",*Garrett Olson ,LHP,-2.7,11.0,6.0,0.0,0.167,0.31,104.0,14.0,22.0,6.26,1.67,1.0,4Yr,"California Polytechnic State University, San Luis Obispo (San Luis Obispo, CA)",2005
+1,Royals,Y,"$3,500,000",Luke Hochevar ,RHP,3.7,18.0,16.0,0.0,0.063,0.125,279.0,46.0,65.0,4.98,1.34,3.0,,,2006
+2,Rockies,Y,"$3,250,000",Greg Reynolds ,RHP,-1.5,31.0,30.0,0.0,0.167,0.46,33.0,6.0,11.0,7.01,1.65,0.0,4Yr,"Stanford University (Palo Alto, CA)",2006
+3,Devil Rays,Y,"$3,000,000",Evan Longoria ,3B,58.9,1986.0,7306.0,342.0,0.264,0.804,,,,,,,4Yr,"California State University, Long Beach (Long Beach, CA)",2006
+4,Pirates,Y,"$2,750,000",Brad Lincoln ,RHP,0.4,53.0,38.0,0.0,0.237,0.52,99.0,9.0,11.0,4.74,1.39,1.0,4Yr,"University of Houston (Houston, TX)",2006
+5,Mariners,Y,"$2,450,000",Brandon Morrow ,RHP,11.1,115.0,24.0,0.0,0.0,0.04,334.0,51.0,43.0,3.96,1.31,40.0,4Yr,"University of California, Berkeley (Berkeley, CA)",2006
+6,Tigers,Y,"$3,550,000",Andrew Miller ,LHP,7.7,185.0,74.0,0.0,0.054,0.108,612.0,55.0,55.0,4.03,1.34,63.0,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",2006
+7,Dodgers,Y,"$2,300,000",Clayton Kershaw ,LHP,80.9,357.0,698.0,1.0,0.162,0.39,455.0,223.0,96.0,2.53,1.02,0.0,HS,"Highland Park HS (Dallas, TX)",2006
+8,Reds,Y,"$2,000,000",Drew Stubbs ,OF,8.0,911.0,2834.0,92.0,0.242,0.704,,,,,,,4Yr,"University of Texas at Austin (Austin, TX)",2006
+9,Orioles,Y,"$2,100,000",Billy Rowell ,3B,,,,,,,,,,,,,HS,"Bishop Eustace Preparatory School (Pennsauken, NJ)",2006
+10,Giants,Y,"$2,025,000",Tim Lincecum ,RHP,19.5,262.0,474.0,0.0,0.112,0.3,278.0,110.0,89.0,3.74,1.29,1.0,4Yr,"University of Washington (Seattle, WA)",2006
+11,Diamondbacks,Y,"$3,000,000",Max Scherzer ,RHP,74.8,238.0,464.0,1.0,0.168,0.381,488.0,222.0,120.0,3.26,1.09,0.0,4Yr,"University of Missouri (Columbia, MO)",2006
+12,Rangers,Y,"$1,600,000",Kasey Kiker ,LHP,,,,,,,,,,,,,HS,"Russell County HS (Seale, AL)",2006
+13,Cubs,Y,"$1,475,000",Tyler Colvin ,OF,0.9,441.0,1215.0,49.0,0.239,0.733,,,,,,,4Yr,"Clemson University (Clemson, SC)",2006
+14,Blue Jays,Y,"$1,700,000",Travis Snider ,OF,4.4,630.0,1783.0,54.0,0.244,0.709,1.0,0.0,0.0,18.0,3.0,0.0,HS,"Henry M. Jackson HS (Mill Creek, WA)",2006
+15,Nationals,Y,"$1,625,000",Chris Marrero ,OF,-1.5,54.0,163.0,1.0,0.209,0.493,,,,,,,HS,"Monsignor Edward Pace HS (Miami Gardens, FL)",2006
+16,Brewers,Y,"$1,550,000",Jeremy Jeffress ,RHP,8.7,290.0,3.0,0.0,0.0,0.0,414.0,32.0,12.0,3.08,1.32,52.0,HS,"Halifax County HS (South Boston, VA)",2006
+17,Padres,Y,"$1,575,000",Matt Antonelli ,3B,-0.3,21.0,57.0,1.0,0.193,0.573,,,,,,,4Yr,"Wake Forest University (Winston-Salem, NC)",2006
+18,Phillies via Mets,Y,"$1,550,000",*Kyle Drabek ,RHP,-0.1,3.0,2.0,0.0,0.0,0.0,43.0,8.0,15.0,5.26,1.7,0.0,HS,"The Woodlands HS (The Woodlands, TX)",2006
+19,Marlins,Y,"$1,525,000",Brett Sinkbeil ,RHP,-0.2,3.0,0.0,0.0,,,3.0,0.0,0.0,13.5,3.5,0.0,4Yr,"Missouri State University (Springfield, MO)",2006
+20,Twins,Y,"$1,500,000",Chris Parmelee ,OF,0.0,311.0,917.0,30.0,0.248,0.717,,,,,,,HS,"Chino Hills HS (Chino Hills, CA)",2006
+21,Yankees via Phillies,Y,"$2,250,000",*Ian Kennedy ,RHP,16.9,216.0,321.0,1.0,0.131,0.394,497.0,104.0,114.0,4.16,1.29,66.0,4Yr,"University of Southern California (Los Angeles, CA)",2006
+22,Nationals via Athletics,Y,"$1,425,000",*Colton Willems ,RHP,,,,,,,,,,,,,HS,"John Carroll Catholic HS (Fort Pierce, FL)",2006
+23,Astros,Y,"$1,400,000",Maxwell Sapp ,C,,,,,,,,,,,,,HS,"Bishop Moore Catholic HS (Orlando, FL)",2006
+24,Braves,Y,"$1,375,000",Cody Johnson ,OF,,,,,,,,,,,,,HS,"A. Crawford Mosley HS (Lynn Haven, FL)",2006
+25,Angels via Indians,Y,"$1,350,000",*Hank Conger ,C,1.9,373.0,1013.0,31.0,0.221,0.66,,,,,,,HS,"Huntington Beach HS (Huntington Beach, CA)",2006
+26,Dodgers via Angels,Y,"$1,325,000",*Bryan Morris ,RHP,2.7,219.0,7.0,0.0,0.143,0.286,231.0,20.0,12.0,3.13,1.37,1.0,JC,"Motlow State Community College (Lynchburg, TN)",2006
+27,Red Sox,Y,"$1,300,000",Jason Place ,OF,,,,,,,,,,,,,HS,"Wren HS (Piedmont, SC)",2006
+28,Red Sox via Yankees,Y,"$1,550,000",*Daniel Bard ,RHP,8.4,82.0,3.0,0.0,0.333,0.667,408.0,31.0,35.0,3.74,1.3,66.0,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",2006
+29,White Sox,Y,"$1,050,000",Kyle McCulloch ,RHP,,,,,,,,,,,,,4Yr,"University of Texas at Austin (Austin, TX)",2006
+30,Cardinals,Y,"$950,000",Adam Ottavino ,RHP,14.9,354.0,24.0,0.0,0.083,0.203,727.0,41.0,43.0,3.48,1.29,46.0,4Yr,"Northeastern University (Boston, MA)",2006
+31,Dodgers,Y,"$1,000,000",*Preston Mattingly ,SS,,,,,,,,,,,,,HS,"Central HS (Evansville, IN)",2006
+32,Orioles,Y,"$1,000,000",*Pedro Beato ,RHP,-1.0,67.0,0.0,0.0,,,85.0,4.0,2.0,4.31,1.3,0.0,JC,"St. Petersburg College (St. Petersburg, FL)",2006
+33,Giants,Y,"$1,000,000",*Emmanuel Burriss ,SS,-2.8,325.0,768.0,1.0,0.237,0.565,,,,,,,4Yr,"Kent State University (Kent, OH)",2006
+34,Diamondbacks,Y,"$900,000",*Brooks Brown ,RHP,0.9,63.0,1.0,0.0,0.0,0.0,64.0,1.0,4.0,3.97,1.24,0.0,4Yr,"University of Georgia (Athens, GA)",2006
+35,Padres,Y,"$950,000",*Kyler Burke ,OF,,,,,,,,,,,,,HS,"Ooltewah HS (Ooltewah, TN)",2006
+36,Marlins,Y,"$950,000",*Chris Coghlan ,3B,1.0,801.0,2580.0,53.0,0.258,0.731,,,,,,,4Yr,"University of Mississippi (Oxford, MS)",2006
+37,Phillies,Y,"$925,000",*Adrian Cardenas ,SS,-0.3,45.0,60.0,0.0,0.183,0.552,,,,,,,HS,"Monsignor Edward Pace HS (Miami Gardens, FL)",2006
+38,Braves,Y,"$900,000",*Cory Rasmus ,RHP,0.5,10.0,1.0,0.0,0.0,0.0,84.0,4.0,5.0,4.17,1.33,0.0,HS,"Russell County HS (Seale, AL)",2006
+39,Indians,Y,"$900,000",*David Huff ,LHP,-1.8,22.0,8.0,0.0,0.125,0.25,120.0,25.0,30.0,5.17,1.51,0.0,4Yr,"University of California, Los Angeles (Los Angeles, CA)",2006
+40,Red Sox,Y,"$850,000",*Kris Johnson ,LHP,0.0,5.0,3.0,0.0,0.0,0.0,7.0,0.0,3.0,5.32,1.77,0.0,4Yr,"Wichita State University (Wichita, KS)",2006
+41,Yankees,Y,"$1,150,000",*Joba Chamberlain ,RHP,7.6,24.0,6.0,0.0,0.0,0.143,385.0,25.0,21.0,3.81,1.38,7.0,4Yr,"University of Nebraska-Lincoln (Lincoln, NE)",2006
+42,Cardinals,Y,"$800,000",*Chris Perez ,RHP,4.7,125.0,2.0,0.0,0.0,0.0,393.0,16.0,24.0,3.51,1.24,133.0,4Yr,"University of Miami (Coral Gables, FL)",2006
+43,Braves,Y,"$800,000",*Steve Evarts ,LHP,,,,,,,,,,,,,HS,"T. R. Robinson HS (Tampa, FL)",2006
+44,Red Sox,Y,"$775,000",*Caleb Clay ,RHP,,,,,,,,,,,,,HS,"Cullman HS (Cullman, AL)",2006
+1,Devil Rays,Y,"$5,600,000",David Price ,LHP,40.2,59.0,65.0,0.0,0.123,0.298,400.0,157.0,82.0,3.32,1.16,3.0,4Yr,"Vanderbilt University (Nashville, TN)",2007
+2,Royals,Y,"$4,000,000",Mike Moustakas ,SS,12.7,1427.0,5060.0,215.0,0.247,0.739,,,,,,,HS,"Chatsworth Charter HS (Chatsworth, CA)",2007
+3,Cubs,Y,"$3,200,000",Josh Vitters ,3B,-1.3,36.0,99.0,2.0,0.121,0.395,,,,,,,HS,"Cypress HS (Cypress, CA)",2007
+4,Pirates,Y,"$2,475,000",Daniel Moskos ,LHP,0.2,30.0,0.0,0.0,,,31.0,1.0,1.0,2.96,1.56,0.0,4Yr,"Clemson University (Clemson, SC)",2007
+5,Orioles,Y,"$6,000,000",Matt Wieters ,C,18.2,1167.0,3994.0,146.0,0.249,0.722,,,,,,,4Yr,"Georgia Institute of Technology (Atlanta, GA)",2007
+6,Nationals,Y,"$2,150,000",Ross Detwiler ,LHP,0.6,203.0,121.0,0.0,0.066,0.155,307.0,30.0,51.0,4.56,1.46,2.0,4Yr,"Missouri State University (Springfield, MO)",2007
+7,Brewers,Y,"$2,000,000",Matt LaPorta ,1B,-1.0,291.0,967.0,31.0,0.238,0.694,,,,,,,4Yr,"University of Florida (Gainesville, FL)",2007
+8,Rockies,Y,"$1,800,000",Casey Weathers ,RHP,,,,,,,,,,,,,4Yr,"Vanderbilt University (Nashville, TN)",2007
+9,Diamondbacks,Y,"$2,100,000",Jarrod Parker ,RHP,6.5,4.0,8.0,0.0,0.125,0.375,62.0,25.0,16.0,3.68,1.24,0.0,HS,"Norwell HS (Ossian, IN)",2007
+10,Giants,Y,"$2,000,000",Madison Bumgarner ,LHP,37.2,313.0,633.0,19.0,0.172,0.524,358.0,134.0,124.0,3.47,1.15,0.0,HS,"South Caldwell HS (Hudson, NC)",2007
+11,Mariners,Y,"$1,900,000",Phillippe Aumont ,RHP,-0.7,44.0,1.0,0.0,0.0,0.5,46.0,1.0,6.0,6.8,1.99,2.0,HS,"Ecole Du Versant (Gatineau, QC)",2007
+12,Marlins,Y,"$1,800,000",Matt Dominguez ,3B,1.2,362.0,1272.0,42.0,0.231,0.644,,,,,,,HS,"Chatsworth Charter HS (Chatsworth, CA)",2007
+13,Indians,Y,"$1,575,000",Beau Mills ,1B,,,,,,,,,,,,,4Yr,"Lewis-Clark State College (Lewiston, ID)",2007
+14,Braves,Y,"$1,700,000",Jason Heyward ,OF,41.5,1824.0,6174.0,186.0,0.255,0.744,,,,,,,HS,"Henry County HS (McDonough, GA)",2007
+15,Reds,Y,"$1,400,000",Devin Mesoraco ,C,4.5,468.0,1402.0,58.0,0.232,0.715,,,,,,,HS,"Punxsutawney HS (Punxsutawney, PA)",2007
+16,Blue Jays via Rangers,Y,"$1,440,000",*Kevin Ahrens ,3B,,,,,,,,,,,,,HS,"Memorial HS (Houston, TX)",2007
+17,Rangers via Astros,Y,"$1,497,000",*Blake Beavan ,RHP,1.7,1.0,2.0,0.0,0.0,0.0,54.0,16.0,20.0,4.61,1.27,0.0,HS,"Irving HS (Irving, TX)",2007
+18,Cardinals,Y,"$1,395,000",Pete Kozma ,SS,-0.2,344.0,746.0,5.0,0.213,0.564,,,,,,,HS,"Owasso HS (Owasso, OK)",2007
+19,Phillies,Y,"$1,372,500",Joe Savery ,LHP,-0.1,37.0,2.0,0.0,0.0,0.0,44.0,3.0,2.0,3.83,1.26,0.0,4Yr,"Rice University (Houston, TX)",2007
+20,Dodgers via Red Sox,Y,"$1,350,000",*Chris Withrow ,RHP,1.4,84.0,1.0,0.0,0.0,0.0,92.0,6.0,0.0,3.07,1.14,1.0,HS,"Midland HS (Midland, TX)",2007
+21,Blue Jays,Y,"$1,372,500",J.P. Arencibia ,C,1.9,466.0,1573.0,80.0,0.212,0.67,1.0,0.0,0.0,0.0,1.0,0.0,4Yr,"University of Tennessee (Knoxville, TN)",2007
+22,Giants via Dodgers,Y,"$1,290,000",*Tim Alderson ,RHP,,,,,,,,,,,,,HS,"Horizon HS (Scottsdale, AZ)",2007
+23,Padres,Y,"$1,260,000",Nick Schmidt ,LHP,,,,,,,,,,,,,4Yr,"University of Arkansas (Fayetteville, AR)",2007
+24,Rangers via Angels,Y,"$1,237,500",*Michael Main ,RHP,,,,,,,,,,,,,HS,"DeLand HS (DeLand, FL)",2007
+25,White Sox,Y,"$1,200,000",Aaron Poreda ,LHP,0.2,9.0,0.0,0.0,,,40.0,3.0,1.0,4.67,1.73,0.0,4Yr,"University of San Francisco (San Francisco, CA)",2007
+26,Athletics,Y,"$1,192,500",James Simmons ,RHP,,,,,,,,,,,,,4Yr,"University of California, Riverside (Riverside, CA)",2007
+27,Tigers,Y,"$3,580,000",Rick Porcello ,RHP,18.8,24.0,45.0,0.0,0.178,0.4,355.0,150.0,125.0,4.4,1.32,0.0,HS,"Seton Hall Preparatory School (West Orange, NJ)",2007
+28,Twins,Y,"$750,000",Ben Revere ,OF,7.8,857.0,3138.0,7.0,0.284,0.661,,,,,,,HS,"Lexington Catholic HS (Lexington, KY)",2007
+29,Giants via Mets,Y,"$1,000,000",*Wendell Fairley ,OF,,,,,,,,,,,,,HS,"George County HS (Lucedale, MS)",2007
+30,Yankees,Y,"$3,350,000",Andrew Brackman ,RHP,0.1,0.0,0.0,0.0,,,3.0,0.0,0.0,0.0,1.71,0.0,4Yr,"North Carolina State University (Raleigh, NC)",2007
+31,Nationals,Y,"$1,000,000",*Josh Smoker ,LHP,-0.7,75.0,4.0,0.0,0.0,0.0,82.0,4.0,2.0,5.35,1.7,0.0,HS,"Calhoun HS (Calhoun, GA)",2007
+32,Giants,Y,"$915,750",*Nick Noonan ,2B,-1.2,83.0,145.0,1.0,0.193,0.473,,,,,,,HS,"Francis Parker School (San Diego, CA)",2007
+33,Braves,Y,"$900,000",*Jon Gilmore ,3B,,,,,,,,,,,,,HS,"Iowa City HS (Iowa City, IA)",2007
+34,Reds,Y,"$825,000",*Todd Frazier ,3B,25.8,1244.0,4392.0,218.0,0.241,0.763,1.0,0.0,0.0,0.0,0.0,0.0,4Yr,"Rutgers, the State University of New Jersey (New Brunswick, NJ)",2007
+35,Rangers,Y,"$800,000",*Julio Borbon ,OF,1.7,294.0,802.0,8.0,0.273,0.665,,,,,,,4Yr,"University of Tennessee (Knoxville, TN)",2007
+36,Cardinals,Y,"$650,000",*Clayton Mortensen ,RHP,-0.5,19.0,16.0,0.0,0.0,0.056,74.0,6.0,11.0,4.68,1.44,0.0,4Yr,"Gonzaga University (Spokane, WA)",2007
+37,Phillies,Y,"$832,500",*Travis d'Arnaud ,C,8.5,967.0,3280.0,130.0,0.245,0.725,,,,,,,HS,"Lakewood HS (Lakewood, CA)",2007
+38,Blue Jays,Y,"$810,000",*Brett Cecil ,LHP,6.7,122.0,7.0,0.0,0.0,0.0,443.0,44.0,47.0,4.29,1.36,12.0,4Yr,"University of Maryland (College Park, MD)",2007
+39,Dodgers,Y,"$787,500",*James Adkins ,LHP,,,,,,,,,,,,,4Yr,"University of Tennessee (Knoxville, TN)",2007
+40,Padres,Y,"$765,000",*Kellen Kulbacki ,OF,,,,,,,,,,,,,4Yr,"James Madison University (Harrisonburg, VA)",2007
+41,Athletics,Y,"$742,500",*Sean Doolittle ,1B,10.0,189.0,4.0,0.0,0.0,0.0,463.0,26.0,24.0,3.2,1.01,112.0,4Yr,"University of Virginia (Charlottesville, VA)",2007
+42,Mets,Y,"$720,000",*Eddie Kunz ,RHP,-0.2,4.0,0.0,0.0,,,4.0,0.0,0.0,13.5,2.25,0.0,4Yr,"Oregon State University (Corvallis, OR)",2007
+43,Giants,Y,"$708,750",*Jackson Williams ,C,0.1,14.0,24.0,1.0,0.208,0.742,,,,,,,4Yr,"University of Oklahoma (Norman, OK)",2007
+44,Rangers,Y,"$1,000,000",*Neil Ramírez ,RHP,0.3,109.0,2.0,0.0,0.0,0.0,185.0,4.0,8.0,4.46,1.42,3.0,HS,"Kempsville HS (Virginia Beach, VA)",2007
+45,Blue Jays,Y,"$675,000",*Justin Jackson ,SS,,,,,,,,,,,,,HS,"T. C. Roberson HS (Asheville, NC)",2007
+46,Padres,Y,"$661,500",*Drew Cumberland ,SS,,,,,,,,,,,,,HS,"Pace HS (Pace, FL)",2007
+47,Mets,Y,"$657,000",*Nathan Vineyard ,LHP,,,,,,,,,,,,,HS,"Woodland HS (Cartersville, GA)",2007
+48,Cubs,Y,"$652,500",*Josh Donaldson ,C,46.8,1383.0,5022.0,279.0,0.261,0.847,1.0,0.0,0.0,0.0,0.0,0.0,4Yr,"Auburn University (Auburn, AL)",2007
+49,Nationals,Y,"$630,000",*Michael Burgess ,OF,,,,,,,,,,,,,HS,"Hillsborough HS (Tampa, FL)",2007
+50,Diamondbacks,Y,"$620,000",*Wes Roemer ,RHP,,,,,,,,,,,,,4Yr,"California State University, Fullerton (Fullerton, CA)",2007
+51,Giants,Y,"$607,500",*Charlie Culberson ,2B,-0.1,586.0,1212.0,30.0,0.248,0.68,8.0,0.0,0.0,1.23,1.36,0.0,HS,"Calhoun HS (Calhoun, GA)",2007
+52,Mariners,Y,"$603,000",*Matt Mangini ,3B,-0.2,11.0,38.0,0.0,0.211,0.461,,,,,,,4Yr,"Oklahoma State University (Stillwater, OK)",2007
+53,Reds,Y,"$594,000",*Kyle Lotzkar ,RHP,,,,,,,,,,,,,,,2007
+54,Rangers,Y,"$585,000",*Tommy Hunter ,RHP,10.9,109.0,5.0,0.0,0.2,0.4,508.0,56.0,47.0,4.07,1.24,22.0,4Yr,"University of Alabama (Tuscaloosa, AL)",2007
+55,Red Sox,Y,"$571,500",*Nick Hagadone ,LHP,-0.2,7.0,0.0,0.0,,,143.0,3.0,2.0,4.72,1.37,1.0,4Yr,"University of Washington (Seattle, WA)",2007
+56,Blue Jays,Y,"$462,500",*Trystan Magnuson ,RHP,-0.2,0.0,0.0,0.0,,,9.0,0.0,0.0,6.14,1.36,0.0,4Yr,"University of Louisville (Louisville, KY)",2007
+57,Padres,Y,"$552,500",*Mitch Canham ,C,,,,,,,,,,,,,4Yr,"Oregon State University (Corvallis, OR)",2007
+58,Angels,Y,"$553,300",*Jon Bachanov ,RHP,,,,,,,,,,,,,HS,"University HS (Orlando, FL)",2007
+59,Athletics,Y,"$544,500",*Corey Brown ,OF,0.3,39.0,41.0,2.0,0.171,0.635,,,,,,,4Yr,"Oklahoma State University (Stillwater, OK)",2007
+60,Tigers,Y,"$540,000",*Brandon Hamilton ,RHP,,,,,,,,,,,,,HS,"Stanhope Elmore HS (Millbrook, AL)",2007
+61,Diamondbacks,Y,"$531,000",*Ed Easley ,C,-0.1,4.0,6.0,0.0,0.0,0.0,,,,,,,4Yr,"Mississippi State University (Mississippi State, MS)",2007
+62,Red Sox,Y,"$571,000",*Ryan Dent ,SS,,,,,,,,,,,,,HS,"Woodrow Wilson HS (Long Beach, CA)",2007
+63,Padres,Y,"$515,000",*Cory Luebke ,LHP,2.4,61.0,49.0,0.0,0.143,0.319,64.0,10.0,13.0,3.52,1.19,0.0,4Yr,"The Ohio State University (Columbus, OH)",2007
+64,Padres,Y,"$517,500",*Danny Payne ,OF,,,,,,,,,,,,,4Yr,"Georgia Institute of Technology (Atlanta, GA)",2007
+1,Rays,Y,"$6,150,000",Tim Beckham ,SS,3.9,484.0,1639.0,63.0,0.246,0.724,,,,,,,HS,"Griffin HS (Griffin, GA)",2008
+2,Pirates,Y,"$6,000,000",Pedro Álvarez ,3B,4.9,910.0,2980.0,162.0,0.236,0.757,,,,,,,4Yr,"Vanderbilt University (Nashville, TN)",2008
+3,Royals,Y,"$6,000,000",Eric Hosmer ,1B,19.1,1689.0,6349.0,198.0,0.276,0.762,,,,,,,HS,"American Heritage HS (Plantation, FL)",2008
+4,Orioles,Y,"$3,200,000",Brian Matusz ,LHP,2.1,19.0,8.0,0.0,0.125,0.25,280.0,27.0,41.0,4.92,1.46,0.0,4Yr,"University of San Diego (San Diego, CA)",2008
+5,Giants,Y,"$6,200,000",Buster Posey ,C,45.0,1371.0,4970.0,158.0,0.302,0.831,,,,,,,4Yr,"Florida State University (Tallahassee, FL)",2008
+6,Marlins,Y,"$2,300,000",Kyle Skipworth ,C,-0.1,4.0,3.0,0.0,0.0,0.25,,,,,,,HS,"Patriot HS (Jurupa Valley, CA)",2008
+7,Reds,Y,"$2,000,000",Yonder Alonso ,1B,8.6,1072.0,3362.0,100.0,0.259,0.736,,,,,,,4Yr,"University of Miami (Coral Gables, FL)",2008
+8,White Sox,Y,"$2,600,000",Gordon Beckham ,SS,5.6,1069.0,3403.0,80.0,0.237,0.667,,,,,,,4Yr,"University of Georgia (Athens, GA)",2008
+9,Nationals,N,,Aaron Crow ,RHP,2.7,17.0,0.0,0.0,,,254.0,20.0,11.0,3.43,1.32,6.0,4Yr,"University of Missouri (Columbia, MO)",2008
+10,Astros,Y,"$2,070,000",Jason Castro ,C,12.0,952.0,2981.0,97.0,0.227,0.699,,,,,,,4Yr,"Stanford University (Palo Alto, CA)",2008
+11,Rangers,Y,"$3,500,000",Justin Smoak ,1B,6.8,1286.0,4153.0,196.0,0.229,0.74,,,,,,,4Yr,"University of South Carolina (Columbia, SC)",2008
+12,Athletics,Y,"$1,910,000",Jemile Weeks ,2B,1.5,260.0,955.0,4.0,0.254,0.667,,,,,,,4Yr,"University of Miami (Coral Gables, FL)",2008
+13,Cardinals,Y,"$1,840,000",Brett Wallace ,1B,-0.1,494.0,1284.0,40.0,0.238,0.705,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",2008
+14,Twins,Y,"$1,780,000",Aaron Hicks ,OF,13.2,981.0,3135.0,109.0,0.231,0.713,1.0,0.0,0.0,18.0,3.0,0.0,HS,"Woodrow Wilson HS (Long Beach, CA)",2008
+15,Dodgers,Y,"$1,730,000",Ethan Martin ,RHP,-0.6,17.0,9.0,0.0,0.0,0.0,17.0,2.0,5.0,5.93,1.64,0.0,HS,"Stephens County School (Toccoa, GA)",2008
+16,Brewers,Y,"$1,700,000",Brett Lawrie ,3B,15.6,588.0,2217.0,71.0,0.261,0.734,,,,,,,HS,"Brookswood SS (Langley, BC)",2008
+17,Blue Jays,Y,"$1,500,000",David Cooper ,1B,0.1,72.0,211.0,6.0,0.27,0.75,,,,,,,4Yr,"University of California, Berkeley (Berkeley, CA)",2008
+18,Mets via Braves,Y,"$1,575,000",*Ike Davis ,1B,5.6,665.0,2076.0,81.0,0.239,0.746,2.0,0.0,0.0,0.0,1.0,0.0,4Yr,"Arizona State University (Tempe, AZ)",2008
+19,Cubs,Y,"$1,540,000",Andrew Cashner ,RHP,10.9,216.0,203.0,1.0,0.158,0.377,300.0,57.0,87.0,4.1,1.36,1.0,4Yr,"Texas Christian University (Fort Worth, TX)",2008
+20,Mariners,Y,"$1,750,000",Josh Fields ,RHP,1.8,133.0,1.0,0.0,0.0,0.0,288.0,17.0,12.0,3.71,1.17,13.0,4Yr,"University of Georgia (Athens, GA)",2008
+21,Tigers,Y,"$1,480,000",Ryan Perry ,RHP,0.2,11.0,0.0,0.0,,,156.0,6.0,6.0,4.36,1.45,2.0,4Yr,"University of Arizona (Tucson, AZ)",2008
+22,Mets,Y,"$1,419,000",Reese Havens ,SS,,,,,,,,,,,,,4Yr,"University of South Carolina (Columbia, SC)",2008
+23,Padres,Y,"$1,150,000",Allan Dykstra ,1B,-0.5,13.0,31.0,1.0,0.129,0.515,,,,,,,4Yr,"Wake Forest University (Winston-Salem, NC)",2008
+24,Phillies,Y,"$1,380,000",Anthony Hewitt ,SS,,,,,,,,,,,,,HS,"Salisbury School (Salisbury, CT)",2008
+25,Rockies,Y,"$1,350,000",Christian Friedrich ,LHP,-0.7,117.0,70.0,0.0,0.071,0.216,124.0,10.0,28.0,5.37,1.52,0.0,4Yr,"Eastern Kentucky University (Richmond, KY)",2008
+26,Diamondbacks,Y,"$1,330,000",Daniel Schlereth ,LHP,0.0,25.0,0.0,0.0,,,94.0,5.0,6.0,4.35,1.57,1.0,4Yr,"University of Arizona (Tucson, AZ)",2008
+27,Twins via Angels,Y,"$1,290,000",*Carlos Gutierrez ,RHP,,,,,,,,,,,,,4Yr,"University of Miami (Coral Gables, FL)",2008
+28,Yankees,N,,Gerrit Cole ,RHP,43.6,128.0,251.0,3.0,0.163,0.393,318.0,153.0,80.0,3.17,1.09,0.0,HS,"Orange Lutheran HS (Orange, CA)",2008
+29,Indians,Y,"$1,100,000",Lonnie Chisenhall ,3B,9.2,688.0,2159.0,64.0,0.268,0.747,,,,,,,JC,"Pitt Community College (Winterville, NC)",2008
+30,Red Sox,Y,"$3,000,000",Casey Kelly ,SS,-1.3,27.0,18.0,0.0,0.111,0.222,30.0,2.0,11.0,5.34,1.61,1.0,HS,"Sarasota HS (Sarasota, FL)",2008
+31,Twins,Y,"$1,080,000",*Shooter Hunt ,RHP,,,,,,,,,,,,,4Yr,"Tulane University (New Orleans, LA)",2008
+32,Brewers,Y,"$1,060,000",*Jake Odorizzi ,RHP,13.4,16.0,24.0,0.0,0.083,0.203,241.0,74.0,69.0,3.99,1.25,1.0,HS,"Highland HS (Highland, IL)",2008
+33,Mets,Y,"$1,040,000",Bradley Holt ,RHP,,,,,,,,,,,,,4Yr,"University of North Carolina at Wilmington (Wilmington, NC)",2008
+34,Phillies,Y,"$1,020,000",*Zach Collier ,OF,,,,,,,,,,,,,HS,"Chino Hills HS (Chino Hills, CA)",2008
+35,Brewers,Y,"$1,010,000",*Evan Frederickson ,LHP,,,,,,,,,,,,,4Yr,"University of San Francisco (San Francisco, CA)",2008
+36,Royals,Y,"$988,000",Mike Montgomery ,LHP,5.9,117.0,80.0,1.0,0.125,0.311,183.0,23.0,34.0,3.84,1.35,3.0,HS,"William S. Hart HS (Santa Clarita, CA)",2008
+37,Giants,Y,"$970,000",*Conor Gillaspie ,3B,2.2,513.0,1424.0,33.0,0.251,0.695,,,,,,,4Yr,"Wichita State University (Wichita, KS)",2008
+38,Astros,Y,"$930,000",*Jordan Lyles ,RHP,-2.4,218.0,223.0,2.0,0.112,0.314,357.0,72.0,107.0,5.22,1.4,2.0,HS,"Hartsville HS (Hartsville, SC)",2008
+39,Cardinals,Y,"$938,000",*Lance Lynn ,RHP,29.8,176.0,283.0,0.0,0.085,0.23,364.0,143.0,99.0,3.74,1.28,1.0,4Yr,"University of Mississippi (Oxford, MS)",2008
+40,Braves,Y,"$1,000,000",*Brett DeVall ,LHP,,,,,,,,,,,,,HS,"Niceville HS (Niceville, FL)",2008
+41,Cubs,Y,"$906,000",*Ryan Flaherty ,SS,0.9,547.0,1324.0,37.0,0.215,0.629,1.0,0.0,0.0,18.0,3.0,0.0,4Yr,"Vanderbilt University (Nashville, TN)",2008
+42,Padres,Y,"$892,000",Jaff Decker ,OF,-1.5,77.0,161.0,1.0,0.174,0.51,1.0,0.0,0.0,0.0,2.0,0.0,HS,"Sunrise Mountain HS (Peoria, AZ)",2008
+43,Diamondbacks,Y,"$877,000",*Wade Miley ,LHP,18.6,157.0,297.0,1.0,0.158,0.389,320.0,109.0,99.0,4.09,1.36,0.0,4Yr,"Southeastern Louisiana University (Hammond, LA)",2008
+44,Yankees,Y,"$700,000",*Jeremy Bleich ,LHP,-0.1,1.0,0.0,0.0,,,2.0,0.0,0.0,54.0,6.0,0.0,4Yr,"Stanford University (Palo Alto, CA)",2008
+45,Red Sox,Y,"$849,000",*Bryan Price ,RHP,-0.2,0.0,0.0,0.0,,,3.0,0.0,0.0,20.25,3.38,0.0,4Yr,"Rice University (Houston, TX)",2008
+46,Padres,Y,"$835,000",*Logan Forsythe ,3B,11.7,970.0,3120.0,71.0,0.244,0.695,1.0,0.0,0.0,9.0,3.0,0.0,4Yr,"University of Arkansas (Fayetteville, AR)",2008
+1,Nationals,Y,"$7,500,000",Stephen Strasburg ,RHP,32.3,233.0,440.0,4.0,0.152,0.4,247.0,113.0,62.0,3.24,1.1,0.0,4Yr,"San Diego State University (San Diego, CA)",2009
+2,Mariners,Y,"$6,000,000",Dustin Ackley ,CF,7.7,635.0,2125.0,46.0,0.241,0.671,,,,,,,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",2009
+3,Padres,Y,"$6,250,000",Donavan Tate ,CF,,,,,,,,,,,,,HS,"Cartersville HS (Cartersville, GA)",2009
+4,Pirates,Y,"$2,500,000",Tony Sanchez ,C,0.1,52.0,144.0,4.0,0.257,0.676,,,,,,,4Yr,"Boston College (Chestnut Hill, MA)",2009
+5,Orioles,Y,"$2,422,000",Matt Hobgood ,RHP,,,,,,,,,,,,,HS,"Norco HS (Norco, CA)",2009
+6,Giants,Y,"$3,300,000",Zack Wheeler ,RHP,42.1,152.0,288.0,1.0,0.153,0.367,288.0,116.0,75.0,3.26,1.13,0.0,HS,"East Paulding HS (Dallas, GA)",2009
+7,Braves,Y,"$2,420,000",Mike Minor ,LHP,18.4,115.0,217.0,2.0,0.115,0.321,295.0,83.0,90.0,4.25,1.25,6.0,4Yr,"Vanderbilt University (Nashville, TN)",2009
+8,Reds,Y,"$2,270,000",Mike Leake ,RHP,16.3,269.0,485.0,6.0,0.192,0.491,301.0,105.0,98.0,4.05,1.28,0.0,4Yr,"Arizona State University (Tempe, AZ)",2009
+9,Tigers,Y,"$4,700,000",Jacob Turner ,RHP,-2.6,73.0,77.0,0.0,0.091,0.257,102.0,14.0,31.0,5.37,1.54,0.0,HS,"Westminster Christian Academy (Town and Country, MO)",2009
+10,Nationals,Y,"$1,600,000",*Drew Storen ,RHP,4.8,399.0,3.0,0.0,0.333,0.667,470.0,29.0,18.0,3.45,1.19,99.0,4Yr,"Stanford University (Palo Alto, CA)",2009
+11,Rockies,Y,"$3,900,000",Tyler Matzek ,LHP,5.4,93.0,46.0,0.0,0.217,0.511,175.0,16.0,21.0,3.73,1.39,1.0,HS,"Capistrano Valley HS (Mission Viejo, CA)",2009
+12,Royals,Y,"$1,500,000",Aaron Crow ,RHP,2.7,17.0,0.0,0.0,,,254.0,20.0,11.0,3.43,1.32,6.0,,,2009
+13,Athletics,Y,"$2,750,000",Grant Green ,SS,-1.6,129.0,330.0,4.0,0.248,0.62,,,,,,,4Yr,"University of Southern California (Los Angeles, CA)",2009
+14,Rangers,N,,Matt Purke ,LHP,-0.1,0.0,0.0,0.0,,,12.0,0.0,1.0,5.5,1.78,0.0,HS,"Klein HS (Klein, TX)",2009
+15,Indians,Y,"$2,250,000",Alex White ,RHP,-0.4,34.0,41.0,2.0,0.146,0.484,33.0,5.0,13.0,6.03,1.69,0.0,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",2009
+16,Diamondbacks,Y,"$1,800,000",Bobby Borchering ,3B,,,,,,,,,,,,,HS,"Bishop Verot HS (Fort Myers, FL)",2009
+17,Diamondbacks via Dodgers,Y,"$1,400,000",*AJ Pollock ,CF,22.1,1087.0,3787.0,145.0,0.273,0.791,,,,,,,4Yr,"University of Notre Dame (South Bend, IN)",2009
+18,Marlins,Y,"$1,700,000",Chad James ,LHP,,,,,,,,,,,,,HS,"Yukon HS (Yukon, OK)",2009
+19,Cardinals,Y,"$2,875,000",Shelby Miller ,RHP,10.4,144.0,204.0,1.0,0.108,0.346,302.0,51.0,69.0,4.04,1.31,13.0,HS,"Brownwood HS (Brownwood, TX)",2009
+20,Blue Jays,Y,"$1,359,000",Chad Jenkins ,RHP,1.4,4.0,2.0,0.0,0.0,0.0,46.0,3.0,4.0,3.31,1.25,0.0,4Yr,"Kennesaw State University (Kennesaw, GA)",2009
+21,Astros,Y,"$1,358,000",Jiovanni Mier ,SS,,,,,,,,,,,,,HS,"Bonita HS (La Verne, CA)",2009
+22,Twins,Y,"$1,850,000",Kyle Gibson ,RHP,14.5,24.0,48.0,1.0,0.167,0.429,334.0,112.0,111.0,4.6,1.38,0.0,4Yr,"University of Missouri (Columbia, MO)",2009
+23,White Sox,Y,"$1,200,000",Jared Mitchell ,CF,,,,,,,,,,,,,4Yr,"Louisiana State University (Baton Rouge, LA)",2009
+24,Angels via Mets,Y,"$1,242,000",*Randal Grichuk ,LF,14.0,1389.0,4547.0,216.0,0.25,0.763,1.0,0.0,0.0,0.0,0.0,0.0,HS,"Lamar Consolidated HS (Rosenberg, TX)",2009
+25,Angels via Yankees,Y,"$1,215,000",*Mike Trout ,CF,89.7,1699.0,6147.0,416.0,0.292,0.974,,,,,,,HS,"Millville Senior HS (Millville, NJ)",2009
+26,Brewers,Y,"$1,197,000",Eric Arnett ,RHP,,,,,,,,,,,,,4Yr,"Indiana University Bloomington (Bloomington, IN)",2009
+27,Mariners via Phillies,Y,"$1,280,000",*Nick Franklin ,SS,1.3,301.0,833.0,24.0,0.214,0.644,1.0,0.0,0.0,18.0,3.0,0.0,HS,"Lake Brantley HS (Altamonte Springs, FL)",2009
+28,Red Sox,Y,"$1,134,000",Rey Fuentes ,CF,-0.6,100.0,210.0,3.0,0.238,0.595,,,,,,,HS,"Fernando Callejo HS (Manati, Puerto Rico)",2009
+29,Yankees,Y,"$2,200,000",*Slade Heathcott ,CF,0.4,17.0,25.0,2.0,0.4,1.149,,,,,,,HS,"Texas HS (Texarkana, TX)",2009
+30,Rays,N,,LeVon Washington ,2B,,,,,,,,,,,,,HS,"F. W. Buchholz HS (Gainesville, FL)",2009
+31,Cubs,Y,"$972,000",Brett Jackson ,CF,0.0,51.0,124.0,4.0,0.169,0.63,,,,,,,4Yr,"University of California, Berkeley (Berkeley, CA)",2009
+32,Rockies via Angels,Y,"$900,000",*Tim Wheeler ,CF,,,,,,,,,,,,,4Yr,"California State University, Sacramento (Sacramento, CA)",2009
+33,Mariners,Y,"$980,000",*Steven Baron ,C,-0.4,13.0,26.0,0.0,0.115,0.269,,,,,,,HS,"John A. Ferguson HS (Miami, FL)",2009
+34,Rockies,Y,"$969,000",*Rex Brothers ,LHP,4.3,355.0,6.0,0.0,0.0,0.0,374.0,23.0,16.0,4.08,1.49,21.0,4Yr,"Lipscomb University (Nashville, TN)",2009
+35,Diamondbacks,Y,"$900,000",*Matt Davidson ,3B,-0.9,306.0,1003.0,54.0,0.22,0.719,6.0,0.0,0.0,2.84,1.26,0.0,HS,"Yucaipa HS (Yucaipa, CA)",2009
+36,Dodgers,Y,"$889,200",*Aaron Miller ,LHP,,,,,,,,,,,,,4Yr,"Baylor University (Waco, TX)",2009
+37,Blue Jays,N,,*James Paxton ,LHP,13.9,8.0,12.0,0.0,0.0,0.143,177.0,73.0,41.0,3.77,1.25,0.0,4Yr,"University of Kentucky (Lexington, KY)",2009
+38,White Sox,Y,"$858,600",*Josh Phegley ,C,2.2,387.0,1116.0,35.0,0.225,0.649,1.0,0.0,0.0,0.0,0.0,0.0,4Yr,"Indiana University Bloomington (Bloomington, IN)",2009
+39,Brewers,Y,"$1,200,000",*Kentrail Davis ,CF,,,,,,,,,,,,,4Yr,"University of Tennessee (Knoxville, TN)",2009
+40,Angels,Y,"$1,000,000",*Tyler Skaggs ,LHP,3.6,17.0,23.0,0.0,0.087,0.212,96.0,28.0,38.0,4.41,1.33,0.0,HS,"Santa Monica HS (Santa Monica, CA)",2009
+41,Diamondbacks,Y,"$950,000",*Chris Owings ,SS,1.3,720.0,2305.0,37.0,0.239,0.65,3.0,0.0,0.0,12.27,3.0,0.0,HS,"Gilbert HS (Gilbert, SC)",2009
+42,Angels,Y,"$802,800",*Garrett Richards ,RHP,8.3,16.0,20.0,0.0,0.05,0.15,259.0,55.0,50.0,3.87,1.31,6.0,4Yr,"University of Oklahoma (Norman, OK)",2009
+43,Reds,Y,"$857,000",*Brad Boxberger ,RHP,4.4,184.0,3.0,0.0,0.0,0.0,506.0,31.0,38.0,3.5,1.27,84.0,4Yr,"University of Southern California (Los Angeles, CA)",2009
+44,Rangers,Y,"$1,250,000",*Tanner Scheppers ,RHP,0.9,12.0,0.0,0.0,,,180.0,12.0,7.0,4.23,1.4,3.0,,,2009
+45,Diamondbacks,Y,"$725,000",*Mike Belfiore ,LHP,-0.1,0.0,0.0,0.0,,,1.0,0.0,0.0,13.5,3.0,0.0,4Yr,"Boston College (Chestnut Hill, MA)",2009
+46,Twins,Y,"$751,500",*Matt Bashore ,LHP,,,,,,,,,,,,,4Yr,"Indiana University Bloomington (Bloomington, IN)",2009
+47,Brewers,Y,"$776,000",*Kyle Heckathorn ,RHP,,,,,,,,,,,,,4Yr,"Kennesaw State University (Kennesaw, GA)",2009
+48,Angels,Y,"$728,100",*Tyler Kehrer ,LHP,,,,,,,,,,,,,4Yr,"Eastern Illinois University (Charleston, IL)",2009
+49,Pirates,Y,"$717,000",*Vic Black ,RHP,0.5,57.0,0.0,0.0,,,59.0,5.0,3.0,2.96,1.32,1.0,4Yr,"Dallas Baptist University (Dallas, TX)",2009
+1,Nationals,Y,"$6,250,000",Bryce Harper ,OF,54.9,1836.0,6619.0,375.0,0.279,0.905,,,,,,,JC,"College of Southern Nevada (Henderson, NV)",2010
+2,Pirates,Y,"$6,500,000",Jameson Taillon ,RHP,14.4,78.0,136.0,0.0,0.11,0.241,234.0,84.0,64.0,3.93,1.2,1.0,HS,"The Woodlands HS (The Woodlands, TX)",2010
+3,Orioles,Y,"$5,250,000",Manny Machado ,SS,61.6,1942.0,7597.0,377.0,0.276,0.819,,,,,,,HS,"Brito Miami Private School (Miami, FL)",2010
+4,Royals,Y,"$2,750,000",Christian Colón ,SS,1.3,161.0,378.0,1.0,0.249,0.622,,,,,,,4Yr,"California State University, Fullerton (Fullerton, CA)",2010
+5,Indians,Y,"$2,650,000",Drew Pomeranz ,LHP,12.7,131.0,89.0,2.0,0.135,0.369,363.0,50.0,63.0,3.87,1.34,10.0,4Yr,"University of Mississippi (Oxford, MS)",2010
+6,Diamondbacks,N,,Barret Loux ,RHP,,,,,,,,,,,,,4Yr,"Texas A&M University (College Station, TX)",2010
+7,Mets,Y,"$2,525,000",Matt Harvey ,RHP,9.3,132.0,255.0,1.0,0.106,0.265,180.0,50.0,66.0,4.42,1.29,0.0,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",2010
+8,Astros,Y,"$2,150,000",Delino DeShields ,CF,5.1,601.0,1828.0,19.0,0.246,0.669,,,,,,,HS,"Woodward Academy (College Park, GA)",2010
+9,Padres,N,,Karsten Whitson ,RHP,,,,,,,,,,,,,HS,"Chipley HS (Chipley, FL)",2010
+10,Athletics,Y,"$2,000,000",Michael Choice ,CF,-2.0,96.0,272.0,9.0,0.188,0.573,,,,,,,4Yr,"University of Texas at Arlington (Arlington, TX)",2010
+11,Blue Jays,Y,"$2,000,000",Deck McGuire ,RHP,-0.2,9.0,6.0,0.0,0.167,0.333,27.0,1.0,3.0,5.23,1.47,0.0,4Yr,"Georgia Institute of Technology (Atlanta, GA)",2010
+12,Reds,Y,"$2,000,000",Yasmani Grandal ,C,20.2,1307.0,4138.0,194.0,0.236,0.769,,,,,,,4Yr,"University of Miami (Coral Gables, FL)",2010
+13,White Sox,Y,"$1,656,000",Chris Sale ,LHP,59.6,14.0,26.0,0.0,0.115,0.269,403.0,152.0,91.0,2.98,1.04,12.0,4Yr,"Florida Gulf Coast University (Fort Myers, FL)",2010
+14,Brewers,N,,Dylan Covey ,RHP,-2.6,4.0,4.0,0.0,0.0,0.0,100.0,7.0,32.0,6.18,1.58,0.0,HS,"Maranatha HS (Pasadena, CA)",2010
+15,Rangers,Y,"$1,557,000",*Jake Skole ,CF,,,,,,,,,,,,,HS,"Blessed Trinity Catholic HS (Roswell, GA)",2010
+16,Cubs,Y,"$1,060,000",Hayden Simpson ,RHP,,,,,,,,,,,,,4Yr,"Southern Arkansas University (Magnolia, AR)",2010
+17,Rays,Y,"$1,620,000",Josh Sale ,RF,,,,,,,,,,,,,HS,"Bishop Blanchet HS (Seattle, WA)",2010
+18,Angels via Mariners,Y,"$2,300,000",*Kaleb Cowart ,RHP,-1.3,171.0,370.0,6.0,0.176,0.53,,,,,,,HS,"Cook HS (Adel, GA)",2010
+19,Astros via Tigers,Y,"$1,305,000",*Mike Foltynewicz ,RHP,4.4,117.0,201.0,0.0,0.07,0.158,166.0,46.0,54.0,4.52,1.32,0.0,HS,"Minooka Community HS (Minooka, IL)",2010
+20,Red Sox via Braves,Y,"$1,359,000",*Kolbrin Vitek ,2B,,,,,,,,,,,,,4Yr,"Ball State University (Muncie, IN)",2010
+21,Twins,Y,"$1,332,000",Alex Wimmers ,RHP,0.2,2.0,0.0,0.0,,,22.0,1.0,3.0,4.38,1.66,0.0,4Yr,"The Ohio State University (Columbus, OH)",2010
+22,Rangers,Y,"$1,000,000",Kellin Deglan ,C,,,,,,,,,,,,,HS,"R. E. Mountain Secondary (Langley, BC)",2010
+23,Marlins,Y,"$1,700,000",Christian Yelich ,1B,45.5,1637.0,6185.0,236.0,0.285,0.838,,,,,,,HS,"Westlake HS (Westlake Village, CA)",2010
+24,Giants,Y,"$1,450,000",Gary Brown ,CF,0.1,7.0,7.0,0.0,0.429,0.857,,,,,,,4Yr,"California State University, Fullerton (Fullerton, CA)",2010
+25,Cardinals,Y,"$2,000,000",Zack Cox ,3B,,,,,,,,,,,,,4Yr,"University of Arkansas (Fayetteville, AR)",2010
+26,Rockies,Y,"$1,400,000",Kyle Parker ,RF,-1.7,64.0,132.0,3.0,0.182,0.513,,,,,,,4Yr,"Clemson University (Clemson, SC)",2010
+27,Phillies,Y,"$1,160,000",Jesse Biddle ,LHP,-0.6,77.0,2.0,0.0,0.5,1.5,99.0,6.0,2.0,5.07,1.6,1.0,HS,"Germantown Friends HS (Philadelphia, PA)",2010
+28,Dodgers,Y,"$5,250,000",Zach Lee ,RHP,-0.3,4.0,5.0,0.0,0.0,0.0,4.0,1.0,1.0,8.53,2.21,0.0,HS,"McKinney HS (McKinney, TX)",2010
+29,Angels via Red Sox,Y,"$1,116,000",*Cam Bedrosian ,RHP,1.7,40.0,0.0,0.0,,,311.0,17.0,13.0,3.81,1.37,9.0,HS,"East Coweta HS (Sharpsburg, GA)",2010
+30,Angels,Y,"$1,089,000",Chevy Clarke ,CF,,,,,,,,,,,,,HS,"Marietta HS (Marietta, GA)",2010
+31,Rays,Y,"$1,025,000",*Justin O'Conner ,C,,,,,,,,,,,,,HS,"Cowan HS (Muncie, IN)",2010
+32,Yankees,Y,"$954,000",Cito Culver ,RHP,,,,,,,,,,,,,HS,"Irondequoit HS (Rochester, NY)",2010
+33,Astros,Y,"$936,000",*Mike Kvasnicka ,C,,,,,,,,,,,,,4Yr,"University of Minnesota (Minneapolis, MN)",2010
+34,Blue Jays,Y,"$775,000",*Aaron Sanchez ,RHP,8.1,17.0,22.0,0.0,0.0,0.043,174.0,38.0,38.0,4.16,1.38,3.0,HS,"Barstow HS (Barstow, CA)",2010
+35,Braves,Y,"$800,000",*Matt Lipka ,SS,,,,,,,,,,,,,HS,"McKinney HS (McKinney, TX)",2010
+36,Red Sox,Y,"$889,200",*Bryce Brentz ,LF,0.0,34.0,87.0,1.0,0.287,0.69,,,,,,,4Yr,"Middle Tennessee State University (Murfreesboro, TN)",2010
+37,Angels,Y,"$873,000",*Taylor Lindsey ,SS,,,,,,,,,,,,,HS,"Desert Mountain HS (Scottsdale, AZ)",2010
+38,Blue Jays,Y,"$600,000",*Noah Syndergaard ,RHP,15.7,113.0,222.0,6.0,0.153,0.472,164.0,59.0,47.0,3.71,1.2,0.0,HS,"Legacy HS (Mansfield, TX)",2010
+39,Red Sox,Y,"$2,550,000",*Anthony Ranaudo ,RHP,-1.6,5.0,10.0,1.0,0.1,0.5,20.0,5.0,5.0,7.01,1.59,0.0,4Yr,"Louisiana State University (Baton Rouge, LA)",2010
+40,Angels,Y,"$829,800",*Ryan Bolden ,CF,,,,,,,,,,,,,HS,"Madison Central HS (Madison, MS)",2010
+41,Blue Jays,Y,"$815,400",*Asher Wojciechowski ,RHP,-0.4,24.0,15.0,0.0,0.067,0.133,58.0,9.0,15.0,5.93,1.46,0.0,4Yr,"The Citadel (Charleston, SC)",2010
+42,Rays,Y,"$845,000",*Drew Vettleson ,RF,,,,,,,,,,,,,HS,"Central Kitsap HS (Silverdale, WA)",2010
+43,Mariners,Y,"$800,000",*Taijuan Walker ,RHP,12.2,61.0,112.0,1.0,0.161,0.388,256.0,78.0,75.0,4.27,1.3,1.0,HS,"Yucaipa HS (Yucaipa, CA)",2010
+44,Tigers,Y,"$3,450,000",*Nick Castellanos ,3B,12.2,1721.0,6513.0,254.0,0.271,0.782,,,,,,,HS,"Archbishop McCarthy HS (Southwest Ranches, FL)",2010
+45,Rangers,Y,"$1,545,000",*Luke Jackson ,RHP,1.9,206.0,3.0,0.0,0.0,0.25,390.0,24.0,16.0,4.22,1.44,28.0,HS,"Calvary Christian Academy (Fort Lauderdale, FL)",2010
+46,Cardinals,Y,"$751,500",*Seth Blair ,RHP,,,,,,,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",2010
+47,Rockies,Y,"$982,500",*Pete Tago ,RHP,,,,,,,,,,,,,HS,"Dana Hills HS (Dana Point, CA)",2010
+48,Tigers,Y,"$1,150,000",*Chance Ruffin ,RHP,-0.5,2.0,0.0,0.0,,,24.0,1.0,2.0,5.6,1.68,0.0,4Yr,"University of Texas at Austin (Austin, TX)",2010
+49,Rangers,Y,"$717,300",*Mike Olt ,3B,-1.5,135.0,352.0,16.0,0.168,0.58,,,,,,,4Yr,"University of Connecticut (Storrs, CT)",2010
+50,Cardinals,Y,"$1,300,000",*Tyrell Jenkins ,RHP,-0.4,14.0,13.0,0.0,0.0,0.0,14.0,2.0,4.0,5.88,1.69,0.0,HS,"Henderson HS (Henderson, TX)",2010
+1,Pirates,Y,"$8,000,000",Gerrit Cole ,RHP,43.6,128.0,251.0,3.0,0.163,0.393,318.0,153.0,80.0,3.17,1.09,0.0,4Yr,"University of California, Los Angeles (Los Angeles, CA)",2011
+2,Mariners,Y,"$6,350,000",Danny Hultzen ,LHP,0.2,6.0,0.0,0.0,,,6.0,0.0,0.0,0.0,1.8,0.0,4Yr,"University of Virginia (Charlottesville, VA)",2011
+3,Diamondbacks,Y,"$3,400,000",Trevor Bauer ,RHP,21.1,40.0,73.0,0.0,0.068,0.185,222.0,83.0,69.0,3.79,1.24,1.0,4Yr,"University of California, Los Angeles (Los Angeles, CA)",2011
+4,Orioles,Y,"$4,000,000",Dylan Bundy ,RHP,7.5,8.0,14.0,0.0,0.143,0.286,190.0,54.0,65.0,4.74,1.3,0.0,HS,"Owasso HS (Owasso, OK)",2011
+5,Royals,Y,"$7,500,000",Bubba Starling ,OF,-1.8,91.0,245.0,5.0,0.204,0.544,,,,,,,HS,"Gardner-Edgerton HS (Gardner, KS)",2011
+6,Nationals,Y,"$6,000,000",Anthony Rendon ,3B,34.2,1173.0,4350.0,158.0,0.28,0.829,,,,,,,4Yr,"Rice University (Houston, TX)",2011
+7,Diamondbacks,Y,"$5,000,000",*Archie Bradley ,RHP,5.6,274.0,63.0,0.0,0.095,0.189,333.0,30.0,29.0,4.03,1.38,32.0,HS,"Broken Arrow HS (Broken Arrow, OK)",2011
+8,Indians,Y,"$2,900,000",Francisco Lindor ,SS,56.0,1559.0,6179.0,281.0,0.273,0.815,,,,,,,HS,"Montverde Academy (Montverde, FL)",2011
+9,Cubs,Y,"$2,625,000",Javier Báez ,SS,27.1,1372.0,4872.0,195.0,0.252,0.725,,,,,,,HS,"Arlington Country Day School (Jacksonville, FL)",2011
+10,Padres,Y,"$1,863,000",*Cory Spangenberg ,2B,4.1,420.0,1250.0,29.0,0.256,0.704,2.0,0.0,0.0,13.5,3.5,0.0,JC,"Indian River State College (Fort Pierce, FL)",2011
+11,Astros,Y,"$2,525,000",George Springer ,OF,42.0,1477.0,5678.0,297.0,0.265,0.826,,,,,,,4Yr,"University of Connecticut (Storrs, CT)",2011
+12,Brewers,Y,"$2,525,000",Taylor Jungmann ,RHP,1.3,30.0,45.0,0.0,0.244,0.55,30.0,9.0,13.0,4.54,1.38,0.0,4Yr,"University of Texas at Austin (Austin, TX)",2011
+13,Mets,Y,"$2,100,000",Brandon Nimmo ,OF,27.8,1114.0,3911.0,141.0,0.262,0.802,,,,,,,HS,"East HS (Cheyenne, WY)",2011
+14,Marlins,Y,"$2,000,000",José Fernández ,RHP,14.2,71.0,136.0,2.0,0.213,0.519,76.0,38.0,17.0,2.58,1.05,0.0,HS,"Braulio Alonso HS (Tampa, FL)",2011
+15,Brewers,Y,"$2,000,000",*Jed Bradley ,LHP,0.0,6.0,0.0,0.0,,,6.0,1.0,1.0,5.14,1.86,0.0,4Yr,"Georgia Institute of Technology (Atlanta, GA)",2011
+16,Dodgers,Y,"$1,589,000",Chris Reed ,LHP,0.0,2.0,0.0,0.0,,,2.0,0.0,0.0,4.5,1.75,0.0,4Yr,"Stanford University (Palo Alto, CA)",2011
+17,Angels,Y,"$1,467,000",C.J. Cron ,1B,12.5,1049.0,3670.0,187.0,0.26,0.791,,,,,,,4Yr,"University of Utah (Salt Lake City, UT)",2011
+18,Athletics,Y,"$1,540,000",Sonny Gray ,RHP,33.9,63.0,99.0,0.0,0.141,0.328,347.0,130.0,103.0,3.57,1.2,0.0,4Yr,"Vanderbilt University (Nashville, TN)",2011
+19,Red Sox via Tigers,Y,"$1,500,000",*Matt Barnes ,RHP,4.2,25.0,1.0,0.0,0.0,0.0,467.0,33.0,30.0,4.21,1.36,47.0,4Yr,"University of Connecticut (Storrs, CT)",2011
+20,Rockies,Y,"$1,400,000",Tyler Anderson ,LHP,16.7,94.0,158.0,2.0,0.095,0.282,231.0,62.0,72.0,4.3,1.3,0.0,4Yr,"University of Oregon (Eugene, OR)",2011
+21,Blue Jays,N,,Tyler Beede ,RHP,-1.2,28.0,40.0,0.0,0.1,0.263,71.0,8.0,16.0,5.55,1.58,0.0,HS,"Lawrence Academy (Groton, MA)",2011
+22,Cardinals,Y,"$1,300,000",Kolten Wong ,2B,22.9,1189.0,3796.0,86.0,0.256,0.719,,,,,,,4Yr,"University of Hawaii at Manoa (Honolulu, HI)",2011
+23,Nationals via White Sox,Y,"$2,000,000",*Alex Meyer ,RHP,0.7,3.0,2.0,0.0,0.5,1.0,22.0,5.0,8.0,4.63,1.46,0.0,4Yr,"University of Kentucky (Lexington, KY)",2011
+24,Rays via Red Sox,Y,"$1,600,000",*Taylor Guerrieri ,RHP,0.2,2.0,0.0,0.0,,,29.0,0.0,0.0,5.5,1.69,0.0,HS,"Spring Valley HS (Columbia, SC)",2011
+25,Padres,Y,"$2,750,000",Joe Ross ,RHP,5.1,110.0,157.0,0.0,0.185,0.434,163.0,31.0,35.0,4.37,1.36,0.0,HS,"Bishop O'Dowd HS (Oakland, CA)",2011
+26,Red Sox via Rangers,Y,"$2,500,000",*Blake Swihart ,C,-0.6,234.0,639.0,12.0,0.243,0.656,,,,,,,HS,"V. Sue Cleveland HS (Rio Rancho, NM)",2011
+27,Reds,Y,"$2,000,000",Robert Stephenson ,RHP,1.1,137.0,36.0,0.0,0.028,0.082,283.0,19.0,20.0,4.59,1.33,3.0,HS,"Alhambra HS (Martinez, CA)",2011
+28,Braves,Y,"$1,134,000",Sean Gilmartin ,LHP,1.2,64.0,7.0,0.0,0.429,1.0,81.0,4.0,5.0,4.34,1.42,0.0,4Yr,"Florida State University (Tallahassee, FL)",2011
+29,Giants,Y,"$1,116,000",Joe Panik ,SS,5.5,818.0,2778.0,42.0,0.264,0.7,,,,,,,4Yr,"St. John's University (Queens, NY)",2011
+30,Twins,Y,"$1,175,000",Levi Michael ,SS,,,,,,,,,,,,,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",2011
+31,Rays via Yankees,Y,"$1,150,000",*Mikie Mahtook ,OF,0.3,291.0,884.0,33.0,0.235,0.697,,,,,,,4Yr,"Louisiana State University (Baton Rouge, LA)",2011
+32,Rays,Y,"$963,000",Jake Hager ,SS,-0.2,42.0,76.0,0.0,0.197,0.531,3.0,0.0,0.0,7.71,1.29,0.0,HS,"Sierra Vista HS (Las Vegas, NV)",2011
+33,Rangers via Phillies,Y,"$936,000",*Kevin Matthews ,LHP,,,,,,,,,,,,,HS,"Richmond Hill HS (Richmond Hill, GA)",2011
+34,Nationals,Y,"$3,000,000",*Brian Goodwin ,OF,1.4,429.0,1244.0,50.0,0.244,0.757,,,,,,,4Yr,"Miami Dade College, Kendall Campus (Miami, FL)",2011
+35,Blue Jays,Y,"$990,000",*Jacob Anderson ,OF,,,,,,,,,,,,,HS,"Chino HS (Chino, CA)",2011
+36,Red Sox,Y,"$1,550,000",*Henry Owens ,LHP,0.1,1.0,2.0,0.0,0.0,0.0,16.0,4.0,6.0,5.19,1.52,0.0,HS,"Edison HS (Huntington Beach, CA)",2011
+37,Rangers,Y,"$873,000",*Zach Cone ,OF,,,,,,,,,,,,,4Yr,"University of Georgia (Athens, GA)",2011
+38,Rays,Y,"$860,000",*Brandon Martin ,SS,,,,,,,,,,,,,HS,"Santiago HS (Corona, CA)",2011
+39,Phillies,Y,"$1,000,000",*Larry Greene ,OF,,,,,,,,,,,,,HS,"Berrien County HS (Nashville, GA)",2011
+40,Red Sox,Y,"$1,100,000",*Jackie Bradley Jr. ,OF,16.6,1181.0,3735.0,109.0,0.225,0.684,1.0,0.0,0.0,9.0,4.0,0.0,4Yr,"University of South Carolina (Columbia, SC)",2011
+41,Rays,Y,"$1,500,000",*Tyler Goeddel ,3B,-1.3,92.0,213.0,4.0,0.192,0.549,,,,,,,HS,"St. Francis HS (Mountain View, CA)",2011
+42,Rays,Y,"$650,000",*Jeff Ames ,RHP,,,,,,,,,,,,,JC,"Lower Columbia College (Longview, WA)",2011
+43,Diamondbacks,Y,"$875,000",*Andrew Chafin ,LHP,8.1,350.0,5.0,0.0,0.2,0.4,643.0,22.0,28.0,3.35,1.28,20.0,4Yr,"Kent State University (Kent, OH)",2011
+44,Mets,Y,"$937,500",*Michael Fulmer ,RHP,12.5,14.0,14.0,0.0,0.0,0.0,265.0,37.0,50.0,3.95,1.26,19.0,HS,"Deer Creek HS (Edmond, OK)",2011
+45,Rockies,Y,"$915,000",*Trevor Story ,SS,35.0,1106.0,4208.0,207.0,0.262,0.809,,,,,,,HS,"Irving HS (Irving, TX)",2011
+46,Blue Jays,Y,"$500,000",*Joe Musgrove ,RHP,15.0,104.0,138.0,0.0,0.145,0.358,206.0,66.0,62.0,3.73,1.17,2.0,HS,"Grossmont HS (La Mesa, CA)",2011
+47,White Sox,Y,"$795,000",*Keenyn Walker ,OF,,,,,,,,,,,,,JC,"Central Arizona College (Coolidge, AZ)",2011
+48,Padres,Y,"$718,000",*Michael Kelly ,RHP,1.6,1.0,0.0,0.0,,,92.0,8.0,6.0,3.19,1.29,2.0,HS,"West Boca Raton Community HS (Boca Raton, FL)",2011
+49,Giants,Y,"$900,000",*Kyle Crick ,RHP,1.6,162.0,0.0,0.0,,,194.0,9.0,11.0,3.56,1.32,2.0,HS,"Sherman HS (Sherman, TX)",2011
+50,Twins,Y,"$1,050,000",*Travis Harrison ,3B,,,,,,,,,,,,,HS,"Tustin HS (Tustin, CA)",2011
+51,Yankees,Y,"$750,000",*Dante Bichette ,3B,,,,,,,,,,,,,HS,"Orangewood Christian HS (Maitland, FL)",2011
+52,Rays,Y,"$684,000",*Blake Snell ,LHP,25.0,31.0,42.0,0.0,0.095,0.269,223.0,81.0,63.0,3.17,1.22,0.0,HS,"Shorewood HS (Shoreline, WA)",2011
+53,Blue Jays,Y,"$800,000",*Dwight Smith Jr. ,OF,-0.8,169.0,512.0,17.0,0.248,0.726,,,,,,,HS,"McIntosh HS (Peachtree City, GA)",2011
+54,Padres,N,,*Brett Austin ,C,,,,,,,,,,,,,HS,"Providence HS (Charlotte, NC)",2011
+55,Twins,Y,"$1,000,000",*Hudson Boyd ,RHP,,,,,,,,,,,,,HS,"Bishop Verot HS (Fort Myers, FL)",2011
+56,Rays,Y,"$625,000",*Kes Carter ,OF,,,,,,,,,,,,,4Yr,"Western Kentucky University (Bowling Green, KY)",2011
+57,Blue Jays,Y,"$1,650,000",*Kevin Comer ,RHP,,,,,,,,,,,,,HS,"Seneca HS (Tabernacle, NJ)",2011
+58,Padres,Y,"$624,600",*Jace Peterson ,SS,2.3,887.0,2415.0,42.0,0.226,0.651,6.0,0.0,0.0,12.0,2.83,0.0,4Yr,"McNeese State University (Lake Charles, LA)",2011
+59,Rays,Y,"$370,000",*Grayson Garvin ,LHP,,,,,,,,,,,,,4Yr,"Vanderbilt University (Nashville, TN)",2011
+60,Rays,Y,"$490,000",*James Harris ,OF,,,,,,,,,,,,,HS,"Oakland Technical HS (Oakland, CA)",2011
+1,Astros,Y,"$4,800,000",Carlos Correa ,SS,47.0,1285.0,4838.0,203.0,0.275,0.815,,,,,,,HS,"Puerto Rico Baseball Academy (Gurabo, Puerto Rico)",2012
+2,Twins,Y,"$6,000,000",Byron Buxton ,OF,31.6,941.0,3284.0,184.0,0.248,0.802,,,,,,,HS,"Appling County HS (Baxley, GA)",2012
+3,Mariners,Y,"$4,000,000",Mike Zunino ,C,9.0,892.0,2798.0,149.0,0.199,0.676,,,,,,,4Yr,"University of Florida (Gainesville, FL)",2012
+4,Orioles,Y,"$4,320,000",Kevin Gausman ,RHP,29.5,81.0,110.0,0.0,0.109,0.27,372.0,116.0,116.0,3.8,1.23,0.0,4Yr,"Louisiana State University (Baton Rouge, LA)",2012
+5,Royals,Y,"$3,000,000",Kyle Zimmer ,RHP,0.0,4.0,0.0,0.0,,,83.0,5.0,2.0,5.19,1.54,2.0,4Yr,"University of San Francisco (San Francisco, CA)",2012
+6,Cubs,Y,"$3,900,000",Albert Almora ,OF,3.2,600.0,1491.0,33.0,0.259,0.683,1.0,0.0,0.0,27.0,2.0,0.0,HS,"Mater Academy Charter School (Hialeah, FL)",2012
+7,Padres,Y,"$3,000,000",Max Fried ,LHP,30.2,93.0,126.0,0.0,0.214,0.542,210.0,96.0,44.0,3.04,1.14,0.0,HS,"Harvard-Westlake HS (Los Angeles, CA)",2012
+8,Pirates,N,,Mark Appel ,RHP,0.3,1.0,0.0,0.0,,,6.0,0.0,0.0,1.74,1.16,0.0,4Yr,"Stanford University (Palo Alto, CA)",2012
+9,Marlins,Y,"$2,600,000",Andrew Heaney ,LHP,7.4,15.0,24.0,0.0,0.125,0.285,230.0,56.0,72.0,4.57,1.28,0.0,4Yr,"Oklahoma State University (Stillwater, OK)",2012
+10,Rockies,Y,"$2,600,000",David Dahl ,OF,0.9,350.0,1210.0,46.0,0.268,0.773,,,,,,,HS,"Oak Mountain HS (Birmingham, AL)",2012
+11,Athletics,Y,"$2,625,000",Addison Russell ,SS,11.7,615.0,1987.0,60.0,0.242,0.704,,,,,,,HS,"Pace HS (Pace, FL)",2012
+12,Mets,Y,"$2,300,000",Gavin Cecchini ,SS,-0.5,36.0,83.0,1.0,0.217,0.571,,,,,,,HS,"Alfred M. Barbe HS (Lake Charles, LA)",2012
+13,White Sox,Y,"$2,475,000",Courtney Hawkins ,OF,,,,,,,,,,,,,HS,"Mary Carroll HS (Corpus Christi, TX)",2012
+14,Reds,Y,"$2,000,000",Nick Travieso ,RHP,,,,,,,,,,,,,HS,"Archbishop McCarthy HS (Southwest Ranches, FL)",2012
+15,Indians,Y,"$1,750,000",Tyler Naquin ,OF,3.3,562.0,1668.0,61.0,0.263,0.762,,,,,,,4Yr,"Texas A&M University (College Station, TX)",2012
+16,Nationals,Y,"$2,925,000",Lucas Giolito ,RHP,14.4,13.0,18.0,0.0,0.167,0.333,207.0,72.0,66.0,4.31,1.26,0.0,HS,"Harvard-Westlake HS (Los Angeles, CA)",2012
+17,Blue Jays,Y,"$1,750,000",D.J. Davis ,OF,,,,,,,,,,,,,HS,"Stone HS (Wiggins, MS)",2012
+18,Dodgers,Y,"$2,350,000",Corey Seager ,SS,44.0,1173.0,4500.0,228.0,0.285,0.863,,,,,,,HS,"Northwest Cabarrus HS (Concord, NC)",2012
+19,Cardinals via Angels,Y,"$1,900,000",*Michael Wacha ,RHP,21.2,159.0,251.0,0.0,0.092,0.222,319.0,115.0,77.0,3.84,1.27,0.0,4Yr,"Texas A&M University (College Station, TX)",2012
+20,Giants,Y,"$1,850,000",Chris Stratton ,RHP,0.5,138.0,64.0,0.0,0.125,0.264,374.0,41.0,27.0,4.64,1.44,16.0,4Yr,"Mississippi State University (Mississippi State, MS)",2012
+21,Braves,Y,"$1,650,000",Lucas Sims ,RHP,2.1,93.0,27.0,0.0,0.074,0.148,272.0,23.0,21.0,4.85,1.34,12.0,HS,"Brookwood HS (Snellville, GA)",2012
+22,Blue Jays,Y,"$1,800,000",*Marcus Stroman ,RHP,21.7,56.0,89.0,1.0,0.101,0.308,270.0,90.0,87.0,3.79,1.28,2.0,4Yr,"Duke University (Durham, NC)",2012
+23,Cardinals,Y,"$1,600,000",James Ramsey ,OF,,,,,,,,,,,,,4Yr,"Florida State University (Tallahassee, FL)",2012
+24,Red Sox,Y,"$2,050,000",Deven Marrero ,SS,-0.4,178.0,341.0,6.0,0.191,0.525,,,,,,,4Yr,"Arizona State University (Tempe, AZ)",2012
+25,Rays,Y,"$1,710,000",Richie Shaffer ,3B,0.1,51.0,122.0,5.0,0.213,0.72,,,,,,,4Yr,"Clemson University (Clemson, SC)",2012
+26,Diamondbacks,Y,"$1,700,000",Stryker Trahan ,C,,,,,,,,,,,,,HS,"Acadiana HS (Lafayette, LA)",2012
+27,Brewers via Tigers,Y,"$1,675,000",*Clint Coulter ,C,,,,,,,,,,,,,HS,"Union HS (Camas, WA)",2012
+28,Brewers,Y,"$1,525,000",Victor Roache ,OF,,,,,,,,,,,,,4Yr,"Georgia Southern University (Statesboro, GA)",2012
+29,Rangers,Y,"$1,625,000",Lewis Brinson ,OF,-3.8,357.0,1071.0,28.0,0.198,0.574,,,,,,,HS,"Coral Springs HS (Coral Springs, FL)",2012
+30,Yankees,Y,"$1,200,000",Ty Hensley ,RHP,,,,,,,,,,,,,HS,"Edmond Santa Fe HS (Edmond, OK)",2012
+31,Red Sox,Y,"$1,575,000",*Brian Johnson ,LHP,0.9,6.0,7.0,0.0,0.143,0.286,65.0,7.0,9.0,4.74,1.55,0.0,4Yr,"University of Florida (Gainesville, FL)",2012
+32,Twins,Y,"$1,550,000",*José Berríos ,RHP,17.1,11.0,17.0,0.0,0.118,0.284,275.0,108.0,82.0,4.08,1.24,0.0,HS,"Papa Juan HS (Bayamon, Puerto Rico)",2012
+33,Padres,Y,"$1,200,000",*Zach Eflin ,RHP,12.9,93.0,167.0,1.0,0.126,0.298,201.0,68.0,67.0,4.28,1.24,1.0,HS,"Paul J. Hagerty HS (Oviedo, FL)",2012
+34,Athletics,Y,"$1,500,000",*Daniel Robertson ,SS,2.5,299.0,801.0,18.0,0.227,0.683,3.0,0.0,0.0,0.0,0.67,0.0,HS,"Upland HS (Upland, CA)",2012
+35,Mets,Y,"$1,400,000",*Kevin Plawecki ,C,2.3,447.0,1268.0,22.0,0.235,0.654,7.0,0.0,0.0,4.7,0.91,0.0,4Yr,"Purdue University (West Lafayette, IN)",2012
+36,Cardinals,Y,"$1,430,000",*Stephen Piscotty ,3B,7.1,726.0,2517.0,93.0,0.255,0.754,,,,,,,4Yr,"Stanford University (Palo Alto, CA)",2012
+37,Red Sox,Y,"$1,000,000",*Pat Light ,RHP,-0.7,2.0,0.0,0.0,,,17.0,0.0,1.0,11.34,2.28,0.0,4Yr,"Monmouth University (West Long Branch, NJ)",2012
+38,Brewers,Y,"$1,200,000",*Mitch Haniger ,OF,14.7,746.0,2755.0,130.0,0.25,0.771,,,,,,,4Yr,"California Polytechnic State University, San Luis Obispo (San Luis Obispo, CA)",2012
+39,Rangers,Y,"$2,250,000",*Joey Gallo ,3B,15.5,939.0,2869.0,208.0,0.194,0.775,,,,,,,HS,"Bishop Gorman HS (Las Vegas, NV)",2012
+40,Phillies,Y,"$1,291,300",*Shane Watson ,RHP,,,,,,,,,,,,,HS,"Lakewood HS (Lakewood, CA)",2012
+41,Astros,Y,"$2,500,000",*Lance McCullers Jr. ,RHP,9.2,7.0,14.0,0.0,0.071,0.143,154.0,53.0,40.0,3.85,1.3,0.0,HS,"Jesuit HS (Tampa, FL)",2012
+42,Twins,Y,"$1,227,000",*Luke Bard ,RHP,0.8,2.0,0.0,0.0,,,55.0,4.0,4.0,4.44,1.11,0.0,4Yr,"Georgia Institute of Technology (Atlanta, GA)",2012
+43,Cubs,Y,"$1,196,000",*Pierce Johnson ,RHP,3.5,97.0,1.0,0.0,0.0,0.0,352.0,22.0,25.0,3.79,1.33,17.0,4Yr,"Missouri State University (Springfield, MO)",2012
+44,Padres,Y,"$975,000",*Travis Jankowski ,OF,4.1,706.0,1552.0,11.0,0.236,0.623,1.0,0.0,0.0,18.0,3.0,0.0,4Yr,"State University of New York at Stony Brook (Stony Brook, NY)",2012
+45,Pirates,Y,"$1,000,000",*Barrett Barnes ,OF,,,,,,,,,,,,,4Yr,"Texas Tech University (Lubbock, TX)",2012
+46,Rockies,Y,"$1,000,000",*Eddie Butler ,RHP,-2.3,58.0,61.0,0.0,0.049,0.129,79.0,12.0,22.0,5.8,1.66,2.0,4Yr,"Radford University (Radford, VA)",2012
+47,Athletics,Y,"$1,079,700",*Matt Olson ,1B,42.1,1275.0,4698.0,302.0,0.257,0.861,,,,,,,HS,"Parkview HS (Lilburn, GA)",2012
+48,White Sox,Y,"$950,000",*Keon Barnum ,1B,,,,,,,,,,,,,HS,"C. Leon King HS (Tampa, FL)",2012
+49,Reds,Y,"$1,000,000",*Jesse Winker ,RF,6.4,781.0,2434.0,96.0,0.261,0.802,,,,,,,HS,"Olympia HS (Orlando, FL)",2012
+50,Blue Jays,Y,"$2,000,000",*Matt Smoral ,LHP,,,,,,,,,,,,,HS,"Solon HS (Solon, OH)",2012
+51,Dodgers,Y,"$984,700",*Jesmuel Valentín ,SS,-0.7,46.0,79.0,1.0,0.177,0.562,1.0,0.0,0.0,27.0,4.0,0.0,HS,"Puerto Rico Baseball Academy (Gurabo, Puerto Rico)",2012
+52,Cardinals,Y,"$678,790",*Patrick Wisdom ,3B,2.8,459.0,1323.0,88.0,0.208,0.746,1.0,0.0,0.0,0.0,6.0,0.0,4Yr,"Saint Mary's College of California (Moraga, CA)",2012
+53,Rangers,Y,"$975,000",*Collin Wiles ,RHP,0.0,0.0,0.0,0.0,,,4.0,0.0,0.0,4.66,1.34,0.0,HS,"Blue Valley West HS (Stilwell, KS)",2012
+54,Phillies,Y,"$940,200",*Mitch Gueller ,RHP,,,,,,,,,,,,,HS,"W. F. West HS (Chehalis, WA)",2012
+55,Padres,Y,"$2,000,000",*Walker Weickel ,RHP,,,,,,,,,,,,,HS,"Olympia HS (Orlando, FL)",2012
+56,Cubs,Y,"$911,700",*Paul Blackburn ,RHP,2.8,3.0,5.0,0.0,0.0,0.0,116.0,24.0,32.0,4.89,1.42,1.0,HS,"Heritage HS (Brentwood, CA)",2012
+57,Reds,Y,"$825,000",*Jeff Gelalich ,OF,,,,,,,,,,,,,4Yr,"University of California, Los Angeles (Los Angeles, CA)",2012
+58,Blue Jays,Y,"$1,000,000",*Mitch Nay ,3B,,,,,,,,,,,,,HS,"Hamilton HS (Chandler, AZ)",2012
+59,Cardinals,Y,"$700,000",*Steve Bean ,C,,,,,,,,,,,,,HS,"Rockwall HS (Rockwall, TX)",2012
+60,Blue Jays,Y,"$750,000",*Tyler Gonzales ,RHP,,,,,,,,,,,,,HS,"James Madison HS (San Antonio, TX)",2012
+1,Astros,Y,"$6,350,000",Mark Appel ,RHP,0.3,1.0,0.0,0.0,,,6.0,0.0,0.0,1.74,1.16,0.0,4Yr,"Stanford University (Palo Alto, CA)",2013
+2,Cubs,Y,"$6,708,400",Kris Bryant ,3B,27.3,1054.0,3919.0,184.0,0.273,0.851,,,,,,,4Yr,"University of San Diego (San Diego, CA)",2013
+3,Rockies,Y,"$4,800,000",Jon Gray ,RHP,12.9,141.0,242.0,1.0,0.091,0.25,234.0,75.0,71.0,4.49,1.31,0.0,4Yr,"University of Oklahoma (Norman, OK)",2013
+4,Twins,Y,"$4,544,400",Kohl Stewart ,RHP,0.2,4.0,3.0,0.0,0.333,0.667,21.0,5.0,4.0,4.88,1.48,0.0,HS,"St. Pius X HS (Houston, TX)",2013
+5,Indians,Y,"$3,500,000",Clint Frazier ,3B,-0.3,280.0,810.0,29.0,0.235,0.739,,,,,,,HS,"Loganville HS (Loganville, GA)",2013
+6,Marlins,Y,"$3,516,500",Colin Moran ,3B,-0.2,502.0,1520.0,50.0,0.263,0.743,,,,,,,4Yr,"University of North Carolina at Chapel Hill (Chapel Hill, NC)",2013
+7,Red Sox,Y,"$2,750,000",Trey Ball ,LHP,,,,,,,,,,,,,HS,"New Castle Chrysler HS (New Castle, IN)",2013
+8,Royals,Y,"$2,200,000",Hunter Dozier ,SS,-2.9,594.0,2093.0,73.0,0.238,0.725,1.0,0.0,0.0,18.0,3.0,0.0,4Yr,"Stephen F. Austin State University (Nacogdoches, TX)",2013
+9,Pirates,Y,"$3,029,600",*Austin Meadows ,CF,6.4,417.0,1507.0,70.0,0.259,0.806,,,,,,,HS,"Grayson HS (Loganville, GA)",2013
+10,Blue Jays,N,,Phil Bickford ,RHP,0.3,58.0,3.0,0.0,0.333,0.667,187.0,11.0,8.0,4.62,1.24,2.0,HS,"Oaks Christian HS (Westlake, CA)",2013
+11,Mets,Y,"$2,600,000",Dominic Smith ,1B,2.2,797.0,2357.0,74.0,0.254,0.727,3.0,0.0,0.0,0.0,1.0,0.0,HS,"Junipero Serra HS (Gardena, CA)",2013
+12,Mariners,Y,"$2,759,100",D.J. Peterson ,3B,,,,,,,,,,,,,4Yr,"University of New Mexico (Albuquerque, NM)",2013
+13,Padres,Y,"$2,678,000",Hunter Renfroe ,RF,8.9,996.0,3422.0,192.0,0.236,0.759,,,,,,,4Yr,"Mississippi State University (Mississippi State, MS)",2013
+14,Pirates,Y,"$2,369,800",Reese McGuire ,C,1.8,410.0,1104.0,25.0,0.246,0.661,3.0,0.0,0.0,3.0,1.0,0.0,HS,"Kentwood HS (Covington, WA)",2013
+15,Diamondbacks,Y,"$2,250,000",Braden Shipley ,RHP,-0.2,25.0,34.0,0.0,0.088,0.206,26.0,4.0,6.0,5.49,1.6,0.0,4Yr,"University of Nevada, Reno (Reno, NV)",2013
+16,Phillies,Y,"$2,299,300",J.P. Crawford ,SS,22.2,973.0,3516.0,73.0,0.247,0.709,,,,,,,HS,"Lakewood HS (Lakewood, CA)",2013
+17,White Sox,Y,"$2,164,000",Tim Anderson ,SS,15.4,991.0,3939.0,98.0,0.276,0.714,,,,,,,JC,"East Central Community College (Decatur, MS)",2013
+18,Dodgers,Y,"$2,109,900",Chris Anderson ,RHP,,,,,,,,,,,,,4Yr,"Jacksonville University (Jacksonville, FL)",2013
+19,Cardinals,Y,"$1,850,000",Marco Gonzales ,LHP,8.9,18.0,23.0,0.0,0.217,0.565,170.0,66.0,50.0,4.16,1.3,0.0,4Yr,"Gonzaga University (Spokane, WA)",2013
+20,Tigers,Y,"$2,001,700",Jonathon Crawford ,RHP,,,,,,,,,,,,,4Yr,"University of Florida (Gainesville, FL)",2013
+21,Rays,Y,"$1,972,200",Nick Ciuffo ,C,-0.2,21.0,48.0,1.0,0.188,0.551,,,,,,,HS,"Lexington HS (Lexington, SC)",2013
+22,Orioles,Y,"$1,947,600",Hunter Harvey ,RHP,4.0,2.0,0.0,0.0,,,186.0,10.0,12.0,3.19,1.11,11.0,HS,"Bandys HS (Catawba, NC)",2013
+23,Rangers,Y,"$2,215,000",Chi Chi González ,RHP,-0.3,37.0,55.0,0.0,0.109,0.252,71.0,9.0,24.0,5.68,1.5,0.0,4Yr,"Oral Roberts University (Tulsa, OK)",2013
+24,Athletics,Y,"$1,800,000",Billy McKinney ,CF,-0.2,327.0,863.0,34.0,0.209,0.665,,,,,,,HS,"Plano West HS (Plano, TX)",2013
+25,Giants,Y,"$1,866,500",Christian Arroyo ,SS,2.1,295.0,917.0,24.0,0.252,0.693,1.0,0.0,0.0,0.0,2.0,0.0,HS,"Hernando HS (Brooksville, FL)",2013
+26,Yankees,Y,"$1,839,400",Eric Jagielo ,3B,,,,,,,,,,,,,4Yr,"University of Notre Dame (South Bend, IN)",2013
+27,Reds,Y,"$1,812,400",Phil Ervin ,CF,0.4,237.0,586.0,17.0,0.247,0.728,1.0,0.0,0.0,0.0,0.0,0.0,4Yr,"Samford University (Homewood, AL)",2013
+28,Cardinals via Brewers,Y,"$1,785,300",*Rob Kaminsky ,LHP,-0.1,0.0,0.0,0.0,,,5.0,0.0,0.0,1.93,1.07,0.0,HS,"St. Joseph Regional HS (Montvale, NJ)",2013
+29,Rays via Braves,Y,"$1,755,800",*Ryne Stanek ,RHP,2.1,39.0,0.0,0.0,,,489.0,22.0,23.0,3.95,1.34,15.0,4Yr,"University of Arkansas (Fayetteville, AR)",2013
+30,Rangers via Angels,Y,"$1,900,000",*Travis Demeritte ,SS,-1.7,92.0,287.0,6.0,0.216,0.605,1.0,0.0,0.0,36.0,4.0,0.0,HS,"Winder-Barrow HS (Winder, GA)",2013
+31,Braves via Indians,Y,"$1,704,200",*Jason Hursh ,RHP,-0.2,11.0,0.0,0.0,,,11.0,1.0,0.0,8.25,2.0,0.0,4Yr,"Oklahoma State University (Stillwater, OK)",2013
+32,Yankees via Indians,Y,"$1,800,000",*Aaron Judge ,CF,64.4,1197.0,4293.0,384.0,0.291,1.023,,,,,,,4Yr,"California State University, Fresno (Fresno, CA)",2013
+33,Yankees via Nationals,Y,"$1,650,100",*Ian Clarkin ,LHP,,,,,,,,,,,,,HS,"Madison HS (San Diego, CA)",2013
+34,Royals,Y,"$3,550,000",Sean Manaea ,LHP,14.1,8.0,14.0,0.0,0.214,0.552,254.0,79.0,67.0,4.13,1.21,1.0,4Yr,"Indiana State University (Terre Haute, IN)",2013
+35,Marlins,N,,Matt Krook ,LHP,-0.5,0.0,0.0,0.0,,,8.0,0.0,0.0,16.2,2.64,0.0,HS,"St. Ignatius College Preparatory (San Francisco, CA)",2013
+36,Diamondbacks,Y,"$1,435,000",Aaron Blair ,RHP,-2.0,16.0,22.0,0.0,0.091,0.221,16.0,2.0,8.0,7.89,1.73,0.0,4Yr,"Marshall University (Huntington, WV)",2013
+37,Orioles,Y,"$1,450,000",Josh Hart ,CF,,,,,,,,,,,,,HS,"Parkview HS (Lilburn, GA)",2013
+38,Reds,Y,"$1,500,000",Michael Lorenzen ,RHP,11.0,321.0,133.0,7.0,0.233,0.71,406.0,56.0,61.0,4.22,1.34,15.0,4Yr,"California State University, Fullerton (Fullerton, CA)",2013
+39,Tigers,Y,"$1,433,400",Corey Knebel ,RHP,5.5,231.0,2.0,0.0,0.0,0.0,312.0,13.0,16.0,3.26,1.24,72.0,4Yr,"University of Texas at Austin (Austin, TX)",2013
+1,Astros,N,,Brady Aiken ,LHP,,,,,,,,,,,,,HS,"Cathedral Catholic HS (San Diego, CA)",2014
+2,Marlins,Y,"$6,000,000",Tyler Kolek ,RHP,,,,,,,,,,,,,HS,"Shepherd HS (Shepherd, TX)",2014
+3,White Sox,Y,"$6,582,000",Carlos Rodón ,LHP,22.2,8.0,13.0,0.0,0.154,0.385,234.0,93.0,74.0,3.74,1.22,0.0,4Yr,"North Carolina State University (Raleigh, NC)",2014
+4,Cubs,Y,"$3,125,000",Kyle Schwarber ,C,21.3,1339.0,4726.0,360.0,0.231,0.851,,,,,,,4Yr,"Indiana University Bloomington (Bloomington, IN)",2014
+5,Twins,Y,"$3,851,000",Nick Gordon ,SS,-0.5,338.0,956.0,23.0,0.244,0.669,4.0,0.0,0.0,22.09,3.82,0.0,HS,"Olympia HS (Orlando, FL)",2014
+6,Mariners,Y,"$4,200,000",Alex Jackson ,OF,-0.8,161.0,397.0,11.0,0.151,0.522,1.0,0.0,0.0,27.0,5.0,0.0,HS,"Rancho Bernardo HS (San Diego, CA)",2014
+7,Phillies,Y,"$3,300,900",Aaron Nola ,RHP,35.2,152.0,271.0,0.0,0.089,0.267,295.0,111.0,93.0,3.89,1.16,0.0,4Yr,"Louisiana State University (Baton Rouge, LA)",2014
+8,Rockies,Y,"$2,300,000",Kyle Freeland ,LHP,19.0,107.0,173.0,1.0,0.127,0.332,244.0,66.0,95.0,4.62,1.43,0.0,4Yr,"University of Evansville (Evansville, IN)",2014
+9,Blue Jays,Y,"$3,080,800",Jeff Hoffman ,RHP,3.8,88.0,77.0,0.0,0.13,0.273,351.0,34.0,36.0,4.78,1.4,49.0,4Yr,"East Carolina University (Greenville, NC)",2014
+10,Mets,Y,"$2,970,800",Michael Conforto ,OF,17.4,1180.0,3874.0,182.0,0.246,0.789,,,,,,,4Yr,"Oregon State University (Corvallis, OR)",2014
+11,Blue Jays,Y,"$2,888,300",Max Pentecost ,C,,,,,,,,,,,,,4Yr,"Kennesaw State University (Kennesaw, GA)",2014
+12,Brewers,Y,"$2,500,000",Kodi Medeiros ,LHP,,,,,,,,,,,,,HS,"Waiakea HS (Waiakea, HI)",2014
+13,Padres,Y,"$2,900,000",Trea Turner ,SS,42.0,1316.0,5362.0,191.0,0.294,0.82,,,,,,,4Yr,"North Carolina State University (Raleigh, NC)",2014
+14,Giants,Y,"$2,613,200",Tyler Beede ,RHP,-1.2,28.0,40.0,0.0,0.1,0.263,71.0,8.0,16.0,5.55,1.58,0.0,4Yr,"Vanderbilt University (Nashville, TN)",2014
+15,Angels,Y,"$2,518,400",Sean Newcomb ,LHP,4.8,128.0,81.0,0.0,0.037,0.121,244.0,30.0,31.0,4.13,1.43,5.0,4Yr,"University of Hartford (West Hartford, CT)",2014
+16,Diamondbacks,Y,"$2,700,000",Touki Toussaint ,RHP,-0.2,41.0,34.0,0.0,0.029,0.113,89.0,15.0,16.0,5.42,1.54,0.0,HS,"Coral Springs Christian Academy (Coral Springs, FL)",2014
+17,Royals,Y,"$2,200,600",Brandon Finnegan ,LHP,2.2,47.0,69.0,0.0,0.087,0.241,67.0,16.0,18.0,4.11,1.39,0.0,4Yr,"Texas Christian University (Fort Worth, TX)",2014
+18,Nationals,Y,"$2,511,100",Erick Fedde ,RHP,5.1,61.0,71.0,0.0,0.042,0.11,174.0,34.0,59.0,4.9,1.43,0.0,4Yr,"University of Nevada, Las Vegas (Paradise, NV)",2014
+19,Reds,Y,"$1,990,500",Nick Howard ,RHP,,,,,,,,,,,,,4Yr,"University of Virginia (Charlottesville, VA)",2014
+20,Rays,Y,"$2,035,500",Casey Gillaspie ,1B,,,,,,,,,,,,,4Yr,"Wichita State University (Wichita, KS)",2014
+21,Indians,Y,"$1,900,000",Bradley Zimmer ,OF,2.9,372.0,859.0,21.0,0.213,0.631,,,,,,,4Yr,"University of San Francisco (San Francisco, CA)",2014
+22,Dodgers,Y,"$2,500,000",Grant Holmes ,RHP,3.3,0.0,0.0,0.0,,,57.0,9.0,11.0,3.82,1.28,0.0,HS,"Conway HS (Conway, SC)",2014
+23,Tigers,Y,"$2,000,000",Derek Hill ,OF,0.9,255.0,632.0,17.0,0.229,0.631,,,,,,,HS,"Elk Grove HS (Elk Grove, CA)",2014
+24,Pirates,Y,"$1,800,000",Cole Tucker ,SS,-3.0,183.0,494.0,5.0,0.213,0.582,1.0,0.0,0.0,0.0,2.0,0.0,HS,"Mountain Pointe HS (Phoenix, AZ)",2014
+25,Athletics,Y,"$1,750,000",Matt Chapman ,3B,42.9,1200.0,4356.0,204.0,0.24,0.781,,,,,,,4Yr,"California State University, Fullerton (Fullerton, CA)",2014
+26,Red Sox,Y,"$1,870,500",Michael Chavis ,SS,0.1,357.0,1106.0,42.0,0.238,0.685,,,,,,,HS,"Sprayberry HS (Marietta, GA)",2014
+27,Cardinals,Y,"$1,843,000",Luke Weaver ,RHP,3.8,85.0,108.0,1.0,0.167,0.382,290.0,40.0,50.0,4.7,1.34,12.0,4Yr,"Florida State University (Tallahassee, FL)",2014
+28,Royals,Y,"$1,925,000",Foster Griffin ,LHP,0.7,0.0,0.0,0.0,,,17.0,6.0,2.0,4.36,1.22,0.0,HS,"The First Academy (Orlando, FL)",2014
+29,Reds,Y,"$1,788,000",Alex Blandino ,SS,-0.3,135.0,234.0,2.0,0.226,0.63,5.0,0.0,0.0,7.71,1.93,0.0,4Yr,"Stanford University (Palo Alto, CA)",2014
+30,Rangers,Y,"$1,750,000",Luis Ortiz ,RHP,0.0,0.0,0.0,0.0,,,24.0,0.0,2.0,4.76,1.71,1.0,HS,"Sanger HS (Sanger, CA)",2014
+31,Indians,Y,"$1,600,000",Justus Sheffield ,LHP,-0.9,3.0,4.0,0.0,0.25,0.5,48.0,12.0,12.0,5.47,1.63,0.0,HS,"Tullahoma HS (Tullahoma, TN)",2014
+32,Braves,Y,"$1,705,000",Braxton Davidson ,OF,,,,,,,,,,,,,HS,"T. C. Roberson HS (Asheville, NC)",2014
+33,Red Sox,Y,"$1,500,000",Michael Kopech ,RHP,6.0,5.0,1.0,0.0,0.0,0.0,184.0,21.0,33.0,4.14,1.33,15.0,HS,"Mount Pleasant HS (Mount Pleasant, TX)",2014
+34,Cardinals,Y,"$2,000,000",Jack Flaherty ,RHP,13.5,84.0,123.0,1.0,0.154,0.412,201.0,63.0,62.0,3.89,1.22,0.0,HS,"Harvard-Westlake HS (Los Angeles, CA)",2014
+35,Rockies,Y,"$2,000,000",Forrest Wall ,2B,0.4,31.0,45.0,1.0,0.311,0.802,,,,,,,HS,"Orangewood Christian HS (Maitland, FL)",2014
+36,Marlins,Y,"$1,170,000",Blake Anderson ,C,,,,,,,,,,,,,HS,"West Lauderdale HS (Collinsville, MS)",2014
+37,Astros,Y,"$1,534,100",Derek Fisher ,OF,0.3,172.0,410.0,17.0,0.195,0.663,,,,,,,4Yr,"University of Virginia (Charlottesville, VA)",2014
+38,Indians,Y,"$1,250,000",Mike Papi ,OF,,,,,,,,,,,,,4Yr,"University of Virginia (Charlottesville, VA)",2014
+39,Pirates,Y,"$1,250,000",Connor Joe ,OF,3.4,498.0,1478.0,36.0,0.238,0.716,,,,,,,4Yr,"University of San Diego (San Diego, CA)",2014
+40,Royals,Y,"$1,350,000",Chase Vallot ,C,,,,,,,,,,,,,HS,"St. Thomas More Catholic HS (Lafayette, LA)",2014
+41,Brewers,Y,"$1,830,000",Jake Gatewood ,SS,,,,,,,,,,,,,HS,"Clovis HS (Clovis, CA)",2014
+1,Diamondbacks,Y,"$6,500,000",Dansby Swanson ,SS,29.4,1331.0,4898.0,171.0,0.248,0.728,,,,,,,4Yr,"Vanderbilt University (Nashville, TN)",2015
+2,Astros,Y,"$5,900,000",Alex Bregman ,SS,43.8,1275.0,4790.0,213.0,0.271,0.839,,,,,,,4Yr,"Louisiana State University (Baton Rouge, LA)",2015
+3,Rockies,Y,"$5,500,000",Brendan Rodgers ,SS,5.7,495.0,1805.0,47.0,0.261,0.714,,,,,,,HS,"Lake Mary HS (Lake Mary, FL)",2015
+4,Rangers,Y,"$4,200,000",Dillon Tate ,RHP,2.2,7.0,0.0,0.0,,,196.0,7.0,14.0,4.09,1.2,9.0,4Yr,"University of California, Santa Barbara (Santa Barbara, CA)",2015
+5,Astros,Y,"$4,000,000",Kyle Tucker ,OF,28.1,818.0,2919.0,151.0,0.271,0.857,,,,,,,HS,"H. B. Plant HS (Tampa, FL)",2015
+6,Twins,Y,"$3,889,500",Tyler Jay ,LHP,0.0,0.0,0.0,0.0,,,5.0,0.0,0.0,4.7,1.96,0.0,4Yr,"University of Illinois at Urbana-Champaign (Champaign, IL)",2015
+7,Red Sox,Y,"$3,590,400",Andrew Benintendi ,OF,15.9,1193.0,4397.0,121.0,0.266,0.751,,,,,,,4Yr,"University of Arkansas (Fayetteville, AR)",2015
+8,White Sox,Y,"$3,470,600",Carson Fulmer ,RHP,-0.2,22.0,3.0,0.0,0.0,0.0,127.0,7.0,15.0,5.44,1.46,0.0,4Yr,"Vanderbilt University (Nashville, TN)",2015
+9,Cubs,Y,"$3,000,000",Ian Happ ,OF,23.8,1188.0,4027.0,183.0,0.246,0.789,1.0,0.0,0.0,0.0,1.0,0.0,4Yr,"University of Cincinnati (Cincinnati, OH)",2015
+10,Phillies,Y,"$3,231,300",Cornelius Randolph ,SS,,,,,,,,,,,,,HS,"Griffin HS (Griffin, GA)",2015
+11,Reds,Y,"$3,141,600",Tyler Stephenson ,C,8.1,598.0,1874.0,66.0,0.256,0.752,,,,,,,HS,"Kennesaw Mountain HS (Kennesaw, GA)",2015
+12,Marlins,Y,"$2,200,000",Josh Naylor ,1B,8.2,793.0,2778.0,109.0,0.268,0.77,,,,,,,HS,"St. Joan of Arc Catholic SS (Mississauga, ON)",2015
+13,Rays,Y,"$2,959,600",Garrett Whitley ,OF,,,,,,,,,,,,,HS,"Niskayuna HS (Niskayuna, NY)",2015
+14,Braves,Y,"$3,042,400",Kolby Allard ,LHP,-0.4,5.0,5.0,0.0,0.2,0.4,113.0,13.0,26.0,5.47,1.42,1.0,HS,"San Clemente HS (San Clemente, CA)",2015
+15,Brewers,Y,"$2,700,000",Trent Grisham ,OF,14.9,816.0,2586.0,110.0,0.216,0.718,,,,,,,HS,"Richland HS (North Richland Hills, TX)",2015
+16,Yankees,Y,"$2,650,000",James Kaprielian ,RHP,2.4,3.0,3.0,0.0,0.333,0.667,66.0,15.0,20.0,4.61,1.35,0.0,4Yr,"University of California, Los Angeles (Los Angeles, CA)",2015
+17,Indians,Y,"$2,513,280",Brady Aiken ,LHP,,,,,,,,,,,,,HS,"IMG Academy (Bradenton, FL)",2015
+18,Giants,Y,"$2,333,800",Phil Bickford ,RHP,0.3,58.0,3.0,0.0,0.333,0.667,187.0,11.0,8.0,4.62,1.24,2.0,JC,"College of Southern Nevada (Henderson, NV)",2015
+19,Pirates,Y,"$2,175,000",Kevin Newman ,SS,4.2,672.0,2172.0,28.0,0.259,0.656,2.0,0.0,0.0,6.75,1.0,0.0,4Yr,"University of Arizona (Tucson, AZ)",2015
+20,Athletics,Y,"$1,950,000",Richie Martin ,SS,-1.9,170.0,411.0,7.0,0.212,0.572,,,,,,,4Yr,"University of Florida (Gainesville, FL)",2015
+21,Royals,Y,"$2,190,200",Ashe Russell ,RHP,,,,,,,,,,,,,HS,"Cathedral HS (Indianapolis, IN)",2015
+22,Tigers,Y,"$2,154,200",Beau Burrows ,RHP,-0.7,2.0,0.0,0.0,,,11.0,0.0,1.0,10.7,1.98,0.0,HS,"Weatherford HS (Weatherford, TX)",2015
+23,Cardinals,Y,"$2,124,400",Nick Plummer ,OF,-0.1,14.0,29.0,2.0,0.138,0.573,,,,,,,HS,"Brother Rice HS (Bloomfield Hills, MI)",2015
+24,Dodgers,Y,"$1,777,500",Walker Buehler ,RHP,12.5,93.0,171.0,1.0,0.111,0.305,167.0,60.0,31.0,3.6,1.17,0.0,4Yr,"Vanderbilt University (Nashville, TN)",2015
+25,Orioles,Y,"$2,064,500",DJ Stewart ,OF,-0.1,327.0,845.0,42.0,0.212,0.729,,,,,,,4Yr,"Florida State University (Tallahassee, FL)",2015
+26,Angels,Y,"$1,670,000",Taylor Ward ,C,11.2,754.0,2674.0,115.0,0.247,0.768,,,,,,,4Yr,"California State University, Fresno (Fresno, CA)",2015
+27,Rockies,Y,"$2,300,000",Mike Nikorak ,RHP,,,,,,,,,,,,,HS,"Stroudsburg HS (Stroudsburg, PA)",2015
+28,Braves,Y,"$1,974,700",Michael Soroka ,RHP,7.9,31.0,60.0,0.0,0.083,0.224,101.0,26.0,28.0,3.79,1.23,0.0,HS,"Bishop Carroll HS (Calgary, AB)",2015
+29,Blue Jays,Y,"$1,944,800",Jon Harris ,RHP,,,,,,,,,,,,,4Yr,"Missouri State University (Springfield, MO)",2015
+30,Yankees,Y,"$1,800,000",Kyle Holder ,SS,,,,,,,,,,,,,4Yr,"University of San Diego (San Diego, CA)",2015
+31,Giants,Y,"$1,400,000",Chris Shaw ,1B,-0.9,38.0,72.0,1.0,0.153,0.466,,,,,,,4Yr,"Boston College (Chestnut Hill, MA)",2015
+32,Pirates,Y,"$1,855,000",Ke'Bryan Hayes ,3B,14.9,672.0,2458.0,44.0,0.247,0.662,,,,,,,HS,"Concordia Lutheran HS (Tomball, TX)",2015
+33,Royals,Y,"$1,825,200",Nolan Watson ,RHP,,,,,,,,,,,,,HS,"Lawrence North HS (Indianapolis, IN)",2015
+34,Tigers,Y,"$1,795,100",Christin Stewart ,OF,-1.1,157.0,519.0,15.0,0.225,0.676,,,,,,,4Yr,"University of Tennessee (Knoxville, TN)",2015
+35,Dodgers,N,,Kyle Funkhouser ,RHP,0.7,4.0,0.0,0.0,,,70.0,8.0,5.0,4.2,1.51,1.0,4Yr,"University of Louisville (Louisville, KY)",2015
+36,Orioles,Y,"$1,300,000",Ryan Mountcastle ,SS,7.7,660.0,2457.0,98.0,0.263,0.75,,,,,,,HS,"Paul J. Hagerty HS (Oviedo, FL)",2015
+37,Astros,Y,"$4,000,000",Daz Cameron ,OF,-1.7,160.0,435.0,11.0,0.2,0.585,,,,,,,HS,"Eagle's Landing Christian Academy (McDonough, GA)",2015
+38,Rockies,Y,"$2,000,000",Tyler Nevin ,3B,-1.1,192.0,511.0,12.0,0.204,0.615,,,,,,,HS,"Poway HS (Poway, CA)",2015
+39,Cardinals,Y,"$1,800,000",Jake Woodford ,RHP,-1.5,25.0,18.0,0.0,0.111,0.222,123.0,11.0,17.0,5.07,1.44,4.0,HS,"H. B. Plant HS (Tampa, FL)",2015
+40,Brewers,Y,"$1,250,000",Nathan Kirby ,LHP,,,,,,,,,,,,,4Yr,"University of Virginia (Charlottesville, VA)",2015
+41,Braves,Y,"$1,600,000",Austin Riley ,3B,23.3,873.0,3339.0,177.0,0.267,0.817,,,,,,,HS,"DeSoto Central HS (Southaven, MS)",2015
+42,Indians,Y,"$2,302,500",Triston McKenzie ,RHP,4.9,1.0,2.0,0.0,0.5,1.0,88.0,21.0,29.0,4.07,1.16,0.0,HS,"Royal Palm Beach Community HS (Royal Palm Beach, FL)",2015

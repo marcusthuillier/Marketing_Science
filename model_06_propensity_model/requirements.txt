@@ -1,10 +1,10 @@
-# Model 06 — Title Propensity Model
+# Model 06 — World Cup Winner Propensity Model
 # Python 3.11+
 # Install with: pip install -r requirements.txt
 
 lightgbm
+shap
 scikit-learn
-requests
 pandas
 numpy
 matplotlib

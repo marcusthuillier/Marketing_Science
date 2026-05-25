@@ -1,0 +1,3 @@
+Model,AUC
+Logistic Regression,0.813
+XGBoost,0.819
