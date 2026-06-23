@@ -1,15 +1,11 @@
-# Model 08 — EPL Standings Forecasting
+# Model 08 — NBA Standings Forecasting
 # Python 3.11+
 # Install with: pip install -r requirements.txt
 
-requests
+nba_api
 statsmodels
-prophet
 scikit-learn
 pandas
 numpy
 matplotlib
 seaborn
-plotly
-jupyter
-ipykernel
