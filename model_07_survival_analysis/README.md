@@ -58,11 +58,15 @@ KM curves by position. Cox forest plot (hazard ratios + CI). Individual survival
 
 ## Results
 
-<!-- Fill in after running the notebook -->
+1,757 players (1996–2025 debuts), 1,383 career endings, 374 right-censored (still active). Overall median career: 6.0 seasons.
 
-**Key finding:** _
+Median survival by position: SG 7.0 / SF 7.0 / C 7.0 / PF 8.0 seasons. Log-rank test across positions: p = 0.083 — not significant.
 
-**Surprising result:** _
+Cox PH hazard ratios: Peak Performance (standardized) HR = 0.273, p < 0.005 — every SD of peak performance cuts churn risk ~73%. Draft pick HR = 1.000, p = 0.77. Height HR = 0.989, p = 0.82. Position dummies all p > 0.45. Model concordance = 0.82.
+
+**Key finding:** Peak performance is the only statistically significant predictor of career survival. Position, draft pick, and height are all noise once you control for it.
+
+**Surprising result:** The conventional wisdom that bigs decline fastest doesn't hold — PFs have the *longest* median survival (8 seasons), not the shortest, and the position differences aren't significant anyway.
 
 ---
 

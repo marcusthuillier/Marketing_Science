@@ -43,7 +43,7 @@ def _fetch_player_index():
     r = playerindex.PlayerIndex(historical_nullable=1)
     df = r.get_data_frames()[0]
     df["PLAYER_NAME"] = df["PLAYER_FIRST_NAME"] + " " + df["PLAYER_LAST_NAME"]
-    df = df[["PLAYER_NAME", "POSITION", "HEIGHT", "DRAFT_ROUND"]].copy()
+    df = df[["PLAYER_NAME", "POSITION", "HEIGHT", "DRAFT_ROUND", "DRAFT_NUMBER"]].copy()
     # Normalize position to primary (C-F -> C, G-F -> SF, etc.)
     def norm_pos(p):
         if pd.isna(p) or p == "":
@@ -55,7 +55,14 @@ def _fetch_player_index():
         if p.startswith("C"): return "C"
         return p
     df["PLAYER_POSITION"] = df["POSITION"].apply(norm_pos)
-    df["DRAFT_ROUND"] = pd.to_numeric(df["DRAFT_ROUND"], errors="coerce").fillna(3).astype(int)
+    draft_round  = pd.to_numeric(df["DRAFT_ROUND"],  errors="coerce").fillna(0).astype(int)
+    draft_number = pd.to_numeric(df["DRAFT_NUMBER"], errors="coerce").fillna(0).astype(int)
+    # Overall pick: R1 = pick#, R2 = 30 + pick#, undrafted = 61
+    def overall_pick(rd, num):
+        if rd == 0 or num == 0:
+            return 61
+        return (rd - 1) * 30 + num
+    df["DRAFT_PICK"] = [overall_pick(r, n) for r, n in zip(draft_round, draft_number)]
     # Height in inches
     def parse_height(h):
         try:
@@ -65,7 +72,7 @@ def _fetch_player_index():
             return np.nan
     df["HEIGHT_IN"] = df["HEIGHT"].apply(parse_height)
     print(f"{len(df)} players loaded")
-    return df[["PLAYER_NAME", "PLAYER_POSITION", "HEIGHT_IN", "DRAFT_ROUND"]]
+    return df[["PLAYER_NAME", "PLAYER_POSITION", "HEIGHT_IN", "DRAFT_PICK"]]
 
 
 def load_data():
@@ -79,10 +86,10 @@ def load_data():
     try:
         draft = pd.read_csv(CACHE_DRAFT)
         draft = draft[["PLAYER_NAME", "SEASON", "ROUND_NUMBER"]].copy()
-        draft.columns = ["PLAYER_NAME", "DRAFT_SEASON", "DRAFT_ROUND"]
-        draft["DRAFT_ROUND"] = pd.to_numeric(draft["DRAFT_ROUND"], errors="coerce").fillna(3).astype(int)
+        draft.columns = ["PLAYER_NAME", "DRAFT_SEASON", "DRAFT_PICK"]
+        draft["DRAFT_PICK"] = pd.to_numeric(draft["DRAFT_PICK"], errors="coerce").fillna(3).astype(int)
     except Exception:
-        draft = pd.DataFrame(columns=["PLAYER_NAME", "DRAFT_SEASON", "DRAFT_ROUND"])
+        draft = pd.DataFrame(columns=["PLAYER_NAME", "DRAFT_SEASON", "DRAFT_PICK"])
         print("  Draft cache not found — round will default to 3 (undrafted)")
 
     print("Loading/fetching player index...")
@@ -93,8 +100,8 @@ def load_data():
         pos_df = _fetch_player_index()
         pos_df.to_csv(CACHE_POS, index=False)
 
-    stats = stats.merge(pos_df[["PLAYER_NAME", "PLAYER_POSITION", "HEIGHT_IN", "DRAFT_ROUND"]], on="PLAYER_NAME", how="left")
-    stats["DRAFT_ROUND"] = stats["DRAFT_ROUND"].fillna(3).astype(int)
+    stats = stats.merge(pos_df[["PLAYER_NAME", "PLAYER_POSITION", "HEIGHT_IN", "DRAFT_PICK"]], on="PLAYER_NAME", how="left")
+    stats["DRAFT_PICK"] = stats["DRAFT_PICK"].fillna(3).astype(int)
     stats["HEIGHT_IN"]   = stats["HEIGHT_IN"].fillna(stats["HEIGHT_IN"].median())
     stats["POSITION"]    = stats["PLAYER_POSITION"].fillna("Unknown")
 
@@ -118,7 +125,7 @@ def build_survival_df(stats):
             PEAK_PTS   = ("PTS", "max"),
             PEAK_REB   = ("REB", "max"),
             PEAK_AST   = ("AST", "max"),
-            DRAFT_ROUND= ("DRAFT_ROUND", "first"),
+            DRAFT_PICK= ("DRAFT_PICK", "first"),
             POSITION   = ("POSITION", "first"),
             HEIGHT_IN  = ("HEIGHT_IN", "first"),
         )
@@ -187,7 +194,7 @@ def run_cox_regression(survival_df):
     pos_dummies = pd.get_dummies(df["POSITION"], prefix="POS", drop_first=True)
     df = pd.concat([df, pos_dummies], axis=1)
 
-    features = ["DURATION", "EVENT", "PEAK_PERF", "DRAFT_ROUND", "HEIGHT_IN"] + list(pos_dummies.columns)
+    features = ["DURATION", "EVENT", "PEAK_PERF", "DRAFT_PICK", "HEIGHT_IN"] + list(pos_dummies.columns)
     df_cox = df[features].dropna()
 
     from sklearn.preprocessing import StandardScaler
@@ -274,7 +281,7 @@ def generate_plots(survival_df, kmf, results, cph, show=False):
 
     label_map = {
         "PEAK_PERF":   "Peak Performance (std)",
-        "DRAFT_ROUND": "Draft Round",
+        "DRAFT_PICK": "Draft Pick (1–60, 61=undrafted)",
         "POS_PF":      "Position: PF vs PG",
         "POS_SF":      "Position: SF vs PG",
         "POS_SG":      "Position: SG vs PG",
