@@ -1,16 +1,11 @@
-# Model 10 — Transfer Sentiment Analysis
+# Model 10 — Sentiment Shift Around the Luka Doncic Trade
 # Python 3.11+
 # Install with: pip install -r requirements.txt
 
-praw
+requests
 vaderSentiment
-transformers
-bertopic
-scikit-learn
+scipy
 pandas
 numpy
 matplotlib
 seaborn
-plotly
-jupyter
-ipykernel

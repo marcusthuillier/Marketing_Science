@@ -1,0 +1,2 @@
+n_before,n_after,mean_before,mean_after,t_stat,p_value,trade_day_volume,baseline_daily_volume
+64,1147,0.04192656249999999,0.057357890148212735,-0.3533005175814411,0.7249137901856513,100,9.142857142857142
