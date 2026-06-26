@@ -1,31 +1,31 @@
 query_player,player,team,pos,similarity
 Mohamed Salah,Ollie Watkins,Aston Villa,FW,0.9528805613517761
 Mohamed Salah,Harvey Barnes,Newcastle,FW,0.9418985247612
-Mohamed Salah,Jarrod Bowen,West Ham,MF,0.9350426197052002
-Mohamed Salah,Cody Gakpo,Liverpool,MF,0.9174556732177734
-Mohamed Salah,Alexander Isak,Newcastle,FW,0.9128172397613525
-Erling Haaland,Danny Welbeck,Brighton,FW,0.9240731596946716
+Mohamed Salah,Jarrod Bowen,West Ham,MF,0.9350425601005554
+Mohamed Salah,Cody Gakpo,Liverpool,MF,0.9174555540084839
+Mohamed Salah,Alexander Isak,Newcastle,FW,0.9128171801567078
+Erling Haaland,Danny Welbeck,Brighton,FW,0.9240732192993164
 Erling Haaland,Alexander Isak,Newcastle,FW,0.9048771262168884
-Erling Haaland,Yoane Wissa,Brentford,FW,0.8993655443191528
-Erling Haaland,Harvey Barnes,Newcastle,FW,0.8848147392272949
+Erling Haaland,Yoane Wissa,Brentford,FW,0.8993656039237976
+Erling Haaland,Harvey Barnes,Newcastle,FW,0.8848147988319397
 Erling Haaland,Kaoru Mitoma,Brighton,MF,0.8650496602058411
-Bukayo Saka,Leandro Trossard,Arsenal,FW,0.9498599171638489
+Bukayo Saka,Leandro Trossard,Arsenal,FW,0.9498598575592041
 Bukayo Saka,Eberechi Eze,Crystal Palace,MF,0.9365989565849304
-Bukayo Saka,Sávio,Manchester City,MF,0.9261298775672913
-Bukayo Saka,Gonçalo Guedes,Wolves,MF,0.9132644534111023
+Bukayo Saka,Sávio,Manchester City,MF,0.9261299967765808
+Bukayo Saka,Gonçalo Guedes,Wolves,MF,0.9132643938064575
 Bukayo Saka,Son Heung-min,Tottenham,FW,0.9093672037124634
 Virgil van Dijk,Luke Woolfenden,Ipswich Town,DF,0.9559750556945801
-Virgil van Dijk,Ethan Pinnock,Brentford,DF,0.9285044074058533
+Virgil van Dijk,Ethan Pinnock,Brentford,DF,0.928504467010498
 Virgil van Dijk,Matthijs de Ligt,Manchester Utd,DF,0.9220770001411438
 Virgil van Dijk,Joachim Andersen,Fulham,DF,0.9048978090286255
-Virgil van Dijk,Leny Yoro,Manchester Utd,DF,0.9036608338356018
+Virgil van Dijk,Leny Yoro,Manchester Utd,DF,0.9036608934402466
 Kevin De Bruyne,Pedro Neto,Chelsea,MF,0.9494050741195679
 Kevin De Bruyne,Bukayo Saka,Arsenal,FW,0.9089897871017456
-Kevin De Bruyne,Dwight McNeil,Everton,MF,0.9083949327468872
-Kevin De Bruyne,Sávio,Manchester City,MF,0.8776466846466064
+Kevin De Bruyne,Dwight McNeil,Everton,MF,0.9083948731422424
+Kevin De Bruyne,Sávio,Manchester City,MF,0.8776467442512512
 Kevin De Bruyne,Marcus Tavernier,Bournemouth,MF,0.8744995594024658
 Cole Palmer,Jarrod Bowen,West Ham,MF,0.9672976732254028
-Cole Palmer,Eberechi Eze,Crystal Palace,MF,0.9488670825958252
-Cole Palmer,Harvey Barnes,Newcastle,FW,0.9486051797866821
+Cole Palmer,Eberechi Eze,Crystal Palace,MF,0.94886714220047
+Cole Palmer,Harvey Barnes,Newcastle,FW,0.9486051201820374
 Cole Palmer,Cody Gakpo,Liverpool,MF,0.9473913908004761
 Cole Palmer,Leandro Trossard,Arsenal,FW,0.9277133345603943

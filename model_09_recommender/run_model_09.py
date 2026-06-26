@@ -1,6 +1,7 @@
 """
 Model 09 -- Player Similarity Recommender (Premier League, FBref)
-Cosine similarity over per-90 stat profiles, indexed with FAISS
+Cosine similarity over per-90 stat profiles (incl. passing, creation, possession),
+indexed with FAISS
 Run: python run_model_09.py
 """
 import os, time, warnings
@@ -30,6 +31,11 @@ POS_COLORS = {
     "FW": "#9b3d36", "MF": "#4c72b0", "DF": "#5a965a", "GK": "#c89b32",
 }
 
+# FBref pages that soccerdata's public API doesn't expose for read_player_season_stats
+# but are fetched directly using the library's own (anti-bot-aware) session + the
+# same comment-unwrapping parse logic it uses internally.
+EXTRA_STAT_PAGES = {"passing": "passing", "gca": "gca", "possession": "possession"}
+
 
 # ── Data loading ─────────────────────────────────────────────────────────────
 
@@ -40,6 +46,31 @@ def _flatten_cols(df):
     return df.reset_index()
 
 
+def _fetch_extra_stat_table(fb, stat_type, page, season_url):
+    """
+    Fetch an FBref player-season stat table that soccerdata's public
+    read_player_season_stats() doesn't support (passing, gca, possession).
+    Reuses soccerdata's own request/cache session (which handles FBref's
+    anti-bot protection) and its internal HTML-comment-unwrapping parser.
+    """
+    from soccerdata.fbref import _parse_table, _fix_nation_col
+    from lxml import html, etree
+
+    url = "https://fbref.com" + "/".join(season_url.split("/")[:-1]) + f"/{page}/" + season_url.split("/")[-1]
+    filepath = fb.data_dir / f"players_{LEAGUE}_{SEASON}_{stat_type}.html"
+    reader = fb.get(url, filepath)
+    tree = html.parse(reader)
+    for elem in tree.xpath("//td[@data-stat='comp_level']//span"):
+        elem.getparent().remove(elem)
+    (el,) = tree.xpath(f"//comment()[contains(.,'div_stats_{stat_type}')]")
+    parser = etree.HTMLParser(recover=True)
+    (html_table,) = etree.fromstring(el.text, parser).xpath(f"//table[contains(@id, 'stats_{stat_type}')]")
+    df = _parse_table(html_table)
+    df = _fix_nation_col(df)
+    df = _flatten_cols(df)
+    return df
+
+
 def fetch_fbref_stats():
     import soccerdata as sd
     print(f"Fetching FBref player stats: {LEAGUE} {SEASON}...")
@@ -47,9 +78,17 @@ def fetch_fbref_stats():
 
     frames = {}
     for stat_type in ["standard", "shooting", "misc"]:
-        print(f"  Pulling stat_type={stat_type}...", end=" ", flush=True)
+        print(f"  Pulling stat_type={stat_type} (public API)...", end=" ", flush=True)
         df = fb.read_player_season_stats(stat_type=stat_type)
         df = _flatten_cols(df)
+        frames[stat_type] = df
+        print(f"{df.shape[0]} rows")
+        time.sleep(2)
+
+    season_url = fb.read_seasons().iloc[0]["url"]
+    for stat_type, page in EXTRA_STAT_PAGES.items():
+        print(f"  Pulling stat_type={stat_type} (direct fetch, passing/creation data)...", end=" ", flush=True)
+        df = _fetch_extra_stat_table(fb, stat_type, page, season_url)
         frames[stat_type] = df
         print(f"{df.shape[0]} rows")
         time.sleep(2)
@@ -79,7 +118,28 @@ def load_data():
                             "Performance_Off", "Performance_Crs", "Performance_Int",
                             "Performance_TklW"]].copy()
 
-    df = std.merge(sho, on=["player", "team"], how="left").merge(misc, on=["player", "team"], how="left")
+    passing = frames["passing"][["Unnamed: 1_level_0_Player", "Unnamed: 4_level_0_Squad",
+                                  "Total_Cmp", "Total_Att", "Total_Cmp%", "Total_PrgDist",
+                                  "Unnamed: 22_level_0_Ast", "Unnamed: 24_level_0_KP",
+                                  "Unnamed: 25_level_0_1/3", "Unnamed: 26_level_0_PPA"]].copy()
+    passing.columns = ["player", "team", "Pass_Cmp", "Pass_Att", "Pass_CmpPct", "Pass_PrgDist",
+                        "Pass_Ast", "Pass_KP", "Pass_Final3rd", "Pass_PPA"]
+
+    gca = frames["gca"][["Unnamed: 1_level_0_Player", "Unnamed: 4_level_0_Squad",
+                          "SCA_SCA90", "GCA_GCA90"]].copy()
+    gca.columns = ["player", "team", "SCA90", "GCA90"]
+
+    poss = frames["possession"][["Unnamed: 1_level_0_Player", "Unnamed: 4_level_0_Squad",
+                                  "Touches_Touches", "Carries_Carries", "Carries_PrgDist",
+                                  "Carries_1/3", "Carries_CPA"]].copy()
+    poss.columns = ["player", "team", "Touches", "Carries", "Carry_PrgDist", "Carry_Final3rd", "Carry_PPA"]
+
+    df = (std
+          .merge(sho, on=["player", "team"], how="left")
+          .merge(misc, on=["player", "team"], how="left")
+          .merge(passing, on=["player", "team"], how="left")
+          .merge(gca, on=["player", "team"], how="left")
+          .merge(poss, on=["player", "team"], how="left"))
     df.to_csv(CACHE_RAW, index=False)
     print(f"  Cached {len(df)} players to {CACHE_RAW}")
     return df
@@ -94,23 +154,32 @@ def build_features(df):
     d = d[d["NINETIES"] >= MIN_90S].copy()
     print(f"  {len(d)} players with >= {MIN_90S} 90s played ({MIN_90S*90:.0f}+ minutes)")
 
-    raw_cols = ["Performance_Gls", "Performance_Ast", "Performance_G+A",
-                "Standard_Sh", "Standard_SoT", "Performance_Fls", "Performance_Fld",
-                "Performance_Off", "Performance_Crs", "Performance_Int", "Performance_TklW"]
-    for c in raw_cols:
+    per90_raw_cols = [
+        "Performance_Gls", "Performance_Ast", "Performance_G+A",
+        "Standard_Sh", "Standard_SoT",
+        "Performance_Fls", "Performance_Fld", "Performance_Off", "Performance_Crs",
+        "Performance_Int", "Performance_TklW",
+        "Pass_KP", "Pass_Final3rd", "Pass_PPA", "Pass_PrgDist",
+        "Touches", "Carries", "Carry_PrgDist", "Carry_Final3rd", "Carry_PPA",
+    ]
+    native_cols = ["Pass_CmpPct", "SCA90", "GCA90"]
+
+    for c in per90_raw_cols + native_cols:
         d[c] = pd.to_numeric(d[c], errors="coerce").fillna(0)
 
     feature_cols = []
-    for c in raw_cols:
+    for c in per90_raw_cols:
         per90_col = c + "_p90"
         d[per90_col] = d[c] / d["NINETIES"]
         feature_cols.append(per90_col)
+    feature_cols += native_cols  # already per-90 or percentage-based
 
     d["pos_simple"] = d["pos"].astype(str).str.split(",").str[0].str.strip()
     d = d.dropna(subset=feature_cols)
     d = d.drop_duplicates(subset=["player"], keep="first").reset_index(drop=True)
 
-    print(f"  Feature matrix: {len(d)} players x {len(feature_cols)} features")
+    print(f"  Feature matrix: {len(d)} players x {len(feature_cols)} features "
+          f"(incl. passing, creation, possession)")
     return d, feature_cols
 
 
@@ -203,7 +272,7 @@ def generate_plots(d, feature_cols, comparisons_df, show=False):
     ax.set_xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)", fontsize=10)
     ax.set_ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)", fontsize=10)
     ax.set_title(f"Premier League {SEASON[:2]}-{SEASON[2:]} Player Stat Profiles (PCA)\n"
-                 f"n={len(d)} players, min {MIN_90S*90:.0f} minutes",
+                 f"n={len(d)} players, min {MIN_90S*90:.0f} minutes, incl. passing/creation/possession",
                  fontsize=12, fontweight="bold")
     ax.legend(fontsize=9, loc="best")
     ax.grid(color="#e0dbd5", lw=0.7)
@@ -214,15 +283,18 @@ def generate_plots(d, feature_cols, comparisons_df, show=False):
     print("  Saved: player_pca_scatter.png")
 
     if len(comparisons_df) > 0:
-        focus_player = SPOTLIGHT[0]
+        focus_player = "Kevin De Bruyne"
         sub = comparisons_df[comparisons_df["query_player"] == focus_player].sort_values("similarity")
+        if len(sub) == 0:
+            focus_player = SPOTLIGHT[0]
+            sub = comparisons_df[comparisons_df["query_player"] == focus_player].sort_values("similarity")
         if len(sub) > 0:
             fig, ax = plt.subplots(figsize=(7, 4.5), facecolor=BG)
             ax.set_facecolor(BG)
             ax.barh(sub["player"], sub["similarity"], color=RED, alpha=0.85)
             ax.set_xlabel("Cosine Similarity", fontsize=10)
             ax.set_title(f"Top-5 Most Similar Players to {focus_player}\n"
-                         f"Premier League {SEASON[:2]}-{SEASON[2:]}, per-90 stat profile",
+                         f"Premier League {SEASON[:2]}-{SEASON[2:]}, per-90 stat profile incl. passing",
                          fontsize=11, fontweight="bold")
             ax.grid(axis="x", color="#e0dbd5", lw=0.7)
             ax.spines[["top", "right"]].set_visible(False)
@@ -253,5 +325,6 @@ if __name__ == "__main__":
     print("  KEY FINDINGS -- Player Similarity Recommender")
     print(f"{'='*60}")
     print(f"  Players in index: {len(d)}")
+    print(f"  Features used: {len(feature_cols)} (incl. passing, creation, possession)")
     print(f"  Spotlight comparisons run: {comparisons_df['query_player'].nunique() if len(comparisons_df) else 0}")
     print(f"\nAll outputs saved to {OUTPUTS_DIR}")
