@@ -1,9 +1,17 @@
 """
 Model 10 -- Sentiment Shift Around the Luka Doncic Trade
-Daily news-headline sentiment (VADER) before/after the Feb 1, 2025 trade to the Lakers
+Daily news-headline sentiment (VADER + DistilBERT) before/after the Feb 1, 2025 trade to the Lakers
 Run: python run_model_10.py
 """
-import os, time, warnings
+import os
+os.environ.setdefault("KMP_DUPLICATE_LIB_OK", "TRUE")  # torch/numpy OpenMP DLL conflict workaround
+
+# torch must be imported before numpy/pandas/scipy on this Windows env, or its
+# bundled DLLs (shm.dll) conflict with the ones numpy already loaded.
+import torch  # noqa: F401
+from transformers import pipeline  # noqa: F401
+
+import time, warnings
 import datetime as dt
 import numpy as np
 import pandas as pd
@@ -93,11 +101,20 @@ def load_data():
 
 def score_sentiment(df):
     from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
     print("\nScoring headlines with VADER...")
     analyzer = SentimentIntensityAnalyzer()
     df = df.copy()
     df["compound"] = df["title"].apply(lambda t: analyzer.polarity_scores(str(t))["compound"])
-    print(f"  Scored {len(df)} headlines")
+    print(f"  VADER: scored {len(df)} headlines")
+
+    print("\nScoring headlines with DistilBERT (transformer model)...")
+    clf = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
+    titles = df["title"].astype(str).tolist()
+    results = clf(titles, batch_size=32, truncation=True)
+    df["bert_label"] = [r["label"] for r in results]
+    df["bert_score"] = [r["score"] if r["label"] == "POSITIVE" else -r["score"] for r in results]
+    print(f"  DistilBERT: scored {len(df)} headlines")
     return df
 
 
@@ -106,8 +123,11 @@ def aggregate_daily(df):
         n_articles=("title", "count"),
         mean_sentiment=("compound", "mean"),
         median_sentiment=("compound", "median"),
+        mean_bert=("bert_score", "mean"),
+        pct_bert_positive=("bert_label", lambda s: (s == "POSITIVE").mean()),
     ).reset_index()
-    daily.columns = ["date", "n_articles", "mean_sentiment", "median_sentiment"]
+    daily.columns = ["date", "n_articles", "mean_sentiment", "median_sentiment",
+                      "mean_bert", "pct_bert_positive"]
     return daily
 
 
@@ -117,27 +137,41 @@ def evaluate(df, daily):
     print("\nEvaluating before/after the trade...")
     before = df[df["date"].dt.date < TRADE_DATE]
     after = df[df["date"].dt.date >= TRADE_DATE]
+    from scipy import stats
 
     n_before, n_after = len(before), len(after)
+
+    # VADER
     mean_before = before["compound"].mean()
     mean_after = after["compound"].mean()
-
-    from scipy import stats
     t_stat, p_val = stats.ttest_ind(before["compound"], after["compound"], equal_var=False)
+
+    # DistilBERT
+    bert_mean_before = before["bert_score"].mean()
+    bert_mean_after = after["bert_score"].mean()
+    bert_t_stat, bert_p_val = stats.ttest_ind(before["bert_score"], after["bert_score"], equal_var=False)
+    pct_pos_before = (before["bert_label"] == "POSITIVE").mean()
+    pct_pos_after = (after["bert_label"] == "POSITIVE").mean()
 
     trade_day = daily[daily["date"] == TRADE_DATE]
     trade_day_volume = int(trade_day["n_articles"].iloc[0]) if len(trade_day) else 0
     baseline_volume = daily[daily["date"] < TRADE_DATE]["n_articles"].mean()
 
-    print(f"  Headlines before (n={n_before}): mean sentiment = {mean_before:.4f}")
-    print(f"  Headlines after  (n={n_after}): mean sentiment = {mean_after:.4f}")
-    print(f"  t-test: t={t_stat:.3f}, p={p_val:.4f} {'(SIGNIFICANT)' if p_val < 0.05 else '(not significant)'}")
+    print(f"  VADER      before (n={n_before}): mean = {mean_before:.4f}  |  after (n={n_after}): mean = {mean_after:.4f}")
+    print(f"  VADER      t-test: t={t_stat:.3f}, p={p_val:.4f} {'(SIGNIFICANT)' if p_val < 0.05 else '(not significant)'}")
+    print(f"  DistilBERT before: mean = {bert_mean_before:.4f} ({pct_pos_before:.1%} positive)  |  "
+          f"after: mean = {bert_mean_after:.4f} ({pct_pos_after:.1%} positive)")
+    print(f"  DistilBERT t-test: t={bert_t_stat:.3f}, p={bert_p_val:.4f} "
+          f"{'(SIGNIFICANT)' if bert_p_val < 0.05 else '(not significant)'}")
     print(f"  Trade-day volume: {trade_day_volume} headlines vs {baseline_volume:.1f}/day baseline before")
 
     return {
         "n_before": n_before, "n_after": n_after,
         "mean_before": mean_before, "mean_after": mean_after,
         "t_stat": t_stat, "p_value": p_val,
+        "bert_mean_before": bert_mean_before, "bert_mean_after": bert_mean_after,
+        "bert_t_stat": bert_t_stat, "bert_p_value": bert_p_val,
+        "pct_pos_before": pct_pos_before, "pct_pos_after": pct_pos_after,
         "trade_day_volume": trade_day_volume, "baseline_daily_volume": baseline_volume,
     }
 
@@ -148,7 +182,7 @@ def generate_plots(daily, show=False):
     matplotlib.use("Agg")
     plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 10})
 
-    fig, axes = plt.subplots(2, 1, figsize=(10, 7.5), facecolor=BG, sharex=True)
+    fig, axes = plt.subplots(3, 1, figsize=(10, 10.5), facecolor=BG, sharex=True)
 
     ax = axes[0]
     ax.set_facecolor(BG)
@@ -164,6 +198,17 @@ def generate_plots(daily, show=False):
     ax.spines[["top", "right"]].set_visible(False)
 
     ax = axes[1]
+    ax.set_facecolor(BG)
+    colors = [RED if d >= TRADE_DATE else BLUE for d in daily["date"]]
+    ax.bar(daily["date"], daily["mean_bert"], color=colors, alpha=0.85, width=0.8)
+    ax.axhline(0, color="#888", lw=1)
+    ax.axvline(TRADE_DATE, color="#222", lw=1.5, ls="--")
+    ax.set_ylabel("Mean DistilBERT Score", fontsize=10)
+    ax.set_title("Daily Headline Sentiment — DistilBERT (transformer model)", fontsize=11, fontweight="bold")
+    ax.grid(axis="y", color="#e0dbd5", lw=0.7)
+    ax.spines[["top", "right"]].set_visible(False)
+
+    ax = axes[2]
     ax.set_facecolor(BG)
     ax.bar(daily["date"], daily["n_articles"], color=BLUE, alpha=0.7, width=0.8)
     ax.axvline(TRADE_DATE, color="#222", lw=1.5, ls="--")
@@ -202,8 +247,8 @@ if __name__ == "__main__":
     print("  KEY FINDINGS -- Doncic Trade Sentiment Analysis")
     print(f"{'='*60}")
     print(f"  Total headlines:       {len(scored)}")
-    print(f"  Before trade (n={summary['n_before']}): mean sentiment {summary['mean_before']:.4f}")
-    print(f"  After trade  (n={summary['n_after']}): mean sentiment {summary['mean_after']:.4f}")
-    print(f"  t-test p-value:        {summary['p_value']:.4f}")
+    print(f"  VADER      before (n={summary['n_before']}): {summary['mean_before']:.4f}  |  after (n={summary['n_after']}): {summary['mean_after']:.4f}  |  p={summary['p_value']:.4f}")
+    print(f"  DistilBERT before: {summary['bert_mean_before']:.4f} ({summary['pct_pos_before']:.1%} pos)  |  "
+          f"after: {summary['bert_mean_after']:.4f} ({summary['pct_pos_after']:.1%} pos)  |  p={summary['bert_p_value']:.4f}")
     print(f"  Trade-day volume:      {summary['trade_day_volume']} vs {summary['baseline_daily_volume']:.1f}/day baseline")
     print(f"\nAll outputs saved to {OUTPUTS_DIR}")

@@ -4,6 +4,8 @@
 
 requests
 vaderSentiment
+transformers
+torch
 scipy
 pandas
 numpy
