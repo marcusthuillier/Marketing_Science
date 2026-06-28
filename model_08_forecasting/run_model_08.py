@@ -241,6 +241,23 @@ def evaluate(results_df):
     print(f"  ARIMA beats baseline in {pct_arima_better:.1%} of team-seasons")
     print(f"  Pythagorean beats baseline in {pct_pyth_better:.1%} of team-seasons")
 
+    # Paired tests on per-team-season absolute error: is each model's error genuinely
+    # different from the baseline's, or could the RMSE gap be noise across 240 samples?
+    from scipy import stats
+    t_arima, p_t_arima = stats.ttest_rel(results_df["BASELINE_ERROR"], results_df["ARIMA_ERROR"])
+    t_pyth, p_t_pyth = stats.ttest_rel(results_df["BASELINE_ERROR"], results_df["PYTH_ERROR"])
+    w_arima, p_w_arima = stats.wilcoxon(results_df["BASELINE_ERROR"], results_df["ARIMA_ERROR"])
+    w_pyth, p_w_pyth = stats.wilcoxon(results_df["BASELINE_ERROR"], results_df["PYTH_ERROR"])
+
+    print(f"\n  Paired t-test (baseline error vs ARIMA error):       t={t_arima:.3f}, p={p_t_arima:.4f} "
+          f"{'(SIGNIFICANT)' if p_t_arima < 0.05 else '(not significant)'}")
+    print(f"  Paired t-test (baseline error vs Pythagorean error): t={t_pyth:.3f}, p={p_t_pyth:.4f} "
+          f"{'(SIGNIFICANT)' if p_t_pyth < 0.05 else '(not significant)'}")
+    print(f"  Wilcoxon signed-rank (baseline vs ARIMA):             W={w_arima:.1f}, p={p_w_arima:.4f} "
+          f"{'(SIGNIFICANT)' if p_w_arima < 0.05 else '(not significant)'}")
+    print(f"  Wilcoxon signed-rank (baseline vs Pythagorean):       W={w_pyth:.1f}, p={p_w_pyth:.4f} "
+          f"{'(SIGNIFICANT)' if p_w_pyth < 0.05 else '(not significant)'}")
+
     summary = {
         "n_team_seasons": n,
         "rmse_baseline": rmse_baseline,
@@ -251,6 +268,10 @@ def evaluate(results_df):
         "mae_pyth": mae_pyth,
         "pct_arima_better": pct_arima_better,
         "pct_pyth_better": pct_pyth_better,
+        "ttest_arima_t": t_arima, "ttest_arima_p": p_t_arima,
+        "ttest_pyth_t": t_pyth, "ttest_pyth_p": p_t_pyth,
+        "wilcoxon_arima_w": w_arima, "wilcoxon_arima_p": p_w_arima,
+        "wilcoxon_pyth_w": w_pyth, "wilcoxon_pyth_p": p_w_pyth,
     }
     return summary
 
@@ -395,6 +416,8 @@ def print_findings(summary, best_for_arima, worst_for_arima, best_for_pyth, wors
     print(f"  Pythagorean RMSE:      {summary['rmse_pyth']:.3f} wins | MAE {summary['mae_pyth']:.3f}")
     print(f"  ARIMA beats baseline:       {summary['pct_arima_better']:.1%} of team-seasons")
     print(f"  Pythagorean beats baseline: {summary['pct_pyth_better']:.1%} of team-seasons")
+    print(f"  Paired t-test, baseline vs Pythagorean error: p={summary['ttest_pyth_p']:.4f}")
+    print(f"  Wilcoxon signed-rank, baseline vs Pythagorean error: p={summary['wilcoxon_pyth_p']:.4f}")
 
     rmses = {"Baseline": summary["rmse_baseline"], "ARIMA": summary["rmse_arima"], "Pythagorean": summary["rmse_pyth"]}
     winner = min(rmses, key=rmses.get)
