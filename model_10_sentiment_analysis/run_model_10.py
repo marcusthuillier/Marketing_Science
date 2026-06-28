@@ -28,7 +28,8 @@ CACHE_RAW = OUTPUTS_DIR + "headlines_raw.csv"
 BG, RED, BLUE = "#f5f0eb", "#9b3d36", "#4c72b0"
 
 TRADE_DATE = dt.date(2025, 2, 1)
-WINDOW_START = TRADE_DATE - dt.timedelta(days=7)   # 2025-01-25
+WINDOW_START = TRADE_DATE - dt.timedelta(days=30)  # 2025-01-02 -- widened from 7 days for a
+                                                    # larger, more precise pre-trade baseline
 WINDOW_END   = TRADE_DATE + dt.timedelta(days=14)  # 2025-02-15
 QUERY = '"Luka Doncic"'
 
