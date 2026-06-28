@@ -11,6 +11,8 @@ The original plan covered 5 seasons across 3 leagues with a live Streamlit deplo
 
 A first pass built the feature set from FBref's public `standard`/`shooting`/`misc` stat tables only, which `soccerdata`'s public API exposes directly. That feature set had no passing or progressive-carry data, and it showed: Kevin De Bruyne's nearest matches were wingers, not creative midfielders. `soccerdata` restricts its public `stat_type` argument to a fixed allowlist, but the underlying scrape-and-parse machinery works for any FBref stat page. Calling the library's own anti-bot-aware session (`fb.get()`) directly against the `passing`, `gca` (shot/goal-creating actions), and `possession` URLs, and reusing its internal HTML-comment-unwrapping parser, pulls real passing and creativity data with no extra dependencies. The feature set below uses that.
 
+The model's quality was originally going to be validated against FBref's own "Similar Players" feature, which historically appeared free on player scouting-report pages. Checked directly: that feature is gone from the free site (confirmed by fetching a current scouting report page and finding zero mentions of "similar" anywhere in it, just Stathead subscription promos) — it was pulled behind FBref's paid Stathead tier along with the rest of their advanced free stats in early 2026. No clean free replacement exists either (checked WhoScored, SofaScore, and the newer xG Stat product — none expose a comparable public similarity list). Validation below instead uses a standard quantitative substitute: do this model's nearest neighbors recover position more often than random chance would predict, given the dataset's actual position mix?
+
 ---
 
 ## The Question
@@ -54,7 +56,7 @@ Filter to players with ≥10 "90s" (900+ minutes). Convert raw counting stats to
 StandardScaler → L2-normalize → FAISS `IndexFlatIP` (cosine similarity via inner product on normalized vectors).
 
 ### 4. Validation
-Manual sanity check on 6 well-known players spanning forward, midfield, and defensive profiles — does a center-back return other center-backs? Does a creative playmaker return other creators, now that passing data is in the feature set?
+Two checks. First, a quantitative one: for every player in the index, do their top-5 nearest neighbors share their position more often than a randomly chosen player would, given the dataset's actual position mix? Second, a manual sanity check on 6 well-known players spanning forward, midfield, and defensive profiles — does a center-back return other center-backs? Does a creative playmaker return other creators, now that passing data is in the feature set?
 
 ### 5. Outputs
 Spotlight comparison table, PCA scatter of the full player population colored by position, bar chart of one player's top-5 matches.
@@ -69,6 +71,7 @@ Spotlight comparison table, PCA scatter of the full player population colored by
 | `outputs/player_features.csv` | Full per-90 feature matrix, 321 players, 23 features |
 | `outputs/player_pca_scatter.png` | 2D PCA of the player population, colored by position, spotlight players annotated |
 | `outputs/similarity_top5_example.png` | Bar chart of Kevin De Bruyne's top-5 matches and scores |
+| `outputs/validation_metrics.csv` | Position-recovery rate vs. random-chance baseline, across all 321 players |
 
 ---
 
@@ -76,7 +79,9 @@ Spotlight comparison table, PCA scatter of the full player population colored by
 
 321 Premier League players (2024-25, 900+ minutes) indexed on 23 per-90 features, including passing, creation (SCA/GCA), and possession/carrying.
 
-Validation check passed cleanly: Virgil van Dijk's top-5 matches are all center-backs (Luke Woolfenden, Ethan Pinnock, Matthijs de Ligt, Joachim Andersen, Leny Yoro), similarity scores 0.90–0.96.
+The quantitative validation: across all 321 players, the top-5 nearest neighbors share the query player's position 72.1% of the time. Given the dataset's actual position mix, a randomly chosen player would match position only 34.3% of the time. That's a 2.10x lift over chance, with no position label ever fed into the model — it's recovered entirely from attacking, passing, and defensive output.
+
+The manual sanity check agrees: Virgil van Dijk's top-5 matches are all center-backs (Luke Woolfenden, Ethan Pinnock, Matthijs de Ligt, Joachim Andersen, Leny Yoro), similarity scores 0.90–0.96.
 
 Kevin De Bruyne's matches are the real test of the fix. With the richer feature set, his top-5 are Pedro Neto (sim 0.949), Bukayo Saka (0.909), Dwight McNeil (0.908), Sávio (0.878), and Marcus Tavernier (0.874). Saka in particular is a meaningful result: he's a genuine elite creative wide player with real passing output, not just a high-volume attacker. The previous, passing-free feature set never surfaced anyone like him for De Bruyne.
 
@@ -104,6 +109,7 @@ python run_model_09.py
 | Cosine similarity on normalized per-90 stats | Item-item collaborative filtering |
 | FAISS `IndexFlatIP` for nearest-neighbor search | Vector similarity search / embeddings retrieval |
 | Bypassing a library's restrictive public API by reusing its internal session/parser | Reading library internals to unblock a real requirement |
+| Position-recovery rate vs. random-chance baseline as a quantitative validation metric | Validating an embedding without external ground-truth labels |
 | PCA projection for visual validation | Dimensionality reduction for QA |
 | Diagnosing and fixing a feature-completeness gap, then re-validating | Knowing what your model can't see, and fixing it |
 

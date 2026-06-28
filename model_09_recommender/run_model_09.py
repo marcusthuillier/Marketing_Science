@@ -226,6 +226,40 @@ def find_similar(d, index, X_norm, player_name, k=6):
     return rows
 
 
+def validate_position_recovery(d, index, X_norm, k=5):
+    """
+    Quantitative validation substitute for FBref's own "Similar Players" feature,
+    which was removed from the free site and is now Stathead-only (confirmed by
+    direct check: zero mentions of "similar" on a player's scouting report page
+    as of mid-2026, just Stathead subscription promos). Instead: for every player,
+    check whether their top-k nearest neighbors share their position more often
+    than a randomly chosen player would, by chance, given the dataset's actual
+    position mix. This is the standard way to validate a similarity embedding
+    when no external ground-truth labels exist.
+    """
+    print(f"\nValidating: do top-{k} matches share position more than chance? (n={len(d)})")
+    n_total = len(d)
+    pos_counts = d["pos_simple"].value_counts().to_dict()
+
+    match_rates, baseline_rates = [], []
+    for idx in range(n_total):
+        query = X_norm[idx:idx+1]
+        sims, ids = index.search(query, k + 1)
+        own_pos = d.iloc[idx]["pos_simple"]
+        neighbor_ids = [i for i in ids[0] if i != idx][:k]
+        matches = sum(1 for i in neighbor_ids if d.iloc[i]["pos_simple"] == own_pos)
+        match_rates.append(matches / k)
+        n_p = pos_counts.get(own_pos, 0)
+        baseline_rates.append((n_p - 1) / (n_total - 1))
+
+    observed = float(np.mean(match_rates))
+    baseline = float(np.mean(baseline_rates))
+    print(f"  Observed top-{k} same-position rate: {observed:.1%}")
+    print(f"  Random-chance baseline (by position mix): {baseline:.1%}")
+    print(f"  Lift over random chance: {observed / baseline:.2f}x")
+    return {"observed_rate": observed, "baseline_rate": baseline, "lift": observed / baseline}
+
+
 def run_spotlight_comparisons(d, index, X_norm):
     print("\nRunning spotlight player comparisons...")
     all_rows = []
@@ -315,16 +349,20 @@ if __name__ == "__main__":
     raw = load_data()
     d, feature_cols = build_features(raw)
     index, X_norm = build_similarity_index(d, feature_cols)
+    validation = validate_position_recovery(d, index, X_norm, k=5)
     comparisons_df = run_spotlight_comparisons(d, index, X_norm)
     generate_plots(d, feature_cols, comparisons_df, show=False)
 
     comparisons_df.to_csv(OUTPUTS_DIR + "spotlight_comparisons.csv", index=False)
     d.to_csv(OUTPUTS_DIR + "player_features.csv", index=False)
+    pd.DataFrame([validation]).to_csv(OUTPUTS_DIR + "validation_metrics.csv", index=False)
 
     print(f"\n{'='*60}")
     print("  KEY FINDINGS -- Player Similarity Recommender")
     print(f"{'='*60}")
     print(f"  Players in index: {len(d)}")
     print(f"  Features used: {len(feature_cols)} (incl. passing, creation, possession)")
+    print(f"  Top-5 same-position rate: {validation['observed_rate']:.1%} "
+          f"vs {validation['baseline_rate']:.1%} random chance ({validation['lift']:.2f}x lift)")
     print(f"  Spotlight comparisons run: {comparisons_df['query_player'].nunique() if len(comparisons_df) else 0}")
     print(f"\nAll outputs saved to {OUTPUTS_DIR}")
