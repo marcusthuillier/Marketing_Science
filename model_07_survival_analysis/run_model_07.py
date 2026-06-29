@@ -210,6 +210,57 @@ def run_cox_regression(survival_df):
     return cph, df_cox
 
 
+# ── Diagnostics: proportional hazards assumption + out-of-sample concordance ──
+
+def check_proportional_hazards(cph, df_cox):
+    """
+    Cox regression assumes each covariate's effect on hazard is constant over
+    time. That assumption is almost never actually tested in practice -- it's
+    checked here with the standard Schoenfeld-residuals-based test (correlate
+    scaled Schoenfeld residuals against time; a significant correlation means
+    the hazard ratio for that variable isn't actually constant).
+    """
+    from lifelines.statistics import proportional_hazard_test
+
+    print("\nChecking proportional hazards assumption (Schoenfeld residuals test)...")
+    results = proportional_hazard_test(cph, df_cox, time_transform="rank")
+    results.print_summary()
+
+    violations = results.summary[results.summary["p"] < 0.05]
+    if len(violations) > 0:
+        print(f"  {len(violations)} covariate(s) violate the proportional hazards "
+              f"assumption at p<0.05: {list(violations.index)}")
+    else:
+        print("  No covariates violate the proportional hazards assumption at p<0.05 -- "
+              "the hazard ratios above are valid as constant-over-time effects.")
+    return results
+
+
+def evaluate_out_of_sample_concordance(df_cox, n_splits=5, test_size=0.2, random_state=42):
+    """
+    cph.print_summary() reports in-sample concordance -- fit and scored on the
+    same 1,757 players. That overstates real predictive power. This refits the
+    same model on repeated random 80/20 splits and scores concordance on the
+    held-out 20% each time, to see how much the in-sample number was overfit.
+    """
+    from lifelines import CoxPHFitter
+    from sklearn.model_selection import train_test_split
+
+    print(f"\nEvaluating out-of-sample concordance ({n_splits} random 80/20 splits)...")
+    scores = []
+    for i in range(n_splits):
+        train_df, test_df = train_test_split(df_cox, test_size=test_size, random_state=random_state + i)
+        cph_split = CoxPHFitter()
+        cph_split.fit(train_df, duration_col="DURATION", event_col="EVENT")
+        score = cph_split.score(test_df, scoring_method="concordance_index")
+        scores.append(score)
+        print(f"  Split {i+1}: held-out concordance = {score:.3f}")
+
+    mean_score = float(np.mean(scores))
+    print(f"  Mean held-out concordance: {mean_score:.3f} (in-sample was reported above)")
+    return {"oos_concordance_scores": scores, "oos_concordance_mean": mean_score}
+
+
 # ── Spotlight player survival curves ──────────────────────────────────────────
 
 def compute_spotlight_curves(survival_df, cph, df_cox):
@@ -315,7 +366,7 @@ def generate_plots(survival_df, kmf, results, cph, show=False):
 
 # ── Print findings ─────────────────────────────────────────────────────────────
 
-def print_findings(survival_df, kmf, results, cph):
+def print_findings(survival_df, kmf, results, cph, ph_test, oos):
     print(f"\n{'='*60}")
     print("  KEY FINDINGS — NBA Career Survival Analysis")
     print(f"{'='*60}")
@@ -329,12 +380,21 @@ def print_findings(survival_df, kmf, results, cph):
     for pos, km in sorted(kmf.items(), key=lambda x: x[1].median_survival_time_):
         print(f"    {pos}: {km.median_survival_time_:.1f} seasons")
 
-    print(f"\n  Cox regression top hazard ratios:")
+    print(f"\n  Cox regression top hazard ratios (95% CI):")
     hr = cph.summary["exp(coef)"].sort_values(ascending=False)
     for feat, val in hr.items():
         p = cph.summary.loc[feat, "p"]
+        lo = cph.summary.loc[feat, "exp(coef) lower 95%"]
+        hi = cph.summary.loc[feat, "exp(coef) upper 95%"]
         sig = " *" if p < 0.05 else ""
-        print(f"    {feat:<22} HR={val:.3f}  p={p:.3f}{sig}")
+        print(f"    {feat:<22} HR={val:.3f}  [{lo:.3f}, {hi:.3f}]  p={p:.3f}{sig}")
+
+    n_violations = (ph_test.summary["p"] < 0.05).sum()
+    print(f"\n  Proportional hazards check: {n_violations} of {len(ph_test.summary)} "
+          f"covariates violate the assumption at p<0.05")
+    print(f"  In-sample concordance:     {cph.concordance_index_:.3f}")
+    print(f"  Out-of-sample concordance: {oos['oos_concordance_mean']:.3f} "
+          f"(mean across {len(oos['oos_concordance_scores'])} held-out 20% splits)")
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -346,7 +406,12 @@ if __name__ == "__main__":
     survival_df = build_survival_df(stats)
     kmf, results = run_km_analysis(survival_df)
     cph, df_cox  = run_cox_regression(survival_df)
+    ph_test      = check_proportional_hazards(cph, df_cox)
+    oos          = evaluate_out_of_sample_concordance(df_cox)
     spotlight    = compute_spotlight_curves(survival_df, cph, df_cox)
     generate_plots(survival_df, kmf, results, cph, show=False)
-    print_findings(survival_df, kmf, results, cph)
+    print_findings(survival_df, kmf, results, cph, ph_test, oos)
+
+    ph_test.summary.to_csv(OUTPUTS_DIR + "proportional_hazards_test.csv")
+    pd.DataFrame([oos]).to_csv(OUTPUTS_DIR + "out_of_sample_concordance.csv", index=False)
     print(f"\nAll outputs saved to {OUTPUTS_DIR}")
