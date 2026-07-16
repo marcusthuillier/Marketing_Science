@@ -1,0 +1,4 @@
+segment,elasticity,std_error,p_value,r_squared,n_obs,pricing_recommendation
+overall,0.3437,0.064,0.0,0.3341,90,underpricing - inelastic demand (raise price to grow revenue)
+playoff_caliber,0.2856,0.1064,0.0072,0.3879,31,underpricing - inelastic demand (raise price to grow revenue)
+non_playoff,0.3132,0.0889,0.0004,0.2319,59,underpricing - inelastic demand (raise price to grow revenue)
