@@ -1,5 +1,5 @@
 n_observations=90
-n_teams=31
+n_teams=30
 n_seasons=3
 anchor_years=2011,2013,2015
 overall_elasticity=0.3437
@@ -8,3 +8,6 @@ non_playoff_elasticity=0.3132
 r_squared=0.3341
 pricing_recommendation_playoff=underpricing - inelastic demand
 pricing_recommendation_non_playoff=underpricing - inelastic demand
+within_team_elasticity=0.2464
+within_team_p_value=0.1358
+within_team_r_squared=0.878

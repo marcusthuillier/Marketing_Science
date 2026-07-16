@@ -167,6 +167,8 @@ def build_dataset():
             })
 
     df = pd.DataFrame(records)
+    # Normalize Florida/Miami: FLO (2011) → MIA so team FE treats them as one franchise
+    df["team"] = df["team"].replace("FLO", "MIA")
     df["log_attendance"] = np.log(df["attendance"])
     df["log_price"]      = np.log(df["avg_ticket_price"])
     df["log_win_pct"]    = np.log(df["win_pct"])
@@ -187,6 +189,21 @@ def run_ols(data, label=""):
         return model
     except Exception as e:
         print(f"  OLS error ({label}): {e}")
+        return None
+
+# ── 7a. WITHIN-TEAM PANEL REGRESSION (team + year FE) ────────────────────────
+def run_ols_panel(data):
+    """
+    Adds team fixed effects to absorb brand/market confounders.
+    Identification is now purely within-team: how did each franchise's
+    attendance respond when its own price changed across the three anchor years?
+    """
+    formula = "log_attendance ~ log_price + log_win_pct + playoff + new_stadium + C(year) + C(team)"
+    try:
+        model = smf.ols(formula, data=data).fit(cov_type="HC3")
+        return model
+    except Exception as e:
+        print(f"  OLS panel error: {e}")
         return None
 
 # ── 7. OUTPUTS ────────────────────────────────────────────────────────────────
@@ -306,12 +323,24 @@ def main():
     df.to_csv(os.path.join(OUT_DIR, "raw_panel_data.csv"), index=False)
 
     print("\nRunning regressions...")
-    model_all = run_ols(df,                                 "overall")
-    model_po  = run_ols(df[df["is_playoff_caliber"]==1],   "playoff")
-    model_npo = run_ols(df[df["is_playoff_caliber"]==0],   "non-playoff")
+    model_all   = run_ols(df,                                 "overall")
+    model_po    = run_ols(df[df["is_playoff_caliber"]==1],   "playoff")
+    model_npo   = run_ols(df[df["is_playoff_caliber"]==0],   "non-playoff")
+    model_panel = run_ols_panel(df)
 
     print("Saving outputs...")
     e_all, e_po, e_npo = save_outputs(df, model_all, model_po, model_npo)
+
+    # Append within-team result to key_metrics
+    if model_panel:
+        e_fe   = round(model_panel.params.get("log_price", np.nan), 4)
+        pv_fe  = round(model_panel.pvalues.get("log_price", np.nan), 4)
+        r2_fe  = round(model_panel.rsquared, 4)
+        with open(os.path.join(OUT_DIR, "key_metrics.txt"), "a") as f:
+            f.write(f"within_team_elasticity={e_fe}\n")
+            f.write(f"within_team_p_value={pv_fe}\n")
+            f.write(f"within_team_r_squared={r2_fe}\n")
+
     save_chart(df, e_all, e_po, e_npo)
 
     print("\n" + "=" * 60)
@@ -319,7 +348,7 @@ def main():
     print("=" * 60)
 
     def fmt(e, model):
-        if np.isnan(e) or model is None:
+        if model is None or np.isnan(e):
             return "n/a"
         pval  = model.pvalues.get("log_price", np.nan)
         stars = "***" if pval<0.01 else "**" if pval<0.05 else "*" if pval<0.10 else "(ns)"
@@ -327,20 +356,26 @@ def main():
         r2    = model.rsquared
         return f"e={e:+.4f}  [{tag}]  p={pval:.3f}{stars}  R2={r2:.3f}"
 
-    print(f"  Overall:     {fmt(e_all, model_all)}")
-    print(f"  Playoff:     {fmt(e_po,  model_po)}")
-    print(f"  Non-playoff: {fmt(e_npo, model_npo)}")
-    print(f"\n  N={len(df)}  |  30 teams  |  3 anchor years (2011, 2013, 2015)")
+    print(f"  Cross-section overall: {fmt(e_all, model_all)}")
+    print(f"  Cross-section playoff: {fmt(e_po,  model_po)}")
+    print(f"  Cross-section non-po:  {fmt(e_npo, model_npo)}")
 
-    if model_all:
-        print("\n  Coefficient summary:")
+    if model_panel:
+        e_fe  = model_panel.params.get("log_price", np.nan)
+        pv_fe = model_panel.pvalues.get("log_price", np.nan)
+        stars = "***" if pv_fe<0.01 else "**" if pv_fe<0.05 else "*" if pv_fe<0.10 else "(ns)"
+        print(f"\n  Within-team (team+year FE):  e={e_fe:+.4f}  p={pv_fe:.3f}{stars}  R2={model_panel.rsquared:.3f}")
+        print(f"  (dof remaining: {int(model_panel.df_resid)})")
+        print("\n  Within-team coefficient detail:")
         for var in ["log_price", "log_win_pct", "playoff", "new_stadium"]:
-            if var in model_all.params:
-                c  = model_all.params[var]
-                pv = model_all.pvalues[var]
+            if var in model_panel.params:
+                c  = model_panel.params[var]
+                pv = model_panel.pvalues[var]
+                se = model_panel.bse[var]
                 s  = "***" if pv<0.01 else "**" if pv<0.05 else "*" if pv<0.10 else "  "
-                print(f"    {var:15s}  coef={c:+.4f}  p={pv:.4f} {s}")
+                print(f"    {var:15s}  coef={c:+.4f}  se={se:.4f}  p={pv:.4f} {s}")
 
+    print(f"\n  N={len(df)}  |  {df['team'].nunique()} teams  |  3 anchor years (2011, 2013, 2015)")
     print("\nDone. Outputs:", OUT_DIR)
 
 if __name__ == "__main__":
