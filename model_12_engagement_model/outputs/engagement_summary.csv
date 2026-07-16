@@ -1,0 +1,7 @@
+event_type,mean_views,median_views,n_days
+non_match_day,12647.0,10130.0,5630
+match_day,23788.5,17322.5,760
+day_after_match,15750.7,12660.0,760
+day_after_win,16909.1,13794.0,434
+day_after_draw,13896.6,11132.0,147
+day_after_loss,14464.6,11778.0,179

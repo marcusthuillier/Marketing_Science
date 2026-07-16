@@ -1,0 +1,8 @@
+season,team,manager_before,manager_after,change_date,n_before,n_after,naive_before_xgd,naive_after_xgd,naive_pct_change,naive_improved,ttest_p,season_avg_xgd,rtm_gap,its_level_change,its_level_pvalue,its_slope_change,its_slope_pvalue,causal_significant_its,causal_estimate_ucm,causal_ci_low_ucm,causal_ci_high_ucm,causal_significant_ucm
+2015/16,Espanyol,Sergio González Soriano,Constantin Gâlcă,2015-12-19,15,23,-0.4385,-0.1088,75.19,True,0.3576,-0.2389,-0.1996,-0.1612,0.8268,0.0215,0.7695,False,0.3297,-1.1915,1.8509,False
+2015/16,Real Betis,José Mel Pérez,Juan Merino Ruíz,2016-01-16,19,19,-0.3082,-0.523,-69.69,False,0.6135,-0.4156,0.1074,-0.0388,0.9646,0.0158,0.8432,False,-0.2148,-2.0475,1.618,False
+2015/16,Real Madrid,Rafael Benítez Maudes,Zinédine Zidane,2016-01-09,18,20,0.917,0.9978,8.81,True,0.8503,0.9595,-0.0425,0.2821,0.7494,-0.0364,0.6523,False,0.0808,-2.6659,2.8275,False
+2015/16,Real Sociedad,David Moyes,Eusebio Sacristán Mena,2015-11-21,11,27,0.3979,-0.1577,-139.65,False,0.2106,0.0031,0.3948,-0.2692,0.775,0.0073,0.9531,False,-0.5556,-2.2222,1.111,False
+2015/16,Valencia,Nuno Herlander Simões Espírito Santo,Salvador González Marco,2015-12-05,13,25,0.0688,-0.4501,-754.68,False,0.2063,-0.2726,0.3413,0.3311,0.6943,0.1064,0.2645,False,-0.3024,-2.4934,1.8887,False
+2015/16,Valencia,Salvador González Marco,Gary Neville,2015-12-13,14,24,0.0032,-0.4335,-13651.76,False,0.2809,-0.2726,0.2758,0.5534,0.5016,0.1051,0.2285,False,-0.0468,-2.3784,2.2847,False
+2019/20,Barcelona,Ernesto Valverde Tejedor,Enrique Setién Solar,2020-01-19,14,19,0.5853,0.8482,44.9,True,0.4705,0.7367,-0.1513,-0.0341,0.9639,-0.0684,0.4101,False,0.2628,-1.5383,2.064,False

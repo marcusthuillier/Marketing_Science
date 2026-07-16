@@ -1,0 +1,343 @@
+player,last_touch_credit,linear_credit,shapley_credit,last_touch_rank,shapley_rank,rank_change,chains_involved,goals_scored,goals_assisted
+Luis Alberto Suárez Díaz,16.0,9.988888888888889,10.3675,1,1,0,30,16,8
+Lionel Andrés Messi Cuccittini,12.0,7.0285714285714285,7.765000000000001,2,2,0,21,12,2
+Cristiano Ronaldo dos Santos Aveiro,11.0,6.9523809523809526,7.1,3,3,0,14,11,1
+Neymar da Silva Santos Junior,8.0,7.466666666666667,6.675000000000001,5,4,1,20,8,5
+Youssef El-Arabi,7.0,5.2,5.4625,6,5,1,8,7,0
+Antoine Griezmann,9.0,3.772222222222222,4.625,4,6,-2,13,9,1
+Jonathan Viera Ramos,2.0,4.461904761904762,4.2,37,7,30,9,2,6
+Rubén Castro Martín,7.0,3.1523809523809523,4.15,6,8,-2,8,7,1
+Jorge Resurrección Merodio,1.0,4.2444444444444445,4.1,56,9,47,14,1,10
+Kevin Gameiro,6.0,3.0888888888888886,3.6,8,10,-2,7,6,1
+Arnaldo Antonio Sanabria Ayala,6.0,2.4,3.525,8,11,-3,8,6,1
+James David Rodríguez Rubio,4.0,3.8222222222222224,3.45,12,12,0,10,4,2
+Lucas Pérez Martínez,4.0,3.3785714285714286,3.3625,12,13,-1,10,4,4
+Aritz Aduriz Zubeldia,6.0,2.433333333333333,3.225,8,14,-6,8,6,0
+Jonathan Rodríguez Menéndez,3.0,3.6666666666666665,3.1125,21,15,6,10,3,4
+Éver Maximiliano David Banega,3.0,3.1666666666666665,3.0,21,16,5,5,3,1
+Karim Benzema,5.0,2.4285714285714284,3.0,11,16,-5,10,5,2
+Giuseppe Rossi,3.0,2.5,2.95,21,18,3,5,3,1
+Bruno Soriano Llido,3.0,2.7,2.75,21,19,2,6,3,0
+Luis Alberto Romero Alconchel,4.0,2.3,2.6500000000000004,12,20,-8,7,4,2
+Gerard Moreno Balaguero,4.0,2.7,2.65,12,21,-9,6,4,1
+Yevhen Konoplyanka,3.0,2.933333333333333,2.55,21,22,-1,4,3,0
+Rubén Rochina Naixes,3.0,2.1547619047619047,2.5,21,23,-2,7,3,3
+Gareth Frank Bale,4.0,2.022222222222222,2.5,12,23,-11,7,4,3
+Marco Asensio Willemsen,2.0,3.033333333333333,2.475,37,25,12,9,2,3
+Fernando José Torres Sanz,4.0,2.1222222222222222,2.3125,12,26,-14,8,4,1
+Tiago Manuel Dias Correia,2.0,2.4,2.25,37,27,10,6,2,2
+Hernán Arsenio Pérez González,4.0,1.4333333333333333,2.1500000000000004,12,28,-16,6,4,1
+Borja González Tomás,3.0,1.6,2.1,21,29,-8,4,3,1
+Sergio Enrich Ametller,3.0,1.7,2.0625,21,30,-9,6,3,2
+Ivan Rakitić,3.0,1.5333333333333332,2.0250000000000004,21,31,-10,6,3,1
+Pablo Sarabia García,1.0,1.9,1.9249999999999998,56,32,24,7,1,4
+Saúl Berjón Pérez,1.0,2.1,1.9224999999999999,56,33,23,6,1,1
+Javier Guerra Rodríguez,4.0,1.2,1.9000000000000001,12,34,-22,4,4,0
+Imanol Agirretxe Arruti,4.0,0.9857142857142858,1.9000000000000001,12,34,-22,4,4,0
+Pedro Taunausú Domínguez Placeres,3.0,1.9,1.85,21,36,-15,6,3,0
+Markel Susaeta Laskurain,2.0,1.8583333333333334,1.8275,37,37,0,7,2,2
+Isaac Ajayi Success,2.0,2.4,1.8125,37,38,-1,5,2,2
+Felipe Salvador Caicedo Corozo,3.0,1.6,1.79,21,39,-18,6,3,0
+Francisco Alcácer García,3.0,1.85,1.7625000000000002,21,40,-19,5,3,1
+Saúl Ñíguez Esclapez,3.0,1.8333333333333333,1.75,21,41,-20,6,3,0
+Jordi Alba Ramos,0.0,1.9,1.75,145,41,104,9,0,4
+Alberto Mateus Contreiras Gonçalves,3.0,1.1928571428571428,1.7400000000000002,21,43,-22,5,3,1
+Toni Kroos,1.0,1.75,1.7375,56,44,12,8,1,2
+José Luis Morales Nogales,2.0,1.5,1.7000000000000002,37,45,-8,5,2,2
+Mikel San José Domínguez,1.0,2.2222222222222223,1.6125,56,46,10,8,1,2
+Luka Modrić,1.0,1.8444444444444443,1.575,56,47,9,8,1,2
+Germán Alejandro Pezzella,2.0,1.75,1.55,37,48,-11,7,2,1
+Andrés Iniesta Luján,1.0,2.5,1.525,56,49,7,9,1,1
+Iñaki Williams Arthuer,1.0,1.4444444444444444,1.45,56,50,6,4,1,3
+Sergio Busquets i Burgos,0.0,1.8,1.4125,145,51,94,6,0,3
+Munir El Haddadi Mohamed,2.0,0.8285714285714285,1.4000000000000001,37,52,-15,3,2,1
+Víctor Camarasa Ferrando,1.0,1.6,1.4,56,53,3,3,1,1
+Nabil El Zhar,1.0,0.9666666666666666,1.4,56,53,3,4,1,2
+João Pedro Cavaco Cancelo,1.0,1.45,1.4,56,53,3,5,1,1
+Papa Kouly Diop,1.0,1.5166666666666666,1.3775000000000002,56,56,0,7,1,0
+Sergio Álvarez Díaz,1.0,1.25,1.375,56,57,-1,6,1,1
+Daniel Carvajal Ramos,0.0,1.8095238095238095,1.375,145,57,88,9,0,2
+Alejandro Arribas Garrido,0.0,1.3972222222222221,1.3625,145,59,86,9,0,0
+Fabián Ariel Orellana Valenzuela,2.0,1.5,1.3625,37,59,-22,5,2,1
+Alen Halilović,2.0,1.2,1.35,37,61,-24,4,2,1
+Adrián González Morales,2.0,1.2,1.35,37,61,-24,5,2,0
+Willian José da Silva,3.0,1.0666666666666667,1.35,21,61,-40,3,3,0
+Álvaro Vázquez García,2.0,1.3,1.35,37,61,-24,5,2,1
+Pedro León Sánchez Gil,2.0,1.15,1.35,37,61,-24,4,2,1
+Pedro Mosquera Parada,0.0,1.5535714285714286,1.325,145,66,79,8,0,2
+Arda Turan,1.0,1.4,1.2625,56,67,-11,5,1,2
+Enzo Pablo Roco Roco,1.0,1.4,1.2550000000000001,56,68,-12,9,1,0
+Iago Aspas Juncal,1.0,1.45,1.25,56,69,-13,5,1,2
+Damián Nicolás Suárez Suárez,0.0,1.2,1.25,145,69,76,6,0,3
+Ángel Martín Correa,1.0,1.8,1.225,56,71,-15,4,1,2
+Sergi Roberto Carnicer,0.0,1.3,1.2149999999999999,145,72,73,7,0,2
+John Guidetti,3.0,0.6000000000000001,1.2000000000000002,21,73,-52,3,3,0
+Adnane Tighadouini,1.0,1.1,1.15,56,74,-18,2,1,0
+Óscar de Marcos Arana,0.0,1.4,1.15,145,74,71,5,0,1
+Alberto Lora Ramos,0.0,1.2428571428571429,1.125,145,76,69,6,0,2
+Fayçal Fajr,2.0,0.8999999999999999,1.1,37,77,-40,3,2,0
+Filipe Luís Kasmirski,1.0,1.3111111111111111,1.1,56,77,-21,5,1,1
+Emiliano Daniel Velázquez Maldonado,2.0,1.1,1.1,37,77,-40,3,2,0
+Víctor Guillermo Álvarez Delgado,1.0,1.1,1.1,56,77,-21,4,1,1
+Denis Suárez Fernández,2.0,0.85,1.1,37,77,-40,3,2,1
+Mikel Rico Moreno,1.0,1.15,1.09,56,82,-26,5,1,0
+Francisco Medina Luna,1.0,0.9,1.075,56,83,-27,4,1,2
+Ander Capa Rodríguez,0.0,0.9968253968253968,1.05,145,84,61,6,0,0
+Daniel García Carrillo,0.0,0.8,1.05,145,84,61,5,0,0
+Xabier Etxeita Gorritxategi,0.0,0.8500000000000001,1.0499999999999998,145,86,59,5,0,0
+David García Santana,1.0,0.9857142857142858,1.04,56,87,-31,5,1,1
+Raúl García Escudero,1.0,1.125,1.03,56,88,-32,5,1,1
+Pablo Hernández Domínguez,1.0,1.7,1.025,56,89,-33,5,1,0
+Pedro Bigas Rigo,1.0,1.1166666666666667,1.025,56,89,-33,4,1,0
+José Raúl Baena Urdiales,0.0,0.9,1.0,145,91,54,4,0,1
+Gonzalo Escalante,1.0,0.55,1.0,56,91,-35,3,1,0
+Roberto Soldado Rillo,1.0,0.8,1.0,56,91,-35,3,1,2
+Marcelo Vieira da Silva Júnior,0.0,0.8333333333333333,1.0,145,91,54,4,0,2
+Alejandro Menéndez Díez,2.0,0.8,1.0,37,91,-54,4,2,0
+Álvaro González Soberón,0.0,1.0333333333333334,0.975,145,96,49,7,0,1
+Benoît Trémoulinas,0.0,1.2,0.975,145,96,49,4,0,2
+Mario Gaspar Pérez Martínez,1.0,1.2333333333333334,0.9625,56,98,-42,4,1,1
+Sabin Merino Zuloaga,2.0,0.55,0.9500000000000001,37,99,-62,2,2,0
+Juan Manuel Vargas Risco,1.0,0.9761904761904762,0.95,56,100,-44,3,1,0
+Víctor Sánchez Mata,0.0,1.3666666666666667,0.95,145,100,45,5,0,2
+Aymeric Laporte,1.0,0.8,0.925,56,102,-46,4,1,0
+Francisco Román Alarcón Suárez,1.0,1.2,0.925,56,102,-46,4,1,1
+Víctor Rodríguez Romero,1.0,0.9,0.8625,56,104,-48,5,1,0
+Rubén Duarte Sánchez,0.0,0.95,0.8624999999999999,145,105,40,5,0,1
+Roberto Trashorras Gayoso,0.0,0.825,0.8624999999999999,145,105,40,4,0,2
+Carlos Carmona Bonet,1.0,0.8,0.8500000000000001,56,107,-51,3,1,1
+Joan Verdú Fernández,1.0,0.8333333333333333,0.8500000000000001,56,107,-51,2,1,1
+Cédric Bakambu,1.0,0.4666666666666667,0.8500000000000001,56,107,-51,2,1,1
+Jefferson Andrés Lerma Solís,0.0,1.0999999999999999,0.85,145,110,35,5,0,1
+Celso Borges Mora,1.0,0.6111111111111112,0.85,56,110,-54,3,1,1
+Charly Musonda Junior,0.0,1.4,0.85,145,110,35,5,0,1
+Gabriel Fernández Arenas,0.0,0.7166666666666667,0.85,145,110,35,4,0,1
+Adrián Embarba Blázquez,1.0,1.2785714285714287,0.825,56,114,-58,4,1,0
+Ismael López Blanco,1.0,1.0333333333333332,0.825,56,114,-58,5,1,0
+Beñat Etxebarria Urkiaga,0.0,1.1833333333333333,0.825,145,114,31,5,0,0
+Jesé Rodríguez Ruiz,1.0,0.8,0.8,56,117,-61,3,1,1
+Juan Francisco Torres Belén,1.0,0.7,0.8,56,117,-61,3,1,1
+Vicente Iborra De La Fuente,1.0,0.7,0.8,56,117,-61,3,1,1
+Jean-Sylvain Claude Babin,2.0,1.0,0.8,37,117,-80,2,2,0
+Fernando Navarro i Corbacho,0.0,1.0,0.7999999999999999,145,121,24,5,0,1
+Armindo Tué Na Bangna,1.0,0.6,0.79,56,122,-66,3,1,1
+Santiago Mina Lorenzo,1.0,0.6000000000000001,0.775,56,123,-67,2,1,0
+Lucas Vázquez Iglesias,1.0,0.7,0.775,56,123,-67,3,1,1
+Raúl Albentosa Redal,1.0,0.85,0.76,56,125,-69,3,1,0
+Ignacio Cases Mora,0.0,1.0499999999999998,0.75,145,126,19,5,0,0
+Adrián López Álvarez,0.0,1.0,0.75,145,126,19,3,0,2
+Sidnei Rechel da Silva Júnior,0.0,0.8,0.7374999999999999,145,128,17,6,0,0
+Roberto José Rosales Altuve,0.0,0.975,0.7124999999999999,145,129,16,3,0,2
+Hernán Daniel Santana Trujillo,1.0,0.7666666666666666,0.7000000000000001,56,130,-74,2,1,0
+Jonathas Cristian de Jesus,1.0,0.6,0.7,56,131,-75,2,1,1
+Danilo Luiz da Silva,0.0,0.9,0.7,145,131,14,4,0,1
+Charles Días Barbosa de Oliveira,1.0,0.55,0.7,56,131,-75,2,1,1
+Nicolás Ladislao Fedor Flores,1.0,0.7555555555555555,0.7,56,131,-75,2,1,1
+Michael Krohn-Dehli,0.0,0.55,0.7,145,131,14,4,0,0
+Carlos Henrique Casimiro,0.0,0.8,0.7,145,131,14,3,0,2
+Adalberto Peñaranda Maestre,1.0,0.7285714285714285,0.7,56,131,-75,2,1,1
+Daniel Alves da Silva,0.0,0.7999999999999999,0.7,145,131,14,4,0,1
+Moisés Gómez Bordonado,1.0,0.7,0.7,56,131,-75,3,1,0
+Juan Pablo Añor Acosta,1.0,0.55,0.7,56,131,-75,2,1,1
+Sergio Gontán Gallardo,1.0,1.1,0.685,56,141,-85,4,1,0
+Pedro López Muñoz,1.0,0.7,0.6749999999999999,56,142,-86,4,1,0
+Álvaro Medrán Just,1.0,1.1,0.65,56,143,-87,3,1,0
+Manuel Agudo Durán,1.0,0.6,0.65,56,143,-87,2,1,0
+Zouhair Feddal,0.0,0.5,0.65,145,143,2,4,0,0
+Andrés Eduardo Fernández Moreno,0.0,0.5,0.6375,145,146,-1,5,0,0
+Óscar Esau Duarte Gaitán,0.0,0.5,0.6375,145,146,-1,4,0,1
+Laureano Sanabria Ruiz,0.0,0.7000000000000001,0.6375,145,146,-1,6,0,0
+Rodrigo Moreno Machado,0.0,0.8,0.6,145,149,-4,2,0,2
+Rubén Salvador Pérez Del Mármol,0.0,0.6,0.6,145,149,-4,2,0,1
+Rachid Aït-Atmane,0.0,0.5333333333333333,0.6,145,149,-4,2,0,1
+Víctor Machín Pérez,0.0,0.55,0.6,145,149,-4,2,0,2
+Hugo Mallo Novegil,1.0,0.9,0.6,56,149,-93,3,1,0
+Pedro Pablo Hernández,0.0,0.55,0.6,145,149,-4,2,0,1
+Iker Muniain Goñi,1.0,0.7,0.5650000000000001,56,155,-99,3,1,0
+Tomás Pina Isla,0.0,0.7,0.5625,145,156,-11,3,0,1
+Javier López Rodríguez,0.0,0.6,0.5625,145,156,-11,3,0,0
+Jonathan dos Santos Ramírez,0.0,0.5666666666666667,0.5625,145,156,-11,3,0,0
+Diego Javier Llorente Ríos,0.0,0.4928571428571429,0.5625,145,156,-11,3,0,0
+Iván Cuéllar Sacristán,0.0,0.43333333333333335,0.5625,145,156,-11,2,0,1
+Jérémy Mathieu,0.0,0.6,0.55,145,161,-16,3,0,1
+Juan Carlos Pérez López,1.0,0.3,0.55,56,161,-105,1,1,0
+Carl Medjani,1.0,0.6666666666666666,0.55,56,161,-105,1,1,0
+Thomas Teye Partey,1.0,0.30000000000000004,0.55,56,161,-105,2,1,0
+José María Giménez de Vargas,1.0,0.6666666666666666,0.55,56,161,-105,1,1,0
+Joaquín José Marín Ruiz,0.0,0.7,0.55,145,161,-16,3,0,1
+Marc Bartra Aregall,1.0,0.3,0.55,56,161,-105,1,1,0
+Manuel Trigueros Muñoz,1.0,0.4,0.55,56,161,-105,2,1,0
+Javier Eraso Goñi,1.0,0.4,0.55,56,161,-105,1,1,0
+Yannick Ferreira Carrasco,1.0,0.5222222222222221,0.55,56,161,-105,2,1,0
+Cristiano Biraghi,0.0,0.7999999999999999,0.5499999999999999,145,171,-26,4,0,0
+Mikel Balenziaga Oruesagasti,0.0,0.5,0.525,145,172,-27,3,0,1
+Joaquín Sánchez Rodríguez,0.0,0.5,0.525,145,172,-27,2,0,1
+Francisco José Molinero Calderón,0.0,0.5,0.5025,145,174,-29,3,0,1
+José Eduardo Rosa Vale de Castro,1.0,0.42857142857142855,0.5,56,175,-119,2,1,0
+Javier Márquez Moreno,0.0,0.4666666666666667,0.5,145,175,-30,3,0,0
+Federico Nicolás Cartabia,1.0,0.4,0.5,56,175,-119,2,1,0
+José Ignacio Martínez García,0.0,0.4,0.49999999999999994,145,178,-33,4,0,0
+Javier Garrido Behovide,0.0,0.5,0.49,145,179,-34,3,0,1
+Daniel Ceballos Fernández,0.0,0.5,0.475,145,180,-35,3,0,1
+Duje Čop,1.0,0.4,0.46,56,181,-125,2,1,0
+Asier Riesgo Unamuno,0.0,0.25,0.45,145,182,-37,1,0,0
+Alberto García Cabrera,0.0,0.25,0.45,145,182,-37,1,0,0
+Ángel Lafita Castillo,0.0,0.5,0.44999999999999996,145,184,-39,2,0,1
+Ander Iturraspe Derteano,0.0,0.35,0.44999999999999996,145,184,-39,2,0,1
+Tiago Cardoso Mendes,0.0,0.6,0.44999999999999996,145,184,-39,2,0,1
+Carles Planas Antolínez,0.0,0.4,0.44999999999999996,145,184,-39,2,0,1
+Iván Ramis Barrios,0.0,0.6000000000000001,0.44999999999999996,145,184,-39,2,0,1
+Mateo Kovačić,0.0,0.4,0.44999999999999996,145,184,-39,2,0,1
+Diego Mariño Villar,0.0,0.30000000000000004,0.44999999999999996,145,184,-39,2,0,0
+Dimitri Foulquier,0.0,0.34285714285714286,0.44999999999999996,145,184,-39,2,0,0
+Yuri Berchiche Izeta,0.0,0.4,0.42,145,192,-47,4,0,0
+Antonio Manuel Luna Rodríguez,0.0,0.7,0.4125,145,193,-48,2,0,1
+Álvaro Daniel Pereira Barragán,0.0,0.3666666666666667,0.4125,145,193,-48,2,0,0
+Manuel Fernández Muñíz,0.0,0.325,0.4125,145,193,-48,3,0,0
+Augusto Matías Fernández,0.0,0.5,0.4125,145,193,-48,2,0,1
+José Vicente Gómez Umpiérrez,0.0,0.6,0.4125,145,193,-48,3,0,0
+Antonio Adán Garrido,0.0,0.45,0.405,145,198,-53,4,0,0
+Daniel Parejo Muñoz,1.0,0.3,0.4,56,199,-143,1,1,0
+Deyverson Brum Silva Acosta,1.0,0.2,0.4,56,199,-143,1,1,0
+Mikel Arruabarrena Aranbide,1.0,0.4,0.4,56,199,-143,1,1,0
+Rubén García Santos,1.0,0.3,0.4,56,199,-143,1,1,0
+Jozabed Sánchez Ruiz,1.0,0.2222222222222222,0.4,56,199,-143,1,1,0
+Ricky van Wolfswinkel,1.0,0.3,0.4,56,199,-143,1,1,0
+Abraham González Casanova,1.0,0.2,0.4,56,199,-143,1,1,0
+Mateo Pablo Musacchio,1.0,0.5,0.4,56,199,-143,1,1,0
+Gorka Elustondo Urkola,1.0,0.2,0.4,56,199,-143,1,1,0
+Juan Francisco Moreno Fuertes,1.0,0.5,0.4,56,199,-143,1,1,0
+Emiliano Buendía,1.0,0.3,0.4,56,199,-143,1,1,0
+Oriol Riera Magem,1.0,0.2,0.4,56,199,-143,1,1,0
+Carlos Martín Vigaray,1.0,0.5,0.4,56,199,-143,1,1,0
+Sergio Ezequiel Araújo,1.0,0.3,0.4,56,199,-143,1,1,0
+Leonardo Carrilho Baptistão,1.0,0.3,0.4,56,199,-143,1,1,0
+Víctor Casadesús Castaño,1.0,0.3,0.4,56,199,-143,1,1,0
+Steven N''Kemboanza Mike Christopher Nzonzi,1.0,0.4,0.4,56,199,-143,1,1,0
+Shkodran Mustafi,1.0,0.3,0.4,56,199,-143,1,1,0
+Edgar Antonio Méndez Ortega,1.0,0.5,0.4,56,199,-143,1,1,0
+José Antonio Reyes Calderón,0.0,0.6,0.39999999999999997,145,218,-73,2,0,1
+Jonathan Castro Otto,0.0,0.6,0.39999999999999997,145,218,-73,3,0,0
+Juan Antonio Rodríguez Villamuela,0.0,0.35,0.39999999999999997,145,218,-73,2,0,0
+Gonzalo Castro Irizábal,0.0,0.5,0.39999999999999997,145,218,-73,2,0,1
+Xabier Prieto Argarate,0.0,0.30000000000000004,0.39999999999999997,145,218,-73,2,0,1
+Asier Illarramendi Andonegi,0.0,0.5,0.39999999999999997,145,218,-73,3,0,0
+José Antonio García Rabasco,0.0,0.4,0.39999999999999997,145,218,-73,2,0,1
+Sergio Álvarez Conde,0.0,0.4,0.39999999999999997,145,218,-73,3,0,0
+Aras Özbiliz,0.0,0.34285714285714286,0.39999999999999997,145,218,-73,2,0,1
+David Juncà Reñé,0.0,0.55,0.39999999999999997,145,218,-73,2,0,0
+Jerónimo Figueroa Cabrera,0.0,0.6,0.39999999999999997,145,218,-73,2,0,1
+Juan Torres Ruiz,0.0,0.30000000000000004,0.39999999999999997,145,218,-73,3,0,0
+Roque Mesa Quevedo,0.0,0.4,0.375,145,230,-85,4,0,0
+Jorge Molina Vidal,0.0,0.3857142857142857,0.375,145,230,-85,2,0,1
+Aleksandar Pantić,0.0,0.34285714285714286,0.3625,145,232,-87,3,0,0
+Simão Mate,0.0,0.30000000000000004,0.35,145,233,-88,3,0,0
+Eneko Bóveda Altube,0.0,0.4,0.33999999999999997,145,234,-89,3,0,0
+Manuel Rolando Iturra Urrutia,0.0,0.30000000000000004,0.33999999999999997,145,234,-89,3,0,0
+Alberto De La Bella Madureño,0.0,0.5,0.33999999999999997,145,234,-89,3,0,0
+Sergio Canales Madrazo,0.0,0.7285714285714285,0.33999999999999997,145,234,-89,3,0,0
+Gerard Piqué Bernabéu,0.0,0.30000000000000004,0.3025,145,238,-93,3,0,0
+Eric Bertrand Bailly,0.0,0.4,0.3,145,239,-94,2,0,0
+Petros Matheus dos Santos Araújo,0.0,0.2,0.3,145,239,-94,1,0,0
+Takashi Inui,0.0,0.3,0.3,145,239,-94,1,0,1
+Daniel Wass,0.0,0.3,0.3,145,239,-94,1,0,1
+Robert Ibáñez Castro,0.0,0.3,0.3,145,239,-94,1,0,1
+Xabier Iruretagoiena Aranzamendi,0.0,0.2,0.3,145,239,-94,1,0,0
+Diego Antonio Reyes Rosales,0.0,0.3666666666666667,0.3,145,239,-94,2,0,0
+Roberto Suárez Pier,0.0,0.25,0.3,145,239,-94,1,0,0
+Timothée Kolodziejczak,0.0,0.2,0.3,145,239,-94,1,0,0
+José Luis García del Pozo,0.0,0.425,0.3,145,239,-94,2,0,0
+Zakaria Bakkali,0.0,0.3,0.3,145,239,-94,1,0,1
+Matheus Dória Macedo,0.0,0.2,0.3,145,239,-94,2,0,0
+Juan Isaac Cuenca López,0.0,0.3,0.3,145,239,-94,1,0,1
+Óliver Torres Muñoz,0.0,0.4,0.3,145,239,-94,1,0,1
+Jorge Franco Alviz,0.0,0.4,0.3,145,239,-94,1,0,1
+Jonás Manuel Gutiérrez,0.0,0.3,0.3,145,239,-94,1,0,1
+Íñigo Lekue Martínez,0.0,0.3333333333333333,0.3,145,239,-94,1,0,0
+Luciano Vietto,0.0,0.4,0.3,145,239,-94,1,0,1
+Javier Fuego Martínez,0.0,0.5,0.3,145,239,-94,2,0,0
+Javier Alejandro Mascherano,0.0,0.4,0.3,145,239,-94,2,0,0
+Jaume Vicent Costa Jordá,0.0,0.1111111111111111,0.3,145,239,-94,1,0,0
+Adriano Correia Claro,0.0,0.3,0.3,145,239,-94,1,0,1
+Álvaro Cejudo Carmona,0.0,0.3,0.3,145,239,-94,1,0,1
+Omar Mascarell González,0.0,0.1,0.3,145,239,-94,1,0,1
+Francisco Manuel Rico Castro,0.0,0.30000000000000004,0.2625,145,263,-118,2,0,0
+Heiko Westermann,0.0,0.30000000000000004,0.2625,145,263,-118,2,0,0
+Alphonse Areola,0.0,0.2,0.2625,145,263,-118,2,0,0
+André Filipe Tavares Gomes,0.0,0.4,0.2625,145,263,-118,2,0,0
+Rubén Gracia Calmache,0.0,0.4,0.2625,145,263,-118,2,0,0
+Bruno González Cabrera,0.0,0.30000000000000004,0.2625,145,263,-118,2,0,0
+Daniel Arnaud N''Di	,0.0,0.4666666666666667,0.2625,145,263,-118,2,0,0
+Luis Hernández Rodríguez,0.0,0.30000000000000004,0.2625,145,263,-118,3,0,0
+Vicente Guaita Panadero,0.0,0.2777777777777778,0.2625,145,263,-118,2,0,0
+Abdoulaye Doucouré,0.0,0.30000000000000004,0.2625,145,263,-118,2,0,0
+Mauro Javier Dos Santos,0.0,0.2,0.25,145,273,-128,2,0,0
+Aleix Vidal Parreu,0.0,0.4,0.25,145,273,-128,2,0,0
+Víctor Ruíz Torre,0.0,0.34285714285714286,0.25,145,273,-128,2,0,0
+Roberto Román Triguero,0.0,0.4,0.24,145,276,-131,2,0,0
+José Alberto Cañas Ruiz Herrera,0.0,0.5,0.22499999999999998,145,277,-132,2,0,0
+Mamadou Sylla Diallo,0.0,0.4,0.22499999999999998,145,277,-132,2,0,0
+Foued Kadir,0.0,0.2,0.2125,145,279,-134,2,0,0
+Íñigo Martínez Berridi,0.0,0.2,0.21,145,280,-135,2,0,0
+Juan Carlos Martín Corral,0.0,0.30000000000000004,0.2025,145,281,-136,2,0,0
+Roberto Antonio Correa Silva,0.0,0.30000000000000004,0.2025,145,281,-136,2,0,0
+Javier Varas Herrera,0.0,0.2,0.2025,145,281,-136,2,0,0
+Bernardo José Espinosa Zúñiga,0.0,0.2,0.19999999999999998,145,284,-139,2,0,0
+Santiago Vergini,0.0,0.30000000000000004,0.19999999999999998,145,284,-139,2,0,0
+Sergio Ramos García,0.0,0.2,0.19999999999999998,145,284,-139,2,0,0
+Gustavo Daniel Cabral Cáceres,0.0,0.2,0.19999999999999998,145,284,-139,2,0,0
+Théo Bongonda Mbul''Ofeko Batombo,0.0,0.2,0.19999999999999998,145,284,-139,2,0,0
+Iván López Mendoza,0.0,0.2,0.175,145,289,-144,2,0,0
+Joan Jordán Moreno,0.0,0.2,0.175,145,289,-144,2,0,0
+Jon Ansotegi Gorostola,0.0,0.2,0.175,145,289,-144,2,0,0
+Ángel Trujillo Canorea,0.0,0.2,0.175,145,289,-144,2,0,0
+Alejandro Bergantiños García,0.0,0.4,0.15,145,293,-148,1,0,0
+Roger Martí Salvador,0.0,0.4,0.15,145,293,-148,1,0,0
+Aymen Abdennour,0.0,0.1,0.15,145,293,-148,1,0,0
+Juan Carlos Valerón Santana,0.0,0.3,0.15,145,293,-148,1,0,0
+Aythami Artiles Oliva,0.0,0.1,0.15,145,293,-148,1,0,0
+Ángel Montoro Sánchez,0.0,0.14285714285714285,0.15,145,293,-148,1,0,0
+Gorka Iraizoz Moreno,0.0,0.2,0.15,145,293,-148,1,0,0
+Hugo Miguel Almeida Costa Lopes,0.0,0.1,0.15,145,293,-148,1,0,0
+Nabil Ghilas,0.0,0.1,0.15,145,293,-148,1,0,0
+Sebastián Carlos Cristóforo Pepe,0.0,0.4,0.15,145,293,-148,1,0,0
+Keylor Navas Gamboa,0.0,0.4,0.15,145,293,-148,1,0,0
+José María Martín-Bejarano Serrano,0.0,0.3,0.15,145,293,-148,1,0,0
+Samuel García Sánchez,0.0,0.1,0.15,145,293,-148,1,0,0
+Carlos Castro García,0.0,0.3,0.15,145,293,-148,1,0,0
+Jesús Fernández Collado,0.0,0.1,0.15,145,293,-148,1,0,0
+Raphaël Varane,0.0,0.1,0.15,145,293,-148,1,0,0
+Miguel Ángel Guerrero Martín,0.0,0.3,0.15,145,293,-148,1,0,0
+Antonio Amaya Carazo,0.0,0.1,0.15,145,293,-148,1,0,0
+Ricardo Jorge Luz Horta,0.0,0.2,0.1125,145,311,-166,1,0,0
+Claudio Matías Kranevitter,0.0,0.1,0.1125,145,311,-166,1,0,0
+Leandro Damião da Silva dos Santos,0.0,0.3,0.1125,145,311,-166,1,0,0
+Jan Oblak,0.0,0.2,0.1125,145,311,-166,1,0,0
+Izet Hajrović,0.0,0.125,0.1125,145,311,-166,1,0,0
+Marcos Alberto Angeleri,0.0,0.1,0.1125,145,311,-166,1,0,0
+Martín Montoya Torralbo,0.0,0.1,0.1125,145,311,-166,1,0,0
+Idriss Carlos Kameni,0.0,0.1,0.1125,145,311,-166,1,0,0
+Pau López Sabata,0.0,0.1,0.1125,145,311,-166,1,0,0
+Thomas Vermaelen,0.0,0.1,0.09999999999999999,145,320,-175,1,0,0
+Francisco Montañés Claverías,0.0,0.1,0.09999999999999999,145,320,-175,1,0,0
+José Ángel Crespo Rincón,0.0,0.1,0.09999999999999999,145,320,-175,1,0,0
+Juan Rafael Fuentes Hernández,0.0,0.2,0.09999999999999999,145,320,-175,1,0,0
+Kléper Laveran Lima Ferreira,0.0,0.2,0.09999999999999999,145,320,-175,1,0,0
+Miguel Torres Gómez,0.0,0.1,0.09999999999999999,145,320,-175,1,0,0
+Iago Herrerín Buisán,0.0,0.1,0.09999999999999999,145,320,-175,1,0,0
+Abdoul Karim Yoda,0.0,0.2,0.09999999999999999,145,320,-175,1,0,0
+Sofiane Feghouli,0.0,0.1,0.09999999999999999,145,320,-175,1,0,0
+Esteban Félix Granero Molina,0.0,0.3,0.09999999999999999,145,320,-175,1,0,0
+Diego Roberto Godín Leal,0.0,0.3,0.09999999999999999,145,320,-175,1,0,0
+Didier Digard,0.0,0.1,0.09999999999999999,145,320,-175,1,0,0
+David Simón Rodríguez Santana,0.0,0.1,0.09999999999999999,145,320,-175,1,0,0
+David Rodríguez Lombán,0.0,0.1,0.09999999999999999,145,320,-175,1,0,0
+David Navarro Pedrós,0.0,0.1,0.09999999999999999,145,320,-175,1,0,0
+Dani Castellano Betancor,0.0,0.1,0.09999999999999999,145,320,-175,1,0,0
+Alfred John Momar N''Diaye,0.0,0.125,0.09,145,336,-191,1,0,0
+Mauricio Andrés Cuero Castillo,0.0,0.1,0.075,145,337,-192,1,0,0
+Anaitz Arbilla Zabala,0.0,0.1,0.075,145,337,-192,1,0,0
+Pablo Pérez Rodríguez,0.0,0.2,0.075,145,337,-192,1,0,0
+Mikel González de Martín Martínez,0.0,0.1,0.06,145,340,-195,1,0,0
+Rubén Pardo Gutiérrez,0.0,0.1,0.06,145,340,-195,1,0,0
+Weligton Róbson Pena de Oliveira,0.0,0.1,0.06,145,340,-195,1,0,0

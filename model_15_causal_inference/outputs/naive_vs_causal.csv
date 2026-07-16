@@ -1,0 +1,8 @@
+team,manager,season,change_date,naive_improved,naive_pct_change,its_level_change,its_p_value,its_significant,causal_impact_estimate,causal_impact_significant,rtm_risk
+Espanyol,Gâlcă,2015/16,2015-12-19,True,75.19,-0.1612,0.8268,False,0.3297,False,True
+Real Betis,Ruíz,2015/16,2016-01-16,False,-69.69,-0.0388,0.9646,False,-0.2148,False,False
+Real Madrid,Zidane,2015/16,2016-01-09,True,8.81,0.2821,0.7494,False,0.0808,False,False
+Real Sociedad,Mena,2015/16,2015-11-21,False,-139.65,-0.2692,0.775,False,-0.5556,False,False
+Valencia,Marco,2015/16,2015-12-05,False,-754.68,0.3311,0.6943,False,-0.3024,False,False
+Valencia,Neville,2015/16,2015-12-13,False,-13651.76,0.5534,0.5016,False,-0.0468,False,False
+Barcelona,Solar,2019/20,2020-01-19,True,44.9,-0.0341,0.9639,False,0.2628,False,True

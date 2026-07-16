@@ -1,0 +1,9 @@
+n_matches=2660
+n_seasons=7
+ridge_cv_r2=0.0712
+ridge_cv_mae=0.9634
+top_contributor=form
+home_adv_avg_goals=0.1713
+rest_optimal_days=6
+form_coefficient=0.042517
+travel_coefficient=0.087305

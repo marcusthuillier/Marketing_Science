@@ -1,0 +1,16 @@
+n_rookies=1599
+success_rate=0.3540
+lr_auc=0.8504
+xgb_auc=0.8373
+top_feature=AGE
+top_feature_shap=0.8690
+aha_threshold=23.0000
+aha_percentile=35
+aha_direction=below
+aha_above_rate=0.2477
+aha_below_rate=0.5739
+aha_high_rate=0.5739
+aha_low_rate=0.2477
+aha_lift=2.3171
+aha_n_above=1078
+aha_n_below=521

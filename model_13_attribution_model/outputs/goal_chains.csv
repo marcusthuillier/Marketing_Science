@@ -1,0 +1,305 @@
+goal_id,match_id,n_players,scorer,assister,chain_length
+4a85417d-aa41-444d-ba9c-1080508fccaa,3825738,4,Filipe Luís Kasmirski,Juan Francisco Torres Belén,10
+e77b9492-4a4c-42e8-8719-0a5df3ec7f10,3825738,5,Antoine Griezmann,Jorge Resurrección Merodio,10
+c36aae78-a891-4fe6-bfb1-a80cc2c2eba3,3825738,3,Antoine Griezmann,Jorge Resurrección Merodio,6
+38bb30ef-da9b-4dcf-825d-cdec7b3c6b55,3825732,4,John Guidetti,Iago Aspas Juncal,10
+2e65f109-cb96-4fd0-9a65-2c4cfabfc2ec,3825732,5,John Guidetti,Daniel Wass,10
+910dd940-373d-4bd1-a408-19730b800de4,3825732,5,Iago Aspas Juncal,Pedro Pablo Hernández,10
+5b923ac6-3689-418a-86b6-cc8d5030fcfc,3825732,5,Deyverson Brum Silva Acosta,Víctor Camarasa Ferrando,10
+99e22380-b59e-4c42-b93c-a70f755d5f44,3825732,5,Pedro López Muñoz,José Luis Morales Nogales,10
+b4a14218-1642-46e4-aa1a-98b9b4a5b4f0,3825732,3,Fabián Ariel Orellana Valenzuela,Iago Aspas Juncal,10
+3ff6ad66-4632-470c-ab46-d47f64935409,3825732,4,José Luis Morales Nogales,,10
+4e909849-7d58-4ca1-9fdd-bacc56b49a46,3825857,5,Hernán Arsenio Pérez González,Víctor Sánchez Mata,10
+189543b2-eb27-4be3-89e6-acbc9f977441,3825857,1,Giuseppe Rossi,,1
+1935d620-a012-48f0-958e-675f504f7c14,3825857,2,Carl Medjani,Joan Verdú Fernández,3
+eb7c4974-bdf7-41d0-b34a-ba90cfb9d208,3825835,3,Raúl García Escudero,Ander Iturraspe Derteano,4
+40752aad-5e83-4959-a019-e3d519d3ae10,267506,3,Luis Alberto Suárez Díaz,Jordi Alba Ramos,10
+39486428-a4ac-41b9-bb04-e1530f11daf1,267506,4,Luis Alberto Suárez Díaz,Daniel Alves da Silva,10
+618f4987-a5eb-489f-bbb4-59526a545560,267506,4,Luis Alberto Suárez Díaz,Neymar da Silva Santos Junior,10
+910b5e6f-834f-4dcf-b66f-d580cda6e3ae,3825819,5,John Guidetti,Fabián Ariel Orellana Valenzuela,10
+0a141e68-df57-4a55-bda6-bdbf9f318128,3825819,4,Hugo Mallo Novegil,Carles Planas Antolínez,10
+8afc047a-f378-4a12-8f9a-854926eec709,3825737,5,Hernán Arsenio Pérez González,Víctor Guillermo Álvarez Delgado,10
+996a73b7-ce32-4fb0-b4d9-db1b88f20316,3825737,5,Pedro León Sánchez Gil,,10
+3280bb4f-3d94-4221-b194-fda76e4be495,3825737,5,Pablo Sarabia García,Damián Nicolás Suárez Suárez,10
+18fb4ec0-bd76-4dde-9983-1e36a32c5cea,3825737,5,Moisés Gómez Bordonado,Pablo Sarabia García,10
+b2fe7518-a256-4650-b22e-fdf5cbdd0fb8,3825605,5,Kevin Gameiro,Benoît Trémoulinas,10
+ba090b2b-4a0a-4aaf-8d9c-f8f0ababe842,3825605,3,Steven N''Kemboanza Mike Christopher Nzonzi,José Antonio Reyes Calderón,10
+d0d3521b-665c-4ab6-a4e1-a51ca3da38cb,3825605,1,Tiago Manuel Dias Correia,,1
+7321b594-74fc-4c97-9f40-982739b179c9,3825605,3,Javier Guerra Rodríguez,Tiago Manuel Dias Correia,10
+3cf9c25d-1464-4240-ba17-541103d858be,3825605,1,Yevhen Konoplyanka,,1
+d0d159d4-c530-43c5-b9ec-a1321ef4e13b,3825662,4,Lucas Pérez Martínez,,10
+19240b03-5bc4-40ff-b559-ecabd04adc7b,3825649,4,Alen Halilović,Sergio Álvarez Díaz,10
+93399b51-5c0f-459c-bf20-0697be99196b,3825710,1,Cristiano Ronaldo dos Santos Aveiro,,1
+3bc3ce38-4320-4b90-bacc-d404ce5ccb71,3825710,5,Armindo Tué Na Bangna,Jonathas Cristian de Jesus,10
+45db3747-9181-4f2e-a21b-d8dd4d22fe2c,3825710,2,Cristiano Ronaldo dos Santos Aveiro,Marcelo Vieira da Silva Júnior,3
+e1c6c33c-2ced-44e9-bf6e-c77a2fa02483,3825710,4,Lucas Vázquez Iglesias,Gareth Frank Bale,10
+ffea05bb-5e6c-4c20-89c8-f75cb5dbd50c,3825695,5,Roberto Soldado Rillo,Cédric Bakambu,10
+da6b90a0-0270-46f5-8d43-a3805842c704,3825751,4,Iñaki Williams Arthuer,Mikel Balenziaga Oruesagasti,10
+6bdd9d9a-43a5-435a-82ea-a032432a5ad7,3825595,1,Bruno Soriano Llido,,1
+2268313b-140d-4644-89c6-cba4110a71bb,3825595,4,Mario Gaspar Pérez Martínez,Tomás Pina Isla,10
+73c59ac6-6578-4261-a55f-fddb5fab9df3,3825595,3,Leonardo Carrilho Baptistão,Adrián López Álvarez,10
+fe34dfd5-6bb3-4245-b1aa-a85daff29f8d,3825595,4,Aritz Aduriz Zubeldia,Mikel San José Domínguez,10
+442bff23-9334-46c5-bfba-cdfb5bcff89c,266236,6,Luis Alberto Suárez Díaz,Jordi Alba Ramos,10
+68be6aa3-1417-4bbd-ab09-a389ca47638f,3825762,2,Jonathan Rodríguez Menéndez,Rachid Aït-Atmane,3
+da5b910a-820c-4e9b-b205-f0f9a12a8c6b,3825762,4,Luis Alberto Romero Alconchel,Lucas Pérez Martínez,10
+49d6bb30-5adc-4e1a-852a-17b9633fb681,3825818,2,Willian José da Silva,Jonathan Viera Ramos,3
+5f43d016-3c7c-47f4-80d8-8e2bf645ee92,3825651,3,Jean-Sylvain Claude Babin,Francisco Medina Luna,4
+d11fb749-4d74-4da9-998c-73f7f20c998c,3825651,4,Felipe Salvador Caicedo Corozo,,10
+649ed426-1783-49e7-8084-2b722c5e6f77,3825791,5,Rubén Castro Martín,Francisco José Molinero Calderón,10
+21aa5b50-ddec-4249-9d50-40279e2c4d28,3825791,5,Rubén Castro Martín,Jorge Molina Vidal,7
+46b9d224-cc5b-4793-a47f-81b23e59acfb,3825791,6,Alberto Mateus Contreiras Gonçalves,Roberto Trashorras Gayoso,10
+7b0fbf8e-8b7d-4b07-9a5b-515043d796c3,3825791,5,Alberto Mateus Contreiras Gonçalves,,8
+2ab195a9-0416-4640-9189-a83199a8d3a2,3825847,5,Adrián González Morales,,8
+463cec30-bb79-45cd-a810-7540e50dca89,3825847,4,Federico Nicolás Cartabia,Celso Borges Mora,10
+4de6652b-6577-4be6-8845-1d137d2fc309,3825755,1,Arnaldo Antonio Sanabria Ayala,,1
+5e8ba3db-ecc3-475f-890d-44f3993858d9,266424,5,Luis Alberto Suárez Díaz,Sergi Roberto Carnicer,10
+490b73dd-de44-47cb-9d56-8f08fce4c157,266424,3,Neymar da Silva Santos Junior,Andrés Iniesta Luján,10
+11b23607-fae8-4943-9ce7-3bd43cffa04b,266424,4,Andrés Iniesta Luján,Neymar da Silva Santos Junior,10
+80a89b3f-b2e5-40cb-b8b1-0120124541fc,266424,5,Luis Alberto Suárez Díaz,Jordi Alba Ramos,10
+085c74bd-911f-4e55-965d-4c7c94088a67,3825739,3,Gareth Frank Bale,Toni Kroos,4
+10c2092d-0869-4f06-b6d7-e4c2bb99a07b,3825739,4,Cristiano Ronaldo dos Santos Aveiro,Karim Benzema,7
+4ad739ee-1133-491f-9760-b19bb6d407e2,3825739,5,Karim Benzema,Gareth Frank Bale,10
+02cdc6ea-3435-421f-97a3-773237a6edaa,3825739,6,Cristiano Ronaldo dos Santos Aveiro,Daniel Carvajal Ramos,10
+8048a650-0523-4e9d-8d59-515ac1dc53cf,3825739,6,Karim Benzema,Francisco Román Alarcón Suárez,10
+c4749d18-9810-4da4-ac79-0ffe7545ea9f,3825739,4,Ismael López Blanco,Jonathan Rodríguez Menéndez,6
+12684ae0-12eb-418c-8e58-35bb5731e918,3825803,1,Youssef El-Arabi,,1
+8115ae5b-d524-402d-bf72-66e1152c3dfd,3825803,5,Isaac Ajayi Success,,10
+b3f06915-e337-4675-b37b-1305e66adfc9,3825744,4,Felipe Salvador Caicedo Corozo,,10
+05f9fa51-cd7f-4b42-be3a-37c9e12ecbdd,3825744,5,Manuel Trigueros Muñoz,Roberto Soldado Rillo,10
+7ce169b0-5547-4bfc-8633-c167779299b0,3825744,4,Gerard Moreno Balaguero,Jorge Franco Alviz,10
+4244400b-7ab3-49c9-8391-9956a266b192,3825744,3,Mateo Pablo Musacchio,Denis Suárez Fernández,4
+575127eb-6432-4fea-a234-032c768755bd,3825896,2,Isaac Ajayi Success,Rubén Salvador Pérez Del Mármol,6
+162dd044-7666-4786-b8f9-5dedf0391055,3825896,1,Youssef El-Arabi,,1
+f208f24a-d789-49fe-8c8b-56d596e1e52d,3825896,4,Rubén Rochina Naixes,Isaac Ajayi Success,10
+e1fe29f6-72a6-42f4-a251-cf4b6dadb1b2,3825896,4,Rubén García Santos,José Antonio García Rabasco,10
+7df262a1-80c5-47ca-ac2f-77d989144730,3825896,1,Youssef El-Arabi,,1
+b42b8cf2-701c-4bc7-a2ce-62897541a4be,3825896,3,Youssef El-Arabi,Adalberto Peñaranda Maestre,10
+334f9bba-6ca9-47bb-8ffe-493e1bd7afab,3825827,4,Rubén Castro Martín,Álvaro Cejudo Carmona,10
+369cc979-40ca-454b-bb53-c0fe9373eb5b,3825876,3,Germán Alejandro Pezzella,Joaquín Sánchez Rodríguez,4
+85972552-ddf0-4d33-8b7b-fb4193fb5ca7,3825876,1,Rubén Castro Martín,,1
+c1d352c0-64d5-4abe-aa70-d93125a88b3d,3825876,3,Álvaro Medrán Just,Damián Nicolás Suárez Suárez,5
+720a3ad4-a57a-440c-ad5f-bf170c3bbfa7,3825757,4,Karim Benzema,James David Rodríguez Rubio,10
+9c7a3b35-8f6b-4fdd-b644-40ec5adac0a5,3825757,1,Cristiano Ronaldo dos Santos Aveiro,,1
+4f3a36da-351f-4b67-a2f7-8b58e3116755,3825757,6,James David Rodríguez Rubio,Luka Modrić,10
+4695dfa5-fbd6-4359-ae57-d4b5f7c24c59,3825757,5,Cristiano Ronaldo dos Santos Aveiro,,10
+6afce592-8c50-4424-86d8-1fa850532cea,3825757,5,Cristiano Ronaldo dos Santos Aveiro,Jesé Rodríguez Ruiz,10
+d0706252-a0e0-449b-b2ba-9ad7a3584d9e,3825596,4,Arnaldo Antonio Sanabria Ayala,Alberto Lora Ramos,10
+d047cae0-dc25-4730-9141-13c0cf5989be,3825596,5,Arnaldo Antonio Sanabria Ayala,Alberto Lora Ramos,10
+291b4a6f-8cbd-452e-9ca1-85d7d8825ab0,3825596,3,Juan Francisco Moreno Fuertes,Lucas Pérez Martínez,4
+7272070a-ce1b-4a55-8315-95ed9a73f5b9,3825596,6,Luis Alberto Romero Alconchel,Pedro Mosquera Parada,10
+d21b33be-309c-492e-9fd0-a3fb31933ecb,3825596,4,Alejandro Menéndez Díez,Alen Halilović,10
+4c9222c2-2deb-4796-992f-96e4972d2c2d,3825721,3,Bruno Soriano Llido,Mario Gaspar Pérez Martínez,10
+401b8c9e-52e6-42be-9384-3ce0b42c8a83,3825721,2,Luis Alberto Romero Alconchel,Lucas Pérez Martínez,5
+af6c09e0-a6e6-4d0e-a8f5-a5304203c67a,3825721,1,Bruno Soriano Llido,,1
+8fef6471-974f-4bf0-8e25-20ba4a8f070d,3825830,4,Denis Suárez Fernández,Adrián López Álvarez,10
+32bdb1cd-e468-4be3-ba64-cf3f38b2084d,3825830,5,Cédric Bakambu,,6
+7e23ff2b-7727-4f2d-8e19-73b6fdb56835,3825874,4,Kevin Gameiro,,9
+32339e3e-1a46-4097-9801-b88c6cf726f2,3825874,2,Kevin Gameiro,Éver Maximiliano David Banega,3
+10ff8945-4a36-4767-b453-2406d0a0d916,3825874,1,Éver Maximiliano David Banega,,1
+213a469e-553a-4c9e-8663-d0da75a84244,3825874,1,Kevin Gameiro,,1
+bb17bef5-5fb5-4d84-a11c-93b714c69fd7,3825874,1,Yevhen Konoplyanka,,1
+91f046de-bf00-4fad-9691-016dcd5a9c0f,3825570,3,Adrián González Morales,Antonio Manuel Luna Rodríguez,10
+744da467-b37f-47dc-8967-654e3e59078f,3825570,5,Gonzalo Escalante,,10
+895c1089-019b-4c86-8385-9956c9a2fb29,3825570,3,Rubén Rochina Naixes,Isaac Ajayi Success,6
+8ea922fe-8435-491c-9e70-2e1db1ffb1d9,3825570,3,Mikel Arruabarrena Aranbide,Iván Ramis Barrios,5
+7673d777-27ed-460c-a868-5ede23b693d4,3825683,7,Borja González Tomás,Sergio Enrich Ametller,10
+8211e20d-b579-4987-9913-f8701d3ecee9,3825683,4,Imanol Agirretxe Arruti,,7
+fe223d99-b2f2-49b8-92d2-c630e932ab84,3825683,5,Imanol Agirretxe Arruti,Armindo Tué Na Bangna,10
+049eeee2-85ca-49da-b1b0-e2df627dbde0,3825776,3,Éver Maximiliano David Banega,Víctor Machín Pérez,10
+087048ea-d2a7-4509-95ef-9af4c0b233a1,3825776,3,Kevin Gameiro,Víctor Machín Pérez,4
+dfdfcc20-39fa-4046-9c85-6b73d608646c,3825674,5,Antoine Griezmann,Óliver Torres Muñoz,10
+cb8484c3-ad80-4ea6-9fc7-25798e0512ea,3825685,5,Arnaldo Antonio Sanabria Ayala,,10
+dd83d9bc-c9a8-4337-b7c4-c2e48eddefe6,3825685,5,Nabil El Zhar,Javier Garrido Behovide,10
+ca626053-ae3c-4ebb-a287-c56a153ca66b,3825685,5,Arnaldo Antonio Sanabria Ayala,Jonathan Rodríguez Menéndez,10
+97586838-940c-4622-9d54-5444992f4833,3825685,4,Arnaldo Antonio Sanabria Ayala,Jonathan Rodríguez Menéndez,10
+c44c909f-5151-41d0-b69e-cbe165b2ec0d,267273,4,Luis Alberto Suárez Díaz,Jordi Alba Ramos,10
+f3e43c1a-c196-4c05-b8c6-3faa73205169,267273,5,Willian José da Silva,Jonathan Viera Ramos,10
+aba6ad5a-c92c-4678-be1d-4e5a0df17914,267273,6,Neymar da Silva Santos Junior,,10
+322d831a-730e-4efd-905f-597a6efdc6ab,3825707,2,Pedro Taunausú Domínguez Placeres,Jonathan Viera Ramos,10
+816b2a79-72a8-48e8-8dec-df790bff88dd,3825707,4,Sergio Ezequiel Araújo,Jonathan Viera Ramos,10
+a1f4d120-ae72-4f9b-8d3d-4311ba997fd0,3825707,3,Adalberto Peñaranda Maestre,Rubén Rochina Naixes,7
+44aafbae-ac76-4156-bbc0-90796ea5126c,3825707,1,Jonathan Viera Ramos,,1
+e7a1244c-1d86-4f35-a5d9-1a37f1ac57a5,3825592,6,Imanol Agirretxe Arruti,,10
+79bcdc9c-226c-48a0-824a-e16b13c4d3eb,3825592,1,Gerard Moreno Balaguero,,1
+30352e9f-8dac-44c9-8fcd-0fb639f7a4af,3825592,5,Enzo Pablo Roco Roco,Hernán Arsenio Pérez González,10
+384a5282-522c-4629-abaa-3b9246ca9e7a,3825592,4,Jonathas Cristian de Jesus,Gonzalo Castro Irizábal,10
+911e5d2f-6b6e-4a81-9874-606bd5a69eb6,3825592,4,Hernán Arsenio Pérez González,Álvaro González Soberón,6
+2f9d4f4b-211e-400a-8f90-b8700b4e69bf,3825842,6,Víctor Casadesús Castaño,Jefferson Andrés Lerma Solís,10
+5e268d6b-24a6-4937-84c8-1ec15accadc0,3825842,2,Markel Susaeta Laskurain,Iñaki Williams Arthuer,10
+b6239f56-2efc-44d2-afa2-0b22e30eecf2,3825842,3,Mikel San José Domínguez,Iñaki Williams Arthuer,9
+e79385df-346f-4609-b616-6572e80d9ff3,3825837,4,Ricky van Wolfswinkel,Daniel Ceballos Fernández,10
+99cfd6ef-8f82-4051-af10-37753f640136,3825764,4,Karim Benzema,Daniel Carvajal Ramos,10
+f9677f41-0c83-4cd3-81bc-07f10fde6141,3825764,2,Youssef El-Arabi,Rubén Rochina Naixes,5
+a7658064-18c6-4390-a04a-a8ac30efff36,3825764,4,Luka Modrić,Mateo Kovačić,10
+d01376b4-be3f-4cbe-b584-d8a6d37d2930,266620,4,Lionel Andrés Messi Cuccittini,Arda Turan,10
+e8c495dc-b757-4fe9-8cc1-023257fac4e4,266620,4,Lionel Andrés Messi Cuccittini,Luis Alberto Suárez Díaz,10
+950206c9-98a7-4315-a2e0-cb99148da851,266620,5,Lionel Andrés Messi Cuccittini,,10
+39de2e57-6854-465b-8e2f-1b8cb9fd14dc,266620,4,Neymar da Silva Santos Junior,Luis Alberto Suárez Díaz,10
+74af01b4-d59c-4776-b676-a41f4180d090,3825840,2,Francisco Alcácer García,,4
+f1010f27-5cf3-43ab-b459-87d4b68a2318,3825840,4,Francisco Alcácer García,João Pedro Cavaco Cancelo,10
+a3a15e62-ced3-4957-b0b7-21725f1df55c,3825840,3,Francisco Alcácer García,Rodrigo Moreno Machado,10
+b9280c32-dab1-4d16-8d48-5f1b275e5b5d,3825840,4,João Pedro Cavaco Cancelo,Rodrigo Moreno Machado,10
+6ad03a76-c0ff-4bab-9a60-710c318c5d8b,3825887,4,Youssef El-Arabi,Juan Isaac Cuenca López,10
+3258e9d9-de24-4a0c-82c2-9e3672951987,3825887,4,Pablo Hernández Domínguez,,10
+263d7f1c-0f0e-4500-b791-5bc09897d7a2,3825887,1,Youssef El-Arabi,,1
+46d69865-3b8e-48f6-8f4b-d0de4206b866,3825887,5,José Eduardo Rosa Vale de Castro,Alberto Mateus Contreiras Gonçalves,7
+061fc440-e522-4e69-93e9-e1571aa2d2b0,3825636,1,Adnane Tighadouini,,1
+438cfb3c-7c33-4f1d-b012-7121474e4285,3825636,5,Juan Carlos Pérez López,,10
+22627ba6-6d5a-445a-b7bf-778d92377d27,3825796,5,Willian José da Silva,David García Santana,10
+effd5493-4bf6-4a90-bf87-5c6604b4608e,3825796,1,Jonathan Viera Ramos,,1
+d71c63ce-aaf0-4090-a7f0-ce59257c8fe2,3825796,3,Pedro Taunausú Domínguez Placeres,Jonathan Viera Ramos,10
+acde1d15-9fdf-41be-b2bc-dd5cf6adb114,3825796,4,Pedro Taunausú Domínguez Placeres,Jerónimo Figueroa Cabrera,10
+c6a5e944-2eac-4818-aec0-1502cf8fbead,3825615,4,Alen Halilović,,10
+b1c56210-172d-4600-ac0a-a768eef5a72d,3825615,4,Felipe Salvador Caicedo Corozo,Rubén Duarte Sánchez,10
+77069bf9-ed85-4662-9425-da2b19049eca,3825615,6,Alejandro Menéndez Díez,Omar Mascarell González,10
+4cde393d-f025-414d-a892-d17fb2fc6817,3825588,4,Celso Borges Mora,Luis Alberto Romero Alconchel,10
+56bfecfb-83af-4d70-9fde-046108aae772,3825588,2,Adrián Embarba Blázquez,José Raúl Baena Urdiales,4
+795298f4-cb2f-4273-bdcb-2a48e5bb7697,3825588,4,Luis Alberto Romero Alconchel,,10
+c77f2f77-37fd-45f4-b219-ca5fdc46b8d8,3825588,3,Lucas Pérez Martínez,Pedro Mosquera Parada,7
+a03d512c-aa96-4b45-84d6-cfbab64fae20,266149,1,Lionel Andrés Messi Cuccittini,,1
+2abb8eca-727a-43c9-bf1b-81fab4fa52c6,266149,5,Neymar da Silva Santos Junior,Luis Alberto Suárez Díaz,10
+d4e89c25-9ab1-40b3-b8a6-958aeeede849,266149,3,Luis Alberto Suárez Díaz,Neymar da Silva Santos Junior,10
+f6a169ff-a646-4d15-ae15-d2a47ce66fbe,266149,4,Ivan Rakitić,Neymar da Silva Santos Junior,10
+75aa121d-4a26-4026-b9f0-ccdc7d4d19ce,266149,4,Luis Alberto Suárez Díaz,Arda Turan,10
+e19c2611-e27d-4b8b-a3a6-d6499686a24a,266149,4,Luis Alberto Suárez Díaz,Sergio Busquets i Burgos,10
+c6c1c214-65b5-4002-aa96-2626f31674b8,3825604,5,Shkodran Mustafi,Zakaria Bakkali,10
+7cb67af1-b8f6-4d0f-9e36-448ee7105a01,3825908,3,Gerard Moreno Balaguero,Víctor Sánchez Mata,10
+0bdfde72-a667-4f9e-8865-febec6bccfad,3825908,3,Marco Asensio Willemsen,Gerard Moreno Balaguero,10
+300e7511-81cd-4235-adfe-fa17e194289a,3825908,1,Borja González Tomás,,1
+51c9ce6b-fd17-4b93-a42d-01a4d6a2ffa3,3825908,4,Marco Asensio Willemsen,Óscar Esau Duarte Gaitán,10
+fc95bbac-91ec-492a-b268-4271b89b4f19,3825908,5,Gerard Moreno Balaguero,Marco Asensio Willemsen,10
+1ecd275f-1770-4d8b-9eda-8e9547eab0dc,3825908,6,Sergio Enrich Ametller,Borja González Tomás,10
+36b9c4d4-a1d4-4421-8a21-9d89e2264d2a,3825660,2,Neymar da Silva Santos Junior,Sergio Busquets i Burgos,6
+5784f19d-1b79-47df-afd7-21b77226e67a,3825660,1,Luis Alberto Suárez Díaz,,1
+cc721907-026f-4e87-9445-73f041f58b0e,3825660,3,Neymar da Silva Santos Junior,Luis Alberto Suárez Díaz,9
+c78b3c85-1d4f-490e-93a3-ff79f263e643,3825828,2,Papa Kouly Diop,Marco Asensio Willemsen,3
+7c7e6972-b44b-4acb-a515-177c68c64ded,3825828,5,Fernando José Torres Sanz,Jorge Resurrección Merodio,10
+4a644976-1284-4bab-9383-e90ed16c877d,3825828,4,Antoine Griezmann,Jorge Resurrección Merodio,10
+ee0f1667-44e1-4da8-858f-54c782290b17,3825828,4,Jorge Resurrección Merodio,,10
+c3a56feb-6dd6-4616-8d03-6fd64bbc7e94,3825758,5,Nicolás Ladislao Fedor Flores,Joaquín José Marín Ruiz,10
+ae50b85d-2e06-41c4-84c4-73e3d96d93cd,3825758,5,Lucas Pérez Martínez,Luis Alberto Romero Alconchel,10
+66f4acca-6aad-4829-9dde-cc13af198d7d,3825758,3,Jozabed Sánchez Ruiz,Nicolás Ladislao Fedor Flores,9
+0d46be50-c614-4bc3-bcee-f14b7b54d2c6,3825758,4,Fayçal Fajr,,10
+a02521fa-bd43-4ca0-a7fb-2c1decd35ca5,3825572,4,Gareth Frank Bale,James David Rodríguez Rubio,10
+b40da1d6-35a0-4ed6-97a1-1ddd851f6f9c,3825572,1,James David Rodríguez Rubio,,1
+2a960e33-b5d5-4d10-b798-4228fa515cb9,3825572,4,Karim Benzema,Gareth Frank Bale,10
+9e2251a7-f828-49de-ab2d-7e44da55bba3,3825572,5,James David Rodríguez Rubio,,10
+cd1d4802-f5d4-4f4a-921b-c2e01b73d564,3825572,5,Gareth Frank Bale,Carlos Henrique Casimiro,10
+ae88eee2-750a-425d-bce2-85f3376c0d84,3825805,4,David García Santana,Jonathan Viera Ramos,7
+f6cfe351-9416-4665-9576-4fb212b937e7,3825802,3,Rubén Castro Martín,Germán Alejandro Pezzella,6
+e05e1475-22ea-4dd9-8a4a-916902c3691a,3825802,3,Germán Alejandro Pezzella,Charly Musonda Junior,10
+bb61fe5a-54fc-4284-bdcb-cc5dddb6d196,3825802,2,Juan Manuel Vargas Risco,Rubén Castro Martín,3
+04e2d274-716a-4ca8-bf6b-44e31c21481e,3825643,5,Francisco Román Alarcón Suárez,Carlos Henrique Casimiro,10
+b9e7f8cc-c9f4-47f9-b544-f69c57026452,3825643,5,Cristiano Ronaldo dos Santos Aveiro,Marcelo Vieira da Silva Júnior,10
+8d74655b-eaaf-4879-93cc-a57ee7fc8a41,3825643,2,Hernán Daniel Santana Trujillo,Nabil El Zhar,3
+efe6ad18-f632-4eb6-a9d7-94c7a85daea3,3825643,4,Jesé Rodríguez Ruiz,Toni Kroos,10
+7e91393e-d12c-4ec5-bd80-54bf518b12b3,3825770,4,Cristiano Ronaldo dos Santos Aveiro,Karim Benzema,10
+c2fae0f7-06cb-41a8-b242-85155b2762e6,3825770,4,Javier Eraso Goñi,,10
+4e272ed4-93a7-4952-9ae3-7ae22e5ea72a,3825770,4,James David Rodríguez Rubio,Danilo Luiz da Silva,10
+61b8553f-9c6e-4ac9-8c76-6ad2b22609c2,3825770,4,Toni Kroos,Cristiano Ronaldo dos Santos Aveiro,10
+7a90d90e-68d5-46b5-b9eb-b9ee751dd400,3825770,3,Cristiano Ronaldo dos Santos Aveiro,Lucas Vázquez Iglesias,10
+1788eb6b-29e1-45e9-92b8-877e7e223728,3825770,6,Gorka Elustondo Urkola,Óscar de Marcos Arana,10
+154b2712-c83d-49e1-9639-275e2aa67df4,266310,2,Luis Alberto Suárez Díaz,Ivan Rakitić,3
+ee4fe3d7-5a1d-4a38-a4d3-b43e2d193cfe,266310,5,Luis Alberto Suárez Díaz,Lionel Andrés Messi Cuccittini,10
+42ff6b3b-484e-41a7-b2fa-1fe99511ee8b,266310,5,Ivan Rakitić,Luis Alberto Suárez Díaz,10
+c1c6fc7c-636d-48a1-beda-227d1c9a299e,266310,4,Luis Alberto Suárez Díaz,Lionel Andrés Messi Cuccittini,10
+0adf612d-6480-4868-86a4-1e529745fba0,266310,4,Luis Alberto Suárez Díaz,,10
+e8b56951-eec6-4a63-8bd0-9e505410045e,266310,4,Lionel Andrés Messi Cuccittini,Luis Alberto Suárez Díaz,10
+9f137cbe-5b2d-4f91-a910-387baa93660a,266310,5,Marc Bartra Aregall,,10
+76a46fa9-bc60-4957-8dd8-fe5592b4068a,266310,4,Neymar da Silva Santos Junior,Luis Alberto Suárez Díaz,10
+71c493b1-e182-4904-9f76-cbe1e5a78055,3825867,1,Éver Maximiliano David Banega,,1
+fe8a373a-e3d0-4809-8ae7-054b9948a0b0,3825867,3,Emiliano Daniel Velázquez Maldonado,,4
+69d46a2b-ceb4-48e6-bf08-bb1aa1c1b759,3825872,4,Fernando José Torres Sanz,Jorge Resurrección Merodio,9
+db335968-1ef0-45d6-89b1-6367e99dbd44,3825872,5,Antoine Griezmann,,10
+e7a0e0c7-4451-435b-9c43-f5cab7ff35c8,3825872,4,Juan Francisco Torres Belén,Ángel Martín Correa,10
+2a4647c8-9237-45c0-aef2-9a2aca59de6f,3825872,5,Rubén Castro Martín,,10
+50dcdc80-4c3a-4630-b89d-ec0a4400cb6c,3825872,4,Antoine Griezmann,Ángel Martín Correa,10
+c78ed00d-1129-4cf1-963f-83084d706a4b,3825872,5,Thomas Teye Partey,Antoine Griezmann,10
+1f6cc544-a177-489f-98c5-88cbf81ff1c9,3825894,4,Pedro León Sánchez Gil,Pablo Sarabia García,10
+491ee6e1-798f-4cf9-ab14-31009ce45cf3,3825894,3,Carlos Martín Vigaray,Pedro León Sánchez Gil,4
+dab3868e-f3fb-4f29-ac02-874c80f7532a,3825777,5,José Luis Morales Nogales,Giuseppe Rossi,10
+eb65b2a7-c651-422b-948a-34e8d1a7453e,3825777,1,Giuseppe Rossi,,1
+644f4e8d-a852-424a-af22-3e510582f471,3825777,4,Joan Verdú Fernández,José Luis Morales Nogales,10
+beea55f7-9b98-428d-8b6d-c5b0b8d9bf8f,3825597,6,Javier Guerra Rodríguez,Roberto Trashorras Gayoso,10
+c07ae297-1fb0-4d8d-940b-850432736ce8,3825760,3,Sergio Gontán Gallardo,Sergio Enrich Ametller,5
+741669f8-eeee-4847-8e2f-9b3e59965f16,3825760,2,José María Giménez de Vargas,Jorge Resurrección Merodio,3
+d47a5a33-6e64-4f34-96ec-6d06367f3e91,3825760,3,Saúl Ñíguez Esclapez,Jorge Resurrección Merodio,4
+2cf5eb40-5c2d-4ede-9f19-0a0fbc44a1e3,3825760,4,Fernando José Torres Sanz,Luciano Vietto,10
+a8689ff6-ee30-4b90-bd8d-78067bf2f277,3825599,3,Víctor Guillermo Álvarez Delgado,,5
+c857eb09-5b5d-478d-b3de-9d273ebd8ce8,3825813,5,Saúl Ñíguez Esclapez,Filipe Luís Kasmirski,10
+e07b1bdb-859c-44e0-aa6f-6eb424333904,3825813,4,Antoine Griezmann,Jorge Resurrección Merodio,9
+281ff870-9daa-4aab-8954-1766092a218f,3825813,3,Ángel Martín Correa,Gabriel Fernández Arenas,4
+0278fd74-8053-4bfc-a32a-57743b84a8b5,3825655,4,Javier Guerra Rodríguez,,10
+e97d7266-19c0-44af-acc2-cd7f2c609b58,3825655,4,Javier Guerra Rodríguez,,10
+1c1fb9c0-8e3d-4079-9d42-bd123024d1d1,3825655,3,Jean-Sylvain Claude Babin,Francisco Medina Luna,4
+bd1e5ba7-26b4-4660-a7a0-a991470eb603,3825797,5,Iker Muniain Goñi,Raúl García Escudero,10
+63cc6839-b2bc-4ebe-a8f4-29f8814c572b,3825797,6,Aritz Aduriz Zubeldia,Markel Susaeta Laskurain,10
+96d92263-57e0-4e06-bcff-1c7cea00901a,3825797,4,Oriol Riera Magem,Lucas Pérez Martínez,10
+fe4a8cb5-bf2c-460b-86d9-bfde1a1388d6,3825797,3,Aritz Aduriz Zubeldia,Markel Susaeta Laskurain,6
+6dd1cb72-49ec-4f66-a91e-ae700ebbd642,3825797,5,Aritz Aduriz Zubeldia,,10
+1f5d4d6c-e7bd-472e-b767-e226447460ee,3825786,2,Pedro Bigas Rigo,Nabil El Zhar,3
+7a9982f8-066c-4f0b-96b7-0488cbb625ae,3825641,5,Markel Susaeta Laskurain,Iñaki Williams Arthuer,10
+2422ded6-bac5-4858-958f-51f2f430004d,3825641,2,Aritz Aduriz Zubeldia,,4
+7e65ff58-66d6-4ad4-986f-cefef73fa524,3825641,4,Aritz Aduriz Zubeldia,,10
+b2778d33-0db8-4bf2-9858-dc1d65bd22a0,3825854,4,Carlos Carmona Bonet,Jonathan Rodríguez Menéndez,10
+85e146ae-1be4-4875-af0c-aa4cc6387daf,3825854,2,Jonathan Rodríguez Menéndez,Iván Cuéllar Sacristán,3
+da72cd16-075a-4f22-a2d5-68cb3245accc,3825631,4,Antoine Griezmann,Jorge Resurrección Merodio,10
+b909da72-5f90-45f8-978e-8717745d8ba3,3825631,4,Yannick Ferreira Carrasco,Fernando José Torres Sanz,10
+1d67661e-4ef4-4789-935b-5da868e099a7,3825614,4,Fayçal Fajr,Fernando Navarro i Corbacho,10
+0f0e5fca-f3f2-4925-b4a8-97f8600c5d94,3825614,5,Francisco Medina Luna,Robert Ibáñez Castro,10
+6f405715-5676-4ab5-8d9a-699232e90f36,3825881,5,Rubén Rochina Naixes,,10
+578a6cc2-f70f-4ffe-ac74-6943560f61b9,3825612,5,Álvaro Vázquez García,Damián Nicolás Suárez Suárez,10
+b4aa21cb-9874-4002-b93b-07c87d5c8e50,3825612,5,Emiliano Buendía,Álvaro Vázquez García,10
+509c9364-fe3c-477c-912c-64f793ff508d,3825612,4,Álvaro Vázquez García,Pablo Sarabia García,10
+d00ca95c-3838-483d-bd4a-03a0041e0500,3825844,4,Sabin Merino Zuloaga,Mikel San José Domínguez,10
+7437b4b2-f0f9-4141-a224-4c4ad80d0663,3825844,6,Mikel Rico Moreno,,10
+1e4d2097-db16-4de3-aad5-169de6c14132,3825844,6,Sabin Merino Zuloaga,,8
+fed319c4-de99-4ba2-9991-b5a2c7903d52,3825844,3,Rubén Castro Martín,,4
+97fbe520-719e-44eb-a32f-78b070d75ebb,265894,5,Munir El Haddadi Mohamed,,10
+ead102bd-e805-49b9-8377-feba3cb4adee,265894,5,Juan Pablo Añor Acosta,Charles Días Barbosa de Oliveira,10
+82b83f49-9e9b-4dcb-857c-fcb650fbf129,265894,5,Lionel Andrés Messi Cuccittini,Adriano Correia Claro,10
+702c94ea-311c-4240-a95b-9e835681a9f2,3825629,4,Fabián Ariel Orellana Valenzuela,Augusto Matías Fernández,10
+15add9d7-1ae2-4b3d-a85d-378485056912,3825629,5,Denis Suárez Fernández,Roberto Soldado Rillo,10
+4cc26abf-a995-46cf-a636-da663781e20e,3825629,5,Manuel Agudo Durán,,10
+c3589a5e-080b-4ba6-815e-b3b006712c38,3825782,4,Daniel Parejo Muñoz,Francisco Alcácer García,10
+2b7be947-1172-45ea-b04d-2a73e3ca0aab,3825782,5,Santiago Mina Lorenzo,,10
+3b2acca1-265c-4988-b79c-dc016d5f4b23,3825782,3,Edgar Antonio Méndez Ortega,Rubén Rochina Naixes,4
+8e0a1894-b729-43ab-acaf-7ae48fd55d0b,3825789,4,Duje Čop,Roberto José Rosales Altuve,10
+073b4ced-0b53-4c66-a104-e13138d613c1,3825789,7,Imanol Agirretxe Arruti,Xabier Prieto Argarate,10
+40290810-1511-4fb0-bc50-48144e5f9ba4,3825756,6,Kevin Gameiro,Vicente Iborra De La Fuente,10
+04208338-e445-40b4-87a6-dc611724737d,3825756,5,Vicente Iborra De La Fuente,Kevin Gameiro,10
+6a044aa2-bd6c-48cf-a300-c4410bb02d3a,3825756,4,Giuseppe Rossi,,10
+8b9c137f-9e49-4681-b398-9e31b6ca56c0,3825756,3,Yevhen Konoplyanka,Benoît Trémoulinas,10
+815b33c7-ba68-4d96-aa09-e7a357f53743,3825817,3,Emiliano Daniel Velázquez Maldonado,Pablo Sarabia García,4
+32a244b1-966f-4f81-b0ba-f88af1f7407b,3825817,5,Borja González Tomás,Takashi Inui,10
+b0522a8d-4cdd-4147-8f76-58d28579e8a2,3825811,5,Abraham González Casanova,Marco Asensio Willemsen,10
+40357d1e-d63b-43fc-a1f5-f26917a38952,3825811,4,Tiago Manuel Dias Correia,Aras Özbiliz,10
+bf1f1de7-6ed7-4666-8f19-3ea57aaea025,3825811,6,Hernán Arsenio Pérez González,,10
+10038d81-8a8c-43fa-aed5-43042462be08,3825693,3,Aymeric Laporte,,4
+72234341-f47f-4888-8c1f-70c45158f418,3825693,3,Saúl Ñíguez Esclapez,Jorge Resurrección Merodio,4
+c129c8b0-67fa-489d-b653-d08b4b4a7c31,3825693,3,Antoine Griezmann,,10
+0c08660e-b4c8-4c9c-adb1-441f75dc575c,3825900,4,Jonathan Rodríguez Menéndez,Carlos Carmona Bonet,10
+03f13c6e-94b2-423f-ba69-88a328229deb,3825900,4,Sergio Álvarez Díaz,Arnaldo Antonio Sanabria Ayala,10
+bac2f8e0-e6cc-4263-ae83-d016b17c617a,3825656,4,Lucas Pérez Martínez,Jonás Manuel Gutiérrez,10
+34819414-88f6-441f-879c-0b4618f05a97,3825656,1,Víctor Camarasa Ferrando,,1
+776f1290-59ee-41cd-8287-53a4c315ee24,3825653,4,Sergio Enrich Ametller,,5
+4e05df64-a4a7-4497-821f-d2b32165d282,3825653,4,Víctor Rodríguez Romero,Ángel Lafita Castillo,10
+d7ee0875-ce50-4b1d-86a4-d97c0033ac29,3825653,4,Sergio Enrich Ametller,Saúl Berjón Pérez,10
+94d796f9-c6c9-4585-aba6-501b2ac9b6cb,3825653,1,Saúl Berjón Pérez,,1
+01963df4-32c8-44a0-882a-f6ec34ac1e3d,266056,5,Munir El Haddadi Mohamed,,10
+2239614b-7704-4908-9a8c-88bb504023b8,266056,3,Lionel Andrés Messi Cuccittini,Munir El Haddadi Mohamed,7
+36874b07-67b8-4503-ac3a-e997d2063436,266056,1,Lionel Andrés Messi Cuccittini,,1
+9f86e941-0d4c-4167-91e0-73b069c49875,266056,4,Luis Alberto Suárez Díaz,Sergi Roberto Carnicer,10
+f6cd014f-320a-479e-9ee8-30644c9f9633,3825678,4,Gareth Frank Bale,Luka Modrić,9
+22196389-dbad-4e0a-aeba-1573f2a15811,3825678,1,Cristiano Ronaldo dos Santos Aveiro,,1
+1623e804-3ea2-4208-b388-869de677e273,266653,5,Ivan Rakitić,,10
+d02078ff-a25b-4ac2-bbdc-55cae3d80785,266653,4,Lionel Andrés Messi Cuccittini,Neymar da Silva Santos Junior,10
+602e6932-ef9d-4c48-88cf-f79ea806375b,266653,6,Lionel Andrés Messi Cuccittini,,10
+f3f5068b-b0c3-4170-a8e1-c9cdcba46896,266653,4,Alberto Mateus Contreiras Gonçalves,Tiago Manuel Dias Correia,10
+1495cb78-9c0d-4d26-9502-fe5a5881a3c1,266653,4,Lionel Andrés Messi Cuccittini,Sergio Busquets i Burgos,10
+e9cffa15-0a6e-411a-9707-40b59ef512cf,266653,4,Arda Turan,Jérémy Mathieu,10
+69f0406d-0acd-402c-9e55-0e7cb5fcaf50,266166,5,Fernando José Torres Sanz,Tiago Cardoso Mendes,10
+e7c9c017-4254-42bf-b07f-1064272d2616,266166,1,Neymar da Silva Santos Junior,,1
+e6b1dfb0-cb3f-4be2-a4f0-639e92ce1581,266166,5,Lionel Andrés Messi Cuccittini,Luis Alberto Suárez Díaz,10
+8a94c8d1-0b60-4ae0-a4ba-d634bd08b9db,3825715,4,Charles Días Barbosa de Oliveira,Roberto José Rosales Altuve,8
+0749af13-22c1-4873-8c52-5f64ac1c2552,3825715,3,Raúl Albentosa Redal,Juan Pablo Añor Acosta,4
